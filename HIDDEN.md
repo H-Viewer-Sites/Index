@@ -23,7 +23,7 @@ All sites for H-Viewer
 |  3   | [ex-hentai](http://jsondepot.mcsky.org/49) | ![](https://github.com/PureDark/H-Viewer/raw/master/images/qrcodes/3.exhentai.png)  | PureDark |
 |  4   | [wnacg (绅士漫画)](http://jsondepot.mcsky.org/18) | ![](https://github.com/PureDark/H-Viewer/raw/master/images/qrcodes/4.wnacg.png)  | PureDark |
 |  5   | [nhentai](http://jsondepot.mcsky.org/19) | ![](https://github.com/PureDark/H-Viewer/raw/master/images/qrcodes/5.nhentai.png)  | PureDark |
-|  6   | [117漫画](http://jsondepot.mcsky.org/47) | ![](https://github.com/PureDark/H-Viewer/raw/master/images/qrcodes/11.177.png)  | PureDark |
+|  6   | [177漫画](http://jsondepot.mcsky.org/47) | ![](https://github.com/PureDark/H-Viewer/raw/master/images/qrcodes/11.177.png)  | PureDark |
 
 
 ### 真人图站  
