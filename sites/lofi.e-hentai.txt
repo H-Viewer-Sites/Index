@@ -1,0 +1,76 @@
+﻿{
+        "cookie": "",
+        "extraRule": {
+            "pictureUrl": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "img#sm"
+            }
+        },
+        "flag": "singlePageBigPicture",
+        "galleryRule": {
+            "item": {
+                "selector": "#gh .gi"
+            },
+            "pictureThumbnail": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "a img"
+            },
+            "pictureUrl": {
+                "fun": "attr",
+                "param": "href",
+                "selector": "a"
+            }
+        },
+        "galleryUrl": "http://lofi.e-hentai.org/g/{idCode:}/{page:0}",
+        "title": "Lofi.E-hentai",
+        "indexRule": {
+            "category": {
+                "fun": "html",
+                "selector": "table.it tr:eq(2) td:eq(1)"
+            },
+            "cover": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "td.ii img"
+            },
+            "datetime": {
+                "fun": "html",
+                "regex": "(\\d{4}-\\d{2}-\\d{2} \\d{2}:\\d{2})",
+                "selector": "table.it tr:eq(1) td:eq(1)"
+            },
+            "idCode": {
+                "fun": "attr",
+                "param": "href",
+                "regex": "/g/(.*)",
+                "selector": "td.ii a"
+            },
+            "item": {
+                "selector": "#ig .ig"
+            },
+            "rating": {
+                "fun": "html",
+                "selector": "table.it tr:eq(4) td:eq(1)"
+            },
+            "tags": {
+                "fun": "html",
+                "regex": "([a-zA-Z0-9 -]+)",
+                "selector": "table.it tr:eq(3) td:eq(1)"
+            },
+            "title": {
+                "fun": "html",
+                "selector": "table.it tr:eq(0) a"
+            },
+            "uploader": {
+                "fun": "html",
+                "regex": "(by .*)",
+                "selector": "table.it tr:eq(1) td:eq(1)"
+            }
+        },
+        "indexUrl": "http://lofi.e-hentai.org/?page={page:0}",
+        "loginUrl": "https://forums.e-hentai.org/index.php?act=Login",
+        "searchUrl": "http://lofi.e-hentai.org/?f_search={keyword:}&page={page:0}",
+        "sid": 1,
+        "index": 0
+    }

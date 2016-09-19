@@ -1,0 +1,120 @@
+﻿{
+        "categories": [
+            {
+                "url": "http://www.wnacg.org/albums-index-page-{page:1}.html",
+                "title": "首页",
+                "cid": 1
+            },
+            {
+                "url": "http://www.wnacg.com/albums-index-page-{page:1}-cate-5.html",
+                "title": "同人志",
+                "cid": 2
+            },
+            {
+                "url": "http://www.wnacg.com/albums-index-page-{page:1}-cate-1.html",
+                "title": "同人志->汉化",
+                "cid": 3
+            },
+            {
+                "url": "http://www.wnacg.com/albums-index-page-{page:1}-cate-12.html",
+                "title": "同人志->日语",
+                "cid": 4
+            },
+            {
+                "url": "http://www.wnacg.com/albums-index-page-{page:1}-cate-2.html",
+                "title": "同人志->CG画集",
+                "cid": 5
+            },
+            {
+                "url": "http://www.wnacg.com/albums-index-page-{page:1}-cate-3.html",
+                "title": "同人志->Cosplay",
+                "cid": 6
+            },
+            {
+                "url": "http://www.wnacg.com/albums-index-page-{page:1}-cate-6.html",
+                "title": "单行本",
+                "cid": 7
+            },
+            {
+                "url": "http://www.wnacg.com/albums-index-page-{page:1}-cate-9.html",
+                "title": "单行本->汉化",
+                "cid": 8
+            },
+            {
+                "url": "http://www.wnacg.com/albums-index-page-{page:1}-cate-13.html",
+                "title": "单行本->日语",
+                "cid": 9
+            },
+            {
+                "url": "http://www.wnacg.com/albums-index-page-{page:1}-cate-7.html",
+                "title": "杂志",
+                "cid": 10
+            },
+            {
+                "url": "http://www.wnacg.com/albums-index-page-{page:1}-cate-10.html",
+                "title": "杂志->单篇汉化",
+                "cid": 11
+            },
+            {
+                "url": "http://www.wnacg.com/albums-index-page-{page:1}-cate-14.html",
+                "title": "杂志->日语",
+                "cid": 12
+            }
+        ],
+        "cookie": "",
+        "extraRule": {
+            "pictureUrl": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "img#picarea"
+            }
+        },
+        "flag": "singlePageBigPicture|noRating|noTag",
+        "galleryRule": {
+            "item": {
+                "selector": "div.gallary_wrap ul li.gallary_item div.pic_box"
+            },
+            "pictureThumbnail": {
+                "fun": "attr",
+                "param": "data-original",
+                "selector": "a img"
+            },
+            "pictureUrl": {
+                "fun": "attr",
+                "param": "href",
+                "selector": "a"
+            }
+        },
+        "galleryUrl": "http://www.wnacg.org/photos-index-page-{page:1}-aid-{idCode:}.html",
+        "title": "绅士漫画",
+        "indexRule": {
+            "cover": {
+                "fun": "attr",
+                "param": "data-original",
+                "selector": "div.pic_box a img"
+            },
+            "datetime": {
+                "fun": "html",
+                "regex": "(\\d{4}-\\d{2}-\\d{2})",
+                "selector": "div.info div.info_col"
+            },
+            "idCode": {
+                "fun": "attr",
+                "param": "href",
+                "regex": "aid-(\\d+)",
+                "selector": "div.pic_box a"
+            },
+            "item": {
+                "selector": "div.gallary_wrap ul li.gallary_item"
+            },
+            "title": {
+                "fun": "html",
+                "selector": "div.info div.title a"
+            }
+        },
+        "indexUrl": "http://www.wnacg.org/albums-index-page-{page:1}.html",
+        "loginUrl": "http://www.wnacg.com/users-login.html",
+        "searchUrl": "http://www.wnacg.org/albums-index-page-{page:1}-sname-{keyword:}.html",
+        "sid": 4,
+        "index": 0
+    }

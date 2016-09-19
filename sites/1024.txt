@@ -1,0 +1,72 @@
+﻿{
+        "categories": [
+            {
+                "url": "http://cl.deocool.pw/thread0806.php?fid=8&page={page:1}",
+                "title": "贴图区",
+                "cid": 1
+            },
+            {
+                "url": "http://cl.deocool.pw/thread0806.php?fid=16&page={page:1}",
+                "title": "自拍区",
+                "cid": 2
+            }
+        ],
+        "cookie": "",
+        "flag": "noCover|noRating|noTag",
+        "galleryRule": {
+            "cover": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "div.tpc_content input:eq(0)"
+            },
+            "item": {
+                "selector": "div.tpc_content input"
+            },
+            "pictureThumbnail": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "this"
+            },
+            "pictureUrl": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "this"
+            }
+        },
+        "galleryUrl": "http://cl.deocool.pw/htm_data/{idCode:}.html",
+        "title": "草榴社区",
+        "indexRule": {
+            "category": {
+                "fun": "html",
+                "regex": "\\[([^<>]*?)\\]",
+                "selector": "td:eq(1)"
+            },
+            "datetime": {
+                "fun": "html",
+                "selector": "td:eq(2) div"
+            },
+            "idCode": {
+                "fun": "attr",
+                "param": "href",
+                "regex": "htm_data/(.*?).html",
+                "selector": "td:eq(1) h3 a"
+            },
+            "item": {
+                "selector": "#ajaxtable tr.tr3.t_one:gt(10)"
+            },
+            "title": {
+                "fun": "html",
+                "regex": "(<font.*?>)?([^<>]*)(</font>)?",
+                "replacement": "$2",
+                "selector": "td:eq(1) h3 a"
+            },
+            "uploader": {
+                "fun": "html",
+                "selector": "td:eq(2) a"
+            }
+        },
+        "indexUrl": "http://cl.deocool.pw/thread0806.php?fid=8&page={page:1}",
+        "loginUrl": "http://cl.deocool.pw/login.php",
+        "sid": 6,
+        "index": 0
+    }

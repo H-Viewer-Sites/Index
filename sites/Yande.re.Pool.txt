@@ -1,0 +1,67 @@
+{
+        "cookie": "",
+        "extraRule": {
+            "pictureUrl": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "img#image"
+            }
+        },
+        "flag": "singlePageBigPicture|preloadGallery",
+        "galleryRule": {
+            "cover": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "#post-list-posts > li:first-child a.thumb > img"
+            },
+            "item": {
+                "selector": "#post-list-posts > li"
+            },
+            "pictureThumbnail": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "a.thumb > img"
+            },
+            "pictureUrl": {
+                "fun": "attr",
+                "param": "href",
+                "selector": "a.thumb"
+            }
+        },
+        "galleryUrl": "https://yande.re/pool/show/{idCode:}",
+        "title": "Yande.re Pool",
+        "indexRule": {
+            "category": {
+                "fun": "html",
+                "regex": "(\\d+)",
+                "replacement": "¹² $1 Ò³",
+                "selector": "td:eq(2)"
+            },
+            "datetime": {
+                "fun": "html",
+                "selector": "td:eq(4)"
+            },
+            "idCode": {
+                "fun": "attr",
+                "param": "href",
+                "regex": "/pool/show/(\\d+)",
+                "selector": "td:eq(0) > a"
+            },
+            "item": {
+                "selector": "#pool-index > table tr:gt(0)"
+            },
+            "title": {
+                "fun": "html",
+                "selector": "td:eq(0) > a"
+            },
+            "uploader": {
+                "fun": "html",
+                "selector": "td:eq(1)"
+            }
+        },
+        "indexUrl": "https://yande.re/pool?page={page:1}",
+        "loginUrl": "https://yande.re/user/login",
+        "searchUrl": "https://yande.re/pool?query={keyword:}",
+        "sid": 32,
+        "index": 0
+    }

@@ -1,0 +1,98 @@
+{
+        "cookie": "",
+        "extraRule": {
+            "item": {
+                "selector": "div.item-container"
+            },
+            "pictureThumbnail": {
+                "fun": "attr",
+                "param": "data-src",
+                "regex": "(http://.*?c)/\\d+x\\d+/(.*?\\.jpg)",
+                "replacement": "$1/150x150/$2",
+                "selector": "img"
+            },
+            "pictureUrl": {
+                "fun": "attr",
+                "param": "data-src",
+                "selector": "img"
+            }
+        },
+        "flag": "secondLevelGallery",
+        "galleryRule": {
+            "datetime": {
+                "fun": "html",
+                "selector": "ul.meta > li:eq(0)"
+            },
+            "item": {
+                "selector": "body"
+            },
+            "pictureThumbnail": {
+                "fun": "attr",
+                "param": "src",
+                "regex": "(http://.*?c)/\\d+x\\d+/(.*?\\.jpg)",
+                "replacement": "$1/150x150/$2",
+                "selector": "div.works_display div._layout-thumbnail > img"
+            },
+            "pictureUrl": {
+                "fun": "html",
+                "regex": "\"(member_illust.php\\?mode=manga.*?|http://.*?.jpg)\"",
+                "selector": "div.works_display"
+            },
+            "rating": {
+                "fun": "html",
+                "regex": "rated-count\">(\\d+).*score-count\">(\\d+)",
+                "replacement": "$2/$1/2",
+                "selector": "section.score"
+            },
+            "tags": {
+                "fun": "html",
+                "selector": "ul.tags > li.tag > a.text"
+            },
+            "title": {
+                "fun": "html",
+                "selector": "div.ui-expander-target > h1.title"
+            },
+            "uploader": {
+                "fun": "html",
+                "selector": "a.user-link > h1.user"
+            }
+        },
+        "galleryUrl": "http://www.pixiv.net/member_illust.php?mode=medium&illust_id={idCode:}",
+        "title": "Pixiv",
+        "indexRule": {
+            "cover": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "a.work > div._layout-thumbnail > img._thumbnail"
+            },
+            "datetime": {
+                "fun": "attr",
+                "param": "src",
+                "regex": ".*img/(\\d{4})/(\\d{2})/(\\d{2})/(\\d{2})/(\\d{2})/(\\d{2})",
+                "replacement": "$1-$2-$3 $4:$5:$6",
+                "selector": "a.work > div._layout-thumbnail > img._thumbnail"
+            },
+            "idCode": {
+                "fun": "attr",
+                "param": "href",
+                "regex": "illust_id=(.*)",
+                "selector": "a.work"
+            },
+            "item": {
+                "selector": "ul._image-items > li.image-item"
+            },
+            "title": {
+                "fun": "html",
+                "selector": "a > h1.title"
+            },
+            "uploader": {
+                "fun": "html",
+                "selector": "a.user"
+            }
+        },
+        "indexUrl": "http://www.pixiv.net/new_illust.php?p={page:1}",
+        "loginUrl": "https://accounts.pixiv.net/login",
+        "searchUrl": "http://www.pixiv.net/search.php?word={keyword:}&p={page:1}",
+        "sid": 53,
+        "index": 0
+    }

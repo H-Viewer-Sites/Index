@@ -1,0 +1,73 @@
+{
+        "categories": [
+            {
+                "url": "http://e-shuushuu.net/?page={page:1}",
+                "title": "Ê×Ò³",
+                "cid": 1
+            },
+            {
+                "url": "http://e-shuushuu.net/top.php?page={page:1}",
+                "title": "ÅÅÐÐ°ñ",
+                "cid": 2
+            }
+        ],
+        "cookie": "",
+        "galleryRule": {
+            "item": {
+                "selector": ".image_thread .image_block"
+            },
+            "pictureThumbnail": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "a.thumb_image img"
+            },
+            "pictureUrl": {
+                "fun": "attr",
+                "param": "href",
+                "selector": "a.thumb_image"
+            },
+            "rating": {
+                "fun": "html",
+                "regex": "(\\d*\\.?\\d*).*?<img",
+                "replacement": "$2/2",
+                "selector": ".display .meta dl dd[id^='rating']"
+            }
+        },
+        "galleryUrl": "http://e-shuushuu.net/{idCode:}",
+        "title": "E-shuushuu",
+        "indexRule": {
+            "cover": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "a.thumb_image img"
+            },
+            "datetime": {
+                "fun": "html",
+                "selector": ".meta dd:eq(3)"
+            },
+            "idCode": {
+                "fun": "attr",
+                "param": "href",
+                "selector": ".title h2 a"
+            },
+            "item": {
+                "selector": "div.display:has(.thumb)"
+            },
+            "tags": {
+                "fun": "html",
+                "selector": ".meta span.tag a"
+            },
+            "title": {
+                "fun": "html",
+                "selector": ".title h2 a"
+            },
+            "uploader": {
+                "fun": "html",
+                "selector": ".meta dl dd span.reg_user"
+            }
+        },
+        "indexUrl": "http://e-shuushuu.net/?page={page:1}",
+        "loginUrl": "http://e-shuushuu.net/",
+        "sid": 52,
+        "index": 0
+    }

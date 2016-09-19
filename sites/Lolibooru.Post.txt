@@ -1,0 +1,64 @@
+{
+        "cookie": "",
+        "flag": "noTitle",
+        "galleryRule": {
+            "item": {
+                "selector": "div.content"
+            },
+            "pictureThumbnail": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "img#image"
+            },
+            "pictureUrl": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "img#image"
+            }
+        },
+        "galleryUrl": "https://lolibooru.moe/post/show/{idCode:}",
+        "title": "Lolibooru Post",
+        "indexRule": {
+            "category": {
+                "fun": "html",
+                "selector": "a > span.directlink-res"
+            },
+            "cover": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "div > a.thumb > img"
+            },
+            "idCode": {
+                "fun": "attr",
+                "param": "href",
+                "regex": "/post/show/(\\d+)",
+                "selector": "div > a.thumb"
+            },
+            "item": {
+                "selector": "#post-list-posts > li"
+            },
+            "rating": {
+                "fun": "attr",
+                "param": "title",
+                "regex": "Rating:.*?(\\d+)",
+                "selector": "div > a.thumb > img"
+            },
+            "tags": {
+                "fun": "attr",
+                "param": "title",
+                "regex": " ([a-z_]+)",
+                "selector": "div > a.thumb > img"
+            },
+            "uploader": {
+                "fun": "attr",
+                "param": "title",
+                "regex": "User: (\\w+)",
+                "selector": "div > a.thumb > img"
+            }
+        },
+        "indexUrl": "https://lolibooru.moe/post?page={page:1}",
+        "loginUrl": "https://lolibooru.moe/user/login",
+        "searchUrl": "https://lolibooru.moe/post?tags={keyword:}",
+        "sid": 33,
+        "index": 0
+    }

@@ -1,0 +1,70 @@
+﻿{
+        "cookie": "",
+        "extraRule": {
+            "pictureUrl": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "img#picarea"
+            }
+        },
+        "flag": "singlePageBigPicture|noRating|noTag",
+        "galleryRule": {
+            "category": {
+                "fun": "html",
+                "regex": "(.*)<span",
+                "selector": ".tag-container:eq(6) span.tags a"
+            },
+            "item": {
+                "selector": "div.container div.thumb-container"
+            },
+            "pictureThumbnail": {
+                "fun": "attr",
+                "param": "data-src",
+                "regex": "(.*)",
+                "replacement": "https:$1",
+                "selector": "a img"
+            },
+            "pictureUrl": {
+                "fun": "attr",
+                "param": "href",
+                "selector": "a"
+            },
+            "tags": {
+                "fun": "html",
+                "regex": "(.*)<span",
+                "selector": "span.tags a"
+            },
+            "title": {
+                "fun": "html",
+                "selector": "div#info h2"
+            }
+        },
+        "galleryUrl": "https://nhentai.net{idCode:}",
+        "title": "nhentai",
+        "indexRule": {
+            "cover": {
+                "fun": "attr",
+                "param": "src",
+                "regex": "(.*)",
+                "replacement": "https:$1",
+                "selector": "a img"
+            },
+            "idCode": {
+                "fun": "attr",
+                "param": "href",
+                "selector": "a"
+            },
+            "item": {
+                "selector": "div.container div.gallery"
+            },
+            "title": {
+                "fun": "html",
+                "selector": "a div.caption"
+            }
+        },
+        "indexUrl": "https://nhentai.net/?page={page:1}",
+        "loginUrl": "https://nhentai.net/login/",
+        "searchUrl": "https://nhentai.net/search/?q={keyword:}&page={page:1}",
+        "sid": 5,
+        "index": 0
+    }

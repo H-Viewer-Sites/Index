@@ -1,0 +1,81 @@
+﻿{
+        "categories": [
+            {
+                "url": "http://moeimg.net/page/{page:1}",
+                "title": "首页",
+                "cid": 1
+            },
+            {
+                "url": "http://moeimg.net/category/%E3%82%A8%E3%83%AD%E7%94%BB%E5%83%8F/page/{page:1}",
+                "title": "エロ画像",
+                "cid": 2
+            },
+            {
+                "url": "http://moeimg.net/category/%E9%9D%9E%E3%82%A8%E3%83%AD%E3%83%BB%E5%BE%AE%E3%82%A8%E3%83%AD%E7%94%BB%E5%83%8F/page/{page:1}",
+                "title": "非エロ・微エロ画像",
+                "cid": 3
+            },
+            {
+                "url": "http://moeimg.net/category/%E3%83%8D%E3%82%BF%E7%94%BB%E5%83%8F/page/{page:1}",
+                "title": "ネタ画像",
+                "cid": 4
+            }
+        ],
+        "cookie": "",
+        "flag": "noRating",
+        "galleryRule": {
+            "item": {
+                "selector": "div.box > a"
+            },
+            "pictureThumbnail": {
+                "fun": "attr",
+                "param": "href",
+                "selector": "this"
+            },
+            "pictureUrl": {
+                "fun": "attr",
+                "param": "href",
+                "selector": "this"
+            }
+        },
+        "galleryUrl": "http://moeimg.net/{idCode:}.html",
+        "title": "二次萌エロ画像ブログ",
+        "indexRule": {
+            "category": {
+                "fun": "html",
+                "selector": "div.blog_info > ul > li.cat > a"
+            },
+            "cover": {
+                "fun": "attr",
+                "param": "href",
+                "selector": "div.more-field > div.box > a"
+            },
+            "datetime": {
+                "fun": "html",
+                "regex": "(\\d{4}.\\d{2}.\\d{2}. [0-9:]+)",
+                "selector": "div.blog_info > ul > li.cal"
+            },
+            "idCode": {
+                "fun": "attr",
+                "param": "href",
+                "regex": "/(\\d+).html",
+                "selector": "h2 > a"
+            },
+            "item": {
+                "selector": "div.post"
+            },
+            "tags": {
+                "fun": "html",
+                "selector": "div.blog_info > ul > li.tag > a[rel='tag']"
+            },
+            "title": {
+                "fun": "attr",
+                "param": "title",
+                "selector": "h2 > a"
+            }
+        },
+        "indexUrl": "http://moeimg.net/page/{page:1}",
+        "searchUrl": "http://moeimg.net/?cat=0&s={keyword:}&submit=%E6%A4%9C%E7%B4%A2",
+        "sid": 8,
+        "index": 0
+    }
