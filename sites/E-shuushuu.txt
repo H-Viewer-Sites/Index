@@ -1,13 +1,13 @@
-{
+ï»¿{
         "categories": [
             {
                 "url": "http://e-shuushuu.net/?page={page:1}",
-                "title": "Ê×Ò³",
+                "title": "é¦–é¡µ",
                 "cid": 1
             },
             {
                 "url": "http://e-shuushuu.net/top.php?page={page:1}",
-                "title": "ÅÅÐÐ°ñ",
+                "title": "æŽ’è¡Œæ¦œ",
                 "cid": 2
             }
         ],
