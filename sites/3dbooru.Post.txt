@@ -1,4 +1,4 @@
-{
+﻿{
     "flag": "noTitle",
     "galleryRule": {
         "item": {

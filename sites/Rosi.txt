@@ -1,9 +1,9 @@
-{
+ï»¿{
     "cookie": "",
     "galleryRule": {
         "datetime": {
             "fun": "html",
-            "regex": "·¢²¼Ê±¼ä£º(\\d{4}Äê\\d{2}ÔÂ\\d{2}ÈÕ)",
+            "regex": "å‘å¸ƒæ—¶é—´ï¼š(\\d{4}å¹´\\d{2}æœˆ\\d{2}æ—¥)",
             "selector": ".postimg.post"
         },
         "tags": {

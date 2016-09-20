@@ -1,88 +1,88 @@
-{
+ï»¿{
         "categories": [
             {
                 "url": "http://www.jdlingyu.moe/page/{page:1}/",
-                "title": "Ê×Ò³",
+                "title": "é¦–é¡µ",
                 "cid": 1
             },
             {
                 "url": "http://www.jdlingyu.moe/%e4%b8%93%e9%a2%98/{pageStr:page/{page:1}/}",
-                "title": "×¨Ìâ",
+                "title": "ä¸“é¢˜",
                 "cid": 2
             },
             {
                 "url": "http://www.jdlingyu.moe/%e8%87%aa%e6%8b%8d/{pageStr:page/{page:1}/}",
-                "title": "×¨Ìâ->×ÔÅÄ",
+                "title": "ä¸“é¢˜->è‡ªæ‹",
                 "cid": 3
             },
             {
                 "url": "http://www.jdlingyu.moe/%e4%b8%93%e9%a2%98/%e6%94%be%e6%b5%81/{pageStr:page/{page:1}/}",
-                "title": "×¨Ìâ->·ÅÁ÷",
+                "title": "ä¸“é¢˜->æ”¾æµ",
                 "cid": 4
             },
             {
                 "url": "http://www.jdlingyu.moe/%e4%b8%93%e9%a2%98/%e7%8b%ac%e5%ae%b6/{pageStr:page/{page:1}/}",
-                "title": "×¨Ìâ->¶À¼Ò",
+                "title": "ä¸“é¢˜->ç‹¬å®¶",
                 "cid": 5
             },
             {
                 "url": "http://www.jdlingyu.moe/%e4%b8%93%e9%a2%98/mzzqx/{pageStr:page/{page:1}/}",
-                "title": "×¨Ìâ->ÂşÕ¹×îÇ°Ïß",
+                "title": "ä¸“é¢˜->æ¼«å±•æœ€å‰çº¿",
                 "cid": 6
             },
             {
                 "url": "http://www.jdlingyu.moe/%e7%89%b9%e7%82%b9/{pageStr:page/{page:1}/}",
-                "title": "ÌØµã",
+                "title": "ç‰¹ç‚¹",
                 "cid": 7
             },
             {
                 "url": "http://www.jdlingyu.moe/%e8%83%96%e6%ac%a1/{pageStr:page/{page:1}/}",
-                "title": "ÌØµã->ÅÖ´Î",
+                "title": "ç‰¹ç‚¹->èƒ–æ¬¡",
                 "cid": 8
             },
             {
                 "url": "http://www.jdlingyu.moe/%e7%89%b9%e7%82%b9/%e4%b8%9d%e8%a2%9c/{pageStr:page/{page:1}/}",
-                "title": "ÌØµã->Ë¿Íà",
+                "title": "ç‰¹ç‚¹->ä¸è¢œ",
                 "cid": 9
             },
             {
                 "url": "http://www.jdlingyu.moe/%e7%89%b9%e7%82%b9/%e6%b1%89%e6%9c%8d/{pageStr:page/{page:1}/}",
-                "title": "ÌØµã->ºº·ş",
+                "title": "ç‰¹ç‚¹->æ±‰æœ",
                 "cid": 10
             },
             {
                 "url": "http://www.jdlingyu.moe/%e7%89%b9%e7%82%b9/%e6%ad%bb%e5%ba%93%e6%b0%b4/{pageStr:page/{page:1}/}",
-                "title": "ÌØµã->ËÀ¿âË®",
+                "title": "ç‰¹ç‚¹->æ­»åº“æ°´",
                 "cid": 11
             },
             {
                 "url": "http://www.jdlingyu.moe/%e7%89%b9%e7%82%b9/%e4%bd%93%e6%93%8d%e6%9c%8d/{pageStr:page/{page:1}/}",
-                "title": "ÌØµã->Ìå²Ù·ş",
+                "title": "ç‰¹ç‚¹->ä½“æ“æœ",
                 "cid": 12
             },
             {
                 "url": "http://www.jdlingyu.moe/%e7%89%b9%e7%82%b9/%e5%a5%b3%e4%bb%86%e8%a3%85/{pageStr:page/{page:1}/}",
-                "title": "ÌØµã->Å®ÆÍ×°",
+                "title": "ç‰¹ç‚¹->å¥³ä»†è£…",
                 "cid": 13
             },
             {
                 "url": "http://www.jdlingyu.moe/%e7%89%b9%e7%82%b9/%e6%b0%b4%e6%89%8b%e6%9c%8d/{pageStr:page/{page:1}/}",
-                "title": "ÌØµã->Ë®ÊÖ·ş",
+                "title": "ç‰¹ç‚¹->æ°´æ‰‹æœ",
                 "cid": 14
             },
             {
                 "url": "http://www.jdlingyu.moe/%e7%89%b9%e7%82%b9/%e5%92%8c%e6%9c%8d%e6%b5%b4%e8%a1%a3/{pageStr:page/{page:1}/}",
-                "title": "ÌØµã->ºÍ·ş",
+                "title": "ç‰¹ç‚¹->å’Œæœ",
                 "cid": 15
             },
             {
                 "url": "http://www.jdlingyu.moe/%e5%bc%84%e6%bd%ae/{pageStr:page/{page:1}/}",
-                "title": "Åª³±",
+                "title": "å¼„æ½®",
                 "cid": 16
             },
             {
                 "url": "http://www.jdlingyu.moe/%e5%bc%84%e6%bd%ae/%e6%9d%9f%e7%bc%9a/{pageStr:page/{page:1}/}",
-                "title": "Åª³±->Êø¸¿",
+                "title": "å¼„æ½®->æŸç¼š",
                 "cid": 16
             },
             {
@@ -92,12 +92,12 @@
             },
             {
                 "url": "http://www.jdlingyu.moe/%e5%86%99%e7%9c%9f/{pageStr:page/{page:1}/}",
-                "title": "Ğ´Õæ",
+                "title": "å†™çœŸ",
                 "cid": 18
             },
             {
                 "url": "http://www.jdlingyu.moe/%e4%b8%8b%e8%bd%bd/{pageStr:page/{page:1}/}",
-                "title": "ÏÂÔØ",
+                "title": "ä¸‹è½½",
                 "cid": 19
             }
         ],
@@ -131,7 +131,7 @@
             }
         },
         "galleryUrl": "http://www.jdlingyu.moe/{idCode:}/",
-        "title": "¾ø¶ÔÁìÓò",
+        "title": "ç»å¯¹é¢†åŸŸ",
         "indexRule": {
             "cover": {
                 "fun": "attr",

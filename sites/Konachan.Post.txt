@@ -1,4 +1,4 @@
-{
+﻿{
         "cookie": "",
         "flag": "noTitle",
         "galleryRule": {
