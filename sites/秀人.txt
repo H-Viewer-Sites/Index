@@ -1,0 +1,43 @@
+{
+    "cookie": "",
+    "galleryRule": {
+        "item": {
+            "selector": "div.post span.photoThum"
+        },
+        "pictureThumbnail": {
+            "fun": "attr",
+            "param": "src",
+            "selector": "a img"
+        },
+        "pictureUrl": {
+            "fun": "attr",
+            "param": "href",
+            "selector": "a"
+        }
+    },
+    "galleryUrl": "http://www.xiuren.org/{idCode:}.html",
+    "indexRule": {
+        "cover": {
+            "fun": "attr",
+            "param": "src",
+            "selector": ".content>a>img"
+        },
+        "idCode": {
+            "fun": "attr",
+            "param": "href",
+            "regex": "http://www\\.xiuren\\.org/(.*)\\.html",
+            "selector": ".content>a"
+        },
+        "item": {
+            "selector": "#wrap #main div.loop"
+        },
+        "title": {
+            "fun": "attr",
+            "param": "title",
+            "selector": ".content>a"
+        }
+    },
+    "indexUrl": "http://www.xiuren.org/page-{page:1}.html",
+    "searchUrl": "http://www.xiuren.org/search/{keyword:}.html?page={page:1}",
+    "title": "XiuRen"
+}

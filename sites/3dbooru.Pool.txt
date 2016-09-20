@@ -1,0 +1,62 @@
+{
+    "extraRule": {
+        "pictureUrl": {
+            "fun": "attr",
+            "param": "src",
+            "selector": "#image"
+        }
+    },
+    "flag": "singlePageBigPicture|preloadGallery",
+    "galleryRule": {
+        "cover": {
+            "fun": "attr",
+            "param": "src",
+            "selector": "span.thumb:first-child img"
+        },
+        "item": {
+            "selector": "span.thumb"
+        },
+        "pictureThumbnail": {
+            "fun": "attr",
+            "param": "src",
+            "selector": "a > img"
+        },
+        "pictureUrl": {
+            "fun": "attr",
+            "param": "href",
+            "selector": "a"
+        }
+    },
+    "galleryUrl": "http://behoimi.org/pool/show/{idCode:}?page={page:1}",
+    "index": 0,
+    "indexRule": {
+        "category": {
+            "fun": "html",
+            "regex": "(\\d+)",
+            "replacement": "¹² $1 Ò³",
+            "selector": "td:eq(2)"
+        },
+        "idCode": {
+            "fun": "attr",
+            "param": "href",
+            "regex": "/pool/show/(\\d+)",
+            "selector": "td:eq(0) > a"
+        },
+        "item": {
+            "selector": "#pool-index > table tr:gt(0)"
+        },
+        "title": {
+            "fun": "html",
+            "selector": "td:eq(0) > a"
+        },
+        "uploader": {
+            "fun": "html",
+            "selector": "td:eq(1) > a"
+        }
+    },
+    "indexUrl": "http://behoimi.org/pool?page={page:1}",
+    "loginUrl": "http://behoimi.org/user/login",
+    "searchUrl": "http://behoimi.org/pool?query={keyword:}?page={page:1}",
+    "sid": 0,
+    "title": "3dbooru Pool"
+}

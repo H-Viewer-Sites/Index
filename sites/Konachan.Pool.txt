@@ -1,24 +1,18 @@
 {
         "cookie": "",
         "extraRule": {
-            "item": {
-                "selector": "div.item-container"
-            },
-            "pictureThumbnail": {
-                "fun": "attr",
-                "param": "data-src",
-                "regex": "(http://.*?c)/\\d+x\\d+/(.*?\\.jpg)",
-                "replacement": "$1/150x150/$2",
-                "selector": "img"
-            },
             "pictureUrl": {
                 "fun": "attr",
-                "param": "data-src",
-                "selector": "img"
+                "param": "src",
+                "selector": "img#image"
             }
         },
         "flag": "singlePageBigPicture|preloadGallery",
         "galleryRule": {
+            "description": {
+                "fun": "html",
+                "selector": "#pool-show > div:nth-child(2)"
+            },
             "cover": {
                 "fun": "attr",
                 "param": "src",
@@ -71,7 +65,7 @@
         },
         "indexUrl": "https://konachan.net/pool?page={page:1}",
         "loginUrl": "https://konachan.net/user/login",
-        "searchUrl": "https://konachan.net/pool?query={keyword:}",
+        "searchUrl": "https://konachan.net/pool?query={keyword:}&page={page:1}",
         "sid": 36,
         "index": 0
     }

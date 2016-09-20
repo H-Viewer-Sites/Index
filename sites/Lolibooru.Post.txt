@@ -58,7 +58,7 @@
         },
         "indexUrl": "https://lolibooru.moe/post?page={page:1}",
         "loginUrl": "https://lolibooru.moe/user/login",
-        "searchUrl": "https://lolibooru.moe/post?tags={keyword:}",
+        "searchUrl": "https://lolibooru.moe/post?tags={keyword:}&page={page:1}",
         "sid": 33,
         "index": 0
     }

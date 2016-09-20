@@ -19,6 +19,10 @@
         },
         "flag": "secondLevelGallery",
         "galleryRule": {
+            "description": {
+                "fun": "html",
+                "selector": "div.ui-expander-target > p.caption"
+            },
             "datetime": {
                 "fun": "html",
                 "selector": "ul.meta > li:eq(0)"

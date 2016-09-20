@@ -9,13 +9,23 @@ All sites for H-Viewer
 
 |  ID  | Site's Json  | QR Code | Author |
 | ---- | ------------- | ------------- | ------------- |
-|  1   | [E-shuushuu](http://jsondepot.mcsky.org/21) | ![](https://github.com/PureDark/H-Viewer/raw/master/images/qrcodes/7.e-shuushuu.png)  | PureDark |
-|  2   | [pixiv](http://jsondepot.mcsky.org/46) | ![](https://github.com/PureDark/H-Viewer/raw/master/images/qrcodes/10.pixiv.png)  | [manhong2112](https://github.com/manhong2112) |
+|  1   | [E-shuushuu](https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/E-shuushuu.txt) | ![](https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/images/E-shuushuu.png)  | PureDark |
+|  2   | [Pixiv](https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/Pixiv.txt) | ![](https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/images/Pixiv.png)  | [manhong2112](https://github.com/manhong2112) |
+
+### Booru图站 —— ACG picture sites
+#### Post是单张图，Pool是图册，上过booru的朋友都明白）
+
+|  ID  | Site's Json  | QR Code | Author |
+| ---- | ------------- | ------------- | ------------- |
+|  1   | [Konachan Post](https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/Konachan.Post.txt) | ![](https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/images/Konachan.Post.png)  | PureDark |
+|  2   | [Konachan Pool](https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/Konachan.Pool.txt) | ![](https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/images/Konachan.Pool.png)  | PureDark |
+|  3   | [3dbooru Post](https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/3dbooru.Post.txt) | ![](https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/images/3dbooru.Post.png)  | PureDark |
+|  4   | [3dbooru Pool](https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/3dbooru.Pool.txt) | ![](https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/images/3dbooru.Pool.png)  | PureDark |
 
 ### 写真图站  
 
 |  ID  | Site's Json  | QR Code | Author |
 | ---- | ------------- | ------------- | ------------- |
-|  1   | [秀人](http://jsondepot.mcsky.org/6) | ![](https://github.com/PureDark/H-Viewer/raw/master/images/qrcodes/8.xiuren.png)  | lbq from v2ex |
-|  2   | [Rosi](http://jsondepot.mcsky.org/10) | ![](https://github.com/PureDark/H-Viewer/raw/master/images/qrcodes/9.rosiyy.png)  | [vvyoko](https://github.com/vvyoko) |
-|  3   | [绝对领域](http://jsondepot.mcsky.org/52) | ![](https://github.com/PureDark/H-Viewer/raw/master/images/qrcodes/12.绝对领域.png)  | PureDark |
+|  1   | [秀人](https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/秀人.txt) | ![](https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/images/秀人.png)  | lbq from v2ex |
+|  2   | [Rosi](https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/Rosi.txt) | ![](https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/images/Rosi.png)  | [vvyoko](https://github.com/vvyoko) |
+|  3   | [绝对领域](https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/绝对领域.txt) | ![](https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/images/绝对领域.png)  | PureDark |

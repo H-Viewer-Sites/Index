@@ -58,7 +58,7 @@
         },
         "indexUrl": "https://konachan.net/post?page={page:1}",
         "loginUrl": "https://konachan.net/user/login",
-        "searchUrl": "https://konachan.net/post?tags={keyword:}",
+        "searchUrl": "https://konachan.net/post?tags={keyword:}&page={page:1}",
         "sid": 35,
         "index": 0
     }

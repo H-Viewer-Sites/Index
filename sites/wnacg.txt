@@ -71,6 +71,10 @@
         },
         "flag": "singlePageBigPicture|noRating|noTag",
         "galleryRule": {
+            "description": {
+                "fun": "html",
+                "selector": "div.uwconn > p:last-child"
+            },
             "item": {
                 "selector": "div.gallary_wrap ul li.gallary_item div.pic_box"
             },

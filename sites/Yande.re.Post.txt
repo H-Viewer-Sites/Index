@@ -58,7 +58,7 @@
         },
         "indexUrl": "https://yande.re/post?page={page:1}",
         "loginUrl": "https://yande.re/user/login",
-        "searchUrl": "https://yande.re/post?tags={keyword:}",
+        "searchUrl": "https://yande.re/post?tags={keyword:}&page={page:1}",
         "sid": 31,
         "index": 0
     }

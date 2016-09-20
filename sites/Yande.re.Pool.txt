@@ -9,6 +9,10 @@
         },
         "flag": "singlePageBigPicture|preloadGallery",
         "galleryRule": {
+            "description": {
+                "fun": "html",
+                "selector": "#pool-show > div:nth-child(2)"
+            },
             "cover": {
                 "fun": "attr",
                 "param": "src",
@@ -61,7 +65,7 @@
         },
         "indexUrl": "https://yande.re/pool?page={page:1}",
         "loginUrl": "https://yande.re/user/login",
-        "searchUrl": "https://yande.re/pool?query={keyword:}",
+        "searchUrl": "https://yande.re/pool?query={keyword:}&page={page:1}",
         "sid": 32,
         "index": 0
     }

@@ -1,0 +1,53 @@
+{
+    "cookie": "",
+    "galleryRule": {
+        "datetime": {
+            "fun": "html",
+            "regex": "发布时间：(\\d{4}年\\d{2}月\\d{2}日)",
+            "selector": ".postimg.post"
+        },
+        "tags": {
+            "fun": "html",
+            "selector": ".postimg.post a[rel='tag']"
+        },
+        "item": {
+            "selector": ".postimg.post p a"
+        },
+        "pictureThumbnail": {
+            "fun": "attr",
+            "param": "src",
+            "selector": "img",
+            "regex": "^(.*)$",
+            "replacement": "http://www.rosiyy.com/usr/themes/mm/timthumb.php?src=$1&h=130&w=195&zc=1&q=100"
+        },
+        "pictureUrl": {
+            "fun": "attr",
+            "param": "src",
+            "selector": "img"
+        }
+    },
+    "indexRule": {
+        "cover": {
+            "fun": "attr",
+            "param": "src",
+            "selector": ".photo>a>img"
+        },
+        "idCode": {
+            "fun": "attr",
+            "param": "href",
+            "regex": "http://www\\.rosiyy\\.com/(.*)",
+            "selector": ".photo>a"
+        },
+        "item": {
+            "selector": "#content div.pic"
+        },
+        "title": {
+            "fun": "html",
+            "selector": ".entry_title a"
+        }
+    },
+    "galleryUrl": "http://www.rosiyy.com/{idCode:}?page={page:1}",
+    "indexUrl": "http://www.rosiyy.com/index-{page:1}.html",
+    "searchUrl": "http://www.rosiyy.com/search/{keyword:}/list-{page:1}",
+    "title": "Rosi"
+}

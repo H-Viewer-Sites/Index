@@ -1,0 +1,59 @@
+{
+    "flag": "noTitle",
+    "galleryRule": {
+        "item": {
+            "selector": "div.content"
+        },
+        "pictureThumbnail": {
+            "fun": "attr",
+            "param": "src",
+            "selector": "img#image"
+        },
+        "pictureUrl": {
+            "fun": "attr",
+            "param": "src",
+            "selector": "img#image"
+        }
+    },
+    "galleryUrl": "http://behoimi.org/post/show/{idCode:}",
+    "index": 0,
+    "indexRule": {
+        "cover": {
+            "fun": "attr",
+            "param": "src",
+            "selector": "a > img"
+        },
+        "idCode": {
+            "fun": "attr",
+            "param": "href",
+            "regex": "/post/show/(\\d+)",
+            "selector": "a"
+        },
+        "item": {
+            "selector": "span.thumb"
+        },
+        "rating": {
+            "fun": "attr",
+            "param": "title",
+            "regex": "rating:.*?(\\d+)",
+            "selector": "a > img"
+        },
+        "tags": {
+            "fun": "attr",
+            "param": "title",
+            "regex": " ([a-z_]+)",
+            "selector": "a > img"
+        },
+        "uploader": {
+            "fun": "attr",
+            "param": "title",
+            "regex": "user:(\\w+)",
+            "selector": "a > img"
+        }
+    },
+    "indexUrl": "http://behoimi.org/post?page={page:1}",
+    "loginUrl": "http://behoimi.org/user/login",
+    "searchUrl": "http://behoimi.org/post?tags={keyword:}&page={page:1}",
+    "sid": 0,
+    "title": "3dbooru Post"
+}
