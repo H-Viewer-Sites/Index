@@ -24,12 +24,12 @@
         {
             "cid": 5,
             "title": "3000users入り",
-            "url": "http://www.pixiv.net/search.php?s_mode=s_tag&word=5000users%E5%85%A5%E3%82%8A&p={page:1}"
+            "url": "http://www.pixiv.net/search.php?s_mode=s_tag&word=3000users%E5%85%A5%E3%82%8A&p={page:1}"
         },
         {
             "cid": 6,
             "title": "1000users入り",
-            "url": "http://www.pixiv.net/search.php?s_mode=s_tag&word=5000users%E5%85%A5%E3%82%8A&p={page:1}"
+            "url": "http://www.pixiv.net/search.php?s_mode=s_tag&word=1000users%E5%85%A5%E3%82%8A&p={page:1}"
         },
         {
             "cid": 7,

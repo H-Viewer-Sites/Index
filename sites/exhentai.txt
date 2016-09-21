@@ -64,7 +64,7 @@
                 "selector": "div.sni a img[style]"
             }
         },
-        "flag": "singlePageBigPicture|repeatedThumbnail",
+        "flag": "singlePageBigPicture|repeatedThumbnail|preloadGallery",
         "galleryRule": {
             "item": {
                 "selector": "div.gdtl,div.gdtm"
