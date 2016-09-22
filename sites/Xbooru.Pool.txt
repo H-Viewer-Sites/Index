@@ -8,6 +8,10 @@
     },
     "flag": "singlePageBigPicture|preloadGallery",
     "galleryRule": {
+        "description": {
+            "fun": "html",
+            "selector": "div#content > div"
+        },
         "cover": {
             "fun": "attr",
             "param": "src",
