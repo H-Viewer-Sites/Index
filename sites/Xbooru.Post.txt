@@ -1,4 +1,4 @@
-{
+ï»¿{
     "flag": "noTitle",
     "galleryRule": {
         "item": {
@@ -49,7 +49,7 @@
             "fun": "attr",
             "param": "title",
             "regex": "rating:(\\w+)",
-            "replacement": "°²È«µÈ¼¶£º$1",
+            "replacement": "å®‰å…¨ç­‰çº§ï¼š$1",
             "selector": "a > img"
         }
     },

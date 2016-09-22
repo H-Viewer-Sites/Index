@@ -1,4 +1,4 @@
-{
+﻿{
     "extraRule": {
         "pictureUrl": {
             "fun": "attr",
@@ -38,7 +38,7 @@
         "datetime": {
             "fun": "html",
             "regex": "(\\d+)",
-            "replacement": "�� $1 ҳ",
+            "replacement": "共 $1 页",
             "selector": "td:eq(2)"
         },
         "idCode": {

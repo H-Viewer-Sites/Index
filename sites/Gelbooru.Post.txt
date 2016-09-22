@@ -1,8 +1,8 @@
-{
+ï»¿{
     "categories": [
         {
             "url": "http://gelbooru.com/index.php?page=post&s=list&tags=all&pid={page:0:42}",
-            "title": "Ê×Ò³",
+            "title": "é¦–é¡µ",
             "cid": 1
         },
         {
@@ -281,7 +281,7 @@
             "fun": "attr",
             "param": "title",
             "regex": "rating:(\\w+)",
-            "replacement": "°²È«µÈ¼¶£º$1",
+            "replacement": "å®‰å…¨ç­‰çº§ï¼š$1",
             "selector": "a > img"
         }
     },
