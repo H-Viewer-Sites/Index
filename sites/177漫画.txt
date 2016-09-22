@@ -42,7 +42,7 @@
                 "selector": "div#taglist table tr td:eq(1) div a"
             }
         },
-        "galleryUrl": "http://www.177pic66.com/html/{idCode:}.html/{page:1}",
+        "galleryUrl": "http:/www.177pic.info/html/{idCode:}.html/{page:1}",
         "title": "177漫画",
         "indexRule": {
             "category": {
@@ -74,8 +74,8 @@
                 "selector": "div.c-top div.tit h2 a"
             }
         },
-        "indexUrl": "http://www.177pic66.com/page/{page:1}?variant=zh-hans",
-        "searchUrl": "http://www.177pic66.com/page/{page:1}?s={keyword:}&variant=zh-hans",
+        "indexUrl": "http://www.177pic.info/page/{page:1}",
+        "searchUrl": "http://www.177pic.info/page/{page:1}?s={keyword:}",
         "sid": 7,
         "index": 0
     }
