@@ -1,0 +1,62 @@
+{
+    "extraRule": {
+        "pictureUrl": {
+            "fun": "attr",
+            "param": "src",
+            "selector": "img#image"
+        }
+    },
+    "flag": "singlePageBigPicture|preloadGallery",
+    "galleryRule": {
+        "cover": {
+            "fun": "attr",
+            "param": "src",
+            "selector": "span.thumb img"
+        },
+        "item": {
+            "selector": "span.thumb"
+        },
+        "pictureThumbnail": {
+            "fun": "attr",
+            "param": "src",
+            "selector": "a > img"
+        },
+        "pictureUrl": {
+            "fun": "attr",
+            "param": "href",
+            "selector": "a"
+        }
+    },
+    "galleryUrl": "http://xbooru.com/index.php?page=pool&s=show&id={idCode:}",
+    "gid": 0,
+    "index": 0,
+    "indexRule": {
+        "datetime": {
+            "fun": "html",
+            "regex": "(\\d+)",
+            "replacement": "¹² $1 Ò³",
+            "selector": "td:eq(2)"
+        },
+        "idCode": {
+            "fun": "attr",
+            "param": "href",
+            "regex": "id=(\\d+)",
+            "selector": "td:eq(0) > a"
+        },
+        "item": {
+            "selector": "#pool-index > table > tbody > tr"
+        },
+        "title": {
+            "fun": "html",
+            "selector": "td:eq(0) > a"
+        },
+        "uploader": {
+            "fun": "html",
+            "selector": "td:eq(1) > a"
+        }
+    },
+    "indexUrl": "http://xbooru.com/index.php?page=pool&s=list&pid={page:0:25}",
+    "loginUrl": "http://gelbooru.com/index.php?page=account&s=login&code=00",
+    "sid": 0,
+    "title": "Xbooru Pool"
+}

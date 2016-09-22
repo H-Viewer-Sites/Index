@@ -28,6 +28,10 @@ All sites for H-Viewer
 |  6   | [Konachan Pool](https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/Konachan.Pool.txt) | ![](https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/images/Konachan.Pool.png)  | PureDark |
 |  7   | [3dbooru Post](https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/3dbooru.Post.txt) | ![](https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/images/3dbooru.Post.png)  | PureDark |
 |  8   | [3dbooru Pool](https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/3dbooru.Pool.txt) | ![](https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/images/3dbooru.Pool.png)  | PureDark |
+|  9   | [Gelbooru Post](https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/Gelbooru.Post.txt) | ![](https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/images/Gelbooru.Post.png)  | PureDark |
+|  10  | [Gelbooru Pool](https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/Gelbooru.Pool.txt) | ![](https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/images/Gelbooru.Pool.png)  | PureDark |
+|  11  | [Xbooru Post](https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/Xbooru.Post.txt) | ![](https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/images/Xbooru.Post.png)  | PureDark |
+|  12  | [Xbooru Pool](https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/Xbooru.Pool.txt) | ![](https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/images/Xbooru.Pool.png)  | PureDark |
 
 
 ### 绅士漫画站 —— Hentai sites  

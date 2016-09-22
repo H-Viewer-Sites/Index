@@ -30,7 +30,7 @@
     "galleryUrl": "http://behoimi.org/pool/show/{idCode:}?page={page:1}",
     "index": 0,
     "indexRule": {
-        "category": {
+        "datetime": {
             "fun": "html",
             "regex": "(\\d+)",
             "replacement": "共 $1 页",
