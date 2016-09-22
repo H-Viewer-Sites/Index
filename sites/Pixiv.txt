@@ -1,69 +1,69 @@
 ﻿{
     "categories": [
         {
-            "url": "http://www.pixiv.net/new_illust.php?p={page:1}",
+            "cid": 1,
             "title": "首页",
-            "cid": 1
+            "url": "http://www.pixiv.net/new_illust.php?p={page:1}"
         },
         {
-            "url": "http://www.pixiv.net/ranking.php?mode=daily&p={page:1}",
+            "cid": 2,
             "title": "综合今日排行榜",
-            "cid": 2
+            "url": "http://www.pixiv.net/ranking.php?mode=daily&p={page:1}"
         },
         {
-            "url": "http://www.pixiv.net/ranking.php?mode=weekly&p={page:1}",
+            "cid": 3,
             "title": "综合本周排行榜",
-            "cid": 3
+            "url": "http://www.pixiv.net/ranking.php?mode=weekly&p={page:1}"
         },
         {
-            "url": "http://www.pixiv.net/ranking.php?mode=monthly&p={page:1}",
+            "cid": 4,
             "title": "综合本月排行榜",
-            "cid": 4
+            "url": "http://www.pixiv.net/ranking.php?mode=monthly&p={page:1}"
         },
         {
-            "url": "http://www.pixiv.net/new_illust_r18.php?p={page:1}",
+            "cid": 5,
             "title": "18R",
-            "cid": 5
+            "url": "http://www.pixiv.net/new_illust_r18.php?p={page:1}"
         },
         {
-            "url": "http://www.pixiv.net/search.php?s_mode=s_tag&word=10000users%E5%85%A5%E3%82%8A&p={page:1}",
+            "cid": 6,
             "title": "10000users入り",
-            "cid": 6
+            "url": "http://www.pixiv.net/search.php?s_mode=s_tag&word=10000users%E5%85%A5%E3%82%8A&p={page:1}"
         },
         {
-            "url": "http://www.pixiv.net/search.php?s_mode=s_tag&word=5000users%E5%85%A5%E3%82%8A&p={page:1}",
+            "cid": 7,
             "title": "5000users入り",
-            "cid": 7
+            "url": "http://www.pixiv.net/search.php?s_mode=s_tag&word=5000users%E5%85%A5%E3%82%8A&p={page:1}"
         },
         {
-            "url": "http://www.pixiv.net/search.php?s_mode=s_tag&word=3000users%E5%85%A5%E3%82%8A&p={page:1}",
+            "cid": 8,
             "title": "3000users入り",
-            "cid": 8
+            "url": "http://www.pixiv.net/search.php?s_mode=s_tag&word=3000users%E5%85%A5%E3%82%8A&p={page:1}"
         },
         {
-            "url": "http://www.pixiv.net/search.php?s_mode=s_tag&word=1000users%E5%85%A5%E3%82%8A&p={page:1}",
+            "cid": 9,
             "title": "1000users入り",
-            "cid": 9
+            "url": "http://www.pixiv.net/search.php?s_mode=s_tag&word=1000users%E5%85%A5%E3%82%8A&p={page:1}"
         },
         {
-            "url": "http://www.pixiv.net/search.php?s_mode=s_tag_full&word=%E3%83%AD%E3%83%AA&p={page:1}",
+            "cid": 10,
             "title": "Loli",
-            "cid": 10
+            "url": "http://www.pixiv.net/search.php?s_mode=s_tag_full&word=%E3%83%AD%E3%83%AA&p={page:1}"
         },
         {
-            "url": "http://www.pixiv.net/search.php?s_mode=s_tag_full&word=%E6%9D%B1%E6%96%B9&p={page:1}",
+            "cid": 11,
             "title": "東方",
-            "cid": 11
+            "url": "http://www.pixiv.net/search.php?s_mode=s_tag_full&word=%E6%9D%B1%E6%96%B9&p={page:1}"
         },
         {
-            "url": "http://www.pixiv.net/search.php?s_mode=s_tag_full&word=%E8%89%A6%E3%81%93%E3%82%8C&p={page:1}",
+            "cid": 12,
             "title": "艦これ",
-            "cid": 12
+            "url": "http://www.pixiv.net/search.php?s_mode=s_tag_full&word=%E8%89%A6%E3%81%93%E3%82%8C&p={page:1}"
         },
         {
-            "url": "http://www.pixiv.net/search.php?s_mode=s_tag_full&word=VOCALOID&p={page:1}",
+            "cid": 13,
             "title": "VOCALOID",
-            "cid": 13
+            "url": "http://www.pixiv.net/search.php?s_mode=s_tag_full&word=VOCALOID&p={page:1}"
         }
     ],
     "extraRule": {
@@ -101,8 +101,8 @@
         },
         "pictureUrl": {
             "fun": "html",
-            "regex": "\"(member_illust.php\\?mode=manga.*?|http://.*?.jpg)\"",
-            "selector": "div.works_display"
+            "regex": "\"(member_illust.php\\?mode=manga.*?|http://i\\d.pixiv.net/img-original/img/.*?.png)\"",
+            "selector": "div#wrapper"
         },
         "rating": {
             "fun": "html",
@@ -124,8 +124,8 @@
         }
     },
     "galleryUrl": "http://www.pixiv.net/member_illust.php?mode=medium&illust_id={idCode:}",
-    "title": "Pixiv",
-    "searchUrl": "http://www.pixiv.net/search.php?word={keyword:}&p={page:1}",
+    "gid": 0,
+    "index": 0,
     "indexRule": {
         "category": {
             "fun": "html",
@@ -160,7 +160,7 @@
     },
     "indexUrl": "http://www.pixiv.net/new_illust.php?p={page:1}",
     "loginUrl": "https://accounts.pixiv.net/login",
-    "index": 0,
+    "searchUrl": "http://www.pixiv.net/search.php?word={keyword:}&p={page:1}",
     "sid": 0,
-    "gid": 0
+    "title": "Pixiv"
 }

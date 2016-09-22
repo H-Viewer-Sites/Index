@@ -10,7 +10,7 @@ All sites for H-Viewer
 |  ID  | Site's Json  | QR Code | Author |
 | ---- | ------------- | ------------- | ------------- |
 |  1   | [E-shuushuu](https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/E-shuushuu.txt) | ![](https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/images/E-shuushuu.png)  | PureDark |
-|  2   | [Pixiv](https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/Pixiv.txt) | ![](https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/images/Pixiv.png)  | [manhong2112](https://github.com/manhong2112) |
+|  2   | [Pixiv](https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/Pixiv.txt) | ![](https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/images/Pixiv.png)  | PureDark <br> & <br> [manhong2112](https://github.com/manhong2112) |
 |  3   | [二次萌エロ画像ブログ](https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/二次萌エロ画像ブログ.txt) | ![](https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/images/二次萌エロ画像ブログ.png)  | PureDark |
 |  4   | [二次元のエッチな画像](https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/二次元のエッチな画像.txt) | ![](https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/images/二次元のエッチな画像.png)  | PureDark |
 
