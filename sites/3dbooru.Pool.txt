@@ -43,7 +43,7 @@
             "selector": "td:eq(0) > a"
         },
         "item": {
-            "selector": "#pool-index > table tr:gt(0)"
+            "selector": "#pool-index > table > tbody > tr"
         },
         "title": {
             "fun": "html",
