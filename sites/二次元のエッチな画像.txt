@@ -39,7 +39,7 @@
                 "selector": "a"
             },
             "item": {
-                "selector": "section>div.post , #mainContent>div.post"
+                "selector": "section>div.post:not(.add) , #mainContent>div.post:not(.add)"
             },
             "title": {
                 "fun": "html",
