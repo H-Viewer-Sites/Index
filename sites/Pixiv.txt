@@ -101,7 +101,7 @@
         },
         "pictureUrl": {
             "fun": "html",
-            "regex": "\"(member_illust.php\\?mode=manga.*?|http://i\\d.pixiv.net/img-original/img/.*?.png)\"",
+            "regex": "\"(member_illust.php\\?mode=manga.*?|http://i\\d.pixiv.net/img-original/img/.*?\\.(png|jpg|bmp|gif)))\"",
             "selector": "div#wrapper"
         },
         "rating": {
