@@ -1,59 +1,110 @@
-﻿{
-    "flag": "noTitle",
-    "galleryRule": {
-        "item": {
-            "selector": "div.content"
+﻿    {
+        "categories": [
+            {
+                "cid": 1,
+                "title": "首页",
+                "url": "http://behoimi.org/post?page={page:1}"
+            },
+            {
+                "cid": 2,
+                "title": "热门（过去一天）",
+                "url": "http://behoimi.org/post/popular_by_day"
+            },
+            {
+                "cid": 3,
+                "title": "热门（过去一周）",
+                "url": "http://behoimi.org/post/popular_by_week"
+            },
+            {
+                "cid": 4,
+                "title": "热门（过去一月）",
+                "url": "http://behoimi.org/post/popular_by_month"
+            },
+            {
+                "cid": 6,
+                "title": "热门（2016年）",
+                "url": "http://behoimi.org/post/popular_by_month?month={page:1}&year=2016"
+            },
+            {
+                "cid": 7,
+                "title": "热门（2015年）",
+                "url": "http://behoimi.org/post/popular_by_month?month={page:1}&year=2015"
+            },
+            {
+                "cid": 8,
+                "title": "热门（2014年）",
+                "url": "http://behoimi.org/post/popular_by_month?month={page:1}&year=2014"
+            },
+            {
+                "cid": 9,
+                "title": "热门（2013年）",
+                "url": "http://behoimi.org/post/popular_by_month?month={page:1}&year=2013"
+            }
+        ],
+        "cookie": "",
+        "flag": "noTitle",
+        "galleryRule": {
+            "item": {
+                "selector": "body"
+            },
+            "pictureHighRes": {
+                "fun": "html",
+                "regex": "\"(http://behoimi.org/data/(?!sample)[^\"]*?\\.(jpg|jpeg|png|gif|bmp))\"",
+                "selector": "#post-view"
+            },
+            "pictureThumbnail": {
+                "fun": "attr",
+                "param": "src",
+                "regex": "(http://behoimi.org/data)(/sample)?/([^\"]*?)/(sample)?([^/]*)\\.",
+                "replacement": "$1/preview/$3/$5.jpg",
+                "selector": "img#image"
+            },
+            "pictureUrl": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "img#image"
+            }
         },
-        "pictureThumbnail": {
-            "fun": "attr",
-            "param": "src",
-            "selector": "img#image"
+        "galleryUrl": "http://behoimi.org/post/show/{idCode:}",
+        "gid": 0,
+        "index": 0,
+        "indexRule": {
+            "cover": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "a > img"
+            },
+            "idCode": {
+                "fun": "attr",
+                "param": "href",
+                "regex": "/post/show/(\\d+)",
+                "selector": "a"
+            },
+            "item": {
+                "selector": "span.thumb"
+            },
+            "rating": {
+                "fun": "attr",
+                "param": "title",
+                "regex": "rating:.*?(\\d+)",
+                "selector": "a > img"
+            },
+            "tags": {
+                "fun": "attr",
+                "param": "title",
+                "regex": " ([a-z_]+)",
+                "selector": "a > img"
+            },
+            "uploader": {
+                "fun": "attr",
+                "param": "title",
+                "regex": "user:(\\w+)",
+                "selector": "a > img"
+            }
         },
-        "pictureUrl": {
-            "fun": "attr",
-            "param": "src",
-            "selector": "img#image"
-        }
-    },
-    "galleryUrl": "http://behoimi.org/post/show/{idCode:}",
-    "index": 0,
-    "indexRule": {
-        "cover": {
-            "fun": "attr",
-            "param": "src",
-            "selector": "a > img"
-        },
-        "idCode": {
-            "fun": "attr",
-            "param": "href",
-            "regex": "/post/show/(\\d+)",
-            "selector": "a"
-        },
-        "item": {
-            "selector": "span.thumb"
-        },
-        "rating": {
-            "fun": "attr",
-            "param": "title",
-            "regex": "rating:.*?(\\d+)",
-            "selector": "a > img"
-        },
-        "tags": {
-            "fun": "attr",
-            "param": "title",
-            "regex": " ([a-z_]+)",
-            "selector": "a > img"
-        },
-        "uploader": {
-            "fun": "attr",
-            "param": "title",
-            "regex": "user:(\\w+)",
-            "selector": "a > img"
-        }
-    },
-    "indexUrl": "http://behoimi.org/post?page={page:1}",
-    "loginUrl": "http://behoimi.org/user/login",
-    "searchUrl": "http://behoimi.org/post?tags={keyword:}&page={page:1}",
-    "sid": 0,
-    "title": "3dbooru Post"
-}
+        "indexUrl": "http://behoimi.org/post?page={page:1}",
+        "loginUrl": "http://behoimi.org/user/login",
+        "searchUrl": "http://behoimi.org/post?tags={keyword:}&page={page:1}",
+        "sid": 37,
+        "title": "3dbooru Post"
+    }

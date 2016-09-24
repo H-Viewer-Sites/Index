@@ -1,62 +1,73 @@
-﻿{
-    "extraRule": {
-        "pictureUrl": {
-            "fun": "attr",
-            "param": "src",
-            "selector": "#image"
-        }
-    },
-    "flag": "singlePageBigPicture|preloadGallery",
-    "galleryRule": {
-        "cover": {
-            "fun": "attr",
-            "param": "src",
-            "selector": "span.thumb:first-child img"
+﻿    {
+        "cookie": "",
+        "extraRule": {
+            "pictureHighRes": {
+                "fun": "html",
+                "regex": "\"(http://behoimi.org/data/(?!sample)[^\"]*?\\.(jpg|jpeg|png|gif|bmp))\"",
+                "selector": "#post-view"
+            },
+            "pictureUrl": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "img#image"
+            }
         },
-        "item": {
-            "selector": "span.thumb"
+        "flag": "singlePageBigPicture|preloadGallery",
+        "galleryRule": {
+            "cover": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "span.thumb:first-child img"
+            },
+            "description": {
+                "fun": "html",
+                "selector": "#pool-show > div:nth-child(2)"
+            },
+            "item": {
+                "selector": "span.thumb"
+            },
+            "pictureThumbnail": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "a > img"
+            },
+            "pictureUrl": {
+                "fun": "attr",
+                "param": "href",
+                "selector": "a"
+            }
         },
-        "pictureThumbnail": {
-            "fun": "attr",
-            "param": "src",
-            "selector": "a > img"
+        "galleryUrl": "http://behoimi.org/pool/show/{idCode:}?page={page:1}",
+        "gid": 0,
+        "index": 0,
+        "indexRule": {
+            "datetime": {
+                "fun": "html",
+                "regex": "(\\d+)",
+                "replacement": "共 $1 页",
+                "selector": "td:eq(2)"
+            },
+            "idCode": {
+                "fun": "attr",
+                "param": "href",
+                "regex": "/pool/show/(\\d+)",
+                "selector": "td:eq(0) > a"
+            },
+            "item": {
+                "selector": "#pool-index > table > tbody > tr"
+            },
+            "title": {
+                "fun": "html",
+                "selector": "td:eq(0) > a"
+            },
+            "uploader": {
+                "fun": "html",
+                "selector": "td:eq(1) > a"
+            }
         },
-        "pictureUrl": {
-            "fun": "attr",
-            "param": "href",
-            "selector": "a"
-        }
-    },
-    "galleryUrl": "http://behoimi.org/pool/show/{idCode:}?page={page:1}",
-    "index": 0,
-    "indexRule": {
-        "datetime": {
-            "fun": "html",
-            "regex": "(\\d+)",
-            "replacement": "共 $1 页",
-            "selector": "td:eq(2)"
-        },
-        "idCode": {
-            "fun": "attr",
-            "param": "href",
-            "regex": "/pool/show/(\\d+)",
-            "selector": "td:eq(0) > a"
-        },
-        "item": {
-            "selector": "#pool-index > table > tbody > tr"
-        },
-        "title": {
-            "fun": "html",
-            "selector": "td:eq(0) > a"
-        },
-        "uploader": {
-            "fun": "html",
-            "selector": "td:eq(1) > a"
-        }
-    },
-    "indexUrl": "http://behoimi.org/pool?page={page:1}",
-    "loginUrl": "http://behoimi.org/user/login",
-    "searchUrl": "http://behoimi.org/pool?query={keyword:}?page={page:1}",
-    "sid": 0,
-    "title": "3dbooru Pool"
-}
+        "indexUrl": "http://behoimi.org/pool?page={page:1}",
+        "loginUrl": "http://behoimi.org/user/login",
+        "searchUrl": "http://behoimi.org/pool?query={keyword:}?page={page:1}",
+        "sid": 38,
+        "title": "3dbooru Pool"
+    }

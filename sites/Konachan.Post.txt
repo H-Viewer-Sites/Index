@@ -1,14 +1,72 @@
-﻿{
+﻿    {
+        "categories": [
+            {
+                "cid": 1,
+                "title": "首页",
+                "url": "https://konachan.net/post?page={page:1}"
+            },
+            {
+                "cid": 2,
+                "title": "随机",
+                "url": "https://konachan.net/post?page={page:1}&tags=order%3Arandom"
+            },
+            {
+                "cid": 3,
+                "title": "热门（过去一天）",
+                "url": "https://konachan.net/post/popular_recent?period=1d"
+            },
+            {
+                "cid": 4,
+                "title": "热门（过去一周）",
+                "url": "https://konachan.net/post/popular_recent?period=1w"
+            },
+            {
+                "cid": 5,
+                "title": "热门（过去一月）",
+                "url": "https://konachan.net/post/popular_recent?period=1m"
+            },
+            {
+                "cid": 6,
+                "title": "热门（过去一年）",
+                "url": "https://konachan.net/post/popular_recent?period=1y"
+            },
+            {
+                "cid": 7,
+                "title": "热门（2016年）",
+                "url": "https://konachan.net/post/popular_by_month?month={page:1}&year=2016"
+            },
+            {
+                "cid": 8,
+                "title": "热门（2015年）",
+                "url": "https://konachan.net/post/popular_by_month?month={page:1}&year=2015"
+            },
+            {
+                "cid": 9,
+                "title": "热门（2014年）",
+                "url": "https://konachan.net/post/popular_by_month?month={page:1}&year=2014"
+            },
+            {
+                "cid": 10,
+                "title": "热门（2013年）",
+                "url": "https://konachan.net/post/popular_by_month?month={page:1}&year=2013"
+            }
+        ],
         "cookie": "",
         "flag": "noTitle",
         "galleryRule": {
             "item": {
-                "selector": "div.content"
+                "selector": "body"
+            },
+            "pictureHighRes": {
+                "fun": "html",
+                "regex": "\"(http://konachan.net/image/[^\"]*?\\.(jpg|jpeg|png|gif|bmp))\"",
+                "selector": "#post-view"
             },
             "pictureThumbnail": {
-                "fun": "attr",
-                "param": "src",
-                "selector": "img#image"
+                "fun": "html",
+                "regex": "\"http:\\\\/\\\\/konachan.net\\\\/data\\\\/preview\\\\/([^\"]*?\\.(jpg|jpeg|png|gif|bmp))\"",
+                "replacement": "http://konachan.net/data/preview/$1",
+                "selector": "#post-view"
             },
             "pictureUrl": {
                 "fun": "attr",
@@ -17,7 +75,8 @@
             }
         },
         "galleryUrl": "https://konachan.net/post/show/{idCode:}",
-        "title": "Konachan Post",
+        "gid": 0,
+        "index": 0,
         "indexRule": {
             "category": {
                 "fun": "html",
@@ -60,5 +119,5 @@
         "loginUrl": "https://konachan.net/user/login",
         "searchUrl": "https://konachan.net/post?tags={keyword:}&page={page:1}",
         "sid": 35,
-        "index": 0
+        "title": "Konachan Post"
     }

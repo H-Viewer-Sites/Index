@@ -1,6 +1,11 @@
-﻿{
+﻿    {
         "cookie": "",
         "extraRule": {
+            "pictureHighRes": {
+                "fun": "html",
+                "regex": "\"(https://lolibooru.moe/image/[^\"]*?\\.(jpg|jpeg|png|gif|bmp))\"",
+                "selector": "#post-view"
+            },
             "pictureUrl": {
                 "fun": "attr",
                 "param": "src",
@@ -9,14 +14,14 @@
         },
         "flag": "singlePageBigPicture|preloadGallery",
         "galleryRule": {
-            "description": {
-                "fun": "html",
-                "selector": "#pool-show > div:nth-child(2)"
-            },
             "cover": {
                 "fun": "attr",
                 "param": "src",
                 "selector": "#post-list-posts > li:first-child a.thumb > img"
+            },
+            "description": {
+                "fun": "html",
+                "selector": "#pool-show > div:nth-child(2)"
             },
             "item": {
                 "selector": "#post-list-posts > li"
@@ -33,7 +38,8 @@
             }
         },
         "galleryUrl": "https://lolibooru.moe/pool/show/{idCode:}",
-        "title": "Lolibooru Pool",
+        "gid": 0,
+        "index": 0,
         "indexRule": {
             "category": {
                 "fun": "html",
@@ -67,5 +73,5 @@
         "loginUrl": "https://lolibooru.moe/user/login",
         "searchUrl": "https://lolibooru.moe/pool?query={keyword:}&page={page:1}",
         "sid": 34,
-        "index": 0
+        "title": "Lolibooru Pool"
     }

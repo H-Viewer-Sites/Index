@@ -1,66 +1,72 @@
-﻿{
-    "extraRule": {
-        "pictureUrl": {
-            "fun": "attr",
-            "param": "src",
-            "selector": "img#image"
-        }
-    },
-    "flag": "singlePageBigPicture|preloadGallery",
-    "galleryRule": {
-        "description": {
-            "fun": "html",
-            "selector": "div#content > div"
+﻿    {
+        "cookie": "",
+        "extraRule": {
+            "pictureHighRes": {
+                "fun": "html",
+                "regex": "\"(http://img.xbooru.com//images/[^\"]*?\\.(jpg|jpeg|png|gif|bmp))\"",
+                "selector": "#post-view"
+            },
+            "pictureUrl": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "img#image"
+            }
         },
-        "cover": {
-            "fun": "attr",
-            "param": "src",
-            "selector": "span.thumb img"
+        "flag": "singlePageBigPicture|preloadGallery",
+        "galleryRule": {
+            "cover": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "span.thumb img"
+            },
+            "description": {
+                "fun": "html",
+                "selector": "div#content > div"
+            },
+            "item": {
+                "selector": "span.thumb"
+            },
+            "pictureThumbnail": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "a > img"
+            },
+            "pictureUrl": {
+                "fun": "attr",
+                "param": "href",
+                "selector": "a"
+            }
         },
-        "item": {
-            "selector": "span.thumb"
+        "galleryUrl": "http://xbooru.com/index.php?page=pool&s=show&id={idCode:}",
+        "gid": 0,
+        "index": 0,
+        "indexRule": {
+            "datetime": {
+                "fun": "html",
+                "regex": "(\\d+)",
+                "replacement": "共 $1 页",
+                "selector": "td:eq(2)"
+            },
+            "idCode": {
+                "fun": "attr",
+                "param": "href",
+                "regex": "id=(\\d+)",
+                "selector": "td:eq(0) > a"
+            },
+            "item": {
+                "selector": "#pool-index > table > tbody > tr"
+            },
+            "title": {
+                "fun": "html",
+                "selector": "td:eq(0) > a"
+            },
+            "uploader": {
+                "fun": "html",
+                "selector": "td:eq(1) > a"
+            }
         },
-        "pictureThumbnail": {
-            "fun": "attr",
-            "param": "src",
-            "selector": "a > img"
-        },
-        "pictureUrl": {
-            "fun": "attr",
-            "param": "href",
-            "selector": "a"
-        }
-    },
-    "galleryUrl": "http://xbooru.com/index.php?page=pool&s=show&id={idCode:}",
-    "gid": 0,
-    "index": 0,
-    "indexRule": {
-        "datetime": {
-            "fun": "html",
-            "regex": "(\\d+)",
-            "replacement": "共 $1 页",
-            "selector": "td:eq(2)"
-        },
-        "idCode": {
-            "fun": "attr",
-            "param": "href",
-            "regex": "id=(\\d+)",
-            "selector": "td:eq(0) > a"
-        },
-        "item": {
-            "selector": "#pool-index > table > tbody > tr"
-        },
-        "title": {
-            "fun": "html",
-            "selector": "td:eq(0) > a"
-        },
-        "uploader": {
-            "fun": "html",
-            "selector": "td:eq(1) > a"
-        }
-    },
-    "indexUrl": "http://xbooru.com/index.php?page=pool&s=list&pid={page:0:25}",
-    "loginUrl": "http://gelbooru.com/index.php?page=account&s=login&code=00",
-    "sid": 0,
-    "title": "Xbooru Pool"
-}
+        "indexUrl": "http://xbooru.com/index.php?page=pool&s=list&pid={page:0:25}",
+        "loginUrl": "http://gelbooru.com/index.php?page=account&s=login&code=00",
+        "sid": 42,
+        "title": "Xbooru Pool"
+    }

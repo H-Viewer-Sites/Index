@@ -1,70 +1,76 @@
-﻿{
-    "extraRule": {
-        "pictureUrl": {
-            "fun": "attr",
-            "param": "src",
-            "selector": "img#image"
-        }
-    },
-    "flag": "singlePageBigPicture|preloadGallery",
-    "galleryRule": {
-        "description": {
-            "fun": "html",
-            "selector": "div#content > div"
+﻿    {
+        "cookie": "",
+        "extraRule": {
+            "pictureHighRes": {
+                "fun": "html",
+                "regex": "\"(http://gelbooru.com//images/[^\"]*?\\.(jpg|jpeg|png|gif|bmp))\"",
+                "selector": "#post-view"
+            },
+            "pictureUrl": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "img#image"
+            }
         },
-        "cover": {
-            "fun": "attr",
-            "param": "src",
-            "selector": "span.thumb img"
+        "flag": "singlePageBigPicture|preloadGallery",
+        "galleryRule": {
+            "cover": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "span.thumb img"
+            },
+            "description": {
+                "fun": "html",
+                "selector": "div#content > div"
+            },
+            "item": {
+                "selector": "span.thumb"
+            },
+            "pictureThumbnail": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "a > img"
+            },
+            "pictureUrl": {
+                "fun": "attr",
+                "param": "href",
+                "selector": "a"
+            }
         },
-        "item": {
-            "selector": "span.thumb"
+        "galleryUrl": "http://gelbooru.com/index.php?page=pool&s=show&id={idCode:}",
+        "gid": 0,
+        "index": 0,
+        "indexRule": {
+            "category": {
+                "fun": "html",
+                "selector": "td:nth-child(4)"
+            },
+            "datetime": {
+                "fun": "html",
+                "regex": "(\\d+)",
+                "replacement": "共 $1 页",
+                "selector": "td:nth-child(3)"
+            },
+            "idCode": {
+                "fun": "attr",
+                "param": "href",
+                "regex": "id=(\\d+)",
+                "selector": "td:first-child > a"
+            },
+            "item": {
+                "selector": "#content > table tr"
+            },
+            "title": {
+                "fun": "html",
+                "selector": "td:nth-child(2)> div:first-child > a"
+            },
+            "uploader": {
+                "fun": "html",
+                "selector": "td:nth-child(2) > span > a"
+            }
         },
-        "pictureThumbnail": {
-            "fun": "attr",
-            "param": "src",
-            "selector": "a > img"
-        },
-        "pictureUrl": {
-            "fun": "attr",
-            "param": "href",
-            "selector": "a"
-        }
-    },
-    "galleryUrl": "http://gelbooru.com/index.php?page=pool&s=show&id={idCode:}",
-    "gid": 0,
-    "index": 0,
-    "indexRule": {
-        "category": {
-            "fun": "html",
-            "selector": "td:nth-child(4)"
-        },
-        "datetime": {
-            "fun": "html",
-            "regex": "(\\d+)",
-            "replacement": "共 $1 页",
-            "selector": "td:nth-child(3)"
-        },
-        "idCode": {
-            "fun": "attr",
-            "param": "href",
-            "regex": "id=(\\d+)",
-            "selector": "td:first-child > a"
-        },
-        "item": {
-            "selector": "#content > table tr"
-        },
-        "title": {
-            "fun": "html",
-            "selector": "td:nth-child(2)> div:first-child > a"
-        },
-        "uploader": {
-            "fun": "html",
-            "selector": "td:nth-child(2) > span > a"
-        }
-    },
-    "indexUrl": "http://gelbooru.com/index.php?page=pool&s=list&pid={page:0:25}",
-    "loginUrl": "http://gelbooru.com/index.php?page=account&s=login&code=00",
-    "sid": 0,
-    "title": "Gelbooru Pool"
-}
+        "indexUrl": "http://gelbooru.com/index.php?page=pool&s=list&pid={page:0:25}",
+        "loginUrl": "http://gelbooru.com/index.php?page=account&s=login&code=00",
+        "sid": 40,
+        "title": "Gelbooru Pool"
+    }

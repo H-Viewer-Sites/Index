@@ -1,61 +1,69 @@
-﻿{
-    "flag": "noTitle",
-    "galleryRule": {
-        "item": {
-            "selector": "div.content"
+﻿    {
+        "cookie": "",
+        "flag": "noTitle",
+        "galleryRule": {
+            "item": {
+                "selector": "body"
+            },
+            "pictureHighRes": {
+                "fun": "html",
+                "regex": "\"(http://img.xbooru.com//images/[^\"]*?\\.(jpg|jpeg|png|gif|bmp))\"",
+                "selector": "#post-view"
+            },
+            "pictureThumbnail": {
+                "fun": "attr",
+                "param": "src",
+                "regex": "http://img.xbooru.com//(samples|images)/([^\"]*)/(sample_)?([^/]*)\\.",
+                "replacement": "http://img.xbooru.com/thumbnails/$2/thumbnail_$4.jpg",
+                "selector": "img#image"
+            },
+            "pictureUrl": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "img#image"
+            }
         },
-        "pictureThumbnail": {
-            "fun": "attr",
-            "param": "src",
-            "selector": "img#image"
+        "galleryUrl": "http://xbooru.com/index.php?page=post&s=view&id={idCode:}",
+        "gid": 0,
+        "index": 0,
+        "indexRule": {
+            "cover": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "a > img"
+            },
+            "idCode": {
+                "fun": "attr",
+                "param": "href",
+                "regex": "&id=(\\d+)",
+                "selector": "a"
+            },
+            "item": {
+                "selector": "span.thumb"
+            },
+            "rating": {
+                "fun": "attr",
+                "param": "title",
+                "regex": "score:.*?(\\d+)",
+                "selector": "a > img"
+            },
+            "tags": {
+                "fun": "attr",
+                "param": "title",
+                "regex": " ([a-z_]+)",
+                "selector": "a > img"
+            },
+            "uploader": {
+                "fun": "attr",
+                "param": "title",
+                "regex": "rating:(\\w+)",
+                "replacement": "安全等级：$1",
+                "selector": "a > img"
+            }
         },
-        "pictureUrl": {
-            "fun": "attr",
-            "param": "src",
-            "selector": "img#image"
-        }
-    },
-    "galleryUrl": "http://xbooru.com/index.php?page=post&s=view&id={idCode:}",
-    "gid": 0,
-    "index": 0,
-    "indexRule": {
-        "cover": {
-            "fun": "attr",
-            "param": "src",
-            "selector": "a > img"
-        },
-        "idCode": {
-            "fun": "attr",
-            "param": "href",
-            "regex": "&id=(\\d+)",
-            "selector": "a"
-        },
-        "item": {
-            "selector": "span.thumb"
-        },
-        "rating": {
-            "fun": "attr",
-            "param": "title",
-            "regex": "score:.*?(\\d+)",
-            "selector": "a > img"
-        },
-        "tags": {
-            "fun": "attr",
-            "param": "title",
-            "regex": " ([a-z_]+)",
-            "selector": "a > img"
-        },
-        "uploader": {
-            "fun": "attr",
-            "param": "title",
-            "regex": "rating:(\\w+)",
-            "replacement": "安全等级：$1",
-            "selector": "a > img"
-        }
-    },
-    "indexUrl": "http://xbooru.com/index.php?page=post&s=list&pid={page:0:42}",
-    "loginUrl": "http://xbooru.com/index.php?page=account&s=login&code=00",
-    "searchUrl": "http://xbooru.com/index.php?page=post&s=list&tags={keyword:}&pid={page:0:42}",
-    "sid": 0,
-    "title": "Xbooru Post"
-}
+        "indexUrl": "http://xbooru.com/index.php?page=post&s=list&pid={page:0:42}",
+        "loginUrl": "http://xbooru.com/index.php?page=account&s=login&code=00",
+        "searchUrl": "http://xbooru.com/index.php?page=post&s=list&tags={keyword:}&pid={page:0:42}",
+        "sid": 41,
+        "title": "Xbooru Post"
+    }
