@@ -4,7 +4,9 @@
             "pictureUrl": {
                 "fun": "attr",
                 "param": "src",
-                "selector": "img#picarea"
+                "regex": "(.*)",
+                "replacement": "https:$1",
+                "selector": "#image-container a img"
             }
         },
         "flag": "singlePageBigPicture|noRating|noTag",
