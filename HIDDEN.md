@@ -15,8 +15,8 @@ All sites for H-Viewer
 |  4   | [二次元のエッチな画像](https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/二次元のエッチな画像.txt) | ![](https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/images/二次元のエッチな画像.png)  | PureDark |
 
 
-### Booru图站 —— ACG picture sites
-#### Post是单张图，Pool是图册，上过booru的朋友都明白）
+### Booru图站 —— Booru sites
+#### Post是单张图，Pool是图册，上过booru的朋友都明白
 
 |  ID  | Site's Json  | QR Code | Author |
 | ---- | ------------- | ------------- | ------------- |
@@ -46,7 +46,7 @@ All sites for H-Viewer
 |  6   | [177漫画](https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/177漫画.txt) | ![](https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/images/177漫画.png)  | PureDark |
 
 
-### 真人图站  
+### 真人图站 —— Reality Sites
 
 |  ID  | Site's Json  | QR Code | Author |
 | ---- | ------------- | ------------- | ------------- |
