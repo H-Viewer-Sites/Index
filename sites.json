@@ -1,0 +1,268 @@
+[
+    {
+        "cid": 1,
+        "title": "ACG图站",
+        "english": "ACG picture sites",
+        "r18": false,
+        "sites": [
+            {
+                "sid": 101,
+                "title": "E-shuushuu",
+                "author": "PureDark",
+                "json": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/E-shuushuu.txt",
+                "versionCode": 1,
+                "lastUpdate": "2016-09-27 01:36:05",
+                "r18": false
+            },
+            {
+                "sid": 102,
+                "title": "Pixiv",
+                "author": "PureDark & manhong2112",
+                "json": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/Pixiv.txt",
+                "versionCode": 1,
+                "lastUpdate": "2016-09-27 01:36:05",
+                "r18": false
+            },
+            {
+                "sid": 103,
+                "title": "二次萌エロ画像ブログ",
+                "author": "PureDark",
+                "json": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/%E4%BA%8C%E6%AC%A1%E8%90%8C%E3%82%A8%E3%83%AD%E7%94%BB%E5%83%8F%E3%83%96%E3%83%AD%E3%82%B0.txt",
+                "versionCode": 1,
+                "lastUpdate": "2016-09-27 01:36:05",
+                "r18": true
+            },
+            {
+                "sid": 104,
+                "title": "二次元のエッチな画像",
+                "author": "PureDark",
+                "json": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/%E4%BA%8C%E6%AC%A1%E5%85%83%E3%81%AE%E3%82%A8%E3%83%83%E3%83%81%E3%81%AA%E7%94%BB%E5%83%8F.txt",
+                "versionCode": 1,
+                "lastUpdate": "2016-09-27 01:36:05",
+                "r18": true
+            }
+        ]
+    },
+    {
+        "cid": 2,
+        "title": "Booru图站",
+        "english": "Booru sites",
+        "r18": false,
+        "sites": [
+            {
+                "sid": 201,
+                "title": "Yande Post",
+                "author": "PureDark",
+                "json": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/Yande.re.Post.txt",
+                "versionCode": 1,
+                "lastUpdate": "2016-09-27 01:36:05",
+                "r18": true
+            },
+            {
+                "sid": 202,
+                "title": "Yande Pool",
+                "author": "PureDark",
+                "json": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/Yande.re.Pool.txt",
+                "versionCode": 1,
+                "lastUpdate": "2016-09-27 01:36:05",
+                "r18": true
+            },
+            {
+                "sid": 203,
+                "title": "Lolibooru Post",
+                "author": "PureDark",
+                "json": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/Lolibooru.Post.txt",
+                "versionCode": 1,
+                "lastUpdate": "2016-09-27 01:36:05",
+                "r18": true
+            },
+            {
+                "sid": 204,
+                "title": "Lolibooru Pool",
+                "author": "PureDark",
+                "json": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/Lolibooru.Pool.txt",
+                "versionCode": 1,
+                "lastUpdate": "2016-09-27 01:36:05",
+                "r18": true
+            },
+            {
+                "sid": 205,
+                "title": "Konachan Post",
+                "author": "PureDark",
+                "json": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/Konachan.Post.txt",
+                "versionCode": 1,
+                "lastUpdate": "2016-09-27 01:36:05",
+                "r18": false
+            },
+            {
+                "sid": 206,
+                "title": "Konachan Pool",
+                "author": "PureDark",
+                "json": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/Konachan.Pool.txt",
+                "versionCode": 1,
+                "lastUpdate": "2016-09-27 01:36:05",
+                "r18": false
+            },
+            {
+                "sid": 207,
+                "title": "3dbooru Post",
+                "author": "PureDark",
+                "json": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/3dbooru.Post.txt",
+                "versionCode": 1,
+                "lastUpdate": "2016-09-27 01:36:05",
+                "r18": false
+            },
+            {
+                "sid": 208,
+                "title": "3dbooru Pool",
+                "author": "PureDark",
+                "json": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/3dbooru.Pool.txt",
+                "versionCode": 1,
+                "lastUpdate": "2016-09-27 01:36:05",
+                "r18": false
+            },
+            {
+                "sid": 209,
+                "title": "Gelbooru Post",
+                "author": "PureDark",
+                "json": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/Gelbooru.Post.txt",
+                "versionCode": 1,
+                "lastUpdate": "2016-09-27 01:36:05",
+                "r18": true
+            },
+            {
+                "sid": 210,
+                "title": "Gelbooru Pool",
+                "author": "PureDark",
+                "json": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/Gelbooru.Pool.txt",
+                "versionCode": 1,
+                "lastUpdate": "2016-09-27 01:36:05",
+                "r18": true
+            },
+            {
+                "sid": 211,
+                "title": "Xbooru Post",
+                "author": "PureDark",
+                "json": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/Xbooru.Post.txt",
+                "versionCode": 1,
+                "lastUpdate": "2016-09-27 01:36:05",
+                "r18": true
+            },
+            {
+                "sid": 212,
+                "title": "Xbooru Pool",
+                "author": "PureDark",
+                "json": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/Xbooru.Pool.txt",
+                "versionCode": 1,
+                "lastUpdate": "2016-09-27 01:36:05",
+                "r18": true
+            }
+        ]
+    },
+    {
+        "cid": 3,
+        "title": "绅士漫画站",
+        "english": "Hentai manga sites",
+        "r18": true,
+        "sites": [
+            {
+                "sid": 301,
+                "title": "Lofi.e-hentai",
+                "author": "PureDark",
+                "json": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/lofi.e-hentai.txt",
+                "versionCode": 1,
+                "lastUpdate": "2016-09-27 01:36:05",
+                "r18": true
+            },
+            {
+                "sid": 302,
+                "title": "G.e-hentai",
+                "author": "PureDark",
+                "json": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/g.e-hentai.txt",
+                "versionCode": 1,
+                "lastUpdate": "2016-09-27 01:36:05",
+                "r18": true
+            },
+            {
+                "sid": 303,
+                "title": "Ex-hentai",
+                "author": "PureDark",
+                "json": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/exhentai.txt",
+                "versionCode": 1,
+                "lastUpdate": "2016-09-27 01:36:05",
+                "r18": true
+            },
+            {
+                "sid": 304,
+                "title": "绅士漫画",
+                "author": "PureDark",
+                "json": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/wnacg.txt",
+                "versionCode": 1,
+                "lastUpdate": "2016-09-27 01:36:05",
+                "r18": true
+            },
+            {
+                "sid": 305,
+                "title": "nhentai",
+                "author": "PureDark",
+                "json": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/nhentai.txt",
+                "versionCode": 1,
+                "lastUpdate": "2016-09-27 01:36:05",
+                "r18": true
+            },
+            {
+                "sid": 306,
+                "title": "177漫画",
+                "author": "PureDark",
+                "json": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/177%E6%BC%AB%E7%94%BB.txt",
+                "versionCode": 1,
+                "lastUpdate": "2016-09-27 01:36:05",
+                "r18": true
+            }
+        ]
+    },
+    {
+        "cid": 4,
+        "title": "真人图站",
+        "english": "Reality Sites",
+        "r18": false,
+        "sites": [
+            {
+                "sid": 401,
+                "title": "草榴社区",
+                "author": "PureDark",
+                "json": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/1024.txt",
+                "versionCode": 1,
+                "lastUpdate": "2016-09-27 01:36:05",
+                "r18": true
+            },
+            {
+                "sid": 402,
+                "title": "秀人",
+                "author": "lbq",
+                "json": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/%E7%A7%80%E4%BA%BA.txt",
+                "versionCode": 1,
+                "lastUpdate": "2016-09-27 01:36:05",
+                "r18": false
+            },
+            {
+                "sid": 403,
+                "title": "Rosi",
+                "author": "vvyoko",
+                "json": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/Rosi.txt",
+                "versionCode": 1,
+                "lastUpdate": "2016-09-27 01:36:05",
+                "r18": false
+            },
+            {
+                "sid": 404,
+                "title": "绝对领域",
+                "author": "PureDark",
+                "json": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/%E7%BB%9D%E5%AF%B9%E9%A2%86%E5%9F%9F.txt",
+                "versionCode": 1,
+                "lastUpdate": "2016-09-27 01:36:05",
+                "r18": false
+            }
+        ]
+    }
+]
