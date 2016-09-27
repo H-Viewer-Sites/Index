@@ -59,7 +59,7 @@
         "sites": [
             {
                 "sid": 201,
-                "title": "Yande Post",
+                "title": "Yande.re Post",
                 "author": "PureDark",
                 "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/icons/Yande.re.png",
                 "description": "主收高清图，大分辨率扫描图",
@@ -70,7 +70,7 @@
             },
             {
                 "sid": 202,
-                "title": "Yande Pool",
+                "title": "Yande.re Pool",
                 "author": "PureDark",
                 "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/icons/Yande.re.png",
                 "description": "这是yande的图集",
@@ -199,7 +199,7 @@
         "sites": [
             {
                 "sid": 301,
-                "title": "Lofi.e-hentai",
+                "title": "Lofi.E-hentai",
                 "author": "PureDark",
                 "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/icons/Ehentai.png",
                 "description": "E绅士的移动版，优点是能读取到TAG，缺点是图片画质较低",
@@ -210,7 +210,7 @@
             },
             {
                 "sid": 302,
-                "title": "G.e-hentai",
+                "title": "G.E-hentai",
                 "author": "PureDark",
                 "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/icons/Ehentai.png",
                 "description": "E绅士的桌面版，图片较清楚，登录可查看最新内容",
