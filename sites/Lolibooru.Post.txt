@@ -66,7 +66,6 @@
                 "url": "https://lolibooru.moe/post/popular_by_month?month={page:1}&year=2013"
             }
         ],
-        "cookie": "",
         "flag": "noTitle",
         "galleryRule": {
             "item": {
@@ -90,8 +89,6 @@
             }
         },
         "galleryUrl": "https://lolibooru.moe/post/show/{idCode:}",
-        "gid": 0,
-        "index": 0,
         "indexRule": {
             "category": {
                 "fun": "html",
@@ -134,6 +131,5 @@
         "loginUrl": "https://lolibooru.moe/user/login",
         "searchUrl": "https://lolibooru.moe/post?tags={keyword:}&page={page:1}",
         "sid": 33,
-        "title": "Lolibooru Post",
-        "versionCode": 0
+        "title": "Lolibooru Post"
     }

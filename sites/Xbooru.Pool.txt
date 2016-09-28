@@ -1,5 +1,4 @@
 ﻿    {
-        "cookie": "",
         "extraRule": {
             "pictureHighRes": {
                 "fun": "html",
@@ -38,8 +37,6 @@
             }
         },
         "galleryUrl": "http://xbooru.com/index.php?page=pool&s=show&id={idCode:}",
-        "gid": 0,
-        "index": 0,
         "indexRule": {
             "datetime": {
                 "fun": "html",

@@ -1,5 +1,4 @@
 ﻿{
-    "cookie": "",
     "galleryRule": {
         "item": {
             "selector": "div.post span.photoThum"

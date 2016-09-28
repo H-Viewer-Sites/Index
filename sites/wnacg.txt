@@ -61,7 +61,6 @@
                 "cid": 12
             }
         ],
-        "cookie": "",
         "extraRule": {
             "pictureUrl": {
                 "fun": "attr",
@@ -119,6 +118,5 @@
         "indexUrl": "http://www.wnacg.org/albums-index-page-{page:1}.html",
         "loginUrl": "http://www.wnacg.com/users-login.html",
         "searchUrl": "http://www.wnacg.org/albums-index-page-{page:1}-sname-{keyword:}.html",
-        "sid": 4,
-        "index": 0
+        "sid": 4
     }

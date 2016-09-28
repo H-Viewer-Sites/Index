@@ -66,7 +66,6 @@
                 "url": "https://konachan.net/post/popular_by_month?month={page:1}&year=2013"
             }
         ],
-        "cookie": "",
         "flag": "noTitle",
         "galleryRule": {
             "item": {
@@ -90,8 +89,6 @@
             }
         },
         "galleryUrl": "https://konachan.net/post/show/{idCode:}",
-        "gid": 0,
-        "index": 0,
         "indexRule": {
             "category": {
                 "fun": "html",
@@ -134,6 +131,5 @@
         "loginUrl": "https://konachan.net/user/login",
         "searchUrl": "https://konachan.net/post?tags={keyword:}&page={page:1}",
         "sid": 35,
-        "title": "Konachan Post",
-        "versionCode": 0
+        "title": "Konachan Post"
     }

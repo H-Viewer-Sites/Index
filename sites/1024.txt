@@ -11,7 +11,6 @@
                 "cid": 2
             }
         ],
-        "cookie": "",
         "flag": "noCover|noRating|noTag",
         "galleryRule": {
             "cover": {
@@ -67,6 +66,5 @@
         },
         "indexUrl": "http://cl.deocool.pw/thread0806.php?fid=8&page={page:1}",
         "loginUrl": "http://cl.deocool.pw/login.php",
-        "sid": 6,
-        "index": 0
+        "sid": 6
     }

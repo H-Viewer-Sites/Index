@@ -1,5 +1,4 @@
 ﻿{
-        "cookie": "",
         "extraRule": {
             "pictureUrl": {
                 "fun": "attr",
@@ -42,8 +41,6 @@
             }
         },
         "galleryUrl": "https://nhentai.net{idCode:}",
-        "gid": 0,
-        "index": 0,
         "indexRule": {
             "cover": {
                 "fun": "attr",
@@ -69,6 +66,5 @@
         "loginUrl": "https://nhentai.net/login/",
         "searchUrl": "https://nhentai.net/search/?q={keyword:}&page={page:1}",
         "sid": 5,
-        "title": "nhentai",
-        "versionCode": 0
+        "title": "nhentai"
     }

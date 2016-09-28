@@ -56,7 +56,6 @@
                 "url": "http://behoimi.org/post/popular_by_month?month={page:1}&year=2013"
             }
         ],
-        "cookie": "",
         "flag": "noTitle",
         "galleryRule": {
             "item": {
@@ -81,8 +80,6 @@
             }
         },
         "galleryUrl": "http://behoimi.org/post/show/{idCode:}",
-        "gid": 0,
-        "index": 0,
         "indexRule": {
             "cover": {
                 "fun": "attr",
@@ -121,6 +118,5 @@
         "loginUrl": "http://behoimi.org/user/login",
         "searchUrl": "http://behoimi.org/post?tags={keyword:}&page={page:1}",
         "sid": 37,
-        "title": "3dbooru Post",
-        "versionCode": 0
+        "title": "3dbooru Post"
     }

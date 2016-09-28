@@ -21,7 +21,6 @@
                 "url": "http://xbooru.com/index.php?page=post&s=list&tags=rating%3Aexplicit&pid={page:0:42}"
             }
         ],
-        "cookie": "",
         "flag": "noTitle",
         "galleryRule": {
             "item": {
@@ -46,8 +45,6 @@
             }
         },
         "galleryUrl": "http://xbooru.com/index.php?page=post&s=view&id={idCode:}",
-        "gid": 0,
-        "index": 0,
         "indexRule": {
             "cover": {
                 "fun": "attr",
@@ -87,6 +84,5 @@
         "loginUrl": "http://xbooru.com/index.php?page=account&s=login&code=00",
         "searchUrl": "http://xbooru.com/index.php?page=post&s=list&tags={keyword:}&pid={page:0:42}",
         "sid": 41,
-        "title": "Xbooru Post",
-        "versionCode": 0
+        "title": "Xbooru Post"
     }

@@ -1,5 +1,4 @@
 ﻿    {
-        "cookie": "",
         "extraRule": {
             "pictureHighRes": {
                 "fun": "html",
@@ -38,8 +37,6 @@
             }
         },
         "galleryUrl": "https://yande.re/pool/show/{idCode:}",
-        "gid": 0,
-        "index": 0,
         "indexRule": {
             "category": {
                 "fun": "html",

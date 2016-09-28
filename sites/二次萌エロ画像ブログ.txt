@@ -21,7 +21,6 @@
                 "cid": 4
             }
         ],
-        "cookie": "",
         "flag": "noRating",
         "galleryRule": {
             "item": {
@@ -76,6 +75,5 @@
         },
         "indexUrl": "http://moeimg.net/page/{page:1}",
         "searchUrl": "http://moeimg.net/?cat=0&s={keyword:}&submit=%E6%A4%9C%E7%B4%A2",
-        "sid": 8,
-        "index": 0
+        "sid": 8
     }

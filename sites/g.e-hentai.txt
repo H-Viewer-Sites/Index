@@ -56,7 +56,6 @@
                 "cid": 11
             }
         ],
-        "cookie": "",
         "extraRule": {
             "pictureUrl": {
                 "fun": "attr",
@@ -133,6 +132,5 @@
         "indexUrl": "http://g.e-hentai.org/?page={page:0}",
         "loginUrl": "https://forums.e-hentai.org/index.php?act=Login",
         "searchUrl": "http://g.e-hentai.org/?f_search={keyword:}&page={page:0}",
-        "sid": 2,
-        "index": 0
+        "sid": 2
     }

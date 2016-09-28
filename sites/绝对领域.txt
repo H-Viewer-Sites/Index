@@ -101,7 +101,6 @@
                 "cid": 19
             }
         ],
-        "cookie": "",
         "flag": "noRating",
         "galleryRule": {
             "category": {
@@ -159,6 +158,5 @@
         "indexUrl": "http://www.jdlingyu.moe/page/{page:1}/",
         "loginUrl": "http://www.jdlingyu.moe/wp-login.php",
         "searchUrl": "http://www.jdlingyu.moe/page/{page:1}/?s={keyword:}",
-        "sid": 51,
-        "index": 0
+        "sid": 51
     }

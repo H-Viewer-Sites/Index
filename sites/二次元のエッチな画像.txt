@@ -1,5 +1,4 @@
 ﻿{
-        "cookie": "",
         "flag": "noRating|noTag",
         "galleryRule": {
             "item": {
@@ -49,6 +48,5 @@
         "indexUrl": "http://nijiero-ch.com/page/{page:1}",
         "loginUrl": "http://nijiero-ch.com/wp-login.php",
         "searchUrl": "http://nijiero-ch.com/?s={keyword:}&paged={page:1}",
-        "sid": 9,
-        "index": 0
+        "sid": 9
     }

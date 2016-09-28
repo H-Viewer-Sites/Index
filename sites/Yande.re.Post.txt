@@ -66,7 +66,6 @@
                 "url": "https://yande.re/post/popular_by_month?month={page:1}&year=2013"
             }
         ],
-        "cookie": "",
         "flag": "noTitle",
         "galleryRule": {
             "item": {
@@ -89,8 +88,6 @@
             }
         },
         "galleryUrl": "https://yande.re/post/show/{idCode:}",
-        "gid": 0,
-        "index": 0,
         "indexRule": {
             "category": {
                 "fun": "html",
@@ -133,6 +130,5 @@
         "loginUrl": "https://yande.re/user/login",
         "searchUrl": "https://yande.re/post?tags={keyword:}&page={page:1}",
         "sid": 31,
-        "title": "Yande.re Post",
-        "versionCode": 0
+        "title": "Yande.re Post"
     }

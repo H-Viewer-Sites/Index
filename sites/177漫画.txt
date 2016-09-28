@@ -21,7 +21,6 @@
                 "cid": 4
             }
         ],
-        "cookie": "",
         "flag": "noRating",
         "galleryRule": {
             "item": {
@@ -76,6 +75,5 @@
         },
         "indexUrl": "http://www.177pic66.com/page/{page:1}?variant=zh-hans",
         "searchUrl": "http://www.177pic66.com/page/{page:1}?s={keyword:}&variant=zh-hans",
-        "sid": 7,
-        "index": 0
+        "sid": 7
     }

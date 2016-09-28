@@ -37,8 +37,8 @@
             },
             {
                 "cid": 7,
-                "title": "R18本月排行榜",
-                "url": "http://www.pixiv.net/ranking.php?mode=monthly_r18&p={page:1}"
+                "title": "R18G本周排行榜",
+                "url": "http://www.pixiv.net/ranking.php?mode=r18g&p={page:1}"
             },
             {
                 "cid": 8,
@@ -148,8 +148,6 @@
             }
         },
         "galleryUrl": "http://www.pixiv.net/member_illust.php?mode=medium&illust_id={idCode:}",
-        "gid": 0,
-        "index": 0,
         "indexRule": {
             "category": {
                 "fun": "html",
@@ -186,6 +184,5 @@
         "loginUrl": "https://accounts.pixiv.net/login",
         "searchUrl": "http://www.pixiv.net/search.php?word={keyword:}&p={page:1}",
         "sid": 53,
-        "title": "Pixiv",
-        "versionCode": 0
+        "title": "Pixiv"
     }

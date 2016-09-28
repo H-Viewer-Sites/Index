@@ -1,5 +1,4 @@
 ﻿    {
-        "cookie": "",
         "extraRule": {
             "pictureHighRes": {
                 "fun": "html",
@@ -38,8 +37,6 @@
             }
         },
         "galleryUrl": "http://behoimi.org/pool/show/{idCode:}?page={page:1}",
-        "gid": 0,
-        "index": 0,
         "indexRule": {
             "datetime": {
                 "fun": "html",
