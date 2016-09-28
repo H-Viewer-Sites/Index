@@ -39,5 +39,5 @@
     },
     "indexUrl": "http://www.xiuren.org/page-{page:1}.html",
     "searchUrl": "http://www.xiuren.org/search/{keyword:}.html?page={page:1}",
-    "title": "XiuRen"
+    "title": "秀人"
 }
