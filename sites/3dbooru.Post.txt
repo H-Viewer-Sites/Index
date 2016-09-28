@@ -6,6 +6,21 @@
                 "url": "http://behoimi.org/post?page={page:1}"
             },
             {
+                "cid": 3,
+                "title": "评级：安全",
+                "url": "http://behoimi.org/post?tags=rating%3Asafe&page={page:1}"
+            },
+            {
+                "cid": 4,
+                "title": "评级：存疑",
+                "url": "http://behoimi.org/post?tags=rating%3Aquestionable&page={page:1}"
+            },
+            {
+                "cid": 5,
+                "title": "评级：露骨",
+                "url": "http://behoimi.org/post?tags=rating%3Aexplicit&page={page:1}"
+            },
+            {
                 "cid": 2,
                 "title": "热门（过去一天）",
                 "url": "http://behoimi.org/post/popular_by_day"
@@ -106,5 +121,6 @@
         "loginUrl": "http://behoimi.org/user/login",
         "searchUrl": "http://behoimi.org/post?tags={keyword:}&page={page:1}",
         "sid": 37,
-        "title": "3dbooru Post"
+        "title": "3dbooru Post",
+        "versionCode": 0
     }

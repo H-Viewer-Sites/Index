@@ -6,227 +6,242 @@
                 "url": "http://gelbooru.com/index.php?page=post&s=list&tags=all&pid={page:0:42}"
             },
             {
-                "cid": 2,
+                "cid": 3,
+                "title": "评级：安全",
+                "url": "http://gelbooru.com/index.php?page=post&s=list&tags=rating%3Asafe&pid={page:0:42}"
+            },
+            {
+                "cid": 4,
+                "title": "评级：存疑",
+                "url": "http://gelbooru.com/index.php?page=post&s=list&tags=rating%3Aquestionable&pid={page:0:42}"
+            },
+            {
+                "cid": 5,
+                "title": "评级：露骨",
+                "url": "http://gelbooru.com/index.php?page=post&s=list&tags=rating%3Aexplicit&pid={page:0:42}"
+            },
+            {
+                "cid": 6,
                 "title": "1boy",
                 "url": "http://gelbooru.com/index.php?page=post&s=list&tags=1boy&pid={page:0:42}"
             },
             {
-                "cid": 3,
+                "cid": 7,
                 "title": "1girl",
                 "url": "http://gelbooru.com/index.php?page=post&s=list&tags=1girl&pid={page:0:42}"
             },
             {
-                "cid": 4,
+                "cid": 8,
                 "title": "ass",
                 "url": "http://gelbooru.com/index.php?page=post&s=list&tags=ass&pid={page:0:42}"
             },
             {
-                "cid": 5,
+                "cid": 9,
                 "title": "bare shoulders",
                 "url": "http://gelbooru.com/index.php?page=post&s=list&tags=bare_shoulders&pid={page:0:42}"
             },
             {
-                "cid": 6,
+                "cid": 10,
                 "title": "blush",
                 "url": "http://gelbooru.com/index.php?page=post&s=list&tags=blush&pid={page:0:42}"
             },
             {
-                "cid": 7,
+                "cid": 11,
                 "title": "breasts",
                 "url": "http://gelbooru.com/index.php?page=post&s=list&tags=breasts&pid={page:0:42}"
             },
             {
-                "cid": 8,
+                "cid": 12,
                 "title": "brown eyes",
                 "url": "http://gelbooru.com/index.php?page=post&s=list&tags=brown_eyes&pid={page:0:42}"
             },
             {
-                "cid": 9,
+                "cid": 13,
                 "title": "brown hair",
                 "url": "http://gelbooru.com/index.php?page=post&s=list&tags=brown_hair&pid={page:0:42}"
             },
             {
-                "cid": 10,
+                "cid": 14,
                 "title": "eyes closed",
                 "url": "http://gelbooru.com/index.php?page=post&s=list&tags=eyes_closed&pid={page:0:42}"
             },
             {
-                "cid": 11,
+                "cid": 15,
                 "title": "fingerless gloves",
                 "url": "http://gelbooru.com/index.php?page=post&s=list&tags=fingerless_gloves&pid={page:0:42}"
             },
             {
-                "cid": 12,
+                "cid": 16,
                 "title": "from behind",
                 "url": "http://gelbooru.com/index.php?page=post&s=list&tags=from_behind&pid={page:0:42}"
             },
             {
-                "cid": 13,
+                "cid": 17,
                 "title": "hand on",
                 "url": "http://gelbooru.com/index.php?page=post&s=list&tags=hand_on&pid={page:0:42}"
             },
             {
-                "cid": 14,
+                "cid": 18,
                 "title": "hat",
                 "url": "http://gelbooru.com/index.php?page=post&s=list&tags=hat&pid={page:0:42}"
             },
             {
-                "cid": 15,
+                "cid": 19,
                 "title": "headband",
                 "url": "http://gelbooru.com/index.php?page=post&s=list&tags=headband&pid={page:0:42}"
             },
             {
-                "cid": 16,
+                "cid": 20,
                 "title": "hifumi",
                 "url": "http://gelbooru.com/index.php?page=post&s=list&tags=hifumi&pid={page:0:42}"
             },
             {
-                "cid": 17,
+                "cid": 21,
                 "title": "king of fighters",
                 "url": "http://gelbooru.com/index.php?page=post&s=list&tags=king_of_fighters&pid={page:0:42}"
             },
             {
-                "cid": 17,
+                "cid": 22,
                 "title": "large breasts",
                 "url": "http://gelbooru.com/index.php?page=post&s=list&tags=large_breasts&pid={page:0:42}"
             },
             {
-                "cid": 18,
+                "cid": 23,
                 "title": "leaning",
                 "url": "http://gelbooru.com/index.php?page=post&s=list&tags=leaning&pid={page:0:42}"
             },
             {
-                "cid": 19,
+                "cid": 24,
                 "title": "leaning forward",
                 "url": "http://gelbooru.com/index.php?page=post&s=list&tags=leaning_forward&pid={page:0:42}"
             },
             {
-                "cid": 20,
+                "cid": 25,
                 "title": "looking at viewer",
                 "url": "http://gelbooru.com/index.php?page=post&s=list&tags=looking_at_viewer&pid={page:0:42}"
             },
             {
-                "cid": 21,
+                "cid": 26,
                 "title": "male focus",
                 "url": "http://gelbooru.com/index.php?page=post&s=list&tags=male_focus&pid={page:0:42}"
             },
             {
-                "cid": 22,
+                "cid": 27,
                 "title": "monkey d luffy",
                 "url": "http://gelbooru.com/index.php?page=post&s=list&tags=monkey_d_luffy&pid={page:0:42}"
             },
             {
-                "cid": 23,
+                "cid": 28,
                 "title": "monochrome",
                 "url": "http://gelbooru.com/index.php?page=post&s=list&tags=monochrome&pid={page:0:42}"
             },
             {
-                "cid": 24,
+                "cid": 29,
                 "title": "one piece",
                 "url": "http://gelbooru.com/index.php?page=post&s=list&tags=one_piece&pid={page:0:42}"
             },
             {
-                "cid": 25,
+                "cid": 30,
                 "title": "open clothes",
                 "url": "http://gelbooru.com/index.php?page=post&s=list&tags=open_clothes&pid={page:0:42}"
             },
             {
-                "cid": 26,
+                "cid": 31,
                 "title": "open shirt",
                 "url": "http://gelbooru.com/index.php?page=post&s=list&tags=open_shirt&pid={page:0:42}"
             },
             {
-                "cid": 27,
+                "cid": 32,
                 "title": "pantylines",
                 "url": "http://gelbooru.com/index.php?page=post&s=list&tags=pantylines&pid={page:0:42}"
             },
             {
-                "cid": 28,
+                "cid": 33,
                 "title": "scar",
                 "url": "http://gelbooru.com/index.php?page=post&s=list&tags=scar&pid={page:0:42}"
             },
             {
-                "cid": 29,
+                "cid": 34,
                 "title": "shiny",
                 "url": "http://gelbooru.com/index.php?page=post&s=list&tags=shiny&pid={page:0:42}"
             },
             {
-                "cid": 30,
+                "cid": 35,
                 "title": "shiny clothes",
                 "url": "http://gelbooru.com/index.php?page=post&s=list&tags=shiny_clothes&pid={page:0:42}"
             },
             {
-                "cid": 31,
+                "cid": 36,
                 "title": "shiny hair",
                 "url": "http://gelbooru.com/index.php?page=post&s=list&tags=shiny_hair&pid={page:0:42}"
             },
             {
-                "cid": 32,
+                "cid": 37,
                 "title": "shiny skin",
                 "url": "http://gelbooru.com/index.php?page=post&s=list&tags=shiny_skin&pid={page:0:42}"
             },
             {
-                "cid": 33,
+                "cid": 38,
                 "title": "short hair",
                 "url": "http://gelbooru.com/index.php?page=post&s=list&tags=short_hair&pid={page:0:42}"
             },
             {
-                "cid": 34,
+                "cid": 39,
                 "title": "sideboob",
                 "url": "http://gelbooru.com/index.php?page=post&s=list&tags=sideboob&pid={page:0:42}"
             },
             {
-                "cid": 35,
+                "cid": 40,
                 "title": "simple background",
                 "url": "http://gelbooru.com/index.php?page=post&s=list&tags=simple_background&pid={page:0:42}"
             },
             {
-                "cid": 36,
+                "cid": 41,
                 "title": "skin tight",
                 "url": "http://gelbooru.com/index.php?page=post&s=list&tags=skin_tight&pid={page:0:42}"
             },
             {
-                "cid": 37,
+                "cid": 42,
                 "title": "smile",
                 "url": "http://gelbooru.com/index.php?page=post&s=list&tags=smile&pid={page:0:42}"
             },
             {
-                "cid": 38,
+                "cid": 43,
                 "title": "solo",
                 "url": "http://gelbooru.com/index.php?page=post&s=list&tags=solo&pid={page:0:42}"
             },
             {
-                "cid": 39,
+                "cid": 44,
                 "title": "spandex",
                 "url": "http://gelbooru.com/index.php?page=post&s=list&tags=spandex&pid={page:0:42}"
             },
             {
-                "cid": 40,
+                "cid": 45,
                 "title": "straw hat",
                 "url": "http://gelbooru.com/index.php?page=post&s=list&tags=straw_hat&pid={page:0:42}"
             },
             {
-                "cid": 41,
+                "cid": 46,
                 "title": "teeth",
                 "url": "http://gelbooru.com/index.php?page=post&s=list&tags=teeth&pid={page:0:42}"
             },
             {
-                "cid": 42,
+                "cid": 47,
                 "title": "the king of fighters",
                 "url": "http://gelbooru.com/index.php?page=post&s=list&tags=the_king_of_fighters&pid={page:0:42}"
             },
             {
-                "cid": 43,
+                "cid": 48,
                 "title": "tongue",
                 "url": "http://gelbooru.com/index.php?page=post&s=list&tags=tongue&pid={page:0:42}"
             },
             {
-                "cid": 44,
+                "cid": 49,
                 "title": "tongue out",
                 "url": "http://gelbooru.com/index.php?page=post&s=list&tags=tongue_out&pid={page:0:42}"
             },
             {
-                "cid": 45,
+                "cid": 50,
                 "title": "yuri sakazaki",
                 "url": "http://gelbooru.com/index.php?page=post&s=list&tags=yuri_sakazaki&pid={page:0:42}"
             }
@@ -297,5 +312,6 @@
         "loginUrl": "http://gelbooru.com/index.php?page=account&s=login&code=00",
         "searchUrl": "http://gelbooru.com/index.php?page=post&s=list&tags={keyword:}&pid={page:0:42}",
         "sid": 39,
-        "title": "Gelbooru Post"
+        "title": "Gelbooru Post",
+        "versionCode": 0
     }

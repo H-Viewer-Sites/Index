@@ -1,4 +1,4 @@
-﻿    {
+﻿{
         "categories": [
             {
                 "cid": 1,
@@ -12,41 +12,56 @@
             },
             {
                 "cid": 3,
+                "title": "评级：安全",
+                "url": "https://lolibooru.moe/post?tags=rating%3Asafe&page={page:1}"
+            },
+            {
+                "cid": 4,
+                "title": "评级：存疑",
+                "url": "https://lolibooru.moe/post?tags=rating%3Aquestionable&page={page:1}"
+            },
+            {
+                "cid": 5,
+                "title": "评级：露骨",
+                "url": "https://lolibooru.moe/post?tags=rating%3Aexplicit&page={page:1}"
+            },
+            {
+                "cid": 6,
                 "title": "热门（过去一天）",
                 "url": "https://lolibooru.moe/post/popular_recent?period=1d"
             },
             {
-                "cid": 4,
+                "cid": 7,
                 "title": "热门（过去一周）",
                 "url": "https://lolibooru.moe/post/popular_recent?period=1w"
             },
             {
-                "cid": 5,
+                "cid": 8,
                 "title": "热门（过去一月）",
                 "url": "https://lolibooru.moe/post/popular_recent?period=1m"
             },
             {
-                "cid": 6,
+                "cid": 9,
                 "title": "热门（过去一年）",
                 "url": "https://lolibooru.moe/post/popular_recent?period=1y"
             },
             {
-                "cid": 7,
+                "cid": 10,
                 "title": "热门（2016年）",
                 "url": "https://lolibooru.moe/post/popular_by_month?month={page:1}&year=2016"
             },
             {
-                "cid": 8,
+                "cid": 11,
                 "title": "热门（2015年）",
                 "url": "https://lolibooru.moe/post/popular_by_month?month={page:1}&year=2015"
             },
             {
-                "cid": 9,
+                "cid": 12,
                 "title": "热门（2014年）",
                 "url": "https://lolibooru.moe/post/popular_by_month?month={page:1}&year=2014"
             },
             {
-                "cid": 10,
+                "cid": 13,
                 "title": "热门（2013年）",
                 "url": "https://lolibooru.moe/post/popular_by_month?month={page:1}&year=2013"
             }
@@ -119,5 +134,6 @@
         "loginUrl": "https://lolibooru.moe/user/login",
         "searchUrl": "https://lolibooru.moe/post?tags={keyword:}&page={page:1}",
         "sid": 33,
-        "title": "Lolibooru Post"
+        "title": "Lolibooru Post",
+        "versionCode": 0
     }

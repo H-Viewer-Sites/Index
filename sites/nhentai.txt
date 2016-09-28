@@ -42,7 +42,8 @@
             }
         },
         "galleryUrl": "https://nhentai.net{idCode:}",
-        "title": "nhentai",
+        "gid": 0,
+        "index": 0,
         "indexRule": {
             "cover": {
                 "fun": "attr",
@@ -68,5 +69,6 @@
         "loginUrl": "https://nhentai.net/login/",
         "searchUrl": "https://nhentai.net/search/?q={keyword:}&page={page:1}",
         "sid": 5,
-        "index": 0
+        "title": "nhentai",
+        "versionCode": 0
     }
