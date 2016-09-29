@@ -23,7 +23,7 @@
                 "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/icons/Pixiv.png",
                 "description": "著名同人画、插画作品分享站点",
                 "json": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/Pixiv.txt",
-                "versionCode": 3,
+                "versionCode": 4,
                 "lastUpdate": "2016-09-28 18:51:05",
                 "r18": false
             },
