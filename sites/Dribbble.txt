@@ -1,0 +1,120 @@
+﻿    {
+        "categories": [
+            {
+                "cid": 1,
+                "title": "Popular",
+                "url": "https://dribbble.com/shots?page={page:1}&per_page=12"
+            },
+            {
+                "cid": 2,
+                "title": "Recent",
+                "url": "https://dribbble.com/shots?page={page:1}&per_page=12&sort=recent"
+            },
+            {
+                "cid": 3,
+                "title": "Most Viewed",
+                "url": "https://dribbble.com/shots?page={page:1}&per_page=12&sort=views"
+            },
+            {
+                "cid": 4,
+                "title": "Most Commented",
+                "url": "https://dribbble.com/shots?page={page:1}&per_page=12&sort=comments"
+            },
+            {
+                "cid": 5,
+                "title": "Debuts",
+                "url": "https://dribbble.com/shots?page={page:1}&per_page=12&list=debuts"
+            },
+            {
+                "cid": 6,
+                "title": "Team Shots",
+                "url": "https://dribbble.com/shots?page={page:1}&per_page=12&list=teams"
+            },
+            {
+                "cid": 7,
+                "title": "Playoffs",
+                "url": "https://dribbble.com/shots?page={page:1}&per_page=12&list=playoffs"
+            },
+            {
+                "cid": 8,
+                "title": "Rebounds",
+                "url": "https://dribbble.com/shots?page={page:1}&per_page=12&list=rebounds"
+            },
+            {
+                "cid": 9,
+                "title": "Animated GIFs",
+                "url": "https://dribbble.com/shots?page={page:1}&per_page=12&list=animated"
+            },
+            {
+                "cid": 10,
+                "title": "Shots with Attachments",
+                "url": "https://dribbble.com/shots?page={page:1}&per_page=12&list=attachments"
+            }
+        ],
+        "extraRule": {
+            "pictureUrl": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "div#viewer-img > img"
+            }
+        },
+        "flag": "noRating|singlePageBigPicture|preloadGallery",
+        "galleryRule": {
+            "item": {
+                "selector": "div.single-img,ul.thumbs>li"
+            },
+            "pictureThumbnail": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "img"
+            },
+            "pictureUrl": {
+                "fun": "html",
+                "regex": "href=\"(.*?)\"|src=\"([^\"]*?(?<!_1x)\\.(?:jpg|jpeg|png|gif|bmp))\"",
+                "replacement": "$1$2",
+                "selector": "this"
+            },
+            "tags": {
+                "fun": "html",
+                "selector": "ol#tags > li.tag > a > strong"
+            }
+        },
+        "galleryUrl": "https://dribbble.com/shots/{idCode:}",
+        "indexRule": {
+            "cover": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "div.dribbble-img > a.dribbble-link img"
+            },
+            "datetime": {
+                "fun": "html",
+                "regex": "<li class=\"fav\">.*?>([0-9, ]+).*?<li class=\"cmnt\">.*?>([0-9, ]+).*?<li class=\"views\">.*?>([0-9, ]+).*?</li>",
+                "replacement": "✦$3    ✎$2    ❤$1",
+                "selector": "div.dribbble-shot > ul.tools"
+            },
+            "idCode": {
+                "fun": "attr",
+                "param": "href",
+                "regex": "shots/(.*)",
+                "selector": "div.dribbble-img > a.dribbble-link"
+            },
+            "item": {
+                "selector": "ol.dribbbles > li"
+            },
+            "title": {
+                "fun": "attr",
+                "param": "alt",
+                "selector": "div.dribbble-img > a.dribbble-link img"
+            },
+            "uploader": {
+                "fun": "html",
+                "regex": "<a class=\"url hoverable\".*?>([^<>\"]+)</a>",
+                "selector": "span.attribution-user"
+            }
+        },
+        "indexUrl": "https://dribbble.com/?page={page:1}&per_page=12",
+        "loginUrl": "https://dribbble.com/session/new",
+        "searchUrl": "https://dribbble.com/search?q={keyword:}&page={page:1}&per_page=12",
+        "sid": 55,
+        "title": "Dribbble"
+    }

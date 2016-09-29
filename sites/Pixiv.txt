@@ -6,82 +6,87 @@
                 "url": "http://www.pixiv.net/new_illust.php?p={page:1}"
             },
             {
-                "cid": 5,
+                "cid": 2,
+                "title": "收藏夹",
+                "url": "http://www.pixiv.net/bookmark.php?p={page:1}"
+            },
+            {
+                "cid": 3,
                 "title": "R18",
                 "url": "http://www.pixiv.net/new_illust_r18.php?p={page:1}"
             },
             {
-                "cid": 2,
+                "cid": 4,
                 "title": "综合今日排行榜",
                 "url": "http://www.pixiv.net/ranking.php?mode=daily&p={page:1}"
             },
             {
-                "cid": 3,
+                "cid": 5,
                 "title": "综合本周排行榜",
                 "url": "http://www.pixiv.net/ranking.php?mode=weekly&p={page:1}"
             },
             {
-                "cid": 4,
+                "cid": 6,
                 "title": "综合本月排行榜",
                 "url": "http://www.pixiv.net/ranking.php?mode=monthly&p={page:1}"
             },
             {
-                "cid": 5,
+                "cid": 7,
                 "title": "R18今日排行榜",
                 "url": "http://www.pixiv.net/ranking.php?mode=daily_r18&p={page:1}"
             },
             {
-                "cid": 6,
+                "cid": 8,
                 "title": "R18本周排行榜",
                 "url": "http://www.pixiv.net/ranking.php?mode=weekly_r18&p={page:1}"
             },
             {
-                "cid": 7,
+                "cid": 9,
                 "title": "R18G本周排行榜",
                 "url": "http://www.pixiv.net/ranking.php?mode=r18g&p={page:1}"
             },
             {
-                "cid": 8,
+                "cid": 10,
                 "title": "10000users入り",
                 "url": "http://www.pixiv.net/search.php?s_mode=s_tag&word=10000users%E5%85%A5%E3%82%8A&p={page:1}"
             },
             {
-                "cid": 9,
+                "cid": 11,
                 "title": "5000users入り",
                 "url": "http://www.pixiv.net/search.php?s_mode=s_tag&word=5000users%E5%85%A5%E3%82%8A&p={page:1}"
             },
             {
-                "cid": 10,
+                "cid": 12,
                 "title": "3000users入り",
                 "url": "http://www.pixiv.net/search.php?s_mode=s_tag&word=3000users%E5%85%A5%E3%82%8A&p={page:1}"
             },
             {
-                "cid": 11,
+                "cid": 13,
                 "title": "1000users入り",
                 "url": "http://www.pixiv.net/search.php?s_mode=s_tag&word=1000users%E5%85%A5%E3%82%8A&p={page:1}"
             },
             {
-                "cid": 12,
+                "cid": 14,
                 "title": "Loli",
                 "url": "http://www.pixiv.net/search.php?s_mode=s_tag_full&word=%E3%83%AD%E3%83%AA&p={page:1}"
             },
             {
-                "cid": 13,
+                "cid": 15,
                 "title": "東方",
                 "url": "http://www.pixiv.net/search.php?s_mode=s_tag_full&word=%E6%9D%B1%E6%96%B9&p={page:1}"
             },
             {
-                "cid": 14,
+                "cid": 16,
                 "title": "艦これ",
                 "url": "http://www.pixiv.net/search.php?s_mode=s_tag_full&word=%E8%89%A6%E3%81%93%E3%82%8C&p={page:1}"
             },
             {
-                "cid": 15,
+                "cid": 17,
                 "title": "LoveLive",
                 "url": "http://www.pixiv.net/search.php?s_mode=s_tag_full&word=LoveLive&p={page:1}"
             },
             {
-                "cid": 16,
+                "cid": 18,
                 "title": "VOCALOID",
                 "url": "http://www.pixiv.net/search.php?s_mode=s_tag_full&word=VOCALOID&p={page:1}"
             }
@@ -93,7 +98,7 @@
             "pictureThumbnail": {
                 "fun": "attr",
                 "param": "data-src",
-                "regex": "(http://.*?c)/\\d+x\\d+/(.*?\\.jpg)",
+                "regex": "(http://.*?c)/\\d+x\\d+/(.*?\\.(?:jpg|jpeg|png|gif|bmp))",
                 "replacement": "$1/150x150/$2",
                 "selector": "img"
             },
@@ -103,7 +108,7 @@
                 "selector": "img"
             }
         },
-        "flag": "secondLevelGallery|preloadGallery",
+        "flag": "secondLevelGallery|preloadGallery|noTag",
         "galleryRule": {
             "datetime": {
                 "fun": "html",
@@ -119,18 +124,17 @@
             "pictureThumbnail": {
                 "fun": "attr",
                 "param": "src",
-                "regex": "(http://.*?c)/\\d+x\\d+/(.*?\\.jpg)",
+                "regex": "(http://.*?c)/\\d+x\\d+/(.*?\\.(?:jpg|jpeg|png|gif|bmp))",
                 "replacement": "$1/150x150/$2",
                 "selector": "div.works_display div._layout-thumbnail > img"
             },
             "pictureUrl": {
                 "fun": "html",
-                "regex": "\"(member_illust.php\\?mode=manga.*?|http://i\\d.pixiv.net/img-original/img/.*?\\.(png|jpg|bmp|gif))\"",
+                "regex": "\"(member_illust.php\\?mode=manga.*?|http://i\\d.pixiv.net/img-original/img/.*?\\.(?:jpg|jpeg|png|gif|bmp))\"",
                 "selector": "div#wrapper"
             },
             "rating": {
-                "fun": "html",
-                "regex": "rated-count\">(\\d+).*score-count\">(\\d+)",
+                "regex": "rated-count\">(\\d+).*?score-count\">(\\d+)",
                 "replacement": "$2/$1/2",
                 "selector": "section.score"
             },
@@ -154,8 +158,8 @@
                 "selector": "div.rank>h1>a"
             },
             "cover": {
-                "regex": "\"(http://[^\"]*?\\.jpg)\"",
-                "selector": "a.work img._thumbnail"
+                "regex": "\"(http://[^\"]*?\\.(?:jpg|jpeg|png|gif|bmp))\"",
+                "selector": "a.work img._thumbnail,div._layout-thumbnail>img"
             },
             "datetime": {
                 "regex": ".*img/(\\d{4})/(\\d{2})/(\\d{2})/(\\d{2})/(\\d{2})/(\\d{2})",

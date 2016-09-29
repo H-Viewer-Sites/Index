@@ -17,7 +17,7 @@
             "param": "src",
             "selector": "img",
             "regex": "^(.*)$",
-            "replacement": "http://www.rosiyy.com/usr/themes/mm/timthumb.php?src=$1&h=130&w=195&zc=1&q=100"
+            "replacement": "http://www.rosiyy.com/usr/themes/mm/timthumb.php?src=$1&h=210&w=150&zc=1&q=100"
         },
         "pictureUrl": {
             "fun": "attr",

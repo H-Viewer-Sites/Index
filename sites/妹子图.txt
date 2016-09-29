@@ -1,0 +1,104 @@
+﻿    {
+        "categories": [
+            {
+                "cid": 1,
+                "title": "最新",
+                "url": "http://www.mzitu.com/page/{page:1}"
+            },
+            {
+                "cid": 2,
+                "title": "最热",
+                "url": "http://www.mzitu.com/hot/page/{page:1}"
+            },
+            {
+                "cid": 3,
+                "title": "推荐",
+                "url": "http://www.mzitu.com/best/page/{page:1}"
+            },
+            {
+                "cid": 4,
+                "title": "性感妹子",
+                "url": "http://www.mzitu.com/xinggan/page/{page:1}"
+            },
+            {
+                "cid": 5,
+                "title": "日本妹子",
+                "url": "http://www.mzitu.com/japan/page/{page:1}"
+            },
+            {
+                "cid": 6,
+                "title": "台湾妹子",
+                "url": "http://www.mzitu.com/taiwan/page/{page:1}"
+            },
+            {
+                "cid": 7,
+                "title": "清纯妹子",
+                "url": "http://www.mzitu.com/mm/page/{page:1}"
+            },
+            {
+                "cid": 8,
+                "title": "妹子自拍",
+                "url": "http://www.mzitu.com/share/page/{page:1}"
+            }
+        ],
+        "cookie": "",
+        "flag": "noTag",
+        "galleryRule": {
+            "category": {
+                "fun": "html",
+                "selector": "div.main-meta > span > a"
+            },
+            "item": {
+                "selector": "div.main-image"
+            },
+            "pictureThumbnail": {
+                "fun": "attr",
+                "param": "src",
+                "regex": "(.*)",
+                "replacement": "http://www.rosiyy.com/usr/themes/mm/timthumb.php?src=$1&h=210&w=150&zc=1&q=100",
+                "selector": "p > a > img"
+            },
+            "pictureUrl": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "p > a > img"
+            },
+            "tags": {
+                "fun": "html",
+                "selector": "div.main-tags > a[rel='tag']"
+            }
+        },
+        "galleryUrl": "http://www.mzitu.com/{idCode:}/{page:1}",
+        "indexRule": {
+            "cover": {
+                "fun": "attr",
+                "param": "data-original",
+                "selector": "a img"
+            },
+            "datetime": {
+                "fun": "html",
+                "selector": "span.time"
+            },
+            "idCode": {
+                "fun": "attr",
+                "param": "href",
+                "regex": "http://www\\.mzitu\\.com/(\\d+)",
+                "selector": "span > a"
+            },
+            "item": {
+                "selector": "div.postlist > ul > li"
+            },
+            "title": {
+                "fun": "html",
+                "selector": "span > a"
+            },
+            "uploader": {
+                "fun": "html",
+                "selector": "span.view"
+            }
+        },
+        "indexUrl": "http://www.mzitu.com/page/{page:1}",
+        "searchUrl": "http://www.mzitu.com/search/{keyword:}/page/{page:1}",
+        "sid": 54,
+        "title": "妹子图"
+    }
