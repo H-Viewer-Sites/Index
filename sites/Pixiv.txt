@@ -134,7 +134,7 @@
                 "selector": "div#wrapper"
             },
             "rating": {
-                "regex": "rated-count\">(\\d+).*?score-count\">(\\d+)",
+                "regex": "rated-count\".*?(\\d+).*?score-count\".*?(\\d+)",
                 "replacement": "$2/$1/2",
                 "selector": "section.score"
             },
@@ -158,8 +158,8 @@
                 "selector": "div.rank>h1>a"
             },
             "cover": {
-                "regex": "\"(http://[^\"]*?\\.(?:jpg|jpeg|png|gif|bmp))\"",
-                "selector": "a.work img._thumbnail,div._layout-thumbnail>img"
+                "regex": "\"(http://[^\"]*?\\.(?:jpg|jpeg|png|bmp))\"",
+                "selector": "div._layout-thumbnail>img"
             },
             "datetime": {
                 "regex": ".*img/(\\d{4})/(\\d{2})/(\\d{2})/(\\d{2})/(\\d{2})/(\\d{2})",
