@@ -110,6 +110,26 @@
         },
         "flag": "secondLevelGallery|preloadGallery|noTag",
         "galleryRule": {
+            "commentAuthor": {
+                "fun": "html",
+                "selector": "div.comment > div.meta > a.user-name"
+            },
+            "commentAvatar": {
+                "fun": "attr",
+                "param": "data-src",
+                "selector": "a.user-icon-container > img"
+            },
+            "commentContent": {
+                "fun": "html",
+                "selector": "div.comment>div.body,div.comment>div.sticker-container"
+            },
+            "commentDatetime": {
+                "fun": "html",
+                "selector": "div.comment > div.meta > span.date"
+            },
+            "commentItem": {
+                "selector": "div._comment-items > div._comment-item"
+            },
             "datetime": {
                 "fun": "html",
                 "selector": "ul.meta > li:eq(0)"
@@ -134,9 +154,10 @@
                 "selector": "div#wrapper"
             },
             "rating": {
+                "fun": "html",
                 "regex": "rated-count\".*?(\\d+).*?score-count\".*?(\\d+)",
                 "replacement": "$2/$1/2",
-                "selector": "section.score"
+                "selector": "div.ui-expander-target > div.user-reaction"
             },
             "tags": {
                 "fun": "html",
@@ -152,13 +173,15 @@
             }
         },
         "galleryUrl": "http://www.pixiv.net/member_illust.php?mode=medium&illust_id={idCode:}",
+        "gid": 0,
+        "index": 0,
         "indexRule": {
             "category": {
                 "fun": "html",
                 "selector": "div.rank>h1>a"
             },
             "cover": {
-                "regex": "\"(http://[^\"]*?\\.(?:jpg|jpeg|png|bmp))\"",
+                "regex": "\"(http://[^\"]*?\\.(?:jpg|jpeg|png))\"",
                 "selector": "div._layout-thumbnail>img"
             },
             "datetime": {
@@ -188,5 +211,6 @@
         "loginUrl": "https://accounts.pixiv.net/login",
         "searchUrl": "http://www.pixiv.net/search.php?word={keyword:}&p={page:1}",
         "sid": 53,
-        "title": "Pixiv"
+        "title": "Pixiv",
+        "versionCode": 0
     }

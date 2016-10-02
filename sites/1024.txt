@@ -1,18 +1,40 @@
-﻿{
+﻿    {
         "categories": [
             {
-                "url": "http://cl.deocool.pw/thread0806.php?fid=8&page={page:1}",
+                "cid": 1,
                 "title": "贴图区",
-                "cid": 1
+                "url": "http://cl.deocool.pw/thread0806.php?fid=8&page={page:1}"
             },
             {
-                "url": "http://cl.deocool.pw/thread0806.php?fid=16&page={page:1}",
+                "cid": 2,
                 "title": "自拍区",
-                "cid": 2
+                "url": "http://cl.deocool.pw/thread0806.php?fid=16&page={page:1}"
             }
         ],
+        "cookie": "",
         "flag": "noCover|noRating|noTag",
         "galleryRule": {
+            "commentAuthor": {
+                "fun": "html",
+                "selector": "th.r_two > font > b"
+            },
+            "commentAvatar": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "td.tac > img"
+            },
+            "commentContent": {
+                "fun": "html",
+                "selector": "div.tpc_content"
+            },
+            "commentDatetime": {
+                "fun": "html",
+                "regex": "Posted:(\\d{4}-\\d{2}-\\d{2} \\d{2}:\\d{2})",
+                "selector": "div.tipad"
+            },
+            "commentItem": {
+                "selector": "div.t.t2:not([style])"
+            },
             "cover": {
                 "fun": "attr",
                 "param": "src",
@@ -33,7 +55,8 @@
             }
         },
         "galleryUrl": "http://cl.deocool.pw/htm_data/{idCode:}.html",
-        "title": "草榴社区",
+        "gid": 0,
+        "index": 0,
         "indexRule": {
             "category": {
                 "fun": "html",
@@ -66,5 +89,7 @@
         },
         "indexUrl": "http://cl.deocool.pw/thread0806.php?fid=8&page={page:1}",
         "loginUrl": "http://cl.deocool.pw/login.php",
-        "sid": 6
+        "sid": 6,
+        "title": "草榴社区",
+        "versionCode": 0
     }

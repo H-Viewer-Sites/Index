@@ -6,58 +6,79 @@
                 "url": "http://behoimi.org/post?page={page:1}"
             },
             {
-                "cid": 3,
+                "cid": 2,
                 "title": "评级：安全",
                 "url": "http://behoimi.org/post?tags=rating%3Asafe&page={page:1}"
             },
             {
-                "cid": 4,
+                "cid": 3,
                 "title": "评级：存疑",
                 "url": "http://behoimi.org/post?tags=rating%3Aquestionable&page={page:1}"
             },
             {
-                "cid": 5,
+                "cid": 4,
                 "title": "评级：露骨",
                 "url": "http://behoimi.org/post?tags=rating%3Aexplicit&page={page:1}"
             },
             {
-                "cid": 2,
+                "cid": 5,
                 "title": "热门（过去一天）",
                 "url": "http://behoimi.org/post/popular_by_day"
             },
             {
-                "cid": 3,
+                "cid": 6,
                 "title": "热门（过去一周）",
                 "url": "http://behoimi.org/post/popular_by_week"
             },
             {
-                "cid": 4,
+                "cid": 7,
                 "title": "热门（过去一月）",
                 "url": "http://behoimi.org/post/popular_by_month"
             },
             {
-                "cid": 6,
+                "cid": 8,
                 "title": "热门（2016年）",
                 "url": "http://behoimi.org/post/popular_by_month?month={page:1}&year=2016"
             },
             {
-                "cid": 7,
+                "cid": 9,
                 "title": "热门（2015年）",
                 "url": "http://behoimi.org/post/popular_by_month?month={page:1}&year=2015"
             },
             {
-                "cid": 8,
+                "cid": 10,
                 "title": "热门（2014年）",
                 "url": "http://behoimi.org/post/popular_by_month?month={page:1}&year=2014"
             },
             {
-                "cid": 9,
+                "cid": 11,
                 "title": "热门（2013年）",
                 "url": "http://behoimi.org/post/popular_by_month?month={page:1}&year=2013"
             }
         ],
+        "cookie": "",
         "flag": "noTitle",
         "galleryRule": {
+            "commentAuthor": {
+                "fun": "html",
+                "selector": "div.author > h6 > a"
+            },
+            "commentAvatar": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "img.avatar"
+            },
+            "commentContent": {
+                "fun": "html",
+                "selector": "div.content > div.body"
+            },
+            "commentDatetime": {
+                "fun": "html",
+                "selector": "div.author > span.date > a"
+            },
+            "commentItem": {
+                "selector": "div.response-list > div.comment"
+            },
             "item": {
                 "selector": "body"
             },
@@ -80,6 +101,8 @@
             }
         },
         "galleryUrl": "http://behoimi.org/post/show/{idCode:}",
+        "gid": 0,
+        "index": 0,
         "indexRule": {
             "cover": {
                 "fun": "attr",
@@ -118,5 +141,6 @@
         "loginUrl": "http://behoimi.org/user/login",
         "searchUrl": "http://behoimi.org/post?tags={keyword:}&page={page:1}",
         "sid": 37,
-        "title": "3dbooru Post"
+        "title": "3dbooru Post",
+        "versionCode": 0
     }

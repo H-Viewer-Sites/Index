@@ -51,6 +51,7 @@
                 "url": "https://dribbble.com/shots?page={page:1}&per_page=12&list=attachments"
             }
         ],
+        "cookie": "",
         "extraRule": {
             "pictureUrl": {
                 "fun": "attr",
@@ -58,8 +59,33 @@
                 "selector": "div#viewer-img > img"
             }
         },
-        "flag": "noRating|singlePageBigPicture|preloadGallery",
+        "flag": "noRating|singlePageBigPicture|preloadGallery|jsNeeded",
         "galleryRule": {
+            "commentAuthor": {
+                "fun": "html",
+                "regex": "(?:<img.*?>)?(.*)",
+                "selector": "h2 > a.url"
+            },
+            "commentAvatar": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "img.photo"
+            },
+            "commentContent": {
+                "fun": "html",
+                "selector": "div.comment-body"
+            },
+            "commentDatetime": {
+                "fun": "html",
+                "selector": "p.comment-meta > a.posted"
+            },
+            "commentItem": {
+                "selector": "ol#comments > li.comment"
+            },
+            "description": {
+                "fun": "html",
+                "selector": "div.shot-desc"
+            },
             "item": {
                 "selector": "div.single-img,ul.thumbs>li"
             },
@@ -80,6 +106,8 @@
             }
         },
         "galleryUrl": "https://dribbble.com/shots/{idCode:}",
+        "gid": 0,
+        "index": 0,
         "indexRule": {
             "cover": {
                 "fun": "attr",
@@ -116,5 +144,6 @@
         "loginUrl": "https://dribbble.com/session/new",
         "searchUrl": "https://dribbble.com/search?q={keyword:}&page={page:1}&per_page=12",
         "sid": 55,
-        "title": "Dribbble"
+        "title": "Dribbble",
+        "versionCode": 0
     }

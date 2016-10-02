@@ -1,28 +1,48 @@
-﻿{
+﻿    {
         "categories": [
             {
-                "url": "http://moeimg.net/page/{page:1}",
+                "cid": 1,
                 "title": "首页",
-                "cid": 1
+                "url": "http://moeimg.net/page/{page:1}"
             },
             {
-                "url": "http://moeimg.net/category/%E3%82%A8%E3%83%AD%E7%94%BB%E5%83%8F/page/{page:1}",
+                "cid": 2,
                 "title": "エロ画像",
-                "cid": 2
+                "url": "http://moeimg.net/category/%E3%82%A8%E3%83%AD%E7%94%BB%E5%83%8F/page/{page:1}"
             },
             {
-                "url": "http://moeimg.net/category/%E9%9D%9E%E3%82%A8%E3%83%AD%E3%83%BB%E5%BE%AE%E3%82%A8%E3%83%AD%E7%94%BB%E5%83%8F/page/{page:1}",
+                "cid": 3,
                 "title": "非エロ・微エロ画像",
-                "cid": 3
+                "url": "http://moeimg.net/category/%E9%9D%9E%E3%82%A8%E3%83%AD%E3%83%BB%E5%BE%AE%E3%82%A8%E3%83%AD%E7%94%BB%E5%83%8F/page/{page:1}"
             },
             {
-                "url": "http://moeimg.net/category/%E3%83%8D%E3%82%BF%E7%94%BB%E5%83%8F/page/{page:1}",
+                "cid": 4,
                 "title": "ネタ画像",
-                "cid": 4
+                "url": "http://moeimg.net/category/%E3%83%8D%E3%82%BF%E7%94%BB%E5%83%8F/page/{page:1}"
             }
         ],
+        "cookie": "",
         "flag": "noRating",
         "galleryRule": {
+            "commentAuthor": {
+                "fun": "html",
+                "selector": "div.comment-author > cite"
+            },
+            "commentAvatar": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "div.comment-author > img"
+            },
+            "commentContent": {
+                "selector": "div.comment-body > p"
+            },
+            "commentDatetime": {
+                "fun": "html",
+                "selector": "div.comment-meta > a"
+            },
+            "commentItem": {
+                "selector": "ol.commentlist > li.comment"
+            },
             "item": {
                 "selector": "div.box > a"
             },
@@ -38,7 +58,8 @@
             }
         },
         "galleryUrl": "http://moeimg.net/{idCode:}.html",
-        "title": "二次萌エロ画像ブログ",
+        "gid": 0,
+        "index": 0,
         "indexRule": {
             "category": {
                 "fun": "html",
@@ -75,5 +96,7 @@
         },
         "indexUrl": "http://moeimg.net/page/{page:1}",
         "searchUrl": "http://moeimg.net/?cat=0&s={keyword:}&submit=%E6%A4%9C%E7%B4%A2",
-        "sid": 8
+        "sid": 8,
+        "title": "二次萌エロ画像ブログ",
+        "versionCode": 0
     }

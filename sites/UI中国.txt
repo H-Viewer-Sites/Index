@@ -19,6 +19,25 @@
         "cookie": "",
         "flag": "noRating",
         "galleryRule": {
+            "commentAuthor": {
+                "fun": "html",
+                "selector": "div.comment-cont > .user > a"
+            },
+            "commentAvatar": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "a[class^='avatar'] > img"
+            },
+            "commentContent": {
+                "selector": "div.comment-cont>div.retext,div.comment-cont>p.text"
+            },
+            "commentDatetime": {
+                "fun": "html",
+                "selector": "div.comment-cont > .user > time"
+            },
+            "commentItem": {
+                "selector": "ul.comment-main > li.item"
+            },
             "description": {
                 "fun": "html",
                 "regex": "(<p.*/p>)",

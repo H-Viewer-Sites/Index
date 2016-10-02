@@ -1,111 +1,132 @@
-﻿{
+﻿    {
         "categories": [
             {
-                "url": "http://www.jdlingyu.moe/page/{page:1}/",
+                "cid": 1,
                 "title": "首页",
-                "cid": 1
+                "url": "http://www.jdlingyu.moe/page/{page:1}/"
             },
             {
-                "url": "http://www.jdlingyu.moe/%e4%b8%93%e9%a2%98/{pageStr:page/{page:1}/}",
+                "cid": 2,
                 "title": "专题",
-                "cid": 2
+                "url": "http://www.jdlingyu.moe/%e4%b8%93%e9%a2%98/{pageStr:page/{page:1}/}"
             },
             {
-                "url": "http://www.jdlingyu.moe/%e8%87%aa%e6%8b%8d/{pageStr:page/{page:1}/}",
+                "cid": 3,
                 "title": "专题->自拍",
-                "cid": 3
+                "url": "http://www.jdlingyu.moe/%e8%87%aa%e6%8b%8d/{pageStr:page/{page:1}/}"
             },
             {
-                "url": "http://www.jdlingyu.moe/%e4%b8%93%e9%a2%98/%e6%94%be%e6%b5%81/{pageStr:page/{page:1}/}",
+                "cid": 4,
                 "title": "专题->放流",
-                "cid": 4
+                "url": "http://www.jdlingyu.moe/%e4%b8%93%e9%a2%98/%e6%94%be%e6%b5%81/{pageStr:page/{page:1}/}"
             },
             {
-                "url": "http://www.jdlingyu.moe/%e4%b8%93%e9%a2%98/%e7%8b%ac%e5%ae%b6/{pageStr:page/{page:1}/}",
+                "cid": 5,
                 "title": "专题->独家",
-                "cid": 5
+                "url": "http://www.jdlingyu.moe/%e4%b8%93%e9%a2%98/%e7%8b%ac%e5%ae%b6/{pageStr:page/{page:1}/}"
             },
             {
-                "url": "http://www.jdlingyu.moe/%e4%b8%93%e9%a2%98/mzzqx/{pageStr:page/{page:1}/}",
+                "cid": 6,
                 "title": "专题->漫展最前线",
-                "cid": 6
+                "url": "http://www.jdlingyu.moe/%e4%b8%93%e9%a2%98/mzzqx/{pageStr:page/{page:1}/}"
             },
             {
-                "url": "http://www.jdlingyu.moe/%e7%89%b9%e7%82%b9/{pageStr:page/{page:1}/}",
+                "cid": 7,
                 "title": "特点",
-                "cid": 7
+                "url": "http://www.jdlingyu.moe/%e7%89%b9%e7%82%b9/{pageStr:page/{page:1}/}"
             },
             {
-                "url": "http://www.jdlingyu.moe/%e8%83%96%e6%ac%a1/{pageStr:page/{page:1}/}",
+                "cid": 8,
                 "title": "特点->胖次",
-                "cid": 8
+                "url": "http://www.jdlingyu.moe/%e8%83%96%e6%ac%a1/{pageStr:page/{page:1}/}"
             },
             {
-                "url": "http://www.jdlingyu.moe/%e7%89%b9%e7%82%b9/%e4%b8%9d%e8%a2%9c/{pageStr:page/{page:1}/}",
+                "cid": 9,
                 "title": "特点->丝袜",
-                "cid": 9
+                "url": "http://www.jdlingyu.moe/%e7%89%b9%e7%82%b9/%e4%b8%9d%e8%a2%9c/{pageStr:page/{page:1}/}"
             },
             {
-                "url": "http://www.jdlingyu.moe/%e7%89%b9%e7%82%b9/%e6%b1%89%e6%9c%8d/{pageStr:page/{page:1}/}",
+                "cid": 10,
                 "title": "特点->汉服",
-                "cid": 10
+                "url": "http://www.jdlingyu.moe/%e7%89%b9%e7%82%b9/%e6%b1%89%e6%9c%8d/{pageStr:page/{page:1}/}"
             },
             {
-                "url": "http://www.jdlingyu.moe/%e7%89%b9%e7%82%b9/%e6%ad%bb%e5%ba%93%e6%b0%b4/{pageStr:page/{page:1}/}",
+                "cid": 11,
                 "title": "特点->死库水",
-                "cid": 11
+                "url": "http://www.jdlingyu.moe/%e7%89%b9%e7%82%b9/%e6%ad%bb%e5%ba%93%e6%b0%b4/{pageStr:page/{page:1}/}"
             },
             {
-                "url": "http://www.jdlingyu.moe/%e7%89%b9%e7%82%b9/%e4%bd%93%e6%93%8d%e6%9c%8d/{pageStr:page/{page:1}/}",
+                "cid": 12,
                 "title": "特点->体操服",
-                "cid": 12
+                "url": "http://www.jdlingyu.moe/%e7%89%b9%e7%82%b9/%e4%bd%93%e6%93%8d%e6%9c%8d/{pageStr:page/{page:1}/}"
             },
             {
-                "url": "http://www.jdlingyu.moe/%e7%89%b9%e7%82%b9/%e5%a5%b3%e4%bb%86%e8%a3%85/{pageStr:page/{page:1}/}",
+                "cid": 13,
                 "title": "特点->女仆装",
-                "cid": 13
+                "url": "http://www.jdlingyu.moe/%e7%89%b9%e7%82%b9/%e5%a5%b3%e4%bb%86%e8%a3%85/{pageStr:page/{page:1}/}"
             },
             {
-                "url": "http://www.jdlingyu.moe/%e7%89%b9%e7%82%b9/%e6%b0%b4%e6%89%8b%e6%9c%8d/{pageStr:page/{page:1}/}",
+                "cid": 14,
                 "title": "特点->水手服",
-                "cid": 14
+                "url": "http://www.jdlingyu.moe/%e7%89%b9%e7%82%b9/%e6%b0%b4%e6%89%8b%e6%9c%8d/{pageStr:page/{page:1}/}"
             },
             {
-                "url": "http://www.jdlingyu.moe/%e7%89%b9%e7%82%b9/%e5%92%8c%e6%9c%8d%e6%b5%b4%e8%a1%a3/{pageStr:page/{page:1}/}",
+                "cid": 15,
                 "title": "特点->和服",
-                "cid": 15
+                "url": "http://www.jdlingyu.moe/%e7%89%b9%e7%82%b9/%e5%92%8c%e6%9c%8d%e6%b5%b4%e8%a1%a3/{pageStr:page/{page:1}/}"
             },
             {
-                "url": "http://www.jdlingyu.moe/%e5%bc%84%e6%bd%ae/{pageStr:page/{page:1}/}",
+                "cid": 16,
                 "title": "弄潮",
-                "cid": 16
+                "url": "http://www.jdlingyu.moe/%e5%bc%84%e6%bd%ae/{pageStr:page/{page:1}/}"
             },
             {
-                "url": "http://www.jdlingyu.moe/%e5%bc%84%e6%bd%ae/%e6%9d%9f%e7%bc%9a/{pageStr:page/{page:1}/}",
+                "cid": 16,
                 "title": "弄潮->束缚",
-                "cid": 16
+                "url": "http://www.jdlingyu.moe/%e5%bc%84%e6%bd%ae/%e6%9d%9f%e7%bc%9a/{pageStr:page/{page:1}/}"
             },
             {
-                "url": "http://www.jdlingyu.moe/cosplay/{pageStr:page/{page:1}/}",
+                "cid": 17,
                 "title": "Cosplay",
-                "cid": 17
+                "url": "http://www.jdlingyu.moe/cosplay/{pageStr:page/{page:1}/}"
             },
             {
-                "url": "http://www.jdlingyu.moe/%e5%86%99%e7%9c%9f/{pageStr:page/{page:1}/}",
+                "cid": 18,
                 "title": "写真",
-                "cid": 18
+                "url": "http://www.jdlingyu.moe/%e5%86%99%e7%9c%9f/{pageStr:page/{page:1}/}"
             },
             {
-                "url": "http://www.jdlingyu.moe/%e4%b8%8b%e8%bd%bd/{pageStr:page/{page:1}/}",
+                "cid": 19,
                 "title": "下载",
-                "cid": 19
+                "url": "http://www.jdlingyu.moe/%e4%b8%8b%e8%bd%bd/{pageStr:page/{page:1}/}"
             }
         ],
+        "cookie": "",
         "flag": "noRating",
         "galleryRule": {
             "category": {
                 "fun": "html",
                 "selector": "div.main-header > div.main-meta > span:eq(1) > a"
+            },
+            "commentAuthor": {
+                "fun": "html",
+                "selector": "div.comment-meta > span.comment-name"
+            },
+            "commentAvatar": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "div.comment-author > img"
+            },
+            "commentContent": {
+                "fun": "html",
+                "selector": "div.comment-entry"
+            },
+            "commentDatetime": {
+                "fun": "html",
+                "selector": "div.comment-meta > span.comment-date"
+            },
+            "commentItem": {
+                "selector": "ol.commentlist > li.comment"
             },
             "datetime": {
                 "fun": "html",
@@ -130,7 +151,8 @@
             }
         },
         "galleryUrl": "http://www.jdlingyu.moe/{idCode:}/",
-        "title": "绝对领域",
+        "gid": 0,
+        "index": 0,
         "indexRule": {
             "cover": {
                 "fun": "attr",
@@ -158,5 +180,7 @@
         "indexUrl": "http://www.jdlingyu.moe/page/{page:1}/",
         "loginUrl": "http://www.jdlingyu.moe/wp-login.php",
         "searchUrl": "http://www.jdlingyu.moe/page/{page:1}/?s={keyword:}",
-        "sid": 51
+        "sid": 51,
+        "title": "绝对领域",
+        "versionCode": 0
     }

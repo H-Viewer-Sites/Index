@@ -1,61 +1,62 @@
-﻿{
+﻿    {
         "categories": [
             {
-                "url": "http://g.e-hentai.org/?page={page:0}",
+                "cid": 1,
                 "title": "首页",
-                "cid": 1
+                "url": "http://g.e-hentai.org/?page={page:0}"
             },
             {
-                "url": "http://g.e-hentai.org/doujinshi/{page:0}",
+                "cid": 2,
                 "title": "同人志",
-                "cid": 2
+                "url": "http://g.e-hentai.org/doujinshi/{page:0}"
             },
             {
-                "url": "http://g.e-hentai.org/manga/{page:0}",
+                "cid": 3,
                 "title": "漫画",
-                "cid": 3
+                "url": "http://g.e-hentai.org/manga/{page:0}"
             },
             {
-                "url": "http://g.e-hentai.org/artistcg/{page:0}",
+                "cid": 4,
                 "title": "同人CG",
-                "cid": 4
+                "url": "http://g.e-hentai.org/artistcg/{page:0}"
             },
             {
-                "url": "http://g.e-hentai.org/gamecg/{page:0}",
+                "cid": 5,
                 "title": "游戏CG",
-                "cid": 5
+                "url": "http://g.e-hentai.org/gamecg/{page:0}"
             },
             {
-                "url": "http://g.e-hentai.org/western/{page:0}",
+                "cid": 6,
                 "title": "欧美",
-                "cid": 6
+                "url": "http://g.e-hentai.org/western/{page:0}"
             },
             {
-                "url": "http://g.e-hentai.org/non-h/{page:0}",
+                "cid": 7,
                 "title": "Non-H",
-                "cid": 7
+                "url": "http://g.e-hentai.org/non-h/{page:0}"
             },
             {
-                "url": "http://g.e-hentai.org/imageset/{page:0}",
+                "cid": 8,
                 "title": "图集",
-                "cid": 8
+                "url": "http://g.e-hentai.org/imageset/{page:0}"
             },
             {
-                "url": "http://g.e-hentai.org/cosplay/{page:0}",
+                "cid": 9,
                 "title": "Cosplay",
-                "cid": 9
+                "url": "http://g.e-hentai.org/cosplay/{page:0}"
             },
             {
-                "url": "http://g.e-hentai.org/asianporn/{page:0}",
+                "cid": 10,
                 "title": "亚洲AV",
-                "cid": 10
+                "url": "http://g.e-hentai.org/asianporn/{page:0}"
             },
             {
-                "url": "http://g.e-hentai.org/misc/{page:0}",
+                "cid": 11,
                 "title": "MISC",
-                "cid": 11
+                "url": "http://g.e-hentai.org/misc/{page:0}"
             }
         ],
+        "cookie": "",
         "extraRule": {
             "pictureUrl": {
                 "fun": "attr",
@@ -65,6 +66,22 @@
         },
         "flag": "singlePageBigPicture|repeatedThumbnail|preloadGallery",
         "galleryRule": {
+            "commentAuthor": {
+                "fun": "html",
+                "selector": "div.c3 > a:first-child"
+            },
+            "commentContent": {
+                "fun": "html",
+                "selector": "div.c6"
+            },
+            "commentDatetime": {
+                "fun": "html",
+                "regex": "Posted on (.*?) UTC by",
+                "selector": "div.c3"
+            },
+            "commentItem": {
+                "selector": "div#cdiv > div.c1"
+            },
             "item": {
                 "selector": "div.gdtl,div.gdtm"
             },
@@ -86,8 +103,9 @@
                 "selector": "h1#gj"
             }
         },
-        "galleryUrl": "http://g.e-hentai.org/g/{idCode:}/?p={page:0}",
-        "title": "G.E-hentai",
+        "galleryUrl": "http://g.e-hentai.org/g/{idCode:}/?p={page:0}&hc=1",
+        "gid": 0,
+        "index": 0,
         "indexRule": {
             "category": {
                 "fun": "attr",
@@ -132,5 +150,7 @@
         "indexUrl": "http://g.e-hentai.org/?page={page:0}",
         "loginUrl": "https://forums.e-hentai.org/index.php?act=Login",
         "searchUrl": "http://g.e-hentai.org/?f_search={keyword:}&page={page:0}",
-        "sid": 2
+        "sid": 2,
+        "title": "G.E-hentai",
+        "versionCode": 0
     }

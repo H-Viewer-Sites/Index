@@ -246,8 +246,26 @@
                 "url": "http://gelbooru.com/index.php?page=post&s=list&tags=yuri_sakazaki&pid={page:0:42}"
             }
         ],
+        "cookie": "",
         "flag": "noTitle",
         "galleryRule": {
+            "commentAuthor": {
+                "fun": "html",
+                "selector": "a[href^='index']"
+            },
+            "commentContent": {
+                "fun": "html",
+                "regex": "(<br>[^<>]*?<br>)",
+                "selector": "this"
+            },
+            "commentDatetime": {
+                "fun": "html",
+                "regex": "Posted on (\\d{4}-\\d{2}-\\d{2} \\d{2}:\\d{2}:\\d{2})",
+                "selector": "b"
+            },
+            "commentItem": {
+                "selector": "div[id^=c][style*='display']"
+            },
             "item": {
                 "selector": "body"
             },
@@ -270,6 +288,8 @@
             }
         },
         "galleryUrl": "http://gelbooru.com/index.php?page=post&s=view&id={idCode:}",
+        "gid": 0,
+        "index": 0,
         "indexRule": {
             "cover": {
                 "fun": "attr",
@@ -309,5 +329,6 @@
         "loginUrl": "http://gelbooru.com/index.php?page=account&s=login&code=00",
         "searchUrl": "http://gelbooru.com/index.php?page=post&s=list&tags={keyword:}&pid={page:0:42}",
         "sid": 39,
-        "title": "Gelbooru Post"
+        "title": "Gelbooru Post",
+        "versionCode": 0
     }

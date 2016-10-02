@@ -66,8 +66,29 @@
                 "url": "https://konachan.net/post/popular_by_month?month={page:1}&year=2013"
             }
         ],
+        "cookie": "",
         "flag": "noTitle",
         "galleryRule": {
+            "commentAuthor": {
+                "fun": "html",
+                "selector": "div.author > h6 > a"
+            },
+            "commentAvatar": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "img.avatar"
+            },
+            "commentContent": {
+                "fun": "html",
+                "selector": "div.content > div.body"
+            },
+            "commentDatetime": {
+                "fun": "html",
+                "selector": "div.author > span.date > a"
+            },
+            "commentItem": {
+                "selector": "div.response-list > div.comment"
+            },
             "item": {
                 "selector": "body"
             },
@@ -89,6 +110,8 @@
             }
         },
         "galleryUrl": "https://konachan.net/post/show/{idCode:}",
+        "gid": 0,
+        "index": 0,
         "indexRule": {
             "category": {
                 "fun": "html",
@@ -131,5 +154,6 @@
         "loginUrl": "https://konachan.net/user/login",
         "searchUrl": "https://konachan.net/post?tags={keyword:}&page={page:1}",
         "sid": 35,
-        "title": "Konachan Post"
+        "title": "Konachan Post",
+        "versionCode": 0
     }
