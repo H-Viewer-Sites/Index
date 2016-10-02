@@ -1,7 +1,7 @@
 ﻿{
         "categories": [
             {
-                "url": "http://www.wnacg.org/albums-index-page-{page:1}.html",
+                "url": "http://www.wnacg.com/albums-index-page-{page:1}.html",
                 "title": "首页",
                 "cid": 1
             },
@@ -88,7 +88,7 @@
                 "selector": "a"
             }
         },
-        "galleryUrl": "http://www.wnacg.org/photos-index-page-{page:1}-aid-{idCode:}.html",
+        "galleryUrl": "http://www.wnacg.com/photos-index-page-{page:1}-aid-{idCode:}.html",
         "title": "绅士漫画",
         "indexRule": {
             "cover": {
@@ -115,8 +115,8 @@
                 "selector": "div.info div.title a"
             }
         },
-        "indexUrl": "http://www.wnacg.org/albums-index-page-{page:1}.html",
+        "indexUrl": "http://www.wnacg.com/albums-index-page-{page:1}.html",
         "loginUrl": "http://www.wnacg.com/users-login.html",
-        "searchUrl": "http://www.wnacg.org/albums-index-page-{page:1}-sname-{keyword:}.html",
+        "searchUrl": "http://www.wnacg.com/albums-index-page-{page:1}-sname-{keyword:}.html",
         "sid": 4
     }
