@@ -34,11 +34,6 @@
                 "cid": 7,
                 "title": "清纯妹子",
                 "url": "http://www.mzitu.com/mm/page/{page:1}"
-            },
-            {
-                "cid": 8,
-                "title": "妹子自拍",
-                "url": "http://www.mzitu.com/share/page/{page:1}"
             }
         ],
         "cookie": "",
