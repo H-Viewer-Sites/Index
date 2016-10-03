@@ -1,0 +1,125 @@
+﻿{
+    "categories": [
+        {
+            "url": "http://www.meizitu.com/a/list_1_{page:1}.html",
+            "title": "首页",
+            "cid": 1
+        },
+        {
+            "url": "http://www.meizitu.com/a/xinggan_2_{page:1}.html",
+            "title": "性感浴室",
+            "cid": 2
+        },
+        {
+            "url": "http://www.meizitu.com/a/sifang_5_{page:1}.html",
+            "title": "私房美腿",
+            "cid": 3
+        },
+        {
+            "url": "http://www.meizitu.com/a/qingchun_3_{page:1}.html",
+            "title": "清纯可爱",
+            "cid": 4
+        },
+        {
+            "url": "http://www.meizitu.com/a/meizi_4_{page:1}.html",
+            "title": "妹子",
+            "cid": 5
+        },
+        {
+            "url": "http://www.meizitu.com/a/xiaoqingxin_6_{page:1}.html",
+            "title": "小清新",
+            "cid": 6
+        },
+        {
+            "url": "http://www.meizitu.com/a/nvshen_7_{page:1}.html",
+            "title": "女神",
+            "cid": 7
+        },
+        {
+            "url": "http://www.meizitu.com/a/mote_9_{page:1}.html",
+            "title": "模特车模",
+            "cid": 8
+        },
+        {
+            "url": "http://www.meizitu.com/a/bijini_10_{page:1}.html",
+            "title": "比基尼",
+            "cid": 9
+        },
+        {
+            "url": "http://www.meizitu.com/a/baobei_11_{page:1}.html",
+            "title": "足球宝贝",
+            "cid": 10
+        },
+        {
+            "url": "http://www.meizitu.com/a/wangluo_13_{page:1}.html",
+            "title": "网络女神",
+            "cid": 11
+        },
+        {
+            "url": "http://www.meizitu.com/a/luoli_12_{page:1}.html",
+            "title": "萝莉",
+            "cid": 12
+        },
+        {
+            "url": "http://www.meizitu.com/a/rihan_14_{page:1}.html",
+            "title": "日韩",
+            "cid": 13
+        }
+    ],
+    "extraRule": {},
+    "flag": "noTag",
+    "galleryRule": {
+        "datetime": {
+            "fun": "html",
+            "selector": "div.month_year"
+        },
+        "item": {
+            "selector": "p img"
+        },
+        "pictureThumbnail": {
+            "fun": "attr",
+            "param": "src",
+            "selector": "img"
+        },
+        "pictureUrl": {
+            "fun": "attr",
+            "param": "src",
+            "selector": "img"
+        },
+        "tags": {
+            "fun": "html",
+            "selector": "div.metaRight>p"
+        },
+        "title": {
+            "fun": "html",
+            "selector": "div.metaRight > h2 > a"
+        }
+    },
+    "galleryUrl": "http://www.meizitu.com/a/{idCode:}.html",
+    "gid": 12,
+    "index": 3,
+    "indexRule": {
+        "cover": {
+            "fun": "attr",
+            "param": "src",
+            "selector": ".pic a img"
+        },
+        "idCode": {
+            "fun": "attr",
+            "param": "href",
+            "regex": "http://www\\.meizitu\\.com/a/(\\d+).html",
+            "selector": "h3.tit a"
+        },
+        "item": {
+            "selector": "ul.wp-list > li > div.con"
+        },
+        "title": {
+            "fun": "html",
+            "selector": "h3.tit a"
+        }
+    },
+    "indexUrl": "http://www.meizitu.com/a/list_1_{page:1}.html",
+    "sid": 94,
+    "title": "妹子图2",
+    "versionCode": 1
+}
