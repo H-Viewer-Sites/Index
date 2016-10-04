@@ -116,7 +116,7 @@
         "title": {
             "fun": "html",
             "selector": "h3.tit a",
-            "regex": "(?:<b>)?([^<>]*)(?:</b>)?",
+            "regex": "(?:<b>)?([^<>]*)(?:</b>)?"
         }
     },
     "indexUrl": "http://www.meizitu.com/a/list_1_{page:1}.html",
