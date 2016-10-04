@@ -1,0 +1,81 @@
+﻿{
+    "categories": [
+        {
+            "cid": 1,
+            "title": "全部",
+            "url": "https://avmo.pw/cn/page/{page:1}"
+        },
+        {
+            "cid": 2,
+            "title": "已发布",
+            "url": "https://avmo.pw/cn/released/page/{page:1}"
+        },
+        {
+            "cid": 3,
+            "title": "热门",
+            "url": "https://avmo.pw/cn/popular/page/{page:1}"
+        }
+    ],
+    "cookie": "",
+    "flag": "noRating|preloadGallery",
+    "galleryRule": {
+        "description": {
+            "fun": "html",
+            "selector": "div.info"
+        },
+        "item": {
+            "selector": "div#sample-waterfall > .sample-box"
+        },
+        "pictureThumbnail": {
+            "fun": "attr",
+            "param": "src",
+            "selector": "img"
+        },
+        "pictureUrl": {
+            "fun": "attr",
+            "param": "href",
+            "selector": "this"
+        },
+        "tags": {
+            "fun": "html",
+            "selector": "div.info > p > span.genre > a"
+        }
+    },
+    "galleryUrl": "https://avmo.pw/cn/movie/{idCode:}",
+    "gid": 0,
+    "index": 0,
+    "indexRule": {
+        "category": {
+            "fun": "html",
+            "selector": "div.photo-info > span > date:nth-of-type(1)"
+        },
+        "cover": {
+            "fun": "attr",
+            "param": "src",
+            "selector": "div.photo-frame > img"
+        },
+        "datetime": {
+            "fun": "html",
+            "selector": "div.photo-info > span > date:nth-of-type(2)"
+        },
+        "idCode": {
+            "fun": "attr",
+            "param": "href",
+            "regex": "movie/(.*)",
+            "selector": "a.movie-box"
+        },
+        "item": {
+            "selector": "#waterfall > div.item"
+        },
+        "title": {
+            "fun": "attr",
+            "param": "title",
+            "selector": "div.photo-frame > img"
+        }
+    },
+    "indexUrl": "https://avmo.pw/cn/page/{page:1}",
+    "searchUrl": "https://avmo.pw/cn/search/{keyword:}/page/{page:1}",
+    "sid": 60,
+    "title": "AVMOO",
+    "versionCode": 0
+}

@@ -335,6 +335,17 @@
                 "versionCode": 2,
                 "lastUpdate": "2016-10-03 23:22:13",
                 "r18": false
+            },
+            {
+                "sid": 407,
+                "title": "AVMOO",
+                "author": "PureDark",
+                "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/icons/AVMOO.png",
+                "description": "你的线上日本成人影片情报站。管理你的影片并分享你的想法。",
+                "json": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/AVMOO.txt",
+                "versionCode": 1,
+                "lastUpdate": "2016-10-04 15:46:53",
+                "r18": true
             }
         ]
     },
