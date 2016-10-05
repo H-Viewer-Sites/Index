@@ -1,0 +1,95 @@
+﻿{
+    "cookie": "",
+    "flag": "preloadGallery",
+    "galleryRule": {
+        "datetime": {
+            "fun": "html",
+            "regex": "(\\d{4}/\\d{2}/\\d{2} \\d{2}:\\d{2})",
+            "selector": "div.timeIcon > div"
+        },
+        "category": {
+            "fun": "html",
+            "regex": "｜(.*)",
+            "selector": "div.timeIcon > div"
+        },
+        "description": {
+            "fun": "html",
+            "selector": "div.desc"
+        },
+        "pictureThumbnail": {
+            "fun": "html",
+            "regex": "s_url.*?drawyoo(.*?)\"",
+            "replacement": "http://i0.hdslb.com/bfs/drawyoo$1",
+            "selector": "div.d_body > script"
+        },
+        "pictureUrl": {
+            "fun": "html",
+            "regex": "m_url.*?drawyoo(.*?)\"",
+            "replacement": "http://i0.hdslb.com/bfs/drawyoo$1",
+            "selector": "div.d_body > script"
+        },
+        "rating": {
+            "fun": "html",
+            "regex": "(.*)/",
+            "replacement": "$1/2",
+            "selector": "div.rate_avg_num_f"
+        },
+        "tags": {
+            "fun": "html",
+            "selector": "div.p_tags > div.pic_tip div.tip_name"
+        }
+    },
+    "galleryUrl": "http://h.bilibili.com/dy{idCode:}",
+    "indexRule": {
+        "cover": {
+            "fun": "attr",
+            "param": "src",
+            "selector": "div > a > img"
+        },
+        "idCode": {
+            "fun": "attr",
+            "param": "href",
+            "regex": "/dy(\\d*)",
+            "selector": "div > a"
+        },
+        "item": {
+            "selector": "ul.content_list > li.main_img"
+        },
+        "title": {
+            "fun": "html",
+            "selector": "div > a > div"
+        },
+        "uploader": {
+            "fun": "html",
+            "selector": "div > div.img_author_name"
+        }
+    },
+    "indexUrl": "http://h.bilibili.com/list?page={page:1}",
+    "loginUrl": "https://passport.bilibili.com/login",
+    "searchRule": {
+        "cover": {
+            "fun": "attr",
+            "param": "src",
+            "selector": "a.cover > img"
+        },
+        "idCode": {
+            "fun": "attr",
+            "param": "href",
+            "regex": "/dy(\\d*)",
+            "selector": "a.cover"
+        },
+        "item": {
+            "selector": "div.ajax-render > li.draw-item"
+        },
+        "title": {
+            "fun": "html",
+            "selector": "a.headline"
+        },
+        "uploader": {
+            "fun": "html",
+            "selector": "div.up-name"
+        }
+    },
+    "searchUrl": "http://search.bilibili.com/drawyoo?keyword={keyword:}&page={page:1}",
+    "title": "Bilibili 画友"
+}

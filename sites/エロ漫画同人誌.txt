@@ -1,0 +1,73 @@
+﻿{
+    "extraRule": {},
+    "galleryRule": {
+        "item": {
+            "selector": "div.ently_text a img"
+        },
+        "pictureThumbnail": {
+            "fun": "attr",
+            "param": "src",
+            "selector": "this"
+        },
+        "pictureUrl": {
+            "fun": "attr",
+            "param": "src",
+            "selector": "this"
+        },
+        "rating": {
+            "fun": "attr",
+            "param": "src",
+            "selector": ".post-ratings"
+        },
+        "tags": {
+            "fun": "html",
+            "selector": " div.tag_list a[rel='tag']"
+        },
+        "title": {
+            "fun": "html",
+            "selector": "ently_title > a"
+        }
+    },
+    "flag": "noRating",
+    "galleryUrl": "http://buhidoh.net/blog-entry-{idCode:}.html",
+    "indexRule": {
+        "category": {
+            "fun": "html",
+            "selector": "div.ently_navi a"
+        },
+        "cover": {
+            "fun": "attr",
+            "param": "src",
+            "selector": " a img"
+        },
+        "datetime": {
+            "fun": "html",
+            "regex": "(\\d{4}/\\d{2}/\\d{2} \\d{2}:\\d{2})",
+            "selector": "div.ently_navi"
+        },
+        "idCode": {
+            "fun": "attr",
+            "param": "href",
+            "regex": "(\\d+).html",
+            "selector": "h2.ently_title > a"
+        },
+        "item": {
+            "selector": "div#center > div.ently_outline"
+        },
+        "rating": {
+            "selector": "img.post-ratings"
+        },
+        "tags": {
+            "fun": "html",
+            "selector": " div.tag_list a[rel='tag']"
+        },
+        "title": {
+            "fun": "attr",
+            "param": "title",
+            "selector": "h2.ently_title > a "
+        }
+    },
+    "indexUrl": "http://buhidoh.net/page/{page:1}",
+    "searchUrl": "http://buhidoh.net/page/{page:1}?s={keyword:}",
+    "title": "エロ漫画同人誌"
+}

@@ -29,6 +29,17 @@
             },
             {
                 "sid": 103,
+                "title": "Bilibili 画友",
+                "author": "manhong2112",
+                "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/icons/Bilibili%E7%94%BB%E5%8F%8B.png",
+                "description": "一个简单的原创画画交流中心",
+                "json": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/Bilibili%E7%94%BB%E5%8F%8B.txt",
+                "versionCode": 6,
+                "lastUpdate": "2016-09-28 18:51:05",
+                "r18": false
+            },
+            {
+                "sid": 104,
                 "title": "二次萌エロ画像ブログ",
                 "author": "PureDark",
                 "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/icons/%E4%BA%8C%E6%AC%A1%E8%90%8C%E3%82%A8%E3%83%AD%E7%94%BB%E5%83%8F%E3%83%96%E3%83%AD%E3%82%B0.png",
@@ -39,7 +50,7 @@
                 "r18": true
             },
             {
-                "sid": 104,
+                "sid": 105,
                 "title": "二次元のエッチな画像",
                 "author": "PureDark",
                 "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/icons/%E4%BA%8C%E6%AC%A1%E5%85%83%E3%81%AE%E3%82%A8%E3%83%83%E3%83%81%E3%81%AA%E7%94%BB%E5%83%8F.png",
@@ -47,6 +58,17 @@
                 "json": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/%E4%BA%8C%E6%AC%A1%E5%85%83%E3%81%AE%E3%82%A8%E3%83%83%E3%83%81%E3%81%AA%E7%94%BB%E5%83%8F.txt",
                 "versionCode": 1,
                 "lastUpdate": "2016-09-27 01:36:05",
+                "r18": true
+            },
+            {
+                "sid": 106,
+                "title": "エロ漫画同人誌",
+                "author": "sosmygirl",
+                "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/icons/%E3%82%A8%E3%83%AD%E6%BC%AB%E7%94%BB%E5%90%8C%E4%BA%BA%E8%AA%8C.png",
+                "description": "一个专注同人本子的网站（炮姐，Rem应有尽有）",
+                "json": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/%E3%82%A8%E3%83%AD%E6%BC%AB%E7%94%BB%E5%90%8C%E4%BA%BA%E8%AA%8C.txt",
+                "versionCode": 1,
+                "lastUpdate": "2016-10-04 15:57:34",
                 "r18": true
             }
         ]
