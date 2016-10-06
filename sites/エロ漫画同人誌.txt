@@ -1,8 +1,24 @@
 ﻿{
-    "extraRule": {},
     "galleryRule": {
+        "commentAuthor": {
+            "fun": "html",
+            "selector": "b"
+        },
+        "commentContent": {
+            "fun": "html",
+            "selector": "p"
+        },
+        "commentDatetime": {
+            "fun": "html",
+            "regex": "(.*)((\\d{4})/(\\d{2})/(\\d{2}))(.*)((\\d{2}):(\\d{2}):(\\d{2}))(.*)",
+            "replacement": "$2 $7",
+            "selector": "this"
+        },
+        "commentItem": {
+            "selector": "ol.comment_ol>li.comment_li"
+        },
         "item": {
-            "selector": "div.ently_text a img"
+            "selector": "div.ently_text>a>img"
         },
         "pictureThumbnail": {
             "fun": "attr",
@@ -14,11 +30,6 @@
             "param": "src",
             "selector": "this"
         },
-        "rating": {
-            "fun": "attr",
-            "param": "src",
-            "selector": ".post-ratings"
-        },
         "tags": {
             "fun": "html",
             "selector": " div.tag_list a[rel='tag']"
@@ -28,12 +39,11 @@
             "selector": "ently_title > a"
         }
     },
-    "flag": "noRating",
     "galleryUrl": "http://buhidoh.net/blog-entry-{idCode:}.html",
     "indexRule": {
         "category": {
             "fun": "html",
-            "selector": "div.ently_navi a"
+            "selector": "div.ently_navi a:nth-child(2)"
         },
         "cover": {
             "fun": "attr",
@@ -55,11 +65,20 @@
             "selector": "div#center > div.ently_outline"
         },
         "rating": {
-            "selector": "img.post-ratings"
+            "fun": "html",
+            "regex": "(\\d{1})(.*)(\\d{1}\\.(\\d+))(.*)(\\d{1})",
+            "replacement": "$3",
+            "selector": " .ently_body>div:nth-child(2)"
         },
         "tags": {
             "fun": "html",
             "selector": " div.tag_list a[rel='tag']"
+        },
+        "uploader": {
+            "fun": "html",
+            "regex": "(\\d+)",
+            "replacement": "✎$1",
+            "selector": "div.ently_navi a:nth-child(3)"
         },
         "title": {
             "fun": "attr",

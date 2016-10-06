@@ -280,7 +280,7 @@
                 "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/icons/%E3%82%A8%E3%83%AD%E6%BC%AB%E7%94%BB%E5%90%8C%E4%BA%BA%E8%AA%8C.png",
                 "description": "一个专注同人本子的网站（炮姐，Rem应有尽有）",
                 "json": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/%E3%82%A8%E3%83%AD%E6%BC%AB%E7%94%BB%E5%90%8C%E4%BA%BA%E8%AA%8C.txt",
-                "versionCode": 1,
+                "versionCode": 2,
                 "lastUpdate": "2016-10-04 15:57:34",
                 "r18": true
             }
