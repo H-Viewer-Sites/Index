@@ -294,6 +294,17 @@
                 "versionCode": 2,
                 "lastUpdate": "2016-10-06 16:17:34",
                 "r18": true
+            },
+            {
+                "sid": 309,
+                "title": "萌春画",
+                "author": "sosmygirl",
+                "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/icons/%E8%90%8C%E6%98%A5%E7%94%BB.png",
+                "description": "萌春画はえっちで萌えれるエロ同人誌、エロ漫画を載せています。現在フルカラー物のみで更新中！",
+                "json": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/%E8%90%8C%E6%98%A5%E7%94%BB.txt",
+                "versionCode": 1,
+                "lastUpdate": "2016-10-06 17:47:34",
+                "r18": true
             }
         ]
     },

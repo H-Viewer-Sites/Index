@@ -1,0 +1,91 @@
+﻿{
+    "categories": [
+        {
+            "cid": 1,
+            "title": "首页",
+            "url": "http://moeshunga.com/page/{page:1}"
+        },
+        {
+            "cid": 2,
+            "title": "非工口",
+            "url": "http://moeshunga.com/tag/%E9%9D%9E%E3%82%A8%E3%83%AD/page/{page:1}"
+        },
+        {
+            "cid": 3,
+            "title": "全彩漫画",
+            "url": "http://moeshunga.com/tag/%E3%83%95%E3%83%AB%E3%82%AB%E3%83%A9%E3%83%BC/page/{page:1}"
+        },
+        {
+            "cid": 4,
+            "title": "工口画像",
+            "url": "http://moeshunga.com/tag/%E3%82%A8%E3%83%AD%E7%94%BB%E5%83%8F/page/{page:1}"
+        },
+        {
+            "cid": 5,
+            "title": "工口同人本",
+            "url": "http://moeshunga.com/tag/%E3%82%A8%E3%83%AD%E5%90%8C%E4%BA%BA%E8%AA%8C/page/{page:1}"
+        }
+    ],
+    "flag": "noRating",
+    "galleryRule": {
+        "item": {
+            "selector": "div.mb20 img "
+        },
+        "pictureThumbnail": {
+            "fun": "attr",
+            "param": "src",
+            "selector": "this"
+        },
+        "pictureUrl": {
+            "fun": "attr",
+            "param": "src",
+            "selector": "this"
+        },
+        "tags": {
+            "fun": "html",
+            "selector": " div.tag_list li > a"
+        },
+        "title": {
+            "fun": "attr",
+            "param": "title",
+            "selector": "h2> a "
+        }
+    },
+    "galleryUrl": "http://moeshunga.com/blog-entry-{idCode:}.html",
+    "indexRule": {
+        "category": {
+            "fun": "html",
+            "selector": "ul.post-categories li a[rel='category tag']"
+        },
+        "cover": {
+            "fun": "attr",
+            "param": "src",
+            "selector": ".entry_thumb img"
+        },
+        "datetime": {
+            "fun": "html",
+            "regex": "(\\d{4}\\.\\d{2}\\.\\d{2})",
+            "selector": "p.entryDate"
+        },
+        "idCode": {
+            "fun": "attr",
+            "param": "href",
+            "regex": "(\\d+).html",
+            "selector": "h3 > a"
+        },
+        "item": {
+            "selector": "div#main > div.entry:has(h3)"
+        },
+        "tags": {
+            "fun": "html",
+            "selector": " div.tag_list li > a"
+        },
+        "title": {
+            "fun": "html",
+            "selector": "p.morelink >a"
+        }
+    },
+    "indexUrl": "http://moeshunga.com/page/{page:1}",
+    "searchUrl": "http://moeshunga.com/page/{page:1}?s={keyword:}",
+    "title": "萌春画"
+}
