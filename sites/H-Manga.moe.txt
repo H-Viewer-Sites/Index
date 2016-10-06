@@ -1,0 +1,45 @@
+﻿{
+    "flag": "preloadGallery",
+    "galleryRule": {
+        "cover": {
+            "fun": "attr",
+            "param": "data-src",
+            "selector": "#all > img:nth-child(1)"
+        },
+        "item": {
+            "selector": "div#all img"
+        },
+        "pictureThumbnail": {
+            "fun": "attr",
+            "param": "data-src",
+            "selector": "img"
+        },
+        "pictureUrl": {
+            "fun": "attr",
+            "param": "data-src",
+            "selector": "img"
+        }
+    },
+    "galleryUrl": "http://www.h-manga.moe/manga/{idCode:}/1",
+    "indexRule": {
+        "datetime": {
+            "fun": "html",
+            "selector": " small.pull-right"
+        },
+        "idCode": {
+            "fun": "attr",
+            "param": "href",
+            "regex": "manga/(.*)",
+            "selector": "h6.events-subtitle a"
+        },
+        "item": {
+            "selector": ".col-sm-12 div.mangalist div.manga-item"
+        },
+        "title": {
+            "fun": "html",
+            "selector": "h3.manga-heading.pull-left a"
+        }
+    },
+    "indexUrl": "http://www.h-manga.moe/latest-release?page={page:1}",
+    "title": "H-Manga.moe"
+}
