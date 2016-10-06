@@ -283,6 +283,17 @@
                 "versionCode": 2,
                 "lastUpdate": "2016-10-04 15:57:34",
                 "r18": true
+            },
+            {
+                "sid": 308,
+                "title": "H-Manga.moe",
+                "author": "sosmygirl",
+                "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/icons/H-Manga.moe.png",
+                "description": "在线绅士同人志阅览，免费且每日更新。",
+                "json": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/H-Manga.moe.txt",
+                "versionCode": 2,
+                "lastUpdate": "2016-10-06 16:17:34",
+                "r18": true
             }
         ]
     },
