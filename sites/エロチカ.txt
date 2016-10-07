@@ -1,0 +1,149 @@
+﻿{
+    "categories": [
+        {
+            "cid": 1,
+            "title": "首页",
+            "url": "http://ertk.net/page/{page:1}"
+        },
+        {
+            "cid": 2,
+            "title": "AKB48",
+            "url": "http://ertk.net/archives/category/akb48/page/{page:1}"
+        },
+        {
+            "cid": 3,
+            "title": "AV女優",
+            "url": "http://ertk.net/archives/category/av女優/page/{page:1}"
+        },
+        {
+            "cid": 4,
+            "title": "AV画像",
+            "url": "http://ertk.net/archives/category/av画像/page/{page:1}"
+        },
+        {
+            "cid": 5,
+            "title": "お宝TVキャプ",
+            "url": "http://ertk.net/archives/category/お宝TVキャプ/page/{page:1}"
+        },
+        {
+            "cid": 6,
+            "title": "アイドル",
+            "url": "http://ertk.net/archives/category/アイドル/page/{page:1}"
+        },
+        {
+            "cid": 7,
+            "title": "イベント",
+            "url": "http://ertk.net/archives/category/イベント/page/{page:1}"
+        },
+        {
+            "cid": 8,
+            "title": "エロTV番組キャプ",
+            "url": "http://ertk.net/archives/category/エロTV番組キャプ/page/{page:1}"
+        },
+        {
+            "cid": 9,
+            "title": "グラビア",
+            "url": "http://ertk.net/archives/category/グラビア/page/{page:1}"
+        },
+        {
+            "cid": 10,
+            "title": "シチュエーションエロ画像",
+            "url": "http://ertk.net/archives/category/シチュエーションエロ画像/page/{page:1}"
+        },
+        {
+            "cid": 11,
+            "title": "タレント",
+            "url": "http://ertk.net/archives/category/タレント/page/{page:1}"
+        },
+        {
+            "cid": 12,
+            "title": "ニコ生・生放送系",
+            "url": "http://ertk.net/archives/category/ニコ生・生放送系/page/{page:1}"
+        },
+        {
+            "cid": 13,
+            "title": "プレイ中エロ画像",
+            "url": "http://ertk.net/archives/category/プレイ中エロ画像/page/{page:1}"
+        },
+        {
+            "cid": 14,
+            "title": "女神",
+            "url": "http://ertk.net/archives/category/女神/page/{page:1}"
+        },
+        {
+            "cid": 15,
+            "title": "無修正AV女優",
+            "url": "http://ertk.net/archives/category/無修正av女優/page/{page:1}"
+        },
+        {
+            "cid": 16,
+            "title": "着エロアイドル",
+            "url": "http://ertk.net/archives/category/着エロアイドル/page/{page:1}"
+        },
+        {
+            "cid": 17,
+            "title": "素人",
+            "url": "http://ertk.net/archives/category/素人/page/{page:1}"
+        },
+        {
+            "cid": 18,
+            "title": "部分フェチヌード画像",
+            "url": "http://ertk.net/archives/category/部分フェチヌード画像/page/{page:1}"
+        }
+    ],
+    "flag": "noRating",
+    "galleryRule": {
+        "item": {
+            "selector": "span.img_frame "
+        },
+        "pictureThumbnail": {
+            "fun": "attr",
+            "param": "data-src",
+            "selector": "a > img"
+        },
+        "pictureUrl": {
+            "fun": "attr",
+            "param": "data-src",
+            "regex": ".*/imgs/(.*)(-pc)?(.*$)",
+            "replacement": "http://ertk.net/imgs/$1$3",
+            "selector": "a > img"
+        }
+    },
+    "galleryUrl": "http://ertk.net/archives/{idCode:}.html",
+    "indexRule": {
+      "item": {
+          "selector": "section.mainInner > article[id*=post]"
+      },
+      "category": {
+             "fun": "html",
+             "selector": "p.postMeta > span:nth-child(2) > a"
+         },
+        "idCode": {
+            "fun": "attr",
+            "param": "href",
+            "regex": "archives/(\\d+).html",
+            "selector": "div.postTxt > a[class='postMore btn']"
+        },
+        "cover": {
+            "fun": "attr",
+            "param": "src",
+            "selector": "div.postImg > a > img"
+        },
+        "datetime": {
+            "fun": "html",
+            "regex": "(\\d{4}.\\d{2}.\\d{2})",
+            "selector": "p.postMeta > span:first-child"
+        },
+        "title": {
+            "fun": "html",
+            "selector": "div.postTxt > h1.postTitle > a"
+        },
+        "tags": {
+            "fun": "html",
+            "selector": "div.postTxt > div.postKeyword > a"
+        }
+    },
+    "indexUrl": "http://ertk.net/page/{page:1}",
+    "searchUrl": "http://ertk.net/page/{page:1}?s={keyword:}",
+    "title": "エロチカ"
+}

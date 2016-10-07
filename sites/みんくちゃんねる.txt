@@ -1,0 +1,207 @@
+﻿{
+    "categories": [
+        {
+            "cid": 1,
+            "title": "首页",
+            "url": "http://minkch.com/page/{page:1}"
+        },
+        {
+            "cid": 2,
+            "title": "エロ写メ・自撮り",
+            "url": "http://minkch.com/archives/category/エロ写メ・自撮り/page/{page:1}"
+        },
+        {
+            "cid": 3,
+            "title": "お宝・キャプチャ画像",
+            "url": "http://minkch.com/archives/category/お宝・キャプチャ画像/page/{page:1}"
+        },
+        {
+            "cid": 4,
+            "title": "コスプレ・レイヤー",
+            "url": "http://minkch.com/archives/category/コスプレ・レイヤー/page/{page:1}"
+        },
+        {
+            "cid": 5,
+            "title": "素人・盗撮画像",
+            "url": "http://minkch.com/archives/category/素人・盗撮画像/page/{page:1}"
+        },
+        {
+            "cid": 6,
+            "title": "AV女優画像",
+            "url": "http://minkch.com/archives/category/av女優画像/page/{page:1}"
+        },
+        {
+            "cid": 7,
+            "title": "裸・ヌード",
+            "url": "http://minkch.com/archives/category/裸・ヌード/page/{page:1}"
+        },
+        {
+            "cid": 8,
+            "title": "エロネタ画像",
+            "url": "http://minkch.com/archives/category/エロネタ画像/page/{page:1}"
+        },
+        {
+            "cid": 9,
+            "title": "着エロ画像",
+            "url": "http://minkch.com/archives/category/着エロ画像/page/{page:1}"
+        },
+        {
+            "cid": 10,
+            "title": "漫画",
+            "url": "http://minkch.com/archives/category/漫画/page/{page:1}"
+        },
+        {
+            "cid": 11,
+            "title": "2.5次元画像",
+            "url": "http://minkch.com/archives/category/2.5次元画像/page/{page:1}"
+        },
+        {
+            "cid": 12,
+            "title": "JK・制服",
+            "url": "http://minkch.com/archives/category/jk・制服/page/{page:1}"
+        },
+        {
+            "cid": 13,
+            "title": "パンチラ・パンモロ画像",
+            "url": "http://minkch.com/archives/category/パンチラ・パンモロ画像/page/{page:1}"
+        },
+        {
+            "cid": 14,
+            "title": "グラビア画像",
+            "url": "http://minkch.com/archives/category/グラビア画像/page/{page:1}"
+        },
+        {
+            "cid": 15,
+            "title": "おっぱい画像",
+            "url": "http://minkch.com/archives/category/おっぱい画像/page/{page:1}"
+        },
+        {
+            "cid": 16,
+            "title": "露出・ビッチ画像",
+            "url": "http://minkch.com/archives/category/露出・ビッチ画像/page/{page:1}"
+        },
+        {
+            "cid": 17,
+            "title": "お尻画像",
+            "url": "http://minkch.com/archives/category/お尻画像/page/{page:1}"
+        },
+        {
+            "cid": 18,
+            "title": "特殊フェチ画像",
+            "url": "http://minkch.com/archives/category/特殊フェチ画像/page/{page:1}"
+        },
+        {
+            "cid": 19,
+            "title": "ぶっかけ・ヌルヌル画像",
+            "url": "http://minkch.com/archives/category/ぶっかけ・ヌルヌル画像/page/{page:1}"
+        },
+        {
+            "cid": 20,
+            "title": "アダルトグッズ",
+            "url": "http://minkch.com/archives/category/アダルトグッズ/page/{page:1}"
+        },
+        {
+            "cid": 21,
+            "title": "アニメ画像",
+            "url": "http://minkch.com/archives/category/アニメ画像/page/{page:1}"
+        },
+        {
+            "cid": 22,
+            "title": "エロボイス",
+            "url": "http://minkch.com/archives/category/エロボイス/page/{page:1}"
+        },
+        {
+            "cid": 23,
+            "title": "美少女画像",
+            "url": "http://minkch.com/archives/category/美少女画像/page/{page:1}"
+        },
+        {
+            "cid": 24,
+            "title": "エロ動画",
+            "url": "http://minkch.com/archives/category/エロ動画/page/{page:1}"
+        },
+        {
+            "cid": 25,
+            "title": "ニーソ・パンスト画像",
+            "url": "http://minkch.com/archives/category/ニーソ・パンスト画像/page/{page:1}"
+        },
+        {
+            "cid": 26,
+            "title": "二次エロ画像",
+            "url": "http://minkch.com/archives/category/二次エロ画像/page/{page:1}"
+        },
+        {
+            "cid": 27,
+            "title": "水着・スク水画像",
+            "url": "http://minkch.com/archives/category/水着・スク水画像/page/{page:1}"
+        },
+        {
+            "cid": 28,
+            "title": "足・脚・太もも画像",
+            "url": "http://minkch.com/archives/category/足・脚・太もも画像/page/{page:1}"
+        },
+        {
+            "cid": 29,
+            "title": "その他、エロ画像",
+            "url": "http://minkch.com/archives/category/その他、エロ画像/page/{page:1}"
+        },
+        {
+            "cid": 30,
+            "title": "未分類",
+            "url": "http://minkch.com/archives/category/未分類/page/{page:1}"
+        }
+    ],
+    "flag": "noRating",
+    "galleryRule": {
+        "item": {
+            "selector": "div[class='entry-content clearfix'] a[href*=jpg], a[href*=gif]"
+        },
+        "pictureThumbnail": {
+            "fun": "attr",
+            "param": "src",
+            "selector": "img.pict"
+        },
+        "pictureUrl": {
+            "fun": "attr",
+            "param": "href",
+            "selector": "this"
+        }
+    },
+    "galleryUrl": "http://minkch.com/archives/{idCode:}.html",
+    "indexRule": {
+      "item": {
+          "selector": "div[id*=post]:not(#post-0)"
+      },
+      "category": {
+             "fun": "html",
+             "selector": "div.entry-meta > a:not([rel=tag])"
+         },
+        "idCode": {
+            "fun": "attr",
+            "param": "href",
+            "regex": "archives/(\\d+).html",
+            "selector": "h2[class='h2 entry-title '] > a"
+        },
+        "cover": {
+            "fun": "attr",
+            "param": "src",
+            "selector": "img.pict"
+        },
+        "datetime": {
+            "fun": "html",
+            "regex": "(\\d{4}.\\d{2}.\\d{2})",
+            "selector": "time[class='entry-date updated']"
+        },
+        "title": {
+            "fun": "html",
+            "selector": "h2[class='h2 entry-title '] > a > span > span.entry-title-text"
+        },
+        "tags": {
+            "fun": "html",
+            "selector": "div.entry-meta > a[rel=tag]"
+        }
+    },
+    "indexUrl": "http://minkch.com/page/{page:1}",
+    "searchUrl": "http://minkch.com/page/{page:1}?s={keyword:}",
+    "title": "みんくちゃんねる"
+}

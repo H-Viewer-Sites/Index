@@ -1,0 +1,187 @@
+﻿{
+    "categories": [
+        {
+            "cid": 1,
+            "title": "首页",
+            "url": "http://momon-ga.com/page/{page:1}"
+        },
+        {
+            "cid": 2,
+            "title": "女子高生",
+            "url": "http://momon-ga.com/category/女子高生/page/{page:1}"
+        },
+        {
+            "cid": 3,
+            "title": "ギャル・コギャル",
+            "url": "http://momon-ga.com/category/ギャル・コギャル/page/{page:1}"
+        },
+        {
+            "cid": 4,
+            "title": "盗撮・流出",
+            "url": "http://momon-ga.com/category/盗撮・流出/page/{page:1}"
+        },
+        {
+            "cid": 5,
+            "title": "女神・自撮り",
+            "url": "http://momon-ga.com/category/女神・自撮り/page/{page:1}"
+        },
+        {
+            "cid": 6,
+            "title": "素人",
+            "url": "http://momon-ga.com/category/素人/page/{page:1}"
+        },
+        {
+            "cid": 7,
+            "title": "水着・下着",
+            "url": "http://momon-ga.com/category/水着・下着/page/{page:1}"
+        },
+        {
+            "cid": 8,
+            "title": "ハメ撮り",
+            "url": "http://momon-ga.com/category/ハメ撮り/page/{page:1}"
+        },
+        {
+            "cid": 9,
+            "title": "写メ・プリクラ",
+            "url": "http://momon-ga.com/category/写メ・プリクラ/page/{page:1}"
+        },
+        {
+            "cid": 10,
+            "title": "アイドル・グラビア",
+            "url": "http://momon-ga.com/category/アイドル・グラビア/page/{page:1}"
+        },
+        {
+            "cid": 11,
+            "title": "芸能人・テレビ",
+            "url": "http://momon-ga.com/category/芸能人・テレビ/page/{page:1}"
+        },
+        {
+            "cid": 12,
+            "title": "女子アスリー",
+            "url": "http://momon-ga.com/category/女子アスリー/page/{page:1}"
+        },
+        {
+            "cid": 13,
+            "title": "AV女優",
+            "url": "http://momon-ga.com/category/av女優/page/{page:1}"
+        },
+        {
+            "cid": 14,
+            "title": "おっぱい",
+            "url": "http://momon-ga.com/category/おっぱい/page/{page:1}"
+        },
+        {
+            "cid": 15,
+            "title": "コスプレ",
+            "url": "http://momon-ga.com/category/コスプレ/page/{page:1}"
+        },
+        {
+            "cid": 16,
+            "title": "野外・露出",
+            "url": "http://momon-ga.com/category/野外・露出/page/{page:1}"
+        },
+        {
+            "cid": 17,
+            "title": "手コキ・フェラ・顔射",
+            "url": "http://momon-ga.com/category/手コキ・フェラ・顔射/page/{page:1}"
+        },
+        {
+            "cid": 18,
+            "title": "フェチ",
+            "url": "http://momon-ga.com/category/フェチ/page/{page:1}"
+        },
+        {
+            "cid": 19,
+            "title": "U15・ロリ",
+            "url": "http://momon-ga.com/category/u15・ロリ/page/{page:1}"
+        },
+        {
+            "cid": 20,
+            "title": "2次元・同人",
+            "url": "http://momon-ga.com/category/2次元・同人/page/{page:1}"
+        },
+        {
+            "cid": 21,
+            "title": "海外・外国人",
+            "url": "http://momon-ga.com/category/海外・外国人/page/{page:1}"
+        },
+        {
+            "cid": 22,
+            "title": "面白・ワロス",
+            "url": "http://momon-ga.com/category/面白・ワロス/page/{page:1}"
+        },
+        {
+            "cid": 23,
+            "title": "GIF画像",
+            "url": "http://momon-ga.com/category/gif画像/page/{page:1}"
+        },
+        {
+            "cid": 24,
+            "title": "Xvideos動画",
+            "url": "http://momon-ga.com/category/xvideos動画/page/{page:1}"
+        },
+        {
+            "cid": 25,
+            "title": "ライブチャッ",
+            "url": "http://momon-ga.com/category/ライブチャッ/page/{page:1}"
+        },
+        {
+            "cid": 26,
+            "title": "ピックアップ記事",
+            "url": "http://momon-ga.com/category/ピックアップ記事/page/{page:1}"
+        }
+    ],
+    "flag": "noRating",
+    "galleryRule": {
+        "item": {
+            "selector": "span[itemscope] > a"
+        },
+        "pictureThumbnail": {
+            "fun": "attr",
+            "param": "src",
+            "selector": "img"
+        },
+        "pictureUrl": {
+            "fun": "attr",
+            "param": "href",
+            "selector": "this"
+        }
+    },
+    "galleryUrl": "http://momon-ga.com/archives/{idCode:}.html",
+    "indexRule": {
+      "item": {
+          "selector": "article.article-list"
+      },
+      "category": {
+             "fun": "html",
+             "selector": "dd > a[rel='category tag']"
+         },
+        "idCode": {
+            "fun": "attr",
+            "param": "href",
+            "regex": "archives/(\\d+).html",
+            "selector": "h2.article-title > a"
+        },
+        "cover": {
+            "fun": "attr",
+            "param": "src",
+            "selector": "img.article-img"
+        },
+        "datetime": {
+            "fun": "html",
+            "regex": "(\\d{4}.\\d{2}.\\d{2})",
+            "selector": "p.article-date"
+        },
+        "title": {
+            "fun": "html",
+            "selector": "h2.article-title > a"
+        },
+        "tags": {
+            "fun": "html",
+            "selector": "dl.list-article-tags > dd > a"
+        }
+    },
+    "indexUrl": "http://momon-ga.com/page/{page:1}",
+    "searchUrl": "http://momon-ga.com/{pageStr:page/{page:1}}?s={keyword:}",
+    "title": "モモんガッ(･∀･)!!"
+}

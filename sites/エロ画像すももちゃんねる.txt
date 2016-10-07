@@ -1,0 +1,68 @@
+﻿{
+    "categories": [
+        {
+            "cid": 1,
+            "title": "首页",
+            "url": "http://sumomo-ch.com/page-{page:0}.html"
+        },
+        {
+            "cid": 2,
+            "title": "AV女優画像",
+            "url": "http://sumomo-ch.com/category52-{page:0}.html"
+        },
+        {
+            "cid": 3,
+            "title": "セックス画像",
+            "url": "http://sumomo-ch.com/category21-{page:0}.html"
+        }
+    ],
+    "flag": "noRating|preloadGallery",
+    "galleryRule": {
+        "item": {
+            "selector": "div.kizi-body2 > a > img"
+        },
+        "pictureThumbnail": {
+            "fun": "attr",
+            "param": "src",
+            "selector": "this"
+        },
+        "pictureUrl": {
+            "fun": "attr",
+            "param": "src",
+            "selector": "this"
+        },
+        "cover": {
+            "fun": "attr",
+            "param": "src",
+            "selector": "div.kizi-body > a:first-child > img"
+        },
+        "datetime": {
+            "fun": "html",
+            "regex": "(\\d{4}.\\d{2}.\\d{2})",
+            "selector": "div.kizi-info-over"
+        },
+        "tags": {
+            "fun": "html",
+            "selector": "div.kizi-info-over > a[title='関連する記事'] > strong"
+        }
+    },
+    "galleryUrl": "http://sumomo-ch.com/blog-entry-{idCode:}.html#more",
+    "indexRule": {
+        "idCode": {
+            "fun": "attr",
+            "param": "href",
+            "regex": "/blog-entry-(\\d+).html#more",
+            "selector": "div.kizi-more > a"
+        },
+        "item": {
+            "selector": "div.kizi-more "
+        },
+        "title": {
+            "fun": "html",
+            "selector": "div.kizi-more > a"
+        }
+    },
+    "indexUrl": "http://sumomo-ch.com/page-{page:0}.html",
+    "searchUrl": "http://sumomo-ch.com/?q={keyword:}&page={page:0}",
+    "title": "エロ画像すももちゃんねる"
+}

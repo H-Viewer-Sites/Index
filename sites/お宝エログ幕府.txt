@@ -1,0 +1,118 @@
+﻿{
+    "categories": [
+        {
+            "cid": 1,
+            "title": "首页",
+            "url": "http://bakufu.jp/page/{page:1}"
+        },
+        {
+            "cid": 2,
+            "title": "AKB48・ハロプロ",
+            "url": "http://bakufu.jp/archives/category/akb48・ハロプロ/page/{page:1}"
+        },
+        {
+            "cid": 3,
+            "title": "アイドル",
+            "url": "http://bakufu.jp/archives/category/アイドル/page/{page:1}"
+        },
+        {
+            "cid": 4,
+            "title": "お宝キャプチャー",
+            "url": "http://bakufu.jp/archives/category/お宝キャプチャー/page/{page:1}"
+        },
+        {
+            "cid": 5,
+            "title": "U-15",
+            "url": "http://bakufu.jp/archives/category/u-15/page/{page:1}"
+        },
+        {
+            "cid": 6,
+            "title": "女子アナ・スポーツ",
+            "url": "http://bakufu.jp/archives/category/女子アナ・スポーツ/page/{page:1}"
+        },
+        {
+            "cid": 7,
+            "title": "AV",
+            "url": "http://bakufu.jp/archives/category/av/page/{page:1}"
+        },
+        {
+            "cid": 8,
+            "title": "おっぱい",
+            "url": "http://bakufu.jp/archives/category/おっぱい/page/{page:1}}"
+        },
+        {
+            "cid": 9,
+            "title": "パンチラ・ふともも",
+            "url": "http://bakufu.jp/archives/category/パンチラ・ふともも/page/{page:1}"
+        },
+        {
+            "cid": 10,
+            "title": "おっぱい画像",
+            "url": "http://bakufu.jp/archives/category/akb48・ハロプロ/page/{page:1}"
+        },
+        {
+            "cid": 11,
+            "title": "水着・下着",
+            "url": "http://bakufu.jp/archives/category/水着・下着/page/{page:1}"
+        },
+        {
+            "cid": 12,
+            "title": "お尻",
+            "url": "http://bakufu.jp/archives/category/お尻/page/{page:1}"
+        },
+        {
+            "cid": 13,
+            "title": "その他",
+            "url": "http://bakufu.jp/archives/category/その他/page/{page:1}"
+        }
+
+    ],
+    "flag": "noRating",
+    "galleryRule": {
+        "item": {
+            "selector": "div.entry-content > a"
+        },
+        "pictureThumbnail": {
+            "fun": "attr",
+            "param": "src",
+            "selector": "img"
+        },
+        "pictureUrl": {
+            "fun": "attr",
+            "param": "href",
+            "selector": "this"
+        }
+    },
+    "galleryUrl": "http://bakufu.jp/archives/{idCode:}",
+    "indexRule": {
+      "item": {
+          "selector": "div#content > article[id*=post]"
+      },
+      "category": {
+             "fun": "html",
+             "selector": "footer.entry-meta > a"
+         },
+        "idCode": {
+            "fun": "attr",
+            "param": "href",
+            "regex": "archives/(\\d+)",
+            "selector": "header.entry-header > h1 > a"
+        },
+        "cover": {
+            "fun": "attr",
+            "param": "href",
+            "selector": "div.entry-content > a"
+        },
+        "datetime": {
+            "fun": "html",
+            "regex": "(\\d{4}.\\d{2}.\\d{2})",
+            "selector": "footer.entry-meta > time"
+        },
+        "title": {
+            "fun": "html",
+            "selector": "header.entry-header > h1 > a"
+        }
+    },
+    "indexUrl": "http://bakufu.jp/page/{page:1}",
+    "title": "お宝エログ幕府"
+}
