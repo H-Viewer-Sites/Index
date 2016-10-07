@@ -1,15 +1,14 @@
 ﻿{
-    "cookie": "",
     "flag": "preloadGallery",
     "galleryRule": {
-        "datetime": {
-            "fun": "html",
-            "regex": "(\\d{4}/\\d{2}/\\d{2} \\d{2}:\\d{2})",
-            "selector": "div.timeIcon > div"
-        },
         "category": {
             "fun": "html",
             "regex": "｜(.*)",
+            "selector": "div.timeIcon > div"
+        },
+        "datetime": {
+            "fun": "html",
+            "regex": "(\\d{4}/\\d{2}/\\d{2} \\d{2}:\\d{2})",
             "selector": "div.timeIcon > div"
         },
         "description": {
@@ -83,6 +82,8 @@
         },
         "title": {
             "fun": "html",
+            "regex": "(?:<em .{15}>)?([^<>]*)?(?:</em>)?(?:<em .{15}>)?([^<>]*)?(?:</em>)?(?:<em .{15}>)?([^<>]*)?(?:</em>)?(?:<em .{15}>)?([^<>]*)?(?:</em>)?(?:<em .{15}>)?([^<>]*)?(?:</em>)?",
+            "replacement": "$1$2$3$4$5",
             "selector": "a.headline"
         },
         "uploader": {
@@ -91,5 +92,6 @@
         }
     },
     "searchUrl": "http://search.bilibili.com/drawyoo?keyword={keyword:}&page={page:1}",
+    "sid": 20,
     "title": "Bilibili 画友"
 }
