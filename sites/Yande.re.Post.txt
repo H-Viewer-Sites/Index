@@ -139,7 +139,7 @@
             "tags": {
                 "fun": "attr",
                 "param": "title",
-                "regex": " ([a-z_]+)",
+                "regex": " ([a-z_()]+)",
                 "selector": "div > a.thumb > img"
             },
             "uploader": {

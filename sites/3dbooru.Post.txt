@@ -127,7 +127,7 @@
             "tags": {
                 "fun": "attr",
                 "param": "title",
-                "regex": " ([a-z_]+)",
+                "regex": " ([a-z_()]+)",
                 "selector": "a > img"
             },
             "uploader": {
