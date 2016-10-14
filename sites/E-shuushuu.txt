@@ -11,6 +11,7 @@
                 "cid": 2
             }
         ],
+        "flag": "onePicGallery",
         "galleryRule": {
             "item": {
                 "selector": ".image_thread .image_block"

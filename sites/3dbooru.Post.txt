@@ -57,7 +57,7 @@
             }
         ],
         "cookie": "",
-        "flag": "noTitle",
+        "flag": "noTitle|onePicGallery",
         "galleryRule": {
             "commentAuthor": {
                 "fun": "html",
