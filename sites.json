@@ -59,6 +59,28 @@
                 "versionCode": 1,
                 "lastUpdate": "2016-09-27 01:36:05",
                 "r18": true
+            },
+            {
+                "sid": 105,
+                "title": "绝对领域",
+                "author": "PureDark",
+                "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/icons/%E7%BB%9D%E5%AF%B9%E9%A2%86%E5%9F%9F.png",
+                "description": "一个2.5次元图片分享平台",
+                "json": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/%E7%BB%9D%E5%AF%B9%E9%A2%86%E5%9F%9F.txt",
+                "versionCode": 2,
+                "lastUpdate": "2016-09-27 01:36:05",
+                "r18": false
+            },
+            {
+                "sid": 106,
+                "title": "半次元",
+                "author": "PureDark",
+                "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/icons/半次元.png",
+                "description": "第一中文COS绘画小说社区",
+                "json": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/半次元.txt",
+                "versionCode": 1,
+                "lastUpdate": "2016-10-16 03:01:45",
+                "r18": false
             }
         ]
     },
@@ -310,23 +332,12 @@
     },
     {
         "cid": 4,
-        "title": "真人图站",
-        "english": "Reality Sites",
+        "title": "写真图站",
+        "english": "Nude Photography Sites",
         "r18": false,
         "sites": [
             {
                 "sid": 401,
-                "title": "草榴社区",
-                "author": "PureDark",
-                "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/icons/1024.png",
-                "description": "1024毋须多言",
-                "json": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/1024.txt",
-                "versionCode": 2,
-                "lastUpdate": "2016-09-27 01:36:05",
-                "r18": true
-            },
-            {
-                "sid": 402,
                 "title": "秀人",
                 "author": "lbq",
                 "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/icons/%E7%A7%80%E4%BA%BA.png",
@@ -337,7 +348,7 @@
                 "r18": false
             },
             {
-                "sid": 403,
+                "sid": 402,
                 "title": "Rosi",
                 "author": "vvyoko",
                 "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/icons/Rosi.png",
@@ -348,18 +359,7 @@
                 "r18": false
             },
             {
-                "sid": 404,
-                "title": "绝对领域",
-                "author": "PureDark",
-                "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/icons/%E7%BB%9D%E5%AF%B9%E9%A2%86%E5%9F%9F.png",
-                "description": "一个2.5次元图片分享平台",
-                "json": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/%E7%BB%9D%E5%AF%B9%E9%A2%86%E5%9F%9F.txt",
-                "versionCode": 2,
-                "lastUpdate": "2016-09-27 01:36:05",
-                "r18": false
-            },
-            {
-                "sid": 405,
+                "sid": 403,
                 "title": "妹子图",
                 "author": "PureDark",
                 "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/icons/%E5%A6%B9%E5%AD%90%E5%9B%BE.png",
@@ -370,7 +370,7 @@
                 "r18": false
             },
             {
-                "sid": 406,
+                "sid": 404,
                 "title": "妹子图2",
                 "author": "sosmygirl",
                 "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/icons/%E5%A6%B9%E5%AD%90%E5%9B%BE2.png",
@@ -381,7 +381,59 @@
                 "r18": false
             },
             {
+                "sid": 405,
+                "title": "美女图片集",
+                "author": "PureDark",
+                "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/icons/美女图片集.png",
+                "description": "「美女图片集」是一个干净利落的美女图片分享社区。你会以绝佳的横向浏览方式欣赏媛馆、尤果网、推女郎等国模写真；杉原杏璃、筱崎爱、原干惠等日本女优的经典写真集怎能错过；还有欧美美女出境的黑白人体艺术摄影，脱而不露的致命诱惑。",
+                "json": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/美女图片集.txt",
+                "versionCode": 1,
+                "lastUpdate": "2016-10-16 04:13:53",
+                "r18": false
+            },
+            {
+                "sid": 406,
+                "title": "Nude-Atlas",
+                "author": "PureDark",
+                "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/icons/Nude-Atlas.png",
+                "description": "国外的裸体写真站，各国的都有",
+                "json": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/Nude-Atlas.txt",
+                "versionCode": 1,
+                "lastUpdate": "2016-10-16 04:45:53",
+                "r18": false
+            },
+            {
                 "sid": 407,
+                "title": "宅男女神",
+                "author": "PureDark",
+                "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/icons/宅男女神.png",
+                "description": "分享最全的宅男女神资料,最高清的美女图片,推女神,美媛馆等精品美女套图,最新的美女博客私房照,绝对不容错过！看美女就像喝水,每天都是必须的！",
+                "json": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/宅男女神.txt",
+                "versionCode": 1,
+                "lastUpdate": "2016-10-16 05:10:26",
+                "r18": false
+            }
+        ]
+    },
+    {
+        "cid": 5,
+        "title": "真人图站",
+        "english": "Reality Sites",
+        "r18": false,
+        "sites": [
+            {
+                "sid": 501,
+                "title": "草榴社区",
+                "author": "PureDark",
+                "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/icons/1024.png",
+                "description": "1024毋须多言",
+                "json": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/1024.txt",
+                "versionCode": 2,
+                "lastUpdate": "2016-09-27 01:36:05",
+                "r18": true
+            },
+            {
+                "sid": 502,
                 "title": "AVMOO",
                 "author": "PureDark",
                 "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/icons/AVMOO.png",
@@ -392,7 +444,7 @@
                 "r18": true
             },
             {
-                "sid": 408,
+                "sid": 503,
                 "title": "AVMEMO",
                 "author": "PureDark",
                 "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/icons/AVMEMO.png",
@@ -403,7 +455,7 @@
                 "r18": true
             },
             {
-                "sid": 409,
+                "sid": 504,
                 "title": "モモんガッ(･∀･)!!",
                 "author": "Ryogiakira",
                 "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/icons/%E3%83%A2%E3%83%A2%E3%82%93%E3%82%AC%E3%83%83(%EF%BD%A5%E2%88%80%EF%BD%A5)!!.png",
@@ -414,7 +466,7 @@
                 "r18": true
             },
             {
-                "sid": 410,
+                "sid": 505,
                 "title": "お宝エログ幕府",
                 "author": "Ryogiakira",
                 "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/icons/お宝エログ幕府.png",
@@ -425,7 +477,7 @@
                 "r18": true
             },
             {
-                "sid": 411,
+                "sid": 506,
                 "title": "ぷるるんお宝画像庫",
                 "author": "Ryogiakira",
                 "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/icons/ぷるるんお宝画像庫.png",
@@ -436,7 +488,7 @@
                 "r18": true
             },
             {
-                "sid": 412,
+                "sid": 507,
                 "title": "エロ画像すももちゃんねる",
                 "author": "Ryogiakira",
                 "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/icons/エロ画像すももちゃんねる.png",
@@ -447,7 +499,7 @@
                 "r18": true
             },
             {
-                "sid": 413,
+                "sid": 508,
                 "title": "みんくちゃんねる",
                 "author": "Ryogiakira",
                 "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/icons/みんくちゃんねる.png",
@@ -458,7 +510,7 @@
                 "r18": true
             },
             {
-                "sid": 414,
+                "sid": 509,
                 "title": "エロチカ",
                 "author": "Ryogiakira",
                 "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/icons/エロチカ.png",

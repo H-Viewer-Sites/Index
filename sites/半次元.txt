@@ -1,0 +1,176 @@
+﻿{
+    "categories": [
+        {
+            "cid": 1,
+            "title": "热门绘画",
+            "url": "http://bcy.net/illust/index/ajaxLoadHotIllust?n={page:0}"
+        },
+        {
+            "cid": 2,
+            "title": "精选绘画",
+            "url": "http://bcy.net/illust/discover?&p={page:1}"
+        },
+        {
+            "cid": 3,
+            "title": "最新同人",
+            "url": "http://bcy.net/illust/allfanart?&p={page:1}"
+        },
+        {
+            "cid": 4,
+            "title": "最新原创",
+            "url": "http://bcy.net/illust/allartwork?&{page:1}"
+        },
+        {
+            "cid": 5,
+            "title": "日排行榜",
+            "url": "http://bcy.net/illust/toppost100?type=lastday"
+        },
+        {
+            "cid": 6,
+            "title": "周排行榜",
+            "url": "http://bcy.net/illust/toppost100"
+        },
+        {
+            "cid": 7,
+            "title": "热门COS",
+            "url": "http://bcy.net/coser/index/ajaxLoadHotCos?n={page:0}"
+        },
+        {
+            "cid": 8,
+            "title": "精选COS",
+            "url": "http://bcy.net/coser/discover?&p={page:1}"
+        },
+        {
+            "cid": 9,
+            "title": "最新正片",
+            "url": "http://bcy.net/coser/allwork?&p={page:1}"
+        },
+        {
+            "cid": 10,
+            "title": "最新预告",
+            "url": "http://bcy.net/coser/allpre?&p={page:1}"
+        },
+        {
+            "cid": 11,
+            "title": "日排行榜",
+            "url": "http://bcy.net/coser/toppost100?type=lastday"
+        },
+        {
+            "cid": 12,
+            "title": "周排行榜",
+            "url": "http://bcy.net/coser/toppost100"
+        }
+    ],
+    "flag": "noRating|preloadGallery",
+    "galleryRule": {
+        "category": {
+            "fun": "html",
+            "regex": "<div class=\"btn__text-wrap\">.*?<i></i>.*?赞&nbsp;\\((\\d+)\\).*?<div class=\"post__type post__info-group mb20\">.*?([^<>\"]+)</a>.*?(共\\d+P)",
+            "replacement": "$2　$3　❤$1",
+            "selector": "div.container > div.row"
+        },
+        "commentRule": {
+            "author": {
+                "fun": "html",
+                "selector": "a.comment__user-name"
+            },
+            "avatar": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "a.comment__avatar-img > img"
+            },
+            "content": {
+                "selector": "div.comment__content"
+            },
+            "datetime": {
+                "fun": "html",
+                "selector": "div.comment__right > div.minor"
+            },
+            "item": {
+                "selector": "ul.publish__comment-list > li.comment"
+            }
+        },
+        "datetime": {
+            "fun": "html",
+            "regex": "(\\d{4}-\\d{2}-\\d{2} \\d{2}:\\d{2}:\\d{2})",
+            "selector": "article.post > header > div.post__info > div.post__type"
+        },
+        "description": {
+            "fun": "html",
+            "regex": "([^<>\"]+)<div",
+            "selector": "div.post__content"
+        },
+        "item": {
+            "selector": "div.post__content img.detail_std"
+        },
+        "pictureHighRes": {
+            "fun": "attr",
+            "param": "src",
+            "regex": "(.*\\.(?:jpg|jpeg|png|gif|bmp))",
+            "selector": "this"
+        },
+        "pictureThumbnail": {
+            "fun": "attr",
+            "param": "src",
+            "regex": "(.*\\.(?:jpg|jpeg|png|gif|bmp))",
+            "replacement": "$1/2X3",
+            "selector": "this"
+        },
+        "pictureUrl": {
+            "fun": "attr",
+            "param": "src",
+            "selector": "this"
+        },
+        "tags": {
+            "regex": "([^<>\"]+)(?:</div>|</a>)",
+            "selector": "ul.tags>li.tag>a>div,div.post__role h2"
+        },
+        "title": {
+            "fun": "html",
+            "selector": "article.post > header > div.post__title > h1"
+        },
+        "uploader": {
+            "fun": "html",
+            "selector": ".l-detailUser-name > a"
+        }
+    },
+    "galleryUrl": "http://bcy.net/{idCode:}",
+    "indexRule": {
+        "category": {
+            "fun": "html",
+            "selector": ".imageCard__img span.countBadge"
+        },
+        "cover": {
+            "fun": "attr",
+            "param": "src",
+            "selector": "img"
+        },
+        "datetime": {
+            "fun": "html",
+            "regex": "(\\d+)",
+            "replacement": "❤$1",
+            "selector": "div.mt10 > span"
+        },
+        "idCode": {
+            "fun": "attr",
+            "param": "href",
+            "regex": "/(\\w+/detail/\\d+/\\d+)",
+            "selector": "a"
+        },
+        "item": {
+            "selector": "li>.imageCard,li.disc_one,li.l-work-thumbnail"
+        },
+        "title": {
+            "fun": "html",
+            "selector": "div.work-thumbnail__ft > a"
+        },
+        "uploader": {
+            "fun": "html",
+            "selector": "a.name>span,div.center.cut>span>a"
+        }
+    },
+    "indexUrl": "http://bcy.net/illust/index/ajaxLoadHotIllust?n={page:0}",
+    "loginUrl": "http://bcy.net/login",
+    "searchUrl": "http://bcy.net/search/all?k={keyword:}&p={page:1}",
+    "title": "半次元",
+}

@@ -1,0 +1,84 @@
+﻿{
+    "categories": [
+        {
+            "cid": 1,
+            "title": "精华图片集",
+            "url": "http://www.girl-atlas.com/?p={page:1}"
+        },
+        {
+            "cid": 2,
+            "title": "最新图片集",
+            "url": "http://www.girl-atlas.com/index1?p={page:1}"
+        }
+    ],
+    "flag": "noRating|preloadGallery",
+    "galleryRule": {
+        "item": {
+            "selector": "ul.gridview > li"
+        },
+        "pictureThumbnail": {
+            "regex": "(?:src|data-original)=\"(.*?)\"",
+            "selector": "a > img"
+        },
+        "pictureUrl": {
+            "fun": "attr",
+            "param": "href",
+            "selector": "a"
+        },
+        "tagRule": {
+            "item": {
+                "selector": "span.tag"
+            },
+            "title": {
+                "fun": "html",
+                "selector": "a"
+            },
+            "url": {
+                "fun": "attr",
+                "param": "href",
+                "regex": "(.*)",
+                "replacement": "$1?p={page:1}",
+                "selector": "a"
+            }
+        }
+    },
+    "galleryUrl": "http://www.girl-atlas.com/album/{idCode:}?display=2",
+    "indexRule": {
+        "category": {
+            "fun": "html",
+            "regex": "<code>(\\d+)</code>.*?<code>(\\d+)</code>",
+            "replacement": "$1张照片　浏览$2次",
+            "selector": "p.desp"
+        },
+        "cover": {
+            "fun": "attr",
+            "param": "photo",
+            "selector": "div.album-grid > a.one-third"
+        },
+        "datetime": {
+            "fun": "html",
+            "regex": "(\\d{4}/\\d{2}/\\d{2})",
+            "selector": "p.desp"
+        },
+        "idCode": {
+            "fun": "attr",
+            "param": "href",
+            "regex": "album/(.*)",
+            "selector": "h2 > a"
+        },
+        "item": {
+            "selector": "div.album-item"
+        },
+        "title": {
+            "fun": "html",
+            "selector": "h2 > a"
+        },
+        "uploader": {
+            "fun": "html",
+            "selector": "p.desp > a"
+        }
+    },
+    "indexUrl": "http://www.girl-atlas.com/?p={page:1}",
+    "loginUrl": "http://www.girl-atlas.com/login",
+    "title": "美女图片集"
+}
