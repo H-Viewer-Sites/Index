@@ -172,5 +172,5 @@
     "indexUrl": "http://bcy.net/illust/index/ajaxLoadHotIllust?n={page:0}",
     "loginUrl": "http://bcy.net/login",
     "searchUrl": "http://bcy.net/search/all?k={keyword:}&p={page:1}",
-    "title": "半次元",
+    "title": "半次元"
 }
