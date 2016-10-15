@@ -3,17 +3,17 @@
         {
             "cid": 1,
             "title": "全部",
-            "url": "https://avmo.pw/cn/page/{page:1}"
+            "url": "https://avxo.pw/cn/page/{page:1}"
         },
         {
             "cid": 2,
             "title": "已发布",
-            "url": "https://avmo.pw/cn/released/page/{page:1}"
+            "url": "https://avxo.pw/cn/released/page/{page:1}"
         },
         {
             "cid": 3,
             "title": "热门",
-            "url": "https://avmo.pw/cn/popular/page/{page:1}"
+            "url": "https://avxo.pw/cn/popular/page/{page:1}"
         }
     ],
     "cookie": "",
@@ -24,7 +24,7 @@
             "selector": "div.info"
         },
         "item": {
-            "selector": "div#sample-waterfall > .sample-box"
+            "selector": "div#sample-waterfall > .movie-sample-box"
         },
         "pictureThumbnail": {
             "fun": "attr",
@@ -47,13 +47,13 @@
             "url": {
                 "fun": "attr",
                 "param": "href",
-                "regex": "(.*)",
+                "regex": "(.*?)",
                 "replacement": "$1/page/{page:1}",
                 "selector": "a"
             }
         }
     },
-    "galleryUrl": "https://avmo.pw/cn/movie/{idCode:}",
+    "galleryUrl": "https://avxo.pw/cn/movie/{idCode:}",
     "gid": 0,
     "index": 0,
     "indexRule": {
@@ -85,9 +85,9 @@
             "selector": "div.photo-frame > img"
         }
     },
-    "indexUrl": "https://avmo.pw/cn/page/{page:1}",
-    "searchUrl": "https://avmo.pw/cn/search/{keyword:}/page/{page:1}",
-    "sid": 60,
-    "title": "AVMOO",
+    "indexUrl": "https://avxo.pw/cn/page/{page:1}",
+    "searchUrl": "https://avxo.pw/cn/search/{keyword:}/page/{page:1}",
+    "sid": 61,
+    "title": "AVMEMO",
     "versionCode": 0
 }
