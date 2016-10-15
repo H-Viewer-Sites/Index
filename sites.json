@@ -419,7 +419,7 @@
         "cid": 5,
         "title": "真人图站",
         "english": "Reality Sites",
-        "r18": false,
+        "r18": true,
         "sites": [
             {
                 "sid": 501,
