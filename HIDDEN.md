@@ -1,6 +1,10 @@
 # H-Viewer Sites
 All sites for H-Viewer
 
+注1：这个列表已不再更新，获取最新最全的站点请在应用内的站点市场
+
+注2：点一下关于里的作者
+
 
 ## Sites
 
