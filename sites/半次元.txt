@@ -97,7 +97,7 @@
         },
         "description": {
             "fun": "html",
-            "selector": "div.post__content"
+            "selector": "div.post__content,div.l-detail-no-right-to-see"
         },
         "item": {
             "selector": "div.post__content img.detail_std"
