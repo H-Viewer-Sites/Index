@@ -97,7 +97,6 @@
         },
         "description": {
             "fun": "html",
-            "regex": "([^<>\"]+)<div",
             "selector": "div.post__content"
         },
         "item": {
