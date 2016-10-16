@@ -16,7 +16,6 @@
             "url": "https://avxo.pw/cn/popular/page/{page:1}"
         }
     ],
-    "cookie": "",
     "flag": "noRating|preloadGallery",
     "galleryRule": {
         "description": {
@@ -47,15 +46,13 @@
             "url": {
                 "fun": "attr",
                 "param": "href",
-                "regex": "(.*?)",
+                "regex": "(.*)",
                 "replacement": "$1/page/{page:1}",
                 "selector": "a"
             }
         }
     },
     "galleryUrl": "https://avxo.pw/cn/movie/{idCode:}",
-    "gid": 0,
-    "index": 0,
     "indexRule": {
         "category": {
             "fun": "html",
@@ -74,7 +71,7 @@
             "fun": "attr",
             "param": "href",
             "regex": "movie/(.*)",
-            "selector": "a.movie-box"
+            "selector": "a.main-movie-box"
         },
         "item": {
             "selector": "#waterfall > div.item"
@@ -87,7 +84,5 @@
     },
     "indexUrl": "https://avxo.pw/cn/page/{page:1}",
     "searchUrl": "https://avxo.pw/cn/search/{keyword:}/page/{page:1}",
-    "sid": 61,
-    "title": "AVMEMO",
-    "versionCode": 0
+    "title": "AVMEMO"
 }

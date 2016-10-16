@@ -16,7 +16,6 @@
             "url": "https://avmo.pw/cn/popular/page/{page:1}"
         }
     ],
-    "cookie": "",
     "flag": "noRating|preloadGallery",
     "galleryRule": {
         "description": {
@@ -54,8 +53,6 @@
         }
     },
     "galleryUrl": "https://avmo.pw/cn/movie/{idCode:}",
-    "gid": 0,
-    "index": 0,
     "indexRule": {
         "category": {
             "fun": "html",
@@ -87,7 +84,5 @@
     },
     "indexUrl": "https://avmo.pw/cn/page/{page:1}",
     "searchUrl": "https://avmo.pw/cn/search/{keyword:}/page/{page:1}",
-    "sid": 60,
-    "title": "AVMOO",
-    "versionCode": 0
+    "title": "AVMOO"
 }
