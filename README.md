@@ -1,6 +1,7 @@
 # H-Viewer Sites
 All sites for H-Viewer
 
+注：这个列表已不再更新，获取最新最全的站点请在应用内的站点市场
 
 ## Sites [_](https://github.com/H-Viewer-Sites/Index/blob/master/HIDDEN.md)
 
