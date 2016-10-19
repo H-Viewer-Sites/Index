@@ -1,0 +1,249 @@
+﻿{
+    "categories": [
+        {
+            "cid": 1,
+            "title": "HomePage",
+            "url": "https://www.pinterest.com/"
+        },
+        {
+            "cid": 2,
+            "title": "Popular",
+            "url": "https://www.pinterest.com/categories/popular/"
+        },
+        {
+            "cid": 3,
+            "title": "Everything",
+            "url": "https://www.pinterest.com/categories/everything/"
+        },
+        {
+            "cid": 4,
+            "title": "Gifts",
+            "url": "https://www.pinterest.com/categories/gifts/"
+        },
+        {
+            "cid": 5,
+            "title": "Videos",
+            "url": "https://www.pinterest.com/categories/videos/"
+        },
+        {
+            "cid": 6,
+            "title": "Animals and pets",
+            "url": "https://www.pinterest.com/categories/animals/"
+        },
+        {
+            "cid": 7,
+            "title": "Architecture",
+            "url": "https://www.pinterest.com/categories/architecture/"
+        },
+        {
+            "cid": 8,
+            "title": "Art",
+            "url": "https://www.pinterest.com/categories/art/"
+        },
+        {
+            "cid": 9,
+            "title": "Cars and motorcycles",
+            "url": "https://www.pinterest.com/categories/cars_motorcycles/"
+        },
+        {
+            "cid": 10,
+            "title": "Celebrities",
+            "url": "https://www.pinterest.com/categories/celebrities/"
+        },
+        {
+            "cid": 11,
+            "title": "DIY and crafts",
+            "url": "https://www.pinterest.com/categories/diy_crafts/"
+        },
+        {
+            "cid": 12,
+            "title": "Design",
+            "url": "https://www.pinterest.com/categories/design/"
+        },
+        {
+            "cid": 13,
+            "title": "Education",
+            "url": "https://www.pinterest.com/categories/education/"
+        },
+        {
+            "cid": 14,
+            "title": "Film, music and books",
+            "url": "https://www.pinterest.com/categories/film_music_books/"
+        },
+        {
+            "cid": 15,
+            "title": "Food and drink",
+            "url": "https://www.pinterest.com/categories/food_drink/"
+        },
+        {
+            "cid": 16,
+            "title": "Gardening",
+            "url": "https://www.pinterest.com/categories/gardening/"
+        },
+        {
+            "cid": 17,
+            "title": "Geek",
+            "url": "https://www.pinterest.com/categories/geek/"
+        },
+        {
+            "cid": 18,
+            "title": "Hair and beauty",
+            "url": "https://www.pinterest.com/categories/hair_beauty/"
+        },
+        {
+            "cid": 19,
+            "title": "Health and fitness",
+            "url": "https://www.pinterest.com/categories/health_fitness/"
+        },
+        {
+            "cid": 20,
+            "title": "History",
+            "url": "https://www.pinterest.com/categories/history/"
+        },
+        {
+            "cid": 21,
+            "title": "Holidays and events",
+            "url": "https://www.pinterest.com/categories/holidays_events/"
+        },
+        {
+            "cid": 22,
+            "title": "Home decor",
+            "url": "https://www.pinterest.com/categories/home_decor/"
+        },
+        {
+            "cid": 23,
+            "title": "Humor",
+            "url": "https://www.pinterest.com/categories/humor/"
+        },
+        {
+            "cid": 24,
+            "title": "Illustrations and posters",
+            "url": "https://www.pinterest.com/categories/illustrations_posters/"
+        },
+        {
+            "cid": 25,
+            "title": "Kids and parenting",
+            "url": "https://www.pinterest.com/categories/kids/"
+        },
+        {
+            "cid": 26,
+            "title": "Men's fashion",
+            "url": "https://www.pinterest.com/categories/mens_fashion/"
+        },
+        {
+            "cid": 27,
+            "title": "Outdoors",
+            "url": "https://www.pinterest.com/categories/outdoors/"
+        },
+        {
+            "cid": 28,
+            "title": "Photography",
+            "url": "https://www.pinterest.com/categories/photography/"
+        },
+        {
+            "cid": 29,
+            "title": "Products",
+            "url": "https://www.pinterest.com/categories/products/"
+        },
+        {
+            "cid": 30,
+            "title": "Quotes",
+            "url": "https://www.pinterest.com/categories/quotes/"
+        },
+        {
+            "cid": 31,
+            "title": "Science and nature",
+            "url": "https://www.pinterest.com/categories/science_nature/"
+        },
+        {
+            "cid": 32,
+            "title": "Sports",
+            "url": "https://www.pinterest.com/categories/sports/"
+        },
+        {
+            "cid": 33,
+            "title": "Tattoos",
+            "url": "https://www.pinterest.com/categories/tattoos/"
+        },
+        {
+            "cid": 34,
+            "title": "Technology",
+            "url": "https://www.pinterest.com/categories/technology/"
+        },
+        {
+            "cid": 35,
+            "title": "Travel",
+            "url": "https://www.pinterest.com/categories/travel/"
+        },
+        {
+            "cid": 36,
+            "title": "Weddings",
+            "url": "https://www.pinterest.com/categories/weddings/"
+        },
+        {
+            "cid": 37,
+            "title": "Women's fashion",
+            "url": "https://www.pinterest.com/categories/womens_fashion/"
+        }
+    ],
+    "flag": "noRating|jsNeededAll|waterfallAsList|jsScroll",
+    "galleryRule": {
+        "description": {
+            "fun": "html",
+            "selector": ".userActivity .userNote"
+        },
+        "item": {
+            "selector": ".imageContainer"
+        },
+        "pictureThumbnail": {
+            "fun": "attr",
+            "param": "src",
+            "selector": "img.pinImage"
+        },
+        "pictureUrl": {
+            "fun": "attr",
+            "param": "src",
+            "selector": "img.pinImage"
+        }
+    },
+    "galleryUrl": "https://www.pinterest.com/{idCode:}",
+    "indexRule": {
+        "category": {
+            "fun": "html",
+            "selector": "div.pinCreditNameTitleWrapper>.creditTitle"
+        },
+        "cover": {
+            "fun": "attr",
+            "param": "src",
+            "selector": "div.Image img"
+        },
+        "datetime": {
+            "fun": "html",
+            "regex": "(\\d+)",
+            "replacement": "$1 📌",
+            "selector": "em.repinCountSmall"
+        },
+        "idCode": {
+            "fun": "attr",
+            "param": "href",
+            "regex": "/(.*)/",
+            "selector": ".pinHolder > a"
+        },
+        "item": {
+            "selector": ".GridItems > .item"
+        },
+        "title": {
+            "fun": "html",
+            "selector": "h3.richPinGridTitle,.pinMeta>.pinDescription"
+        },
+        "uploader": {
+            "fun": "html",
+            "selector": "div.pinCreditNameTitleWrapper>.creditName"
+        }
+    },
+    "indexUrl": "https://www.pinterest.com/",
+    "isGrid": false,
+    "loginUrl": "https://www.pinterest.com/login",
+    "searchUrl": "http://huaban.com/search/?q={keyword:}&page={page:1}&per_page=20&wfl=1",
+    "title": "Pinterest"
+}

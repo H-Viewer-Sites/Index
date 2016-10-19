@@ -61,7 +61,7 @@
             "url": "http://bcy.net/coser/toppost100"
         }
     ],
-    "flag": "noRating|preloadGallery",
+    "flag": "noRating|preloadGallery|waterfallAsGrid",
     "galleryRule": {
         "category": {
             "fun": "html",

@@ -17,7 +17,7 @@
         }
     ],
     "cookie": "",
-    "flag": "noRating",
+    "flag": "noRating|waterfallAsGrid",
     "galleryRule": {
         "commentRule": {
             "author": {

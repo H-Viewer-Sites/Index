@@ -108,7 +108,7 @@
                 "selector": "img"
             }
         },
-        "flag": "secondLevelGallery|preloadGallery",
+        "flag": "secondLevelGallery|preloadGallery|waterfallAsGrid",
         "galleryRule": {
             "commentAuthor": {
                 "fun": "html",

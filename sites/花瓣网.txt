@@ -1,0 +1,433 @@
+﻿{
+    "categories": [
+        {
+            "cid": 1,
+            "title": "发现",
+            "url": "http://huaban.com/?page={page:1}"
+        },
+        {
+            "cid": 2,
+            "title": "最新",
+            "url": "http://huaban.com/all/{pageStr:?max={page:minid}&limit=20&wfl=1}"
+        },
+        {
+            "cid": 3,
+            "title": "UI/UX-采集",
+            "url": "http://huaban.com/favorite/web_app_icon/{pageStr:?max={page:minid}&limit=20&wfl=1}"
+        },
+        {
+            "cid": 4,
+            "title": "UI/UX-画板",
+            "url": "http://huaban.com/boards/favorite/web_app_icon/{pageStr:?max={page:minid}&limit=20&wfl=1}"
+        },
+        {
+            "cid": 5,
+            "title": "平面-采集",
+            "url": "http://huaban.com/favorite/design/{pageStr:?max={page:minid}&limit=20&wfl=1}"
+        },
+        {
+            "cid": 6,
+            "title": "平面-画板",
+            "url": "http://huaban.com/boards/favorite/design/{pageStr:?max={page:minid}&limit=20&wfl=1}"
+        },
+        {
+            "cid": 7,
+            "title": "插画/漫画-采集",
+            "url": "http://huaban.com/favorite/illustration/{pageStr:?max={page:minid}&limit=20&wfl=1}"
+        },
+        {
+            "cid": 8,
+            "title": "插画/漫画-画板",
+            "url": "http://huaban.com/boards/favorite/illustration/{pageStr:?max={page:minid}&limit=20&wfl=1}"
+        },
+        {
+            "cid": 9,
+            "title": "家居/家装-采集",
+            "url": "http://huaban.com/favorite/home/{pageStr:?max={page:minid}&limit=20&wfl=1}"
+        },
+        {
+            "cid": 10,
+            "title": "家居/家装-画板",
+            "url": "http://huaban.com/boards/favorite/home/{pageStr:?max={page:minid}&limit=20&wfl=1}"
+        },
+        {
+            "cid": 11,
+            "title": "女装/搭配-采集",
+            "url": "http://huaban.com/favorite/apparel/{pageStr:?max={page:minid}&limit=20&wfl=1}"
+        },
+        {
+            "cid": 12,
+            "title": "女装/搭配-画板",
+            "url": "http://huaban.com/boards/favorite/apparel/{pageStr:?max={page:minid}&limit=20&wfl=1}"
+        },
+        {
+            "cid": 13,
+            "title": "男装/风尚-采集",
+            "url": "http://huaban.com/favorite/men/{pageStr:?max={page:minid}&limit=20&wfl=1}"
+        },
+        {
+            "cid": 14,
+            "title": "男装/风尚-画板",
+            "url": "http://huaban.com/boards/favorite/men/{pageStr:?max={page:minid}&limit=20&wfl=1}"
+        },
+        {
+            "cid": 15,
+            "title": "婚礼-采集",
+            "url": "http://huaban.com/favorite/wedding_events/{pageStr:?max={page:minid}&limit=20&wfl=1}"
+        },
+        {
+            "cid": 16,
+            "title": "婚礼-画板",
+            "url": "http://huaban.com/boards/favorite/wedding_events/{pageStr:?max={page:minid}&limit=20&wfl=1}"
+        },
+        {
+            "cid": 17,
+            "title": "工业设计-采集",
+            "url": "http://huaban.com/favorite/industrial_design/{pageStr:?max={page:minid}&limit=20&wfl=1}"
+        },
+        {
+            "cid": 18,
+            "title": "工业设计-画板",
+            "url": "http://huaban.com/boards/favorite/industrial_design/{pageStr:?max={page:minid}&limit=20&wfl=1}"
+        },
+        {
+            "cid": 19,
+            "title": "摄影-采集",
+            "url": "http://huaban.com/favorite/photography/{pageStr:?max={page:minid}&limit=20&wfl=1}"
+        },
+        {
+            "cid": 20,
+            "title": "摄影-画板",
+            "url": "http://huaban.com/boards/favorite/photography/{pageStr:?max={page:minid}&limit=20&wfl=1}"
+        },
+        {
+            "cid": 21,
+            "title": "造型/美妆-采集",
+            "url": "http://huaban.com/favorite/modeling_hair/{pageStr:?max={page:minid}&limit=20&wfl=1}"
+        },
+        {
+            "cid": 22,
+            "title": "造型/美妆-画板",
+            "url": "http://huaban.com/boards/favorite/modeling_hair/{pageStr:?max={page:minid}&limit=20&wfl=1}"
+        },
+        {
+            "cid": 23,
+            "title": "美食-采集",
+            "url": "http://huaban.com/favorite/food_drink/{pageStr:?max={page:minid}&limit=20&wfl=1}"
+        },
+        {
+            "cid": 24,
+            "title": "美食-画板",
+            "url": "http://huaban.com/boards/favorite/food_drink/{pageStr:?max={page:minid}&limit=20&wfl=1}"
+        },
+        {
+            "cid": 25,
+            "title": "旅行-采集",
+            "url": "http://huaban.com/favorite/travel_places/{pageStr:?max={page:minid}&limit=20&wfl=1}"
+        },
+        {
+            "cid": 26,
+            "title": "旅行-画板",
+            "url": "http://huaban.com/boards/favorite/travel_places/{pageStr:?max={page:minid}&limit=20&wfl=1}"
+        },
+        {
+            "cid": 27,
+            "title": "手工/布艺-采集",
+            "url": "http://huaban.com/favorite/diy_crafts/{pageStr:?max={page:minid}&limit=20&wfl=1}"
+        },
+        {
+            "cid": 28,
+            "title": "手工/布艺-画板",
+            "url": "http://huaban.com/boards/favorite/diy_crafts/{pageStr:?max={page:minid}&limit=20&wfl=1}"
+        },
+        {
+            "cid": 29,
+            "title": "健身/舞蹈-采集",
+            "url": "http://huaban.com/favorite/fitness/{pageStr:?max={page:minid}&limit=20&wfl=1}"
+        },
+        {
+            "cid": 30,
+            "title": "健身/舞蹈-画板",
+            "url": "http://huaban.com/boards/favorite/fitness/{pageStr:?max={page:minid}&limit=20&wfl=1}"
+        },
+        {
+            "cid": 31,
+            "title": "儿童-采集",
+            "url": "http://huaban.com/favorite/kids/{pageStr:?max={page:minid}&limit=20&wfl=1}"
+        },
+        {
+            "cid": 32,
+            "title": "儿童-画板",
+            "url": "http://huaban.com/boards/favorite/kids/{pageStr:?max={page:minid}&limit=20&wfl=1}"
+        },
+        {
+            "cid": 33,
+            "title": "宠物-采集",
+            "url": "http://huaban.com/favorite/pets/{pageStr:?max={page:minid}&limit=20&wfl=1}"
+        },
+        {
+            "cid": 34,
+            "title": "宠物-画板",
+            "url": "http://huaban.com/boards/favorite/pets/{pageStr:?max={page:minid}&limit=20&wfl=1}"
+        },
+        {
+            "cid": 35,
+            "title": "美图-采集",
+            "url": "http://huaban.com/favorite/quotes/{pageStr:?max={page:minid}&limit=20&wfl=1}"
+        },
+        {
+            "cid": 36,
+            "title": "美图-画板",
+            "url": "http://huaban.com/boards/favorite/quotes/{pageStr:?max={page:minid}&limit=20&wfl=1}"
+        },
+        {
+            "cid": 37,
+            "title": "明星-采集",
+            "url": "http://huaban.com/favorite/people/{pageStr:?max={page:minid}&limit=20&wfl=1}"
+        },
+        {
+            "cid": 38,
+            "title": "明星-画板",
+            "url": "http://huaban.com/boards/favorite/people/{pageStr:?max={page:minid}&limit=20&wfl=1}"
+        },
+        {
+            "cid": 39,
+            "title": "美女-采集",
+            "url": "http://huaban.com/favorite/beauty/{pageStr:?max={page:minid}&limit=20&wfl=1}"
+        },
+        {
+            "cid": 40,
+            "title": "美女-画板",
+            "url": "http://huaban.com/boards/favorite/beauty/{pageStr:?max={page:minid}&limit=20&wfl=1}"
+        },
+        {
+            "cid": 41,
+            "title": "礼物-采集",
+            "url": "http://huaban.com/favorite/desire/{pageStr:?max={page:minid}&limit=20&wfl=1}"
+        },
+        {
+            "cid": 42,
+            "title": "礼物-画板",
+            "url": "http://huaban.com/boards/favorite/desire/{pageStr:?max={page:minid}&limit=20&wfl=1}"
+        },
+        {
+            "cid": 43,
+            "title": "极客-采集",
+            "url": "http://huaban.com/favorite/geek/{pageStr:?max={page:minid}&limit=20&wfl=1}"
+        },
+        {
+            "cid": 44,
+            "title": "极客-画板",
+            "url": "http://huaban.com/boards/favorite/geek/{pageStr:?max={page:minid}&limit=20&wfl=1}"
+        },
+        {
+            "cid": 45,
+            "title": "动漫-采集",
+            "url": "http://huaban.com/favorite/anime/{pageStr:?max={page:minid}&limit=20&wfl=1}"
+        },
+        {
+            "cid": 46,
+            "title": "动漫-画板",
+            "url": "http://huaban.com/boards/favorite/anime/{pageStr:?max={page:minid}&limit=20&wfl=1}"
+        },
+        {
+            "cid": 47,
+            "title": "建筑设计-采集",
+            "url": "http://huaban.com/favorite/architecture/{pageStr:?max={page:minid}&limit=20&wfl=1}"
+        },
+        {
+            "cid": 48,
+            "title": "建筑设计-画板",
+            "url": "http://huaban.com/boards/favorite/architecture/{pageStr:?max={page:minid}&limit=20&wfl=1}"
+        },
+        {
+            "cid": 49,
+            "title": "人文艺术-采集",
+            "url": "http://huaban.com/favorite/art/{pageStr:?max={page:minid}&limit=20&wfl=1}"
+        },
+        {
+            "cid": 50,
+            "title": "人文艺术-画板",
+            "url": "http://huaban.com/boards/favorite/art/{pageStr:?max={page:minid}&limit=20&wfl=1}"
+        },
+        {
+            "cid": 51,
+            "title": "数据图-采集",
+            "url": "http://huaban.com/favorite/data_presentation/{pageStr:?max={page:minid}&limit=20&wfl=1}"
+        },
+        {
+            "cid": 52,
+            "title": "数据图-画板",
+            "url": "http://huaban.com/boards/favorite/data_presentation/{pageStr:?max={page:minid}&limit=20&wfl=1}"
+        },
+        {
+            "cid": 53,
+            "title": "游戏-采集",
+            "url": "http://huaban.com/favorite/games/{pageStr:?max={page:minid}&limit=20&wfl=1}"
+        },
+        {
+            "cid": 54,
+            "title": "游戏-画板",
+            "url": "http://huaban.com/boards/favorite/games/{pageStr:?max={page:minid}&limit=20&wfl=1}"
+        },
+        {
+            "cid": 55,
+            "title": "汽车/摩托-采集",
+            "url": "http://huaban.com/favorite/cars_motorcycles/{pageStr:?max={page:minid}&limit=20&wfl=1}"
+        },
+        {
+            "cid": 56,
+            "title": "汽车/摩托-画板",
+            "url": "http://huaban.com/boards/favorite/cars_motorcycles/{pageStr:?max={page:minid}&limit=20&wfl=1}"
+        },
+        {
+            "cid": 57,
+            "title": "电影/图书-采集",
+            "url": "http://huaban.com/favorite/film_music_books/{pageStr:?max={page:minid}&limit=20&wfl=1}"
+        },
+        {
+            "cid": 58,
+            "title": "电影/图书-画板",
+            "url": "http://huaban.com/boards/favorite/film_music_books/{pageStr:?max={page:minid}&limit=20&wfl=1}"
+        },
+        {
+            "cid": 59,
+            "title": "生活百科-采集",
+            "url": "http://huaban.com/favorite/tips/{pageStr:?max={page:minid}&limit=20&wfl=1}"
+        },
+        {
+            "cid": 60,
+            "title": "生活百科-画板",
+            "url": "http://huaban.com/boards/favorite/tips/{pageStr:?max={page:minid}&limit=20&wfl=1}"
+        },
+        {
+            "cid": 61,
+            "title": "教育-采集",
+            "url": "http://huaban.com/favorite/education/{pageStr:?max={page:minid}&limit=20&wfl=1}"
+        },
+        {
+            "cid": 62,
+            "title": "教育-画板",
+            "url": "http://huaban.com/boards/favorite/education/{pageStr:?max={page:minid}&limit=20&wfl=1}"
+        },
+        {
+            "cid": 63,
+            "title": "运动-采集",
+            "url": "http://huaban.com/favorite/sports/{pageStr:?max={page:minid}&limit=20&wfl=1}"
+        },
+        {
+            "cid": 64,
+            "title": "运动-画板",
+            "url": "http://huaban.com/boards/favorite/sports/{pageStr:?max={page:minid}&limit=20&wfl=1}"
+        },
+        {
+            "cid": 65,
+            "title": "搞笑-采集",
+            "url": "http://huaban.com/favorite/funny/{pageStr:?max={page:minid}&limit=20&wfl=1}"
+        },
+        {
+            "cid": 66,
+            "title": "搞笑-画板",
+            "url": "http://huaban.com/boards/favorite/funny/{pageStr:?max={page:minid}&limit=20&wfl=1}"
+        }
+    ],
+    "extraRule": {
+        "category": {
+            "fun": "html",
+            "selector": "p > span:nth-child(2)"
+        },
+        "datetime": {
+            "fun": "html",
+            "selector": "p > span:nth-child(1)"
+        },
+        "idCode": {
+            "fun": "attr",
+            "param": "href",
+            "regex": "/(.*)/",
+            "selector": "h2 > a"
+        },
+        "item": {
+            "selector": "#recommend_container .recommend-infobox:not(.user)"
+        },
+        "pictureHighRes": {
+            "fun": "attr",
+            "param": "src",
+            "regex": "(.*)_fw\\d{3}$",
+            "selector": ".main-image img, body>img"
+        },
+        "pictureUrl": {
+            "fun": "attr",
+            "param": "src",
+            "selector": ".main-image img, body>img"
+        },
+        "title": {
+            "fun": "html",
+            "selector": "h2 > a"
+        },
+        "uploader": {
+            "fun": "html",
+            "selector": "span > a"
+        }
+    },
+    "flag": "noRating|jsNeededAll|extraIndexInfo|singlePageBigPicture|waterfallAsList",
+    "galleryRule": {
+        "item": {
+            "selector": "#waterfall>.pin,.main-image"
+        },
+        "pictureId": {
+            "fun": "attr",
+            "param": "data-id",
+            "selector": "this"
+        },
+        "pictureThumbnail": {
+            "fun": "attr",
+            "param": "src",
+            "selector": "a.img>img,.main-image img"
+        },
+        "pictureUrl": {
+            "regex": "(?:href|src)=\"(.*?)\"",
+            "selector": "a.img,.main-image img"
+        }
+    },
+    "galleryUrl": "http://huaban.com/{idCode:}/{pageStr:?max={page:minid}&limit=20&wfl=1}",
+    "indexRule": {
+        "category": {
+            "fun": "html",
+            "selector": "div.attribution div.line:nth-child(2) > a.x"
+        },
+        "cover": {
+            "fun": "attr",
+            "param": "src",
+            "selector": "a>img"
+        },
+        "datetime": {
+            "fun": "html",
+            "regex": "(\\d+)",
+            "replacement": "$1 采集",
+            "selector": "div.pin-count"
+        },
+        "idCode": {
+            "fun": "attr",
+            "param": "href",
+            "regex": "/(.*)/",
+            "selector": "a.img,a.link"
+        },
+        "item": {
+            "selector": "#waterfall>div:not(.google):not(.ad), #recommend_container .recommend-imgbox"
+        },
+        "title": {
+            "fun": "html",
+            "regex": "([^<>]*)",
+            "selector": "p.description,div.over>h3"
+        },
+        "uploader": {
+            "fun": "html",
+            "selector": "div.attribution a.author,a.BoardUserUrl"
+        }
+    },
+    "indexUrl": "http://huaban.com/?page={page:1}",
+    "isGrid": false,
+    "loginUrl": "http://huaban.com/login",
+    "searchUrl": "http://huaban.com/search/?q={keyword:}&page={page:1}&per_page=20&wfl=1",
+    "title": "花瓣网"
+}

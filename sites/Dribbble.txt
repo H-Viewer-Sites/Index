@@ -59,7 +59,7 @@
                 "selector": "div#viewer-img > img"
             }
         },
-        "flag": "noRating|singlePageBigPicture|preloadGallery|jsNeeded",
+        "flag": "noRating|singlePageBigPicture|preloadGallery|jsNeededGallery",
         "galleryRule": {
             "commentAuthor": {
                 "fun": "html",
