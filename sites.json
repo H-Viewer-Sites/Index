@@ -582,6 +582,17 @@
                 "versionCode": 1,
                 "lastUpdate": "2016-10-20 06:16:29",
                 "r18": false
+            },
+            {
+                "sid": 505,
+                "title": "Tumblr",
+                "author": "PureDark",
+                "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/icons/Tumblr.png",
+                "description": "目前全球最大的轻博客网站，也是轻博客网站的始祖，登录以在首页显示订阅内容",
+                "json": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/Tumblr.txt",
+                "versionCode": 1,
+                "lastUpdate": "2016-10-21 12:55:54",
+                "r18": false
             }
         ]
     }
