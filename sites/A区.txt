@@ -43,21 +43,21 @@
             "selector": "span.posttime"
         },
         "item": {
-            "selector": "div.post > p"
+            "selector": "div.post img[src$='.jpg']"
         },
         "pictureThumbnail": {
             "fun": "attr",
             "param": "src",
-            "selector": "img"
+            "selector": "div.post img[src$='.jpg']"
         },
         "pictureUrl": {
             "fun": "attr",
             "param": "src",
-            "selector": "img"
+            "selector": "div.post img[src$='.jpg']"
         },
         "description": {
             "fun": "html",
-            "selector": "div.post blockquote"
+            "selector": "div.post > blockquote"
         },
         "tags": {
             "fun": "html",
@@ -120,6 +120,6 @@
             "selector": "div.loop > h2 > a"
         }
     },
-    "searchUrl": "http://www.apic.in/{pageStr:page/{page:1}/}?s=miku",
+    "searchUrl": "http://www.apic.in/{pageStr:page/{page:1}/}?s={keyword:}",
     "title": "A区"
 }
