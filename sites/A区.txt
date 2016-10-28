@@ -79,12 +79,12 @@
             "thumbnail": {
                 "fun": "attr",
                 "param": "src",
-                "selector": "div.post img[src$='.jpg']"
+                "selector": "this"
             },
             "url": {
                 "fun": "attr",
                 "param": "src",
-                "selector": "div.post img[src$='.jpg']"
+                "selector": "this"
             }
         },
         "description": {
