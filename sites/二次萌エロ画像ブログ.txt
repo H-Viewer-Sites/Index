@@ -24,37 +24,41 @@
         "cookie": "",
         "flag": "noRating",
         "galleryRule": {
-            "commentAuthor": {
-                "fun": "html",
-                "selector": "div.comment-author > cite"
+            "commentRule": {
+                "author": {
+                    "fun": "html",
+                    "selector": "div.comment-author > cite"
+                },
+                "avatar": {
+                    "fun": "attr",
+                    "param": "src",
+                    "selector": "div.comment-author > img"
+                },
+                "content": {
+                    "selector": "div.comment-body > p"
+                },
+                "datetime": {
+                    "fun": "html",
+                    "selector": "div.comment-meta > a"
+                },
+                "item": {
+                    "selector": "ol.commentlist > li.comment"
+                }
             },
-            "commentAvatar": {
-                "fun": "attr",
-                "param": "src",
-                "selector": "div.comment-author > img"
-            },
-            "commentContent": {
-                "selector": "div.comment-body > p"
-            },
-            "commentDatetime": {
-                "fun": "html",
-                "selector": "div.comment-meta > a"
-            },
-            "commentItem": {
-                "selector": "ol.commentlist > li.comment"
-            },
-            "item": {
-                "selector": "div.box > a"
-            },
-            "pictureThumbnail": {
-                "fun": "attr",
-                "param": "href",
-                "selector": "this"
-            },
-            "pictureUrl": {
-                "fun": "attr",
-                "param": "href",
-                "selector": "this"
+            "pictureRule": {
+                "item": {
+                    "selector": "div.box > a"
+                },
+                "thumbnail": {
+                    "fun": "attr",
+                    "param": "href",
+                    "selector": "this"
+                },
+                "url": {
+                    "fun": "attr",
+                    "param": "href",
+                    "selector": "this"
+                }
             }
         },
         "galleryUrl": "http://moeimg.net/{idCode:}.html",
@@ -95,6 +99,7 @@
             }
         },
         "indexUrl": "http://moeimg.net/page/{page:1}",
+        "isGrid": false,
         "searchUrl": "http://moeimg.net/?cat=0&s={keyword:}&submit=%E6%A4%9C%E7%B4%A2",
         "sid": 8,
         "title": "二次萌エロ画像ブログ",

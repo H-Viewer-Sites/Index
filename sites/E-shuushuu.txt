@@ -1,30 +1,33 @@
-﻿{
+﻿    {
         "categories": [
             {
-                "url": "http://e-shuushuu.net/?page={page:1}",
+                "cid": 1,
                 "title": "首页",
-                "cid": 1
+                "url": "http://e-shuushuu.net/?page={page:1}"
             },
             {
-                "url": "http://e-shuushuu.net/top.php?page={page:1}",
+                "cid": 2,
                 "title": "排行榜",
-                "cid": 2
+                "url": "http://e-shuushuu.net/top.php?page={page:1}"
             }
         ],
+        "cookie": "",
         "flag": "onePicGallery",
         "galleryRule": {
-            "item": {
-                "selector": ".image_thread .image_block"
-            },
-            "pictureThumbnail": {
-                "fun": "attr",
-                "param": "src",
-                "selector": "a.thumb_image img"
-            },
-            "pictureUrl": {
-                "fun": "attr",
-                "param": "href",
-                "selector": "a.thumb_image"
+            "pictureRule": {
+                "item": {
+                    "selector": ".image_thread .image_block"
+                },
+                "thumbnail": {
+                    "fun": "attr",
+                    "param": "src",
+                    "selector": "a.thumb_image img"
+                },
+                "url": {
+                    "fun": "attr",
+                    "param": "href",
+                    "selector": "a.thumb_image"
+                }
             },
             "rating": {
                 "fun": "html",
@@ -34,7 +37,8 @@
             }
         },
         "galleryUrl": "http://e-shuushuu.net/{idCode:}",
-        "title": "E-shuushuu",
+        "gid": 0,
+        "index": 0,
         "indexRule": {
             "cover": {
                 "fun": "attr",
@@ -67,6 +71,9 @@
             }
         },
         "indexUrl": "http://e-shuushuu.net/?page={page:1}",
+        "isGrid": false,
         "loginUrl": "http://e-shuushuu.net/",
-        "sid": 52
+        "sid": 52,
+        "title": "E-shuushuu",
+        "versionCode": 0
     }

@@ -43,18 +43,22 @@
                 "fun": "html",
                 "selector": "div.main-meta > span > a"
             },
-            "item": {
-                "selector": "div.main-image"
-            },
-            "pictureThumbnail": {
-                "fun": "attr",
-                "param": "src",
-                "selector": "p > a > img"
-            },
-            "pictureUrl": {
-                "fun": "attr",
-                "param": "src",
-                "selector": "p > a > img"
+            "pictureRule": {
+                "item": {
+                    "selector": "div.main-image"
+                },
+                "thumbnail": {
+                    "fun": "attr",
+                    "param": "src",
+                    "regex": "(.*)",
+                    "replacement": "http://www.rosiyy.com/usr/themes/mm/timthumb.php?src=$1&h=210&w=150&zc=1&q=100",
+                    "selector": "p > a > img"
+                },
+                "url": {
+                    "fun": "attr",
+                    "param": "src",
+                    "selector": "p > a > img"
+                }
             },
             "tags": {
                 "fun": "html",
@@ -62,6 +66,8 @@
             }
         },
         "galleryUrl": "http://www.mzitu.com/{idCode:}/{page:1}",
+        "gid": 0,
+        "index": 0,
         "indexRule": {
             "cover": {
                 "fun": "attr",
@@ -91,7 +97,9 @@
             }
         },
         "indexUrl": "http://www.mzitu.com/page/{page:1}",
+        "isGrid": false,
         "searchUrl": "http://www.mzitu.com/search/{keyword:}/page/{page:1}",
         "sid": 54,
-        "title": "妹子图"
+        "title": "妹子图",
+        "versionCode": 0
     }

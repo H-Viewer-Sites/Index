@@ -53,52 +53,58 @@
         ],
         "cookie": "",
         "extraRule": {
-            "pictureUrl": {
-                "fun": "attr",
-                "param": "src",
-                "selector": "div#viewer-img > img"
+            "pictureRule": {
+                "url": {
+                    "fun": "attr",
+                    "param": "src",
+                    "selector": "#viewer img"
+                }
             }
         },
         "flag": "noRating|singlePageBigPicture|preloadGallery|jsNeededGallery",
         "galleryRule": {
-            "commentAuthor": {
-                "fun": "html",
-                "regex": "(?:<img.*?>)?(.*)",
-                "selector": "h2 > a.url"
-            },
-            "commentAvatar": {
-                "fun": "attr",
-                "param": "src",
-                "selector": "img.photo"
-            },
-            "commentContent": {
-                "fun": "html",
-                "selector": "div.comment-body"
-            },
-            "commentDatetime": {
-                "fun": "html",
-                "selector": "p.comment-meta > a.posted"
-            },
-            "commentItem": {
-                "selector": "ol#comments > li.comment"
+            "commentRule": {
+                "author": {
+                    "fun": "html",
+                    "regex": "(?:<img.*?>)?(.*)",
+                    "selector": "h2 > a.url"
+                },
+                "avatar": {
+                    "fun": "attr",
+                    "param": "src",
+                    "selector": "img.photo"
+                },
+                "content": {
+                    "fun": "html",
+                    "selector": "div.comment-body"
+                },
+                "datetime": {
+                    "fun": "html",
+                    "selector": "p.comment-meta > a.posted"
+                },
+                "item": {
+                    "selector": "ol#comments > li.comment"
+                }
             },
             "description": {
                 "fun": "html",
                 "selector": "div.shot-desc"
             },
-            "item": {
-                "selector": "div.single-img,ul.thumbs>li"
-            },
-            "pictureThumbnail": {
-                "fun": "attr",
-                "param": "src",
-                "selector": "img"
-            },
-            "pictureUrl": {
-                "fun": "html",
-                "regex": "href=\"(.*?)\"|src=\"([^\"]*?(?<!_1x)\\.(?:jpg|jpeg|png|gif|bmp))\"",
-                "replacement": "$1$2",
-                "selector": "this"
+            "pictureRule": {
+                "item": {
+                    "selector": "div.single-img,ul.thumbs>li"
+                },
+                "thumbnail": {
+                    "fun": "attr",
+                    "param": "src",
+                    "selector": "img"
+                },
+                "url": {
+                    "fun": "html",
+                    "regex": "href=\"(.*?)\"|src=\"([^\"]*?(?<!_1x)\\.(?:jpg|jpeg|png|gif|bmp))\"",
+                    "replacement": "$1$2",
+                    "selector": "this"
+                }
             },
             "tags": {
                 "fun": "html",
@@ -141,6 +147,7 @@
             }
         },
         "indexUrl": "https://dribbble.com/?page={page:1}&per_page=12",
+        "isGrid": false,
         "loginUrl": "https://dribbble.com/session/new",
         "searchUrl": "https://dribbble.com/search?q={keyword:}&page={page:1}&per_page=12",
         "sid": 55,

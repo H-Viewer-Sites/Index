@@ -1,72 +1,80 @@
-﻿{
-    "flag": "noRating|preloadGallery",
-    "galleryRule": {
-        "category": {
-            "fun": "html",
-            "regex": ">(\\d+)张.*?浏览了(.*?)次",
-            "replacement": "$1张照片　浏览$2次",
-            "selector": "div#dinfo"
+﻿    {
+        "cookie": "",
+        "flag": "noRating|preloadGallery",
+        "galleryRule": {
+            "category": {
+                "fun": "html",
+                "regex": ">(\\d+)张.*?浏览了(.*?)次",
+                "replacement": "$1张照片　浏览$2次",
+                "selector": "div#dinfo"
+            },
+            "datetime": {
+                "fun": "html",
+                "regex": "(\\d{4}/\\d{2}/\\d{2})",
+                "selector": "div#dinfo"
+            },
+            "description": {
+                "fun": "html",
+                "selector": "div#ddesc"
+            },
+            "pictureRule": {
+                "item": {
+                    "selector": "ul#hgallery img"
+                },
+                "thumbnail": {
+                    "fun": "attr",
+                    "param": "src",
+                    "selector": "this"
+                },
+                "url": {
+                    "fun": "attr",
+                    "param": "src",
+                    "selector": "this"
+                }
+            },
+            "tagRule": {
+                "item": {
+                    "selector": "ul#utag > li"
+                },
+                "title": {
+                    "fun": "html",
+                    "selector": "a"
+                },
+                "url": {
+                    "fun": "attr",
+                    "param": "href",
+                    "regex": "(.*)",
+                    "replacement": "$1{pageStr:{page:1}.html}",
+                    "selector": "a"
+                }
+            }
         },
-        "datetime": {
-            "fun": "html",
-            "regex": "(\\d{4}/\\d{2}/\\d{2})",
-            "selector": "div#dinfo"
-        },
-        "description": {
-            "fun": "html",
-            "selector": "div#ddesc"
-        },
-        "item": {
-            "selector": "ul#hgallery img"
-        },
-        "pictureThumbnail": {
-            "fun": "attr",
-            "param": "src",
-            "selector": "this"
-        },
-        "pictureUrl": {
-            "fun": "attr",
-            "param": "src",
-            "selector": "this"
-        },
-        "tagRule": {
+        "galleryUrl": "http://www.zngirls.com/g/{idCode:}/{page:1}.html",
+        "gid": 0,
+        "index": 0,
+        "indexRule": {
+            "cover": {
+                "fun": "attr",
+                "param": "data-original",
+                "selector": "a > img"
+            },
+            "idCode": {
+                "fun": "attr",
+                "param": "href",
+                "regex": "/g/(\\d*)",
+                "selector": "a.galleryli_link,a.igalleryli_link"
+            },
             "item": {
-                "selector": "ul#utag > li"
+                "selector": "ul>li.galleryli,ul>li.igalleryli"
             },
             "title": {
                 "fun": "html",
-                "selector": "a"
-            },
-            "url": {
-                "fun": "attr",
-                "param": "href",
-                "regex": "(.*)",
-                "replacement": "$1{pageStr:{page:1}.html}",
-                "selector": "a"
+                "selector": "div.galleryli_title>a,div.igalleryli_title>a"
             }
-        }
-    },
-    "galleryUrl": "http://www.zngirls.com/g/{idCode:}/{page:1}.html",
-    "indexRule": {
-        "cover": {
-            "fun": "attr",
-            "param": "data-original",
-            "selector": "a > img"
         },
-        "idCode": {
-            "fun": "attr",
-            "param": "href",
-            "regex": "/g/(\\d*)",
-            "selector": "a.galleryli_link,a.igalleryli_link"
-        },
-        "item": {
-            "selector": "ul>li.galleryli,ul>li.igalleryli"
-        },
-        "title": {
-            "fun": "html",
-            "selector": "div.galleryli_title>a,div.igalleryli_title>a"
-        }
-    },
-    "indexUrl": "http://www.zngirls.com/gallery/{pageStr:{page:1}.html}",
-    "title": "宅男女神"
-}
+        "indexUrl": "http://www.zngirls.com/gallery/{pageStr:{page:1}.html}",
+        "isGrid": false,
+        "sid": 65,
+        "title": "宅男女神",
+        "versionCode": 0
+    }

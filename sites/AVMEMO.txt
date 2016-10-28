@@ -1,88 +1,96 @@
-﻿{
-    "categories": [
-        {
-            "cid": 1,
-            "title": "全部",
-            "url": "https://avxo.pw/cn/page/{page:1}"
-        },
-        {
-            "cid": 2,
-            "title": "已发布",
-            "url": "https://avxo.pw/cn/released/page/{page:1}"
-        },
-        {
-            "cid": 3,
-            "title": "热门",
-            "url": "https://avxo.pw/cn/popular/page/{page:1}"
-        }
-    ],
-    "flag": "noRating|preloadGallery",
-    "galleryRule": {
-        "description": {
-            "fun": "html",
-            "selector": "div.info"
-        },
-        "item": {
-            "selector": "div#sample-waterfall > .movie-sample-box"
-        },
-        "pictureThumbnail": {
-            "fun": "attr",
-            "param": "src",
-            "selector": "img"
-        },
-        "pictureUrl": {
-            "fun": "attr",
-            "param": "href",
-            "selector": "this"
-        },
-        "tagRule": {
-            "item": {
-                "selector": "div.info > p > span.genre"
+﻿    {
+        "categories": [
+            {
+                "cid": 1,
+                "title": "全部",
+                "url": "https://avxo.pw/cn/page/{page:1}"
             },
-            "title": {
+            {
+                "cid": 2,
+                "title": "已发布",
+                "url": "https://avxo.pw/cn/released/page/{page:1}"
+            },
+            {
+                "cid": 3,
+                "title": "热门",
+                "url": "https://avxo.pw/cn/popular/page/{page:1}"
+            }
+        ],
+        "cookie": "",
+        "flag": "noRating|preloadGallery",
+        "galleryRule": {
+            "description": {
                 "fun": "html",
-                "selector": "a"
+                "selector": "div.info"
             },
-            "url": {
+            "pictureRule": {
+                "item": {
+                    "selector": "div#sample-waterfall > .movie-sample-box"
+                },
+                "thumbnail": {
+                    "fun": "attr",
+                    "param": "src",
+                    "selector": "img"
+                },
+                "url": {
+                    "fun": "attr",
+                    "param": "href",
+                    "selector": "this"
+                }
+            },
+            "tagRule": {
+                "item": {
+                    "selector": "div.info > p > span.genre"
+                },
+                "title": {
+                    "fun": "html",
+                    "selector": "a"
+                },
+                "url": {
+                    "fun": "attr",
+                    "param": "href",
+                    "regex": "(.*)",
+                    "replacement": "$1/page/{page:1}",
+                    "selector": "a"
+                }
+            }
+        },
+        "galleryUrl": "https://avxo.pw/cn/movie/{idCode:}",
+        "gid": 0,
+        "index": 0,
+        "indexRule": {
+            "category": {
+                "fun": "html",
+                "selector": "div.photo-info > span > date:nth-of-type(1)"
+            },
+            "cover": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "div.photo-frame > img"
+            },
+            "datetime": {
+                "fun": "html",
+                "selector": "div.photo-info > span > date:nth-of-type(2)"
+            },
+            "idCode": {
                 "fun": "attr",
                 "param": "href",
-                "regex": "(.*)",
-                "replacement": "$1/page/{page:1}",
-                "selector": "a"
+                "regex": "movie/(.*)",
+                "selector": "a.main-movie-box"
+            },
+            "item": {
+                "selector": "#waterfall > div.item"
+            },
+            "title": {
+                "fun": "attr",
+                "param": "title",
+                "selector": "div.photo-frame > img"
             }
-        }
-    },
-    "galleryUrl": "https://avxo.pw/cn/movie/{idCode:}",
-    "indexRule": {
-        "category": {
-            "fun": "html",
-            "selector": "div.photo-info > span > date:nth-of-type(1)"
         },
-        "cover": {
-            "fun": "attr",
-            "param": "src",
-            "selector": "div.photo-frame > img"
-        },
-        "datetime": {
-            "fun": "html",
-            "selector": "div.photo-info > span > date:nth-of-type(2)"
-        },
-        "idCode": {
-            "fun": "attr",
-            "param": "href",
-            "regex": "movie/(.*)",
-            "selector": "a.main-movie-box"
-        },
-        "item": {
-            "selector": "#waterfall > div.item"
-        },
-        "title": {
-            "fun": "attr",
-            "param": "title",
-            "selector": "div.photo-frame > img"
-        }
-    },
-    "indexUrl": "https://avxo.pw/cn/page/{page:1}",
-    "searchUrl": "https://avxo.pw/cn/search/{keyword:}/page/{page:1}",
-    "title": "AVMEMO"
-}
+        "indexUrl": "https://avxo.pw/cn/page/{page:1}",
+        "isGrid": false,
+        "searchUrl": "https://avxo.pw/cn/search/{keyword:}/page/{page:1}",
+        "sid": 61,
+        "title": "AVMEMO",
+        "versionCode": 0
+    }

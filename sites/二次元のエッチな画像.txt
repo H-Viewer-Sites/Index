@@ -1,22 +1,26 @@
-﻿{
+﻿    {
+        "cookie": "",
         "flag": "noRating|noTag",
         "galleryRule": {
-            "item": {
-                "selector": "div#entry > ul > li:not([class])"
-            },
-            "pictureThumbnail": {
-                "fun": "attr",
-                "param": "src",
-                "selector": "img"
-            },
-            "pictureUrl": {
-                "fun": "attr",
-                "param": "src",
-                "selector": "img"
+            "pictureRule": {
+                "item": {
+                    "selector": "div#entry > ul > li:not([class])"
+                },
+                "thumbnail": {
+                    "fun": "attr",
+                    "param": "src",
+                    "selector": "img"
+                },
+                "url": {
+                    "fun": "attr",
+                    "param": "src",
+                    "selector": "img"
+                }
             }
         },
         "galleryUrl": "http://nijiero-ch.com/{idCode:}.html",
-        "title": "二次元のエッチな画像",
+        "gid": 0,
+        "index": 0,
         "indexRule": {
             "category": {
                 "fun": "html",
@@ -46,7 +50,10 @@
             }
         },
         "indexUrl": "http://nijiero-ch.com/page/{page:1}",
+        "isGrid": false,
         "loginUrl": "http://nijiero-ch.com/wp-login.php",
         "searchUrl": "http://nijiero-ch.com/?s={keyword:}&paged={page:1}",
-        "sid": 9
+        "sid": 9,
+        "title": "二次元のエッチな画像",
+        "versionCode": 0
     }

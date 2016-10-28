@@ -73,18 +73,20 @@
             "fun": "html",
             "selector": "div.month_year"
         },
-        "item": {
-            "selector": "p img"
-        },
-        "pictureThumbnail": {
-            "fun": "attr",
-            "param": "src",
-            "selector": "img"
-        },
-        "pictureUrl": {
-            "fun": "attr",
-            "param": "src",
-            "selector": "img"
+        "pictureRule": {
+            "item": {
+                "selector": "p img"
+            },
+            "thumbnail": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "img"
+            },
+            "url": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "img"
+            }
         },
         "tags": {
             "fun": "html",

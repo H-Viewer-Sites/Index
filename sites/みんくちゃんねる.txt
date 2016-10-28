@@ -153,29 +153,31 @@
     ],
     "flag": "noRating",
     "galleryRule": {
-        "item": {
-            "selector": "div[class='entry-content clearfix'] a[href*=jpg], a[href*=gif]"
-        },
-        "pictureThumbnail": {
-            "fun": "attr",
-            "param": "src",
-            "selector": "img.pict"
-        },
-        "pictureUrl": {
-            "fun": "attr",
-            "param": "href",
-            "selector": "this"
+        "pictureRule": {
+            "item": {
+                "selector": "div[class='entry-content clearfix'] a[href*=jpg], a[href*=gif]"
+            },
+            "thumbnail": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "img.pict"
+            },
+            "url": {
+                "fun": "attr",
+                "param": "href",
+                "selector": "this"
+            }
         }
     },
     "galleryUrl": "http://minkch.com/archives/{idCode:}.html",
     "indexRule": {
-      "item": {
-          "selector": "div[id*=post]:not(#post-0)"
-      },
-      "category": {
-             "fun": "html",
-             "selector": "div.entry-meta > a:not([rel=tag])"
-         },
+        "item": {
+            "selector": "div[id*=post]:not(#post-0)"
+        },
+        "category": {
+            "fun": "html",
+            "selector": "div.entry-meta > a:not([rel=tag])"
+        },
         "idCode": {
             "fun": "attr",
             "param": "href",

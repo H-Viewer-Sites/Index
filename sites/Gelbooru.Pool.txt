@@ -1,14 +1,17 @@
 ﻿    {
+        "cookie": "",
         "extraRule": {
-            "pictureHighRes": {
-                "fun": "html",
-                "regex": "\"(http://gelbooru.com//images/[^\"]*?\\.(jpg|jpeg|png|gif|bmp))\"",
-                "selector": "#post-view"
-            },
-            "pictureUrl": {
-                "fun": "attr",
-                "param": "src",
-                "selector": "img#image"
+            "pictureRule": {
+                "highRes": {
+                    "fun": "html",
+                    "regex": "\"(http://gelbooru.com//images/[^\"]*?\\.(jpg|jpeg|png|gif|bmp))\"",
+                    "selector": "#post-view"
+                },
+                "url": {
+                    "fun": "attr",
+                    "param": "src",
+                    "selector": "img#image"
+                }
             }
         },
         "flag": "singlePageBigPicture|preloadGallery",
@@ -22,21 +25,25 @@
                 "fun": "html",
                 "selector": "div#content > div"
             },
-            "item": {
-                "selector": "span.thumb"
-            },
-            "pictureThumbnail": {
-                "fun": "attr",
-                "param": "src",
-                "selector": "a > img"
-            },
-            "pictureUrl": {
-                "fun": "attr",
-                "param": "href",
-                "selector": "a"
+            "pictureRule": {
+                "item": {
+                    "selector": "span.thumb"
+                },
+                "thumbnail": {
+                    "fun": "attr",
+                    "param": "src",
+                    "selector": "a > img"
+                },
+                "url": {
+                    "fun": "attr",
+                    "param": "href",
+                    "selector": "a"
+                }
             }
         },
         "galleryUrl": "http://gelbooru.com/index.php?page=pool&s=show&id={idCode:}",
+        "gid": 0,
+        "index": 0,
         "indexRule": {
             "category": {
                 "fun": "html",
@@ -67,7 +74,9 @@
             }
         },
         "indexUrl": "http://gelbooru.com/index.php?page=pool&s=list&pid={page:0:25}",
+        "isGrid": false,
         "loginUrl": "http://gelbooru.com/index.php?page=account&s=login&code=00",
         "sid": 40,
-        "title": "Gelbooru Pool"
+        "title": "Gelbooru Pool",
+        "versionCode": 0
     }

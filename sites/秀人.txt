@@ -1,17 +1,19 @@
 ﻿{
     "galleryRule": {
-        "item": {
-            "selector": "div.post span.photoThum"
-        },
-        "pictureThumbnail": {
-            "fun": "attr",
-            "param": "src",
-            "selector": "a img"
-        },
-        "pictureUrl": {
-            "fun": "attr",
-            "param": "href",
-            "selector": "a"
+        "pictureRule": {
+            "item": {
+                "selector": "div.post span.photoThum"
+            },
+            "thumbnail": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "a img"
+            },
+            "url": {
+                "fun": "attr",
+                "param": "href",
+                "selector": "a"
+            }
         }
     },
     "galleryUrl": "http://www.xiuren.org/{idCode:}.html",

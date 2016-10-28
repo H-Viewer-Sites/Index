@@ -1,29 +1,32 @@
-﻿{
+﻿    {
         "extraRule": {
-            "pictureUrl": {
-                "fun": "attr",
-                "param": "src",
-                "selector": "img#sm"
+            "pictureRule": {
+                "url": {
+                    "fun": "attr",
+                    "param": "src",
+                    "selector": "img#sm"
+                }
             }
         },
         "flag": "singlePageBigPicture",
         "galleryRule": {
-            "item": {
-                "selector": "#gh .gi"
-            },
-            "pictureThumbnail": {
-                "fun": "attr",
-                "param": "src",
-                "selector": "a img"
-            },
-            "pictureUrl": {
-                "fun": "attr",
-                "param": "href",
-                "selector": "a"
+            "pictureRule": {
+                "item": {
+                    "selector": "#gh .gi"
+                },
+                "thumbnail": {
+                    "fun": "attr",
+                    "param": "src",
+                    "selector": "a img"
+                },
+                "url": {
+                    "fun": "attr",
+                    "param": "href",
+                    "selector": "a"
+                }
             }
         },
         "galleryUrl": "http://lofi.e-hentai.org/g/{idCode:}/{page:0}",
-        "title": "Lofi.E-hentai",
         "indexRule": {
             "category": {
                 "fun": "html",
@@ -68,7 +71,8 @@
             }
         },
         "indexUrl": "http://lofi.e-hentai.org/?page={page:0}",
+        "isGrid": false,
         "loginUrl": "https://forums.e-hentai.org/index.php?act=Login",
         "searchUrl": "http://lofi.e-hentai.org/?f_search={keyword:}&page={page:0}",
-        "sid": 1
+        "title": "Lofi.E-hentai"
     }

@@ -1,11 +1,14 @@
-﻿{
+﻿    {
+        "cookie": "",
         "extraRule": {
-            "pictureUrl": {
-                "fun": "attr",
-                "param": "src",
-                "regex": "(.*)",
-                "replacement": "https:$1",
-                "selector": "#image-container a img"
+            "pictureRule": {
+                "url": {
+                    "fun": "attr",
+                    "param": "src",
+                    "regex": "(.*)",
+                    "replacement": "https:$1",
+                    "selector": "#image-container a img"
+                }
             }
         },
         "flag": "singlePageBigPicture|noRating|noTag",
@@ -15,20 +18,22 @@
                 "regex": "(.*)<span",
                 "selector": ".tag-container:eq(6) span.tags a"
             },
-            "item": {
-                "selector": "div.container div.thumb-container"
-            },
-            "pictureThumbnail": {
-                "fun": "attr",
-                "param": "data-src",
-                "regex": "(.*)",
-                "replacement": "https:$1",
-                "selector": "a img"
-            },
-            "pictureUrl": {
-                "fun": "attr",
-                "param": "href",
-                "selector": "a"
+            "pictureRule": {
+                "item": {
+                    "selector": "div.container div.thumb-container"
+                },
+                "thumbnail": {
+                    "fun": "attr",
+                    "param": "data-src",
+                    "regex": "(.*)",
+                    "replacement": "https:$1",
+                    "selector": "a img"
+                },
+                "url": {
+                    "fun": "attr",
+                    "param": "href",
+                    "selector": "a"
+                }
             },
             "tags": {
                 "fun": "html",
@@ -41,6 +46,8 @@
             }
         },
         "galleryUrl": "https://nhentai.net{idCode:}",
+        "gid": 0,
+        "index": 0,
         "indexRule": {
             "cover": {
                 "fun": "attr",
@@ -63,8 +70,10 @@
             }
         },
         "indexUrl": "https://nhentai.net/?page={page:1}",
+        "isGrid": false,
         "loginUrl": "https://nhentai.net/login/",
         "searchUrl": "https://nhentai.net/search/?q={keyword:}&page={page:1}",
         "sid": 5,
-        "title": "nhentai"
+        "title": "nhentai",
+        "versionCode": 0
     }

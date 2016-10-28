@@ -1,117 +1,125 @@
-﻿{
-    "categories": [
-        {
-            "cid": 1,
-            "title": "#ALL",
-            "url": "http://nude-atlas.com/blog/index?p={page:1}"
+﻿    {
+        "categories": [
+            {
+                "cid": 1,
+                "title": "#ALL",
+                "url": "http://nude-atlas.com/blog/index?p={page:1}"
+            },
+            {
+                "cid": 2,
+                "title": "#CHINESE",
+                "url": "http://nude-atlas.com/blog/index?t=57beb41e5ca248101fb2332d&p={page:1}"
+            },
+            {
+                "cid": 3,
+                "title": "#JAPANESE",
+                "url": "http://nude-atlas.com/blog/index?t=57beb4e25ca248101fb2332e&p={page:1}"
+            },
+            {
+                "cid": 4,
+                "title": "#WESTERN",
+                "url": "http://nude-atlas.com/blog/index?t=57beb5345ca248101fb2332f&p={page:1}"
+            },
+            {
+                "cid": 5,
+                "title": "#RUSSIAN",
+                "url": "http://nude-atlas.com/blog/index?t=57bf2d5c5ca24815fa29e77c&p={page:1}"
+            },
+            {
+                "cid": 6,
+                "title": "#FRENCH",
+                "url": "http://nude-atlas.com/blog/index?t=57bf302e5ca24815fa29e781&p={page:1}"
+            },
+            {
+                "cid": 7,
+                "title": "#MIDDLE EASTERN",
+                "url": "http://nude-atlas.com/blog/index?t=57bf31935ca24815fa29e783&p={page:1}"
+            },
+            {
+                "cid": 8,
+                "title": "#EASTERN EUROPEAN",
+                "url": "http://nude-atlas.com/blog/index?t=57bf36f45ca24815fa29e788&p={page:1}"
+            },
+            {
+                "cid": 9,
+                "title": "#GERMAN",
+                "url": "http://nude-atlas.com/blog/index?t=57bf3beb5ca24815fa29e78e&p={page:1}"
+            },
+            {
+                "cid": 10,
+                "title": "#USA",
+                "url": "http://nude-atlas.com/blog/index?t=57c27e465ca248175753c287&p={page:1}"
+            },
+            {
+                "cid": 11,
+                "title": "#KOREAN",
+                "url": "http://nude-atlas.com/blog/index?t=57fb0df05ca24814954f5a2f&p={page:1}"
+            }
+        ],
+        "cookie": "",
+        "flag": "noRating",
+        "galleryRule": {
+            "description": {
+                "fun": "html",
+                "selector": "div.post-body"
+            },
+            "pictureRule": {
+                "item": {
+                    "selector": "div.post-pics > a"
+                },
+                "thumbnail": {
+                    "fun": "attr",
+                    "param": "href",
+                    "selector": "this"
+                },
+                "url": {
+                    "fun": "attr",
+                    "param": "href",
+                    "selector": "this"
+                }
+            }
         },
-        {
-            "cid": 2,
-            "title": "#CHINESE",
-            "url": "http://nude-atlas.com/blog/index?t=57beb41e5ca248101fb2332d&p={page:1}"
+        "galleryUrl": "http://nude-atlas.com/blog/post/{idCode:}",
+        "gid": 0,
+        "index": 0,
+        "indexRule": {
+            "cover": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "a > img"
+            },
+            "datetime": {
+                "fun": "html",
+                "regex": "</i>(.*?)<i",
+                "selector": "span.post-date"
+            },
+            "idCode": {
+                "fun": "attr",
+                "param": "href",
+                "regex": "blog/post/(.*)",
+                "selector": "a"
+            },
+            "item": {
+                "selector": "div#posts div.post-with-pic"
+            },
+            "tags": {
+                "fun": "html",
+                "selector": "span.post-tag"
+            },
+            "title": {
+                "fun": "html",
+                "selector": "a.post-title"
+            },
+            "uploader": {
+                "fun": "html",
+                "regex": "</i> (\\d+&nbsp;views)",
+                "selector": "span.post_date"
+            }
         },
-        {
-            "cid": 3,
-            "title": "#JAPANESE",
-            "url": "http://nude-atlas.com/blog/index?t=57beb4e25ca248101fb2332e&p={page:1}"
-        },
-        {
-            "cid": 4,
-            "title": "#WESTERN",
-            "url": "http://nude-atlas.com/blog/index?t=57beb5345ca248101fb2332f&p={page:1}"
-        },
-        {
-            "cid": 5,
-            "title": "#RUSSIAN",
-            "url": "http://nude-atlas.com/blog/index?t=57bf2d5c5ca24815fa29e77c&p={page:1}"
-        },
-        {
-            "cid": 6,
-            "title": "#FRENCH",
-            "url": "http://nude-atlas.com/blog/index?t=57bf302e5ca24815fa29e781&p={page:1}"
-        },
-        {
-            "cid": 7,
-            "title": "#MIDDLE EASTERN",
-            "url": "http://nude-atlas.com/blog/index?t=57bf31935ca24815fa29e783&p={page:1}"
-        },
-        {
-            "cid": 8,
-            "title": "#EASTERN EUROPEAN",
-            "url": "http://nude-atlas.com/blog/index?t=57bf36f45ca24815fa29e788&p={page:1}"
-        },
-        {
-            "cid": 9,
-            "title": "#GERMAN",
-            "url": "http://nude-atlas.com/blog/index?t=57bf3beb5ca24815fa29e78e&p={page:1}"
-        },
-        {
-            "cid": 10,
-            "title": "#USA",
-            "url": "http://nude-atlas.com/blog/index?t=57c27e465ca248175753c287&p={page:1}"
-        },
-        {
-            "cid": 11,
-            "title": "#KOREAN",
-            "url": "http://nude-atlas.com/blog/index?t=57fb0df05ca24814954f5a2f&p={page:1}"
-        }
-    ],
-    "flag": "noRating",
-    "galleryRule": {
-        "description": {
-            "fun": "html",
-            "selector": "div.post-body"
-        },
-        "item": {
-            "selector": "div.post-pics > a"
-        },
-        "pictureThumbnail": {
-            "fun": "attr",
-            "param": "href",
-            "selector": "this"
-        },
-        "pictureUrl": {
-            "fun": "attr",
-            "param": "href",
-            "selector": "this"
-        }
-    },
-    "galleryUrl": "http://nude-atlas.com/blog/post/{idCode:}",
-    "indexRule": {
-        "cover": {
-            "fun": "attr",
-            "param": "src",
-            "selector": "a > img"
-        },
-        "datetime": {
-            "fun": "html",
-            "regex": "</i>(.*?)<i",
-            "selector": "span.post-date"
-        },
-        "idCode": {
-            "fun": "attr",
-            "param": "href",
-            "regex": "blog/post/(.*)",
-            "selector": "a"
-        },
-        "item": {
-            "selector": "div#posts div.post-with-pic"
-        },
-        "tags": {
-            "fun": "html",
-            "selector": "span.post-tag"
-        },
-        "title": {
-            "fun": "html",
-            "selector": "a.post-title"
-        },
-        "uploader": {
-            "fun": "html",
-            "regex": "</i> (\\d+&nbsp;views)",
-            "selector": "span.post_date"
-        }
-    },
-    "indexUrl": "http://nude-atlas.com/blog/index?p={page:1}",
-    "loginUrl": "http://nude-atlas.com/login",
-    "title": "Nude-Atlas"
-}
+        "indexUrl": "http://nude-atlas.com/blog/index?p={page:1}",
+        "isGrid": false,
+        "loginUrl": "http://nude-atlas.com/login",
+        "sid": 64,
+        "title": "Nude-Atlas",
+        "versionCode": 0
+    }

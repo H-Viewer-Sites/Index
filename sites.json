@@ -12,7 +12,7 @@
                 "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/icons/E-shuushuu.png",
                 "description": "收录图片较多且杂，但质量都不错",
                 "json": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/E-shuushuu.txt",
-                "versionCode": 2,
+                "versionCode": 3,
                 "lastUpdate": "2016-09-27 01:36:05",
                 "r18": false
             },
@@ -23,7 +23,7 @@
                 "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/icons/Pixiv.png",
                 "description": "著名同人画、插画作品分享站点，需要登陆才能访问",
                 "json": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/Pixiv.txt",
-                "versionCode": 8,
+                "versionCode": 9,
                 "lastUpdate": "2016-10-20 06:13:15",
                 "r18": false
             },
@@ -34,7 +34,7 @@
                 "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/icons/Bilibili%E7%94%BB%E5%8F%8B.png",
                 "description": "一个简单的原创画画交流中心",
                 "json": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/Bilibili%E7%94%BB%E5%8F%8B.txt",
-                "versionCode": 7,
+                "versionCode": 8,
                 "lastUpdate": "2016-09-28 18:51:05",
                 "r18": false
             },
@@ -45,7 +45,7 @@
                 "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/icons/%E4%BA%8C%E6%AC%A1%E8%90%8C%E3%82%A8%E3%83%AD%E7%94%BB%E5%83%8F%E3%83%96%E3%83%AD%E3%82%B0.png",
                 "description": "エロ画像，你懂的",
                 "json": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/%E4%BA%8C%E6%AC%A1%E8%90%8C%E3%82%A8%E3%83%AD%E7%94%BB%E5%83%8F%E3%83%96%E3%83%AD%E3%82%B0.txt",
-                "versionCode": 2,
+                "versionCode": 3,
                 "lastUpdate": "2016-09-27 01:36:05",
                 "r18": true
             },
@@ -56,7 +56,7 @@
                 "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/icons/%E4%BA%8C%E6%AC%A1%E5%85%83%E3%81%AE%E3%82%A8%E3%83%83%E3%83%81%E3%81%AA%E7%94%BB%E5%83%8F.png",
                 "description": "也是各种エロ画像",
                 "json": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/%E4%BA%8C%E6%AC%A1%E5%85%83%E3%81%AE%E3%82%A8%E3%83%83%E3%83%81%E3%81%AA%E7%94%BB%E5%83%8F.txt",
-                "versionCode": 1,
+                "versionCode": 2,
                 "lastUpdate": "2016-09-27 01:36:05",
                 "r18": true
             },
@@ -67,7 +67,7 @@
                 "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/icons/%E7%BB%9D%E5%AF%B9%E9%A2%86%E5%9F%9F.png",
                 "description": "一个2.5次元图片分享平台",
                 "json": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/%E7%BB%9D%E5%AF%B9%E9%A2%86%E5%9F%9F.txt",
-                "versionCode": 2,
+                "versionCode": 3,
                 "lastUpdate": "2016-09-27 01:36:05",
                 "r18": false
             },
@@ -78,7 +78,7 @@
                 "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/icons/半次元.png",
                 "description": "第一中文COS绘画小说社区，需要登录才能搜索，部分内容需要登录才能浏览",
                 "json": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/半次元.txt",
-                "versionCode": 3,
+                "versionCode": 4,
                 "lastUpdate": "2016-10-20 06:15:42",
                 "r18": false
             },
@@ -89,9 +89,9 @@
                 "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/icons/A区.png",
                 "description": "A区动漫图站，每天定时更新一系列动漫图片,动漫美女图片,高清动漫图片，Hentai图片，动漫足控图片，动漫足控，二次元杂图等，并提供好看的动漫图片打包下载，欢迎你的来访！",
                 "json": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/A区.txt",
-                "versionCode": 2,
+                "versionCode": 3,
                 "lastUpdate": "2016-10-25 04:43:42",
-                "r18": false
+                "r18": true
             }
         ]
     },
@@ -108,9 +108,9 @@
                 "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/icons/Yande.re.png",
                 "description": "主收高清图，大分辨率扫描图",
                 "json": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/Yande.re.Post.txt",
-                "versionCode": 4,
+                "versionCode": 5,
                 "lastUpdate": "2016-09-27 01:36:05",
-                "r18": true
+                "r18": false
             },
             {
                 "sid": 202,
@@ -119,9 +119,9 @@
                 "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/icons/Yande.re.png",
                 "description": "这是yande的图集",
                 "json": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/Yande.re.Pool.txt",
-                "versionCode": 1,
+                "versionCode": 2,
                 "lastUpdate": "2016-09-27 01:36:05",
-                "r18": true
+                "r18": false
             },
             {
                 "sid": 203,
@@ -130,7 +130,7 @@
                 "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/icons/Lolibooru.png",
                 "description": "loli！loli即正义！",
                 "json": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/Lolibooru.Post.txt",
-                "versionCode": 4,
+                "versionCode": 5,
                 "lastUpdate": "2016-09-27 01:36:05",
                 "r18": true
             },
@@ -141,7 +141,7 @@
                 "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/icons/Lolibooru.png",
                 "description": "loli的图集",
                 "json": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/Lolibooru.Pool.txt",
-                "versionCode": 1,
+                "versionCode": 2,
                 "lastUpdate": "2016-09-27 01:36:05",
                 "r18": true
             },
@@ -152,7 +152,7 @@
                 "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/icons/Konachan.png",
                 "description": "主收各类动漫壁纸",
                 "json": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/Konachan.Post.txt",
-                "versionCode": 4,
+                "versionCode": 5,
                 "lastUpdate": "2016-09-27 01:36:05",
                 "r18": false
             },
@@ -163,7 +163,7 @@
                 "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/icons/Konachan.png",
                 "description": "Konachan图集",
                 "json": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/Konachan.Pool.txt",
-                "versionCode": 1,
+                "versionCode": 2,
                 "lastUpdate": "2016-09-27 01:36:05",
                 "r18": false
             },
@@ -174,7 +174,7 @@
                 "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/icons/3dbooru.png",
                 "description": "真人cosplay图片站",
                 "json": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/3dbooru.Post.txt",
-                "versionCode": 4,
+                "versionCode": 5,
                 "lastUpdate": "2016-09-27 01:36:05",
                 "r18": false
             },
@@ -185,7 +185,7 @@
                 "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/icons/3dbooru.png",
                 "description": "3dbooru的图集",
                 "json": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/3dbooru.Pool.txt",
-                "versionCode": 1,
+                "versionCode": 2,
                 "lastUpdate": "2016-09-27 01:36:05",
                 "r18": false
             },
@@ -196,9 +196,9 @@
                 "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/icons/Gelbooru.png",
                 "description": "做的最大的booru站之一",
                 "json": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/Gelbooru.Post.txt",
-                "versionCode": 4,
+                "versionCode": 5,
                 "lastUpdate": "2016-09-27 01:36:05",
-                "r18": true
+                "r18": false
             },
             {
                 "sid": 210,
@@ -207,9 +207,9 @@
                 "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/icons/Gelbooru.png",
                 "description": "Gelbooru的图集",
                 "json": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/Gelbooru.Pool.txt",
-                "versionCode": 1,
+                "versionCode": 2,
                 "lastUpdate": "2016-09-27 01:36:05",
-                "r18": true
+                "r18": false
             },
             {
                 "sid": 211,
@@ -218,7 +218,7 @@
                 "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/icons/Xbooru.png",
                 "description": "这个站的图非常杂乱，而且基本以H图为主",
                 "json": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/Xbooru.Post.txt",
-                "versionCode": 4,
+                "versionCode": 5,
                 "lastUpdate": "2016-09-27 01:36:05",
                 "r18": true
             },
@@ -229,7 +229,7 @@
                 "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/icons/Xbooru.png",
                 "description": "Xbooru的图集",
                 "json": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/Xbooru.Pool.txt",
-                "versionCode": 1,
+                "versionCode": 2,
                 "lastUpdate": "2016-09-27 01:36:05",
                 "r18": true
             }
@@ -248,7 +248,7 @@
                 "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/icons/Ehentai.png",
                 "description": "E绅士的移动版，优点是能在列表就读取到TAG，缺点是图片画质较低",
                 "json": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/lofi.e-hentai.txt",
-                "versionCode": 1,
+                "versionCode": 2,
                 "lastUpdate": "2016-09-27 01:36:05",
                 "r18": true
             },
@@ -259,7 +259,7 @@
                 "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/icons/Ehentai.png",
                 "description": "E绅士的桌面版，图片较清楚，但是列表中没有TAG，登录可查看最新内容",
                 "json": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/g.e-hentai.txt",
-                "versionCode": 2,
+                "versionCode": 3,
                 "lastUpdate": "2016-09-27 01:36:05",
                 "r18": true
             },
@@ -270,7 +270,7 @@
                 "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/icons/Ehentai.png",
                 "description": "E绅士的里区，必须登录才能访问",
                 "json": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/exhentai.txt",
-                "versionCode": 2,
+                "versionCode": 3,
                 "lastUpdate": "2016-09-27 01:36:05",
                 "r18": true
             },
@@ -281,7 +281,7 @@
                 "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/icons/wnacg.png",
                 "description": "专注分享汉化本子",
                 "json": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/wnacg.txt",
-                "versionCode": 1,
+                "versionCode": 2,
                 "lastUpdate": "2016-09-27 01:36:05",
                 "r18": true
             },
@@ -292,7 +292,7 @@
                 "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/icons/nhentai.png",
                 "description": "本子站，最大的优点是没有被墙",
                 "json": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/nhentai.txt",
-                "versionCode": 1,
+                "versionCode": 2,
                 "lastUpdate": "2016-09-27 01:36:05",
                 "r18": true
             },
@@ -302,7 +302,7 @@
                 "author": "PureDark",
                 "description": "收录的漫画以汉化单行本为主",
                 "json": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/177%E6%BC%AB%E7%94%BB.txt",
-                "versionCode": 1,
+                "versionCode": 2,
                 "lastUpdate": "2016-09-27 01:36:05",
                 "r18": true
             },
@@ -313,7 +313,7 @@
                 "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/icons/%E3%82%A8%E3%83%AD%E6%BC%AB%E7%94%BB%E5%90%8C%E4%BA%BA%E8%AA%8C.png",
                 "description": "一个专注同人本子的网站（炮姐，Rem应有尽有）",
                 "json": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/%E3%82%A8%E3%83%AD%E6%BC%AB%E7%94%BB%E5%90%8C%E4%BA%BA%E8%AA%8C.txt",
-                "versionCode": 2,
+                "versionCode": 3,
                 "lastUpdate": "2016-10-04 15:57:34",
                 "r18": true
             },
@@ -324,7 +324,7 @@
                 "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/icons/H-Manga.moe.png",
                 "description": "在线绅士同人志阅览，免费且每日更新。",
                 "json": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/H-Manga.moe.txt",
-                "versionCode": 2,
+                "versionCode": 3,
                 "lastUpdate": "2016-10-06 16:17:34",
                 "r18": true
             },
@@ -335,7 +335,7 @@
                 "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/icons/%E8%90%8C%E6%98%A5%E7%94%BB.png",
                 "description": "萌春画はえっちで萌えれるエロ同人誌、エロ漫画を載せています。現在フルカラー物のみで更新中！",
                 "json": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/%E8%90%8C%E6%98%A5%E7%94%BB.txt",
-                "versionCode": 1,
+                "versionCode": 2,
                 "lastUpdate": "2016-10-06 17:47:34",
                 "r18": true
             }
@@ -354,7 +354,7 @@
                 "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/icons/%E7%A7%80%E4%BA%BA.png",
                 "description": "专注模特写真及周边产业的互动平台",
                 "json": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/%E7%A7%80%E4%BA%BA.txt",
-                "versionCode": 1,
+                "versionCode": 2,
                 "lastUpdate": "2016-09-27 01:36:05",
                 "r18": false
             },
@@ -365,7 +365,7 @@
                 "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/icons/Rosi.png",
                 "description": "性感美女写真",
                 "json": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/Rosi.txt",
-                "versionCode": 2,
+                "versionCode": 3,
                 "lastUpdate": "2016-09-29 01:18:16",
                 "r18": false
             },
@@ -376,7 +376,7 @@
                 "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/icons/%E5%A6%B9%E5%AD%90%E5%9B%BE.png",
                 "description": "每日分享最新最全最优质的妹子图片和高清性感美女图片",
                 "json": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/%E5%A6%B9%E5%AD%90%E5%9B%BE.txt",
-                "versionCode": 1,
+                "versionCode": 4,
                 "lastUpdate": "2016-09-30 03:46:15",
                 "r18": false
             },
@@ -387,7 +387,7 @@
                 "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/icons/%E5%A6%B9%E5%AD%90%E5%9B%BE2.png",
                 "description": "无论是小清新,模特,还是其他妹子,我们每天都精挑细选,精彩的妹子图每天都有不一样的呈现",
                 "json": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/%E5%A6%B9%E5%AD%90%E5%9B%BE2.txt",
-                "versionCode": 2,
+                "versionCode": 3,
                 "lastUpdate": "2016-10-03 23:22:13",
                 "r18": false
             },
@@ -398,7 +398,7 @@
                 "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/icons/美女图片集.png",
                 "description": "「美女图片集」是一个干净利落的美女图片分享社区。你会以绝佳的横向浏览方式欣赏媛馆、尤果网、推女郎等国模写真；杉原杏璃、筱崎爱、原干惠等日本女优的经典写真集怎能错过；还有欧美美女出境的黑白人体艺术摄影，脱而不露的致命诱惑。",
                 "json": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/美女图片集.txt",
-                "versionCode": 1,
+                "versionCode": 4,
                 "lastUpdate": "2016-10-16 04:13:53",
                 "r18": false
             },
@@ -409,7 +409,7 @@
                 "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/icons/Nude-Atlas.png",
                 "description": "国外的裸体写真站，各国的都有",
                 "json": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/Nude-Atlas.txt",
-                "versionCode": 1,
+                "versionCode": 5,
                 "lastUpdate": "2016-10-16 04:45:53",
                 "r18": false
             },
@@ -420,7 +420,7 @@
                 "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/icons/宅男女神.png",
                 "description": "分享最全的宅男女神资料,最高清的美女图片,推女神,美媛馆等精品美女套图,最新的美女博客私房照,绝对不容错过！看美女就像喝水,每天都是必须的！",
                 "json": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/宅男女神.txt",
-                "versionCode": 1,
+                "versionCode": 2,
                 "lastUpdate": "2016-10-16 05:10:26",
                 "r18": false
             }
@@ -439,7 +439,7 @@
                 "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/icons/1024.png",
                 "description": "1024毋须多言",
                 "json": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/1024.txt",
-                "versionCode": 2,
+                "versionCode": 3,
                 "lastUpdate": "2016-09-27 01:36:05",
                 "r18": true
             },
@@ -450,7 +450,7 @@
                 "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/icons/AVMOO.png",
                 "description": "你的线上日本成人影片情报站。管理你的影片并分享你的想法。",
                 "json": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/AVMOO.txt",
-                "versionCode": 2,
+                "versionCode": 3,
                 "lastUpdate": "2016-10-15 03:58:53",
                 "r18": true
             },
@@ -461,7 +461,7 @@
                 "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/icons/AVMEMO.png",
                 "description": "你的线上欧美成人影片情报站。管理你的影片并分享你的想法。",
                 "json": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/AVMEMO.txt",
-                "versionCode": 2,
+                "versionCode": 3,
                 "lastUpdate": "2016-10-15 03:58:36",
                 "r18": true
             },
@@ -472,7 +472,7 @@
                 "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/icons/%E3%83%A2%E3%83%A2%E3%82%93%E3%82%AC%E3%83%83(%EF%BD%A5%E2%88%80%EF%BD%A5)!!.png",
                 "description": "ＪＫ・素人・盗撮・投稿・流出などのエロ画像を中心にオリジナルなまとめ方で毎日更新してるお茶目なＲ１８エログです。",
                 "json": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/%E3%83%A2%E3%83%A2%E3%82%93%E3%82%AC%E3%83%83(%EF%BD%A5%E2%88%80%EF%BD%A5)!!.txt",
-                "versionCode": 1,
+                "versionCode": 2,
                 "lastUpdate": "2016-10-07 13:18:16",
                 "r18": true
             },
@@ -483,7 +483,7 @@
                 "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/icons/お宝エログ幕府.png",
                 "description": "2chまとめ画像ブログ",
                 "json": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/お宝エログ幕府.txt",
-                "versionCode": 1,
+                "versionCode": 2,
                 "lastUpdate": "2016-10-07 13:18:16",
                 "r18": true
             },
@@ -494,7 +494,7 @@
                 "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/icons/ぷるるんお宝画像庫.png",
                 "description": "巨乳,アイドル,画像,巨乳画像,巨乳アイドル,動画,AV,ぷるるんお宝画像庫",
                 "json": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/ぷるるんお宝画像庫.txt",
-                "versionCode": 1,
+                "versionCode": 2,
                 "lastUpdate": "2016-10-07 13:18:16",
                 "r18": true
             },
@@ -505,7 +505,7 @@
                 "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/icons/エロ画像すももちゃんねる.png",
                 "description": "エロ画像すももちゃんねる,エロ画像,AV女優,画像,エロ,AV",
                 "json": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/エロ画像すももちゃんねる.txt",
-                "versionCode": 1,
+                "versionCode": 2,
                 "lastUpdate": "2016-10-07 13:18:16",
                 "r18": true
             },
@@ -516,7 +516,7 @@
                 "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/icons/みんくちゃんねる.png",
                 "description": "エロ系2chまとめ、Twitterまとめ",
                 "json": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/みんくちゃんねる.txt",
-                "versionCode": 1,
+                "versionCode": 2,
                 "lastUpdate": "2016-10-07 13:18:16",
                 "r18": true
             },
@@ -527,7 +527,7 @@
                 "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/icons/エロチカ.png",
                 "description": "AVやグラドル・女神最新動画像まとめ",
                 "json": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/エロチカ.txt",
-                "versionCode": 1,
+                "versionCode": 2,
                 "lastUpdate": "2016-10-07 13:18:16",
                 "r18": true
             }
@@ -546,7 +546,7 @@
                 "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/icons/Dribbble.png",
                 "description": "艺术工作者、设计师创作作品交流网站",
                 "json": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/Dribbble.txt",
-                "versionCode": 3,
+                "versionCode": 4,
                 "lastUpdate": "2016-10-20 06:14:15",
                 "r18": false
             },
@@ -557,7 +557,7 @@
                 "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/icons/UI%E4%B8%AD%E5%9B%BD.png",
                 "description": "专业界面交互设计平台",
                 "json": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/UI%E4%B8%AD%E5%9B%BD.txt",
-                "versionCode": 3,
+                "versionCode": 4,
                 "lastUpdate": "2016-10-20 06:15:15",
                 "r18": false
             },
@@ -568,7 +568,7 @@
                 "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/icons/花瓣网.png",
                 "description": "设计师寻找灵感的天堂！图片素材领导者，帮你采集,发现网络上你喜欢的事物.你可以用它收集灵感,保存有用的素材,计划旅行,晒晒自己想要的东西",
                 "json": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/花瓣网.txt",
-                "versionCode": 1,
+                "versionCode": 2,
                 "lastUpdate": "2016-10-20 06:16:29",
                 "r18": false
             },
@@ -579,7 +579,7 @@
                 "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/icons/Pinterest.png",
                 "description": "通过图片墙Pinboard发布图片，瀑布流展示图片，不断发现新的图片，必须要登录才能浏览",
                 "json": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/Pinterest.txt",
-                "versionCode": 1,
+                "versionCode": 2,
                 "lastUpdate": "2016-10-20 06:16:29",
                 "r18": false
             },
@@ -590,9 +590,50 @@
                 "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/icons/Tumblr.png",
                 "description": "目前全球最大的轻博客网站，也是轻博客网站的始祖，登录以在首页显示订阅内容",
                 "json": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/Tumblr.txt",
-                "versionCode": 1,
+                "versionCode": 2,
                 "lastUpdate": "2016-10-21 12:55:54",
                 "r18": false
+            }
+        ]
+    },
+    {
+        "cid": 6,
+        "title": "视频站",
+        "english": "Video Sites",
+        "r18": false,
+        "sites": [
+            {
+                "sid": 601,
+                "title": "H-Anime",
+                "author": "PureDark",
+                "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/icons/H-Anime.png",
+                "description": "在线观看绅士动画，经常更新，与时俱进",
+                "json": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/H-Anime.txt",
+                "versionCode": 1,
+                "lastUpdate": "2016-10-28 10:51:15",
+                "r18": true
+            },
+            {
+                "sid": 602,
+                "title": "Hentai Play",
+                "author": "PureDark",
+                "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/icons/Hentai-Play.png",
+                "description": "最新的、英文字幕的绅士动画。 上千部每日更新的动画可供在线观看!",
+                "json": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/Hentai-Play.txt",
+                "versionCode": 1,
+                "lastUpdate": "2016-10-28 10:51:15",
+                "r18": true
+            },
+            {
+                "sid": 603,
+                "title": "Pornhub",
+                "author": "PureDark",
+                "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/icons/Pornhub.png",
+                "description": "全世界最大的成人视频网站还需要我介绍吗",
+                "json": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/Pornhub.txt",
+                "versionCode": 1,
+                "lastUpdate": "2016-10-28 10:51:15",
+                "r18": true
             }
         ]
     }

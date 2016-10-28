@@ -24,42 +24,46 @@
         "cookie": "",
         "flag": "noTitle|onePicGallery",
         "galleryRule": {
-            "commentAuthor": {
-                "fun": "html",
-                "selector": "a[href^='index']"
+            "commentRule": {
+                "author": {
+                    "fun": "html",
+                    "selector": "a[href^='index']"
+                },
+                "content": {
+                    "fun": "html",
+                    "regex": "(<br>[^<>]*?<br>)",
+                    "selector": "this"
+                },
+                "datetime": {
+                    "fun": "html",
+                    "regex": "Posted on (\\d{4}-\\d{2}-\\d{2} \\d{2}:\\d{2}:\\d{2})",
+                    "selector": "b"
+                },
+                "item": {
+                    "selector": "div[id^=c][style*='display']"
+                }
             },
-            "commentContent": {
-                "fun": "html",
-                "regex": "(<br>[^<>]*?<br>)",
-                "selector": "this"
-            },
-            "commentDatetime": {
-                "fun": "html",
-                "regex": "Posted on (\\d{4}-\\d{2}-\\d{2} \\d{2}:\\d{2}:\\d{2})",
-                "selector": "b"
-            },
-            "commentItem": {
-                "selector": "div[id^=c][style*='display']"
-            },
-            "item": {
-                "selector": "body"
-            },
-            "pictureHighRes": {
-                "fun": "html",
-                "regex": "\"(http://gelbooru.com//images/[^\"]*?\\.(jpg|jpeg|png|gif|bmp))\"",
-                "selector": "#post-view"
-            },
-            "pictureThumbnail": {
-                "fun": "attr",
-                "param": "src",
-                "regex": "http://.*?gelbooru.com//(samples|images)/(.*)/(sample_)?([^/]*)\\.",
-                "replacement": "http://gelbooru.com/thumbnails/$2/thumbnail_$4.jpg",
-                "selector": "img#image"
-            },
-            "pictureUrl": {
-                "fun": "attr",
-                "param": "src",
-                "selector": "img#image"
+            "pictureRule": {
+                "highRes": {
+                    "fun": "html",
+                    "regex": "\"(http://gelbooru.com//images/[^\"]*?\\.(jpg|jpeg|png|gif|bmp))\"",
+                    "selector": "#post-view"
+                },
+                "item": {
+                    "selector": "body"
+                },
+                "thumbnail": {
+                    "fun": "attr",
+                    "param": "src",
+                    "regex": "http://.*?gelbooru.com//(samples|images)/(.*)/(sample_)?([^/]*)\\.",
+                    "replacement": "http://gelbooru.com/thumbnails/$2/thumbnail_$4.jpg",
+                    "selector": "img#image"
+                },
+                "url": {
+                    "fun": "attr",
+                    "param": "src",
+                    "selector": "img#image"
+                }
             }
         },
         "galleryUrl": "http://gelbooru.com/index.php?page=post&s=view&id={idCode:}",
@@ -101,6 +105,7 @@
             }
         },
         "indexUrl": "http://gelbooru.com/index.php?page=post&s=list&tags=all&pid={page:0:42}",
+        "isGrid": false,
         "loginUrl": "http://gelbooru.com/index.php?page=account&s=login&code=00",
         "searchUrl": "http://gelbooru.com/index.php?page=post&s=list&tags={keyword:}&pid={page:0:42}",
         "sid": 39,

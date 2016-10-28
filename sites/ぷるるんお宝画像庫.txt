@@ -110,30 +110,31 @@
             "title": "プレステージ",
             "url": "http://blog.livedoor.jp/pururungazou/archives/cat_223197.html?p={page:1}"
         }
-
     ],
     "flag": "noRating",
     "galleryRule": {
-        "item": {
-            "selector": "img.pict"
-        },
-        "pictureThumbnail": {
-            "fun": "attr",
-            "param": "src",
-            "selector": "this"
-        },
-        "pictureUrl": {
-            "fun": "attr",
-            "param": "src",
-            "selector": "this"
+        "pictureRule": {
+            "item": {
+                "selector": "img.pict"
+            },
+            "thumbnail": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "this"
+            },
+            "url": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "this"
+            }
         }
     },
     "galleryUrl": "http://blog.livedoor.jp/pururungazou/archives/{idCode:}.html",
     "indexRule": {
-      "category": {
-             "fun": "html",
-             "selector": "dd.article-category > a"
-         },
+        "category": {
+            "fun": "html",
+            "selector": "dd.article-category > a"
+        },
         "idCode": {
             "fun": "attr",
             "param": "href",

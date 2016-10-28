@@ -17,18 +17,20 @@
         "commentItem": {
             "selector": "ol.comment_ol>li.comment_li"
         },
-        "item": {
-            "selector": "div.ently_text>a>img"
-        },
-        "pictureThumbnail": {
-            "fun": "attr",
-            "param": "src",
-            "selector": "this"
-        },
-        "pictureUrl": {
-            "fun": "attr",
-            "param": "src",
-            "selector": "this"
+        "pictureRule": {
+            "item": {
+                "selector": "div.ently_text>a>img"
+            },
+            "thumbnail": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "this"
+            },
+            "url": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "this"
+            }
         },
         "tags": {
             "fun": "html",

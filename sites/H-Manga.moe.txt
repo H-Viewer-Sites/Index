@@ -6,18 +6,20 @@
             "param": "data-src",
             "selector": "#all > img:nth-child(1)"
         },
-        "item": {
-            "selector": "div#all img"
-        },
-        "pictureThumbnail": {
-            "fun": "attr",
-            "param": "data-src",
-            "selector": "img"
-        },
-        "pictureUrl": {
-            "fun": "attr",
-            "param": "data-src",
-            "selector": "img"
+        "pictureRule": {
+            "item": {
+                "selector": "div#all img"
+            },
+            "thumbnail": {
+                "fun": "attr",
+                "param": "data-src",
+                "selector": "img"
+            },
+            "url": {
+                "fun": "attr",
+                "param": "data-src",
+                "selector": "img"
+            }
         }
     },
     "galleryUrl": "http://www.h-manga.moe/manga/{idCode:}/1",

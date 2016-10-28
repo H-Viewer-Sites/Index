@@ -1,14 +1,17 @@
 ﻿    {
+        "cookie": "",
         "extraRule": {
-            "pictureHighRes": {
-                "fun": "html",
-                "regex": "\"(http://behoimi.org/data/(?!sample)[^\"]*?\\.(jpg|jpeg|png|gif|bmp))\"",
-                "selector": "#post-view"
-            },
-            "pictureUrl": {
-                "fun": "attr",
-                "param": "src",
-                "selector": "img#image"
+            "pictureRule": {
+                "highRes": {
+                    "fun": "html",
+                    "regex": "\"(http://behoimi.org/data/(?!sample)[^\"]*?\\.(jpg|jpeg|png|gif|bmp))\"",
+                    "selector": "#post-view"
+                },
+                "url": {
+                    "fun": "attr",
+                    "param": "src",
+                    "selector": "img#image"
+                }
             }
         },
         "flag": "singlePageBigPicture|preloadGallery",
@@ -22,21 +25,25 @@
                 "fun": "html",
                 "selector": "#pool-show > div:nth-child(2)"
             },
-            "item": {
-                "selector": "span.thumb"
-            },
-            "pictureThumbnail": {
-                "fun": "attr",
-                "param": "src",
-                "selector": "a > img"
-            },
-            "pictureUrl": {
-                "fun": "attr",
-                "param": "href",
-                "selector": "a"
+            "pictureRule": {
+                "item": {
+                    "selector": "span.thumb"
+                },
+                "thumbnail": {
+                    "fun": "attr",
+                    "param": "src",
+                    "selector": "a > img"
+                },
+                "url": {
+                    "fun": "attr",
+                    "param": "href",
+                    "selector": "a"
+                }
             }
         },
         "galleryUrl": "http://behoimi.org/pool/show/{idCode:}?page={page:1}",
+        "gid": 0,
+        "index": 0,
         "indexRule": {
             "datetime": {
                 "fun": "html",
@@ -63,8 +70,10 @@
             }
         },
         "indexUrl": "http://behoimi.org/pool?page={page:1}",
+        "isGrid": false,
         "loginUrl": "http://behoimi.org/user/login",
         "searchUrl": "http://behoimi.org/pool?query={keyword:}?page={page:1}",
         "sid": 38,
-        "title": "3dbooru Pool"
+        "title": "3dbooru Pool",
+        "versionCode": 0
     }

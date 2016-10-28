@@ -59,45 +59,49 @@
         "cookie": "",
         "flag": "noTitle|onePicGallery",
         "galleryRule": {
-            "commentAuthor": {
-                "fun": "html",
-                "selector": "div.author > h6 > a"
+            "commentRule": {
+                "author": {
+                    "fun": "html",
+                    "selector": "div.author > h6 > a"
+                },
+                "avatar": {
+                    "fun": "attr",
+                    "param": "src",
+                    "selector": "img.avatar"
+                },
+                "content": {
+                    "fun": "html",
+                    "selector": "div.content > div.body"
+                },
+                "datetime": {
+                    "fun": "html",
+                    "selector": "div.author > span.date > a"
+                },
+                "item": {
+                    "selector": "div.response-list > div.comment"
+                }
             },
-            "commentAvatar": {
-                "fun": "attr",
-                "param": "src",
-                "selector": "img.avatar"
-            },
-            "commentContent": {
-                "fun": "html",
-                "selector": "div.content > div.body"
-            },
-            "commentDatetime": {
-                "fun": "html",
-                "selector": "div.author > span.date > a"
-            },
-            "commentItem": {
-                "selector": "div.response-list > div.comment"
-            },
-            "item": {
-                "selector": "body"
-            },
-            "pictureHighRes": {
-                "fun": "html",
-                "regex": "\"(http://behoimi.org/data/(?!sample)[^\"]*?\\.(jpg|jpeg|png|gif|bmp))\"",
-                "selector": "#post-view"
-            },
-            "pictureThumbnail": {
-                "fun": "attr",
-                "param": "src",
-                "regex": "(http://behoimi.org/data)(/sample)?/([^\"]*?)/(sample)?([^/]*)\\.",
-                "replacement": "$1/preview/$3/$5.jpg",
-                "selector": "img#image"
-            },
-            "pictureUrl": {
-                "fun": "attr",
-                "param": "src",
-                "selector": "img#image"
+            "pictureRule": {
+                "highRes": {
+                    "fun": "html",
+                    "regex": "\"(http://behoimi.org/data/(?!sample)[^\"]*?\\.(jpg|jpeg|png|gif|bmp))\"",
+                    "selector": "#post-view"
+                },
+                "item": {
+                    "selector": "body"
+                },
+                "thumbnail": {
+                    "fun": "attr",
+                    "param": "src",
+                    "regex": "(http://behoimi.org/data)(/sample)?/([^\"]*?)/(sample)?([^/]*)\\.",
+                    "replacement": "$1/preview/$3/$5.jpg",
+                    "selector": "img#image"
+                },
+                "url": {
+                    "fun": "attr",
+                    "param": "src",
+                    "selector": "img#image"
+                }
             }
         },
         "galleryUrl": "http://behoimi.org/post/show/{idCode:}",
@@ -138,6 +142,7 @@
             }
         },
         "indexUrl": "http://behoimi.org/post?page={page:1}",
+        "isGrid": false,
         "loginUrl": "http://behoimi.org/user/login",
         "searchUrl": "http://behoimi.org/post?tags={keyword:}&page={page:1}",
         "sid": 37,

@@ -69,43 +69,47 @@
         "cookie": "",
         "flag": "noTitle|onePicGallery",
         "galleryRule": {
-            "commentAuthor": {
-                "fun": "html",
-                "selector": "div.author > h6 > a"
+            "commentRule": {
+                "author": {
+                    "fun": "html",
+                    "selector": "div.author > h6 > a"
+                },
+                "avatar": {
+                    "fun": "attr",
+                    "param": "src",
+                    "selector": "img.avatar"
+                },
+                "content": {
+                    "fun": "html",
+                    "selector": "div.content > div.body"
+                },
+                "datetime": {
+                    "fun": "html",
+                    "selector": "div.author > span.date > a"
+                },
+                "item": {
+                    "selector": "div.response-list > div.comment"
+                }
             },
-            "commentAvatar": {
-                "fun": "attr",
-                "param": "src",
-                "selector": "img.avatar"
-            },
-            "commentContent": {
-                "fun": "html",
-                "selector": "div.content > div.body"
-            },
-            "commentDatetime": {
-                "fun": "html",
-                "selector": "div.author > span.date > a"
-            },
-            "commentItem": {
-                "selector": "div.response-list > div.comment"
-            },
-            "item": {
-                "selector": "body"
-            },
-            "pictureHighRes": {
-                "fun": "html",
-                "regex": "\"(https://files.yande.re/image/[^\"]*?\\.(jpg|png|gif|bmp))\"",
-                "selector": "#post-view"
-            },
-            "pictureThumbnail": {
-                "fun": "html",
-                "regex": "\"(https://assets.yande.re/data/preview/[^\"]*?\\.(jpg|jpeg|png|gif|bmp))\"",
-                "selector": "#post-view"
-            },
-            "pictureUrl": {
-                "fun": "attr",
-                "param": "src",
-                "selector": "img#image"
+            "pictureRule": {
+                "highRes": {
+                    "fun": "html",
+                    "regex": "\"(https://files.yande.re/image/[^\"]*?\\.(jpg|png|gif|bmp))\"",
+                    "selector": "#post-view"
+                },
+                "item": {
+                    "selector": "body"
+                },
+                "thumbnail": {
+                    "fun": "html",
+                    "regex": "\"(https://assets.yande.re/data/preview/[^\"]*?\\.(jpg|jpeg|png|gif|bmp))\"",
+                    "selector": "#post-view"
+                },
+                "url": {
+                    "fun": "attr",
+                    "param": "src",
+                    "selector": "img#image"
+                }
             }
         },
         "galleryUrl": "https://yande.re/post/show/{idCode:}",
@@ -150,6 +154,7 @@
             }
         },
         "indexUrl": "https://yande.re/post?page={page:1}",
+        "isGrid": false,
         "loginUrl": "https://yande.re/user/login",
         "searchUrl": "https://yande.re/post?tags={keyword:}&page={page:1}",
         "sid": 31,

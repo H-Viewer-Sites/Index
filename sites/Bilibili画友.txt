@@ -15,17 +15,19 @@
             "fun": "html",
             "selector": "div.desc"
         },
-        "pictureThumbnail": {
-            "fun": "html",
-            "regex": "s_url.*?drawyoo(.*?)\"",
-            "replacement": "http://i0.hdslb.com/bfs/drawyoo$1",
-            "selector": "div.d_body > script"
-        },
-        "pictureUrl": {
-            "fun": "html",
-            "regex": "m_url.*?drawyoo(.*?)\"",
-            "replacement": "http://i0.hdslb.com/bfs/drawyoo$1",
-            "selector": "div.d_body > script"
+        "pictureRule": {
+            "thumbnail": {
+                "fun": "html",
+                "regex": "s_url.*?drawyoo(.*?)\"",
+                "replacement": "http://i0.hdslb.com/bfs/drawyoo$1",
+                "selector": "div.d_body > script"
+            },
+            "url": {
+                "fun": "html",
+                "regex": "m_url.*?drawyoo(.*?)\"",
+                "replacement": "http://i0.hdslb.com/bfs/drawyoo$1",
+                "selector": "div.d_body > script"
+            }
         },
         "rating": {
             "fun": "html",

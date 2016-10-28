@@ -108,42 +108,46 @@
                 "fun": "html",
                 "selector": "div.main-header > div.main-meta > span:eq(1) > a"
             },
-            "commentAuthor": {
-                "fun": "html",
-                "selector": "div.comment-meta > span.comment-name"
-            },
-            "commentAvatar": {
-                "fun": "attr",
-                "param": "src",
-                "selector": "div.comment-author > img"
-            },
-            "commentContent": {
-                "fun": "html",
-                "selector": "div.comment-entry"
-            },
-            "commentDatetime": {
-                "fun": "html",
-                "selector": "div.comment-meta > span.comment-date"
-            },
-            "commentItem": {
-                "selector": "ol.commentlist > li.comment"
+            "commentRule": {
+                "author": {
+                    "fun": "html",
+                    "selector": "div.comment-meta > span.comment-name"
+                },
+                "avatar": {
+                    "fun": "attr",
+                    "param": "src",
+                    "selector": "div.comment-author > img"
+                },
+                "content": {
+                    "fun": "html",
+                    "selector": "div.comment-entry"
+                },
+                "datetime": {
+                    "fun": "html",
+                    "selector": "div.comment-meta > span.comment-date"
+                },
+                "item": {
+                    "selector": "ol.commentlist > li.comment"
+                }
             },
             "datetime": {
                 "fun": "html",
                 "selector": "div.main-header > div.main-meta > span:eq(0)"
             },
-            "item": {
-                "selector": "div.main-body p > a"
-            },
-            "pictureThumbnail": {
-                "fun": "attr",
-                "param": "href",
-                "selector": "this"
-            },
-            "pictureUrl": {
-                "fun": "attr",
-                "param": "href",
-                "selector": "this"
+            "pictureRule": {
+                "item": {
+                    "selector": "div.main-body p > a"
+                },
+                "thumbnail": {
+                    "fun": "attr",
+                    "param": "href",
+                    "selector": "this"
+                },
+                "url": {
+                    "fun": "attr",
+                    "param": "href",
+                    "selector": "this"
+                }
             },
             "tags": {
                 "fun": "html",
@@ -178,6 +182,7 @@
             }
         },
         "indexUrl": "http://www.jdlingyu.moe/page/{page:1}/",
+        "isGrid": false,
         "loginUrl": "http://www.jdlingyu.moe/wp-login.php",
         "searchUrl": "http://www.jdlingyu.moe/page/{page:1}/?s={keyword:}",
         "sid": 51,

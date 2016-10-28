@@ -58,41 +58,47 @@
         ],
         "cookie": "",
         "extraRule": {
-            "pictureUrl": {
-                "fun": "attr",
-                "param": "src",
-                "selector": "div.sni a img[style]"
+            "pictureRule": {
+                "url": {
+                    "fun": "attr",
+                    "param": "src",
+                    "selector": "div.sni a img[style]"
+                }
             }
         },
         "flag": "singlePageBigPicture|repeatedThumbnail|preloadGallery",
         "galleryRule": {
-            "commentAuthor": {
-                "fun": "html",
-                "selector": "div.c3 > a:first-child"
+            "commentRule": {
+                "author": {
+                    "fun": "html",
+                    "selector": "div.c3 > a:first-child"
+                },
+                "content": {
+                    "fun": "html",
+                    "selector": "div.c6"
+                },
+                "datetime": {
+                    "fun": "html",
+                    "regex": "Posted on (.*?) UTC by",
+                    "selector": "div.c3"
+                },
+                "item": {
+                    "selector": "div#cdiv > div.c1"
+                }
             },
-            "commentContent": {
-                "fun": "html",
-                "selector": "div.c6"
-            },
-            "commentDatetime": {
-                "fun": "html",
-                "regex": "Posted on (.*?) UTC by",
-                "selector": "div.c3"
-            },
-            "commentItem": {
-                "selector": "div#cdiv > div.c1"
-            },
-            "item": {
-                "selector": "div.gdtl,div.gdtm"
-            },
-            "pictureThumbnail": {
-                "regex": "(http://[^\"]*?\\.jpg)",
-                "selector": "this"
-            },
-            "pictureUrl": {
-                "fun": "attr",
-                "param": "href",
-                "selector": "a"
+            "pictureRule": {
+                "item": {
+                    "selector": "div.gdtl,div.gdtm"
+                },
+                "thumbnail": {
+                    "regex": "(http://[^\"]*?\\.jpg)",
+                    "selector": "this"
+                },
+                "url": {
+                    "fun": "attr",
+                    "param": "href",
+                    "selector": "a"
+                }
             },
             "tags": {
                 "fun": "html",
@@ -148,6 +154,7 @@
             }
         },
         "indexUrl": "http://g.e-hentai.org/?page={page:0}",
+        "isGrid": false,
         "loginUrl": "https://forums.e-hentai.org/index.php?act=Login",
         "searchUrl": "http://g.e-hentai.org/?f_search={keyword:}&page={page:0}",
         "sid": 2,

@@ -18,18 +18,20 @@
     ],
     "flag": "noRating|preloadGallery",
     "galleryRule": {
-        "item": {
-            "selector": "div.kizi-body2 > a > img"
-        },
-        "pictureThumbnail": {
-            "fun": "attr",
-            "param": "src",
-            "selector": "this"
-        },
-        "pictureUrl": {
-            "fun": "attr",
-            "param": "src",
-            "selector": "this"
+        "pictureRule": {
+            "item": {
+                "selector": "div.kizi-body2 > a > img"
+            },
+            "thumbnail": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "this"
+            },
+            "url": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "this"
+            }
         },
         "cover": {
             "fun": "attr",

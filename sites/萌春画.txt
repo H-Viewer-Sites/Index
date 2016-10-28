@@ -28,18 +28,20 @@
     ],
     "flag": "noRating",
     "galleryRule": {
-        "item": {
-            "selector": "div.mb20 img "
-        },
-        "pictureThumbnail": {
-            "fun": "attr",
-            "param": "src",
-            "selector": "this"
-        },
-        "pictureUrl": {
-            "fun": "attr",
-            "param": "src",
-            "selector": "this"
+        "pictureRule": {
+            "item": {
+                "selector": "div.mb20 img"
+            },
+            "thumbnail": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "this"
+            },
+            "url": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "this"
+            }
         },
         "tags": {
             "fun": "html",

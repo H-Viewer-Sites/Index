@@ -9,20 +9,22 @@
             "fun": "html",
             "selector": ".postimg.post a[rel='tag']"
         },
-        "item": {
-            "selector": ".postimg.post p a"
-        },
-        "pictureThumbnail": {
-            "fun": "attr",
-            "param": "src",
-            "selector": "img",
-            "regex": "^(.*)$",
-            "replacement": "http://www.rosiyy.com/usr/themes/mm/timthumb.php?src=$1&h=210&w=150&zc=1&q=100"
-        },
-        "pictureUrl": {
-            "fun": "attr",
-            "param": "src",
-            "selector": "img"
+        "pictureRule": {
+            "item": {
+                "selector": ".postimg.post p a"
+            },
+            "thumbnail": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "img",
+                "regex": "^(.*)$",
+                "replacement": "http://www.rosiyy.com/usr/themes/mm/timthumb.php?src=$1&h=210&w=150&zc=1&q=100"
+            },
+            "url": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "img"
+            }
         }
     },
     "indexRule": {

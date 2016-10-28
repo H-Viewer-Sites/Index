@@ -1,110 +1,113 @@
-﻿{
-    "categories": [
-        {
-            "cid": 1,
-            "title": "首页推荐",
-            "url": "http://www.ui.cn/?p={page:1}#project"
-        },
-        {
-            "cid": 2,
-            "title": "佳作推荐",
-            "url": "http://www.ui.cn/?t=share&p={page:1}#project"
-        },
-        {
-            "cid": 3,
-            "title": "最新作品",
-            "url": "http://www.ui.cn/?t=new&p={page:1}#project"
-        }
-    ],
-    "cookie": "",
-    "flag": "noRating|waterfallAsGrid",
-    "galleryRule": {
-        "commentRule": {
-            "author": {
+﻿    {
+        "categories": [
+            {
+                "cid": 1,
+                "title": "首页推荐",
+                "url": "http://www.ui.cn/?p={page:1}#project"
+            },
+            {
+                "cid": 2,
+                "title": "佳作推荐",
+                "url": "http://www.ui.cn/?t=share&p={page:1}#project"
+            },
+            {
+                "cid": 3,
+                "title": "最新作品",
+                "url": "http://www.ui.cn/?t=new&p={page:1}#project"
+            }
+        ],
+        "cookie": "",
+        "flag": "noRating|waterfallAsGrid",
+        "galleryRule": {
+            "commentRule": {
+                "author": {
+                    "fun": "html",
+                    "selector": "div.comment-cont > .user > a"
+                },
+                "avatar": {
+                    "fun": "attr",
+                    "param": "src",
+                    "selector": "a[class^='avatar'] > img"
+                },
+                "content": {
+                    "selector": "div.comment-cont>div.retext,div.comment-cont>p.text"
+                },
+                "datetime": {
+                    "fun": "html",
+                    "selector": "div.comment-cont > .user > time"
+                },
+                "item": {
+                    "selector": "ul.comment-main > li.item"
+                }
+            },
+            "description": {
                 "fun": "html",
-                "selector": "div.comment-cont > .user > a"
+                "regex": "(<p.*/p>)",
+                "selector": "div.works-cont"
             },
-            "avatar": {
+            "pictureRule": {
+                "item": {
+                    "selector": "div.works-cont>a:has(img),div.works-cont>p:has(img)"
+                },
+                "thumbnail": {
+                    "fun": "attr",
+                    "param": "src",
+                    "selector": "img"
+                },
+                "url": {
+                    "fun": "html",
+                    "regex": "(?:href|src)=\"([^\"]*?)\"",
+                    "selector": "this"
+                }
+            },
+            "tags": {
+                "fun": "html",
+                "selector": "ol#tags > li.tag > a > strong"
+            }
+        },
+        "galleryUrl": "http://www.ui.cn/detail/{idCode:}.html",
+        "gid": 0,
+        "index": 0,
+        "indexRule": {
+            "category": {
+                "fun": "html",
+                "selector": "div.info > div.msg > span.classify"
+            },
+            "cover": {
                 "fun": "attr",
-                "param": "src",
-                "selector": "a[class^='avatar'] > img"
-            },
-            "content": {
-                "selector": "div.comment-cont>div.retext,div.comment-cont>p.text"
+                "param": "data-original",
+                "selector": "div.cover > a > img"
             },
             "datetime": {
                 "fun": "html",
-                "selector": "div.comment-cont > .user > time"
+                "regex": "<em>([0-9 ]*)</em>.*?<em>([0-9 ]*)</em>.*?<em>([0-9 ]*)</em>",
+                "replacement": "✦$1    ✎$2    ❤$3",
+                "selector": "div.info > div.msg"
+            },
+            "idCode": {
+                "fun": "attr",
+                "param": "href",
+                "regex": "detail/(\\d+).html",
+                "selector": "div.cover > a"
             },
             "item": {
-                "selector": "ul.comment-main > li.item"
+                "selector": "ul.post > li"
+            },
+            "title": {
+                "fun": "attr",
+                "param": "title",
+                "selector": "div.cover > a"
+            },
+            "uploader": {
+                "fun": "html",
+                "selector": "div.info > p.user strong.name > em"
             }
         },
-        "description": {
-            "fun": "html",
-            "regex": "(<p.*/p>)",
-            "selector": "div.works-cont"
-        },
-        "item": {
-            "selector": "div.works-cont>a:has(img),div.works-cont>p:has(img)"
-        },
-        "pictureThumbnail": {
-            "fun": "attr",
-            "param": "src",
-            "selector": "img"
-        },
-        "pictureUrl": {
-            "fun": "html",
-            "regex": "(?:href|src)=\"([^\"]*?)\"",
-            "selector": "this"
-        },
-        "tags": {
-            "fun": "html",
-            "selector": "ol#tags > li.tag > a > strong"
-        }
-    },
-    "galleryUrl": "http://www.ui.cn/detail/{idCode:}.html",
-    "gid": 0,
-    "index": 0,
-    "indexRule": {
-        "category": {
-            "fun": "html",
-            "selector": "div.info > div.msg > span.classify"
-        },
-        "cover": {
-            "fun": "attr",
-            "param": "data-original",
-            "selector": "div.cover > a > img"
-        },
-        "datetime": {
-            "fun": "html",
-            "regex": "<em>([0-9 ]*)</em>.*?<em>([0-9 ]*)</em>.*?<em>([0-9 ]*)</em>",
-            "replacement": "✦$1    ✎$2    ❤$3",
-            "selector": "div.info > div.msg"
-        },
-        "idCode": {
-            "fun": "attr",
-            "param": "href",
-            "regex": "detail/(\\d+).html",
-            "selector": "div.cover > a"
-        },
-        "item": {
-            "selector": "ul.post > li"
-        },
-        "title": {
-            "fun": "attr",
-            "param": "title",
-            "selector": "div.cover > a"
-        },
-        "uploader": {
-            "fun": "html",
-            "selector": "div.info > p.user strong.name > em"
-        }
-    },
-    "indexUrl": "http://www.ui.cn/?p={page:1}#project",
-    "loginUrl": "http://ui.cn/login.html",
-    "searchUrl": "http://s.ui.cn/index.html?keywords={keyword:}&page={page:1}&type=project",
-    "sid": 56,
-    "title": "UI中国",
-    "versionCode": 0
-}
+        "indexUrl": "http://www.ui.cn/?p={page:1}#project",
+        "isGrid": false,
+        "loginUrl": "http://ui.cn/login.html",
+        "searchUrl": "http://s.ui.cn/index.html?keywords={keyword:}&page={page:1}&type=project",
+        "sid": 56,
+        "title": "UI中国",
+        "versionCode": 0
+    }

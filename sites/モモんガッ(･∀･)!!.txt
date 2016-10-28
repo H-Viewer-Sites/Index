@@ -133,29 +133,31 @@
     ],
     "flag": "noRating",
     "galleryRule": {
-        "item": {
-            "selector": "span[itemscope] > a"
-        },
-        "pictureThumbnail": {
-            "fun": "attr",
-            "param": "src",
-            "selector": "img"
-        },
-        "pictureUrl": {
-            "fun": "attr",
-            "param": "href",
-            "selector": "this"
+        "pictureRule": {
+            "item": {
+                "selector": "span[itemscope] > a"
+            },
+            "thumbnail": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "img"
+            },
+            "url": {
+                "fun": "attr",
+                "param": "href",
+                "selector": "this"
+            }
         }
     },
     "galleryUrl": "http://momon-ga.com/archives/{idCode:}.html",
     "indexRule": {
-      "item": {
-          "selector": "article.article-list"
-      },
-      "category": {
-             "fun": "html",
-             "selector": "dd > a[rel='category tag']"
-         },
+        "item": {
+            "selector": "article.article-list"
+        },
+        "category": {
+            "fun": "html",
+            "selector": "dd > a[rel='category tag']"
+        },
         "idCode": {
             "fun": "attr",
             "param": "href",

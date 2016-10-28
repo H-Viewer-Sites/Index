@@ -65,33 +65,34 @@
             "title": "その他",
             "url": "http://bakufu.jp/archives/category/その他/page/{page:1}"
         }
-
     ],
     "flag": "noRating",
     "galleryRule": {
-        "item": {
-            "selector": "div.entry-content > a"
-        },
-        "pictureThumbnail": {
-            "fun": "attr",
-            "param": "src",
-            "selector": "img"
-        },
-        "pictureUrl": {
-            "fun": "attr",
-            "param": "href",
-            "selector": "this"
+        "pictureRule": {
+            "item": {
+                "selector": "div.entry-content > a"
+            },
+            "thumbnail": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "img"
+            },
+            "url": {
+                "fun": "attr",
+                "param": "href",
+                "selector": "this"
+            }
         }
     },
     "galleryUrl": "http://bakufu.jp/archives/{idCode:}",
     "indexRule": {
-      "item": {
-          "selector": "div#content > article[id*=post]"
-      },
-      "category": {
-             "fun": "html",
-             "selector": "footer.entry-meta > a"
-         },
+        "item": {
+            "selector": "div#content > article[id*=post]"
+        },
+        "category": {
+            "fun": "html",
+            "selector": "footer.entry-meta > a"
+        },
         "idCode": {
             "fun": "attr",
             "param": "href",

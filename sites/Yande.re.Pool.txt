@@ -1,4 +1,5 @@
 ﻿    {
+        "cookie": "",
         "extraRule": {
             "pictureHighRes": {
                 "fun": "html",
@@ -22,21 +23,25 @@
                 "fun": "html",
                 "selector": "#pool-show > div:nth-child(2)"
             },
-            "item": {
-                "selector": "#post-list-posts > li"
-            },
-            "pictureThumbnail": {
-                "fun": "attr",
-                "param": "src",
-                "selector": "a.thumb > img"
-            },
-            "pictureUrl": {
-                "fun": "attr",
-                "param": "href",
-                "selector": "a.thumb"
+            "pictureRule": {
+                "item": {
+                    "selector": "#post-list-posts > li"
+                },
+                "thumbnail": {
+                    "fun": "attr",
+                    "param": "src",
+                    "selector": "a.thumb > img"
+                },
+                "url": {
+                    "fun": "attr",
+                    "param": "href",
+                    "selector": "a.thumb"
+                }
             }
         },
         "galleryUrl": "https://yande.re/pool/show/{idCode:}",
+        "gid": 0,
+        "index": 0,
         "indexRule": {
             "category": {
                 "fun": "html",
@@ -67,8 +72,10 @@
             }
         },
         "indexUrl": "https://yande.re/pool?page={page:1}",
+        "isGrid": false,
         "loginUrl": "https://yande.re/user/login",
         "searchUrl": "https://yande.re/pool?query={keyword:}&page={page:1}",
         "sid": 32,
-        "title": "Yande.re Pool"
+        "title": "Yande.re Pool",
+        "versionCode": 0
     }

@@ -1,14 +1,17 @@
 ﻿    {
+        "cookie": "",
         "extraRule": {
-            "pictureHighRes": {
-                "fun": "html",
-                "regex": "\"(http://konachan.net/image/[^\"]*?\\.(jpg|jpeg|png|gif|bmp))\"",
-                "selector": "#post-view"
-            },
-            "pictureUrl": {
-                "fun": "attr",
-                "param": "src",
-                "selector": "img#image"
+            "pictureRule": {
+                "highRes": {
+                    "fun": "html",
+                    "regex": "\"(http://konachan.net/image/[^\"]*?\\.(jpg|jpeg|png|gif|bmp))\"",
+                    "selector": "#post-view"
+                },
+                "url": {
+                    "fun": "attr",
+                    "param": "src",
+                    "selector": "img#image"
+                }
             }
         },
         "flag": "singlePageBigPicture|preloadGallery",
@@ -22,21 +25,25 @@
                 "fun": "html",
                 "selector": "#pool-show > div:nth-child(2)"
             },
-            "item": {
-                "selector": "#post-list-posts > li"
-            },
-            "pictureThumbnail": {
-                "fun": "attr",
-                "param": "src",
-                "selector": "a.thumb > img"
-            },
-            "pictureUrl": {
-                "fun": "attr",
-                "param": "href",
-                "selector": "a.thumb"
+            "pictureRule": {
+                "item": {
+                    "selector": "#post-list-posts > li"
+                },
+                "thumbnail": {
+                    "fun": "attr",
+                    "param": "src",
+                    "selector": "a.thumb > img"
+                },
+                "url": {
+                    "fun": "attr",
+                    "param": "href",
+                    "selector": "a.thumb"
+                }
             }
         },
         "galleryUrl": "https://konachan.net/pool/show/{idCode:}",
+        "gid": 0,
+        "index": 0,
         "indexRule": {
             "category": {
                 "fun": "html",
@@ -67,8 +74,10 @@
             }
         },
         "indexUrl": "https://konachan.net/pool?page={page:1}",
+        "isGrid": false,
         "loginUrl": "https://konachan.net/user/login",
         "searchUrl": "https://konachan.net/pool?query={keyword:}&page={page:1}",
         "sid": 36,
-        "title": "Konachan Pool"
+        "title": "Konachan Pool",
+        "versionCode": 0
     }

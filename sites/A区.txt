@@ -34,26 +34,58 @@
             "url": "http://www.apic.in/fuli/page/{page:1}",
             "title": "福利包",
             "cid": 7
+        },
+        {
+            "url": "http://www.apic.in/furu/page/{page:1}",
+            "title": "巨乳",
+            "cid": 8
+        },
+        {
+            "url": "http://www.apic.in/baihe/page/{page:1}",
+            "title": "百合",
+            "cid": 9
+        },
+        {
+            "url": "http://www.apic.in/jueduilingyu/page/{page:1}",
+            "title": "绝对领域",
+            "cid": 10
+        },
+        {
+            "url": "http://www.apic.in/pangci/page/{page:1}",
+            "title": "胖次",
+            "cid": 11
+        },
+        {
+            "url": "http://www.apic.in/zukongfuli/page/{page:1}",
+            "title": "足控",
+            "cid": 12
+        },
+        {
+            "url": "http://www.apic.in/zhifu/lolikong/page/{page:1}",
+            "title": "萝莉控",
+            "cid": 13
         }
     ],
-    "flag": "preloadGallery|noRating",
+    "flag": "preloadGallery|noRating|waterfallAsList",
     "galleryRule": {
         "datetime": {
             "fun": "html",
             "selector": "span.posttime"
         },
-        "item": {
-            "selector": "div.post img[src$='.jpg']"
-        },
-        "pictureThumbnail": {
-            "fun": "attr",
-            "param": "src",
-            "selector": "div.post img[src$='.jpg']"
-        },
-        "pictureUrl": {
-            "fun": "attr",
-            "param": "src",
-            "selector": "div.post img[src$='.jpg']"
+        "pictureRule": {
+            "item": {
+                "selector": "div.post img[src$='.jpg']"
+            },
+            "thumbnail": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "div.post img[src$='.jpg']"
+            },
+            "url": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "div.post img[src$='.jpg']"
+            }
         },
         "description": {
             "fun": "html",
@@ -88,7 +120,6 @@
         "title": {
             "fun": "attr",
             "param": "title",
-            "regex": "(.*)-A区",
             "selector": "div.loop > h2 > a"
         }
     },
@@ -116,10 +147,11 @@
         "title": {
             "fun": "attr",
             "param": "title",
-            "regex": "(.*)-A区",
+            "regex": "(.*)",
             "selector": "div.loop > h2 > a"
         }
     },
     "searchUrl": "http://www.apic.in/{pageStr:page/{page:1}/}?s={keyword:}",
+    "sid": 1,
     "title": "A区"
 }
