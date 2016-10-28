@@ -1,0 +1,98 @@
+﻿    {
+        "categories": [
+            {
+                "cid": 1,
+                "title": "全部",
+                "url": "https://solarian.hanime.tv/do_search?q=&search_by=all&search_from={page:0:48}&page_size=48"
+            },
+            {
+                "cid": 2,
+                "title": "最多观看",
+                "url": "https://solarian.hanime.tv/do_search?q=&search_by=all&sort_by=views&search_from={page:0:48}&page_size=48"
+            },
+            {
+                "cid": 3,
+                "title": "最多收藏",
+                "url": "https://solarian.hanime.tv/do_search?q=&search_by=all&sort_by=favorites_count&search_from={page:0:48}&page_size=48"
+            }
+        ],
+        "cookie": "",
+        "flag": "noRating|postIndex|jsNeededGallery",
+        "galleryRule": {
+            "datetime": {
+                "fun": "html",
+                "selector": "div.details>div.detail:nth-child(5)>div.data"
+            },
+            "pictureRule": {
+                "item": {
+                    "selector": "div.section div.storyboard-thumbnail:first-child"
+                },
+                "thumbnail": {
+                    "fun": "attr",
+                    "param": "style",
+                    "regex": "(http[^\"]*?\\.(?:jpg|jpeg|png|gif|bmp))",
+                    "selector": "this"
+                },
+                "url": {
+                    "fun": "attr",
+                    "param": "style",
+                    "regex": "(http[^\"]*?\\.(?:jpg|jpeg|png|gif|bmp))",
+                    "selector": "this"
+                }
+            },
+            "videoRule": {
+                "content": {
+                    "fun": "attr",
+                    "param": "src",
+                    "regex": "(.*)",
+                    "replacement": "https://hanime.tv$1",
+                    "selector": "#video_element"
+                },
+                "item": {
+                    "selector": "#video_container"
+                }
+            }
+        },
+        "galleryUrl": "https://hanime.tv/hentai-videos/{idCode:}",
+        "gid": 0,
+        "index": 0,
+        "indexRule": {
+            "category": {
+                "path": "$",
+                "regex": "\"views\":(\\d+).*?\"favorites_count\":(\\d+)",
+                "replacement": "✦$1    ❤$2"
+            },
+            "cover": {
+                "path": "$.cover_url",
+                "regex": "(http[^\"]*?\\.(?:jpg|jpeg|png|gif|bmp))"
+            },
+            "datetime": {
+                "path": "$.created_at"
+            },
+            "description": {
+                "path": "$.description"
+            },
+            "idCode": {
+                "path": "$.slug"
+            },
+            "item": {
+                "path": "$.hits"
+            },
+            "tags": {
+                "path": "$.tags"
+            },
+            "title": {
+                "path": "$.name"
+            },
+            "uploader": {
+                "path": "$.brand"
+            }
+        },
+        "indexUrl": "https://solarian.hanime.tv/do_search?q=&search_by=all&search_from={page:0:48}&page_size=48",
+        "isGrid": false,
+        "loginUrl": "https://hanime.tv/log-in",
+        "searchUrl": "https://solarian.hanime.tv/do_search?q={keyword:}&search_by=all&search_from={page:0:48}&page_size=48",
+        "sid": 69,
+        "title": "H-Anime",
+        "versionCode": 0
+    }
