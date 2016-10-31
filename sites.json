@@ -91,7 +91,18 @@
                 "json": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/A区.txt",
                 "versionCode": 4,
                 "lastUpdate": "2016-10-25 04:43:42",
-                "r18": true
+                "r18": false
+            },
+            {
+                "sid": 108,
+                "title": "AcFun漫画",
+                "author": "zhihaofans",
+                "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/icons/AcFun漫画.png",
+                "description": "AcFun文章区的漫画/小说版块，只取其中的漫画",
+                "json": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/AcFun漫画.txt",
+                "versionCode": 1,
+                "lastUpdate": "2016-11-01 01:09:23",
+                "r18": false
             }
         ]
     },

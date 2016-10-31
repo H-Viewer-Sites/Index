@@ -1,0 +1,103 @@
+﻿{
+    "categories": [
+        {
+            "cid": 1,
+            "title": "最新发布",
+            "url": "http://api.zhihaofans.com/acfun/comic/?sort=4&page={page:1}"
+        },
+        {
+            "cid": 2,
+            "title": "最新回复",
+            "url": "http://api.zhihaofans.com/acfun/comic/?sort=5&page={page:1}"
+        },
+        {
+            "cid": 3,
+            "title": "最多围观",
+            "url": "http://api.zhihaofans.com/acfun/comic/?sort=1&page={page:1}"
+        },
+        {
+            "cid": 4,
+            "title": "最多评论",
+            "url": "http://api.zhihaofans.com/acfun/comic/?sort=2&page={page:1}"
+        }
+    ],
+    "flag": "preloadGallery|noRating",
+    "galleryRule": {
+        "pictureRule": {
+            "item": {
+                "selector": "div#area-player img"
+            },
+            "thumbnail": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "this"
+            },
+            "url": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "this"
+            }
+        },
+        "datetime": {
+            "fun": "html",
+            "regex": "(\\d{4}年 \\d{1,2}月\\d{1,2}日 \\d{2}:\\d{2})",
+            "selector": "span.time"
+        },
+        "description": {
+            "fun": "html",
+            "selector": "div#area-player"
+        }
+    },
+    "galleryUrl": "http://www.acfun.tv/a/ac{idCode:}",
+    "indexRule": {
+        "cover": {
+            "path": "$.cover"
+        },
+        "idCode": {
+            "path": "$.contentId"
+        },
+        "item": {
+            "path": "$.data.list",
+            "regex": "(?:漫画|条漫|彩漫)"
+        },
+        "title": {
+            "path": "$.title"
+        },
+        "description": {
+            "path": "$.description"
+        },
+        "uploader": {
+            "path": "$.user.username"
+        },
+        "tags": {
+            "path": "$.tags"
+        }
+    },
+    "indexUrl": "http://api.zhihaofans.com/acfun/comic/?sort=4&page={page:1}",
+    "searchRule": {
+        "cover": {
+            "path": "$.cover"
+        },
+        "idCode": {
+            "path": "$.contentId"
+        },
+        "item": {
+            "path": "$.data.list"
+        },
+        "title": {
+            "path": "$.title"
+        },
+        "description": {
+            "path": "$.description"
+        },
+        "uploader": {
+            "path": "$.user.username"
+        },
+        "tags": {
+            "path": "$.tags"
+        }
+    },
+    "searchUrl": "http://api.zhihaofans.com/acfun/comic/?search={keyword:}&page={page:1}",
+    "sid": 3,
+    "title": "AcFun漫画"
+}
