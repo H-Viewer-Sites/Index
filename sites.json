@@ -103,6 +103,28 @@
                 "versionCode": 1,
                 "lastUpdate": "2016-11-01 01:09:23",
                 "r18": false
+            },
+            {
+                "sid": 109,
+                "title": "羁绊网",
+                "author": "zhihaofans",
+                "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/icons/羁绊网.png",
+                "description": "动漫游戏门户网站，致力于为ACG爱好者搭建一个资源，资讯，以及交流平台。",
+                "json": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/羁绊网.txt",
+                "versionCode": 1,
+                "lastUpdate": "2016-11-01 01:09:23",
+                "r18": false
+            },
+            {
+                "sid": 110,
+                "title": "胖次网",
+                "author": "zhihaofans",
+                "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/icons/胖次网.png",
+                "description": "胖次网 - Σ(っ °Д °;)っ 让世界更萌~ pangci.cc",
+                "json": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/胖次网.txt",
+                "versionCode": 1,
+                "lastUpdate": "2016-11-01 01:09:23",
+                "r18": false
             }
         ]
     },
