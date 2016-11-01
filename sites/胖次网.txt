@@ -82,5 +82,5 @@
     },
     "searchUrl": "http://www.pangci.cc/index.php?m=soso&t=title&p=12&q={keyword:}&page={page:1}",
     "sid": 5,
-    "title": " 胖次网"
+    "title": "胖次网"
 }
