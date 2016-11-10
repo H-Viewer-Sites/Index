@@ -81,50 +81,6 @@
                 "versionCode": 4,
                 "lastUpdate": "2016-10-20 06:15:42",
                 "r18": false
-            },
-            {
-                "sid": 107,
-                "title": "A区",
-                "author": "zhihaofans",
-                "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/icons/A区.png",
-                "description": "A区动漫图站，每天定时更新一系列动漫图片,动漫美女图片,高清动漫图片，Hentai图片，动漫足控图片，动漫足控，二次元杂图等，并提供好看的动漫图片打包下载，欢迎你的来访！",
-                "json": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/A区.txt",
-                "versionCode": 4,
-                "lastUpdate": "2016-10-25 04:43:42",
-                "r18": false
-            },
-            {
-                "sid": 108,
-                "title": "AcFun漫画",
-                "author": "zhihaofans",
-                "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/icons/AcFun漫画.png",
-                "description": "AcFun文章区的漫画/小说版块，只取其中的漫画",
-                "json": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/AcFun漫画.txt",
-                "versionCode": 1,
-                "lastUpdate": "2016-11-01 01:09:23",
-                "r18": false
-            },
-            {
-                "sid": 109,
-                "title": "羁绊网",
-                "author": "zhihaofans",
-                "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/icons/羁绊网.png",
-                "description": "动漫游戏门户网站，致力于为ACG爱好者搭建一个资源，资讯，以及交流平台。",
-                "json": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/羁绊网.txt",
-                "versionCode": 1,
-                "lastUpdate": "2016-11-01 01:09:23",
-                "r18": false
-            },
-            {
-                "sid": 110,
-                "title": "胖次网",
-                "author": "zhihaofans",
-                "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/icons/胖次网.png",
-                "description": "胖次网 - Σ(っ °Д °;)っ 让世界更萌~ pangci.cc",
-                "json": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/胖次网.txt",
-                "versionCode": 1,
-                "lastUpdate": "2016-11-01 01:09:23",
-                "r18": false
             }
         ]
     },
