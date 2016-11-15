@@ -1,131 +1,129 @@
-﻿    {
-        "categories": [
-            {
-                "cid": 1,
-                "title": "首页",
-                "url": "http://www.wnacg.com/albums-index-page-{page:1}.html"
-            },
-            {
-                "cid": 2,
-                "title": "同人志",
-                "url": "http://www.wnacg.com/albums-index-page-{page:1}-cate-5.html"
-            },
-            {
-                "cid": 3,
-                "title": "同人志->汉化",
-                "url": "http://www.wnacg.com/albums-index-page-{page:1}-cate-1.html"
-            },
-            {
-                "cid": 4,
-                "title": "同人志->日语",
-                "url": "http://www.wnacg.com/albums-index-page-{page:1}-cate-12.html"
-            },
-            {
-                "cid": 5,
-                "title": "同人志->CG画集",
-                "url": "http://www.wnacg.com/albums-index-page-{page:1}-cate-2.html"
-            },
-            {
-                "cid": 6,
-                "title": "同人志->Cosplay",
-                "url": "http://www.wnacg.com/albums-index-page-{page:1}-cate-3.html"
-            },
-            {
-                "cid": 7,
-                "title": "单行本",
-                "url": "http://www.wnacg.com/albums-index-page-{page:1}-cate-6.html"
-            },
-            {
-                "cid": 8,
-                "title": "单行本->汉化",
-                "url": "http://www.wnacg.com/albums-index-page-{page:1}-cate-9.html"
-            },
-            {
-                "cid": 9,
-                "title": "单行本->日语",
-                "url": "http://www.wnacg.com/albums-index-page-{page:1}-cate-13.html"
-            },
-            {
-                "cid": 10,
-                "title": "杂志",
-                "url": "http://www.wnacg.com/albums-index-page-{page:1}-cate-7.html"
-            },
-            {
-                "cid": 11,
-                "title": "杂志->单篇汉化",
-                "url": "http://www.wnacg.com/albums-index-page-{page:1}-cate-10.html"
-            },
-            {
-                "cid": 12,
-                "title": "杂志->日语",
-                "url": "http://www.wnacg.com/albums-index-page-{page:1}-cate-14.html"
-            }
-        ],
-        "cookie": "",
-        "extraRule": {
-            "pictureRule": {
-                "url": {
-                    "fun": "attr",
-                    "param": "src",
-                    "selector": "img#picarea"
-                }
-            }
+﻿{
+    "categories": [
+        {
+            "cid": 1,
+            "title": "首页",
+            "url": "http://www.wnacg.net/albums-index-page-{page:1}.html"
         },
-        "flag": "singlePageBigPicture|noRating|noTag",
-        "galleryRule": {
-            "description": {
-                "fun": "html",
-                "selector": "div.uwconn > p:last-child"
-            },
-            "pictureRule": {
-                "item": {
-                    "selector": "div.gallary_wrap ul li.gallary_item div.pic_box"
-                },
-                "thumbnail": {
-                    "fun": "attr",
-                    "param": "data-original",
-                    "selector": "a img"
-                },
-                "url": {
-                    "fun": "attr",
-                    "param": "href",
-                    "selector": "a"
-                }
-            }
+        {
+            "cid": 2,
+            "title": "同人志",
+            "url": "http://www.wnacg.net/albums-index-page-{page:1}-cate-5.html"
         },
-        "galleryUrl": "http://www.wnacg.com/photos-index-page-{page:1}-aid-{idCode:}.html",
-        "gid": 0,
-        "index": 0,
-        "indexRule": {
-            "cover": {
+        {
+            "cid": 3,
+            "title": "同人志->汉化",
+            "url": "http://www.wnacg.net/albums-index-page-{page:1}-cate-1.html"
+        },
+        {
+            "cid": 4,
+            "title": "同人志->日语",
+            "url": "http://www.wnacg.net/albums-index-page-{page:1}-cate-12.html"
+        },
+        {
+            "cid": 5,
+            "title": "同人志->CG画集",
+            "url": "http://www.wnacg.net/albums-index-page-{page:1}-cate-2.html"
+        },
+        {
+            "cid": 6,
+            "title": "同人志->Cosplay",
+            "url": "http://www.wnacg.net/albums-index-page-{page:1}-cate-3.html"
+        },
+        {
+            "cid": 7,
+            "title": "单行本",
+            "url": "http://www.wnacg.net/albums-index-page-{page:1}-cate-6.html"
+        },
+        {
+            "cid": 8,
+            "title": "单行本->汉化",
+            "url": "http://www.wnacg.net/albums-index-page-{page:1}-cate-9.html"
+        },
+        {
+            "cid": 9,
+            "title": "单行本->日语",
+            "url": "http://www.wnacg.net/albums-index-page-{page:1}-cate-13.html"
+        },
+        {
+            "cid": 10,
+            "title": "杂志",
+            "url": "http://www.wnacg.net/albums-index-page-{page:1}-cate-7.html"
+        },
+        {
+            "cid": 11,
+            "title": "杂志->单篇汉化",
+            "url": "http://www.wnacg.net/albums-index-page-{page:1}-cate-10.html"
+        },
+        {
+            "cid": 12,
+            "title": "杂志->日语",
+            "url": "http://www.wnacg.net/albums-index-page-{page:1}-cate-14.html"
+        }
+    ],
+    "cookie": "",
+    "extraRule": {
+        "pictureRule": {
+            "url": {
                 "fun": "attr",
-                "param": "data-original",
-                "selector": "div.pic_box a img"
+                "param": "src",
+                "selector": "img#picarea"
+            }
+        }
+    },
+    "flag": "singlePageBigPicture|noRating|noTag",
+    "galleryRule": {
+        "description": {
+            "fun": "html",
+            "selector": "div.uwconn > p:last-child"
+        },
+        "pictureRule": {
+            "item": {
+                "selector": "div.gallary_wrap ul li.gallary_item div.pic_box"
             },
-            "datetime": {
-                "fun": "html",
-                "regex": "(\\d{4}-\\d{2}-\\d{2})",
-                "selector": "div.info div.info_col"
+            "thumbnail": {
+                "regex": "\"([^\"]*?\\.(jpg|jpeg|png|gif|bmp))\"",
+                "selector": "a img"
             },
-            "idCode": {
+            "url": {
                 "fun": "attr",
                 "param": "href",
-                "regex": "aid-(\\d+)",
-                "selector": "div.pic_box a"
-            },
-            "item": {
-                "selector": "div.gallary_wrap ul li.gallary_item"
-            },
-            "title": {
-                "fun": "html",
-                "selector": "div.info div.title a"
+                "selector": "a"
             }
+        }
+    },
+    "galleryUrl": "http://www.wnacg.net/photos-index-page-{page:1}-aid-{idCode:}.html",
+    "gid": 0,
+    "index": 0,
+    "indexRule": {
+        "cover": {
+            "regex": "\"([^\"]*?\\.(jpg|jpeg|png|gif|bmp))\"",
+            "selector": "div.pic_box a img"
         },
-        "indexUrl": "http://www.wnacg.com/albums-index-page-{page:1}.html",
-        "isGrid": false,
-        "loginUrl": "http://www.wnacg.com/users-login.html",
-        "searchUrl": "http://www.wnacg.com/albums-index-page-{page:1}-sname-{keyword:}.html",
-        "sid": 4,
-        "title": "绅士漫画",
-        "versionCode": 0
-    }
+        "datetime": {
+            "fun": "html",
+            "regex": "(\\d{4}-\\d{2}-\\d{2})",
+            "selector": "div.info div.info_col"
+        },
+        "idCode": {
+            "fun": "attr",
+            "param": "href",
+            "regex": "aid-(\\d+)",
+            "selector": "div.pic_box a"
+        },
+        "item": {
+            "selector": "div.gallary_wrap ul li.gallary_item"
+        },
+        "title": {
+            "fun": "html",
+            "selector": "div.info div.title a"
+        }
+    },
+    "indexUrl": "http://www.wnacg.net/albums-index-page-{page:1}.html",
+    "isGrid": false,
+    "loginUrl": "http://www.wnacg.net/users-login.html",
+    "searchUrl": "http://www.wnacg.net/albums-index-page-{page:1}-sname-{keyword:}.html",
+    "sid": 4,
+    "title": "绅士漫画",
+    "versionCode": 0
+}
