@@ -3,17 +3,17 @@
             {
                 "cid": 1,
                 "title": "贴图区",
-                "url": "http://cl.deocool.pw/thread0806.php?fid=8&page={page:1}"
+                "url": "http://t66y.com/thread0806.php?fid=8&page={page:1}"
             },
             {
                 "cid": 2,
                 "title": "自拍区",
-                "url": "http://cl.deocool.pw/thread0806.php?fid=16&page={page:1}"
+                "url": "http://t66y.com/thread0806.php?fid=16&page={page:1}"
             },
             {
                 "cid": 3,
                 "title": "在线视频",
-                "url": "http://cl.deocool.pw/thread0806.php?fid=22&page={page:1}"
+                "url": "http://t66y.com/thread0806.php?fid=22&page={page:1}"
             }
         ],
         "cookie": "",
@@ -73,7 +73,7 @@
                 }
             }
         },
-        "galleryUrl": "http://cl.deocool.pw/htm_data/{idCode:}.html",
+        "galleryUrl": "http://t66y.com/htm_data/{idCode:}.html",
         "gid": 0,
         "index": 0,
         "indexRule": {
@@ -106,9 +106,9 @@
                 "selector": "td:eq(2) a"
             }
         },
-        "indexUrl": "http://cl.deocool.pw/thread0806.php?fid=8&page={page:1}",
+        "indexUrl": "http://t66y.com/thread0806.php?fid=8&page={page:1}",
         "isGrid": false,
-        "loginUrl": "http://cl.deocool.pw/login.php",
+        "loginUrl": "http://t66y.com/login.php",
         "sid": 6,
         "title": "草榴社区",
         "versionCode": 0
