@@ -81,6 +81,17 @@
                 "versionCode": 4,
                 "lastUpdate": "2016-10-20 06:15:42",
                 "r18": false
+            },
+            {
+                "sid": 107,
+                "title": "零域动漫壁纸",
+                "author": "cuzfinal",
+                "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/icons/零域动漫壁纸.png",
+                "description": "提供好看的日本动漫卡通桌面壁纸下载，1920x1080、1920x1200、2560x1600等超高清壁纸下载，二次元可爱唯美动漫壁纸大全。更多卡通动画图片尽在零域动漫壁纸网站。",
+                "json": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/零域动漫壁纸.txt",
+                "versionCode": 1,
+                "lastUpdate": "2016-11-29 00:57:45",
+                "r18": false
             }
         ]
     },

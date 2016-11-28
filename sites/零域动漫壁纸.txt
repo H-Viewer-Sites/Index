@@ -1,0 +1,93 @@
+﻿{
+    "disableHProxy": false,
+    "extraRule": {
+        "pictureRule": {}
+    },
+    "flag": "noRating|preloadGallery",
+    "galleryRule": {
+        "commentRule": {
+            "author": {
+                "fun": "html",
+                "selector": "span[node-type='nickname'] a"
+            },
+            "avatar": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "div.cont-head-gw img"
+            },
+            "content": {
+                "fun": "html",
+                "selector": "div.cont-msg-gw p.issue-wrap-gw span"
+            },
+            "datetime": {
+                "fun": "html",
+                "selector": "div.cont-msg-gw span.user-time-gw"
+            },
+            "item": {
+                "selector": "div[node-type='cmt-list'] div[node-type='cmt-item']"
+            }
+        },
+        "pictureRule": {
+            "item": {
+                "selector": ".entry-content a>img"
+            },
+            "thumbnail": {
+                "regex": "\"([^\"]*\\.(?:jpg|jpeg|png|gif|bmp))\"",
+                "selector": "this"
+            },
+            "url": {
+                "regex": "\"([^\"]*\\.(?:jpg|jpeg|png|gif|bmp))\"",
+                "selector": "this"
+            },
+            "highRes": {
+                "regex": "\"([^\"]*)-[^\"]*?\\.(jpg|jpeg|png|gif|bmp)\"",
+                "replacement": "$1.$2",
+                "selector": "this"
+            }
+        },
+        "tags": {
+            "fun": "html",
+            "selector": "footer div.single-tag a[rel='tag']"
+        }
+    },
+    "galleryUrl": "http://www.lingyu.me/bizhi/{idCode:}/{page:1}",
+    "gid": 1,
+    "header": "",
+    "index": 0,
+    "indexRule": {
+        "cover": {
+            "fun": "attr",
+            "param": "data-original",
+            "selector": "figure div.f4 img"
+        },
+        "datetime": {
+            "fun": "html",
+            "regex": "(\\d{4}-\\d{1,2}-\\d{1,2})",
+            "selector": "div.entry-content span.entry-meta span.date:nth-child(2)"
+        },
+        "idCode": {
+            "fun": "attr",
+            "param": "href",
+            "regex": "bizhi/(.)",
+            "selector": "header a"
+        },
+        "item": {
+            "selector": "article"
+        },
+        "title": {
+            "fun": "html",
+            "selector": "header h2 a"
+        },
+        "uploader": {
+            "fun": "html",
+            "selector": "span.entry-meta span.date a"
+        }
+    },
+    "indexUrl": "http://www.lingyu.me/page/{page:1}",
+    "isGrid": false,
+    "loginUrl": "",
+    "searchUrl": "http://www.lingyu.me/?s={keyword:}",
+    "sid": 74,
+    "title": "零域动漫壁纸",
+    "versionCode": 0
+}
