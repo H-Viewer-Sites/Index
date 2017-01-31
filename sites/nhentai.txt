@@ -5,7 +5,7 @@
                 "url": {
                     "fun": "attr",
                     "param": "src",
-                    "regex": "(.*)",
+                    "regex": "(//.*)",
                     "replacement": "https:$1",
                     "selector": "#image-container a img"
                 }
