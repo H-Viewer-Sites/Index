@@ -68,7 +68,7 @@
         "idCode": {
             "fun": "attr",
             "param": "href",
-            "regex": "bizhi/(.)",
+            "regex": "bizhi/([^/]*)",
             "selector": "header a"
         },
         "item": {
