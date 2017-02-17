@@ -4,6 +4,7 @@
         "galleryRule": {
             "tagRule": {
                 "item": {
+                    "regex": "<a.*?>[^<>]+</a>",
                     "selector": ".video-tags>a"
                 },
                 "title": {
