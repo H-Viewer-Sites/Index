@@ -634,6 +634,17 @@
                 "versionCode": 1,
                 "lastUpdate": "2016-10-28 10:51:15",
                 "r18": true
+            },
+            {
+                "sid": 604,
+                "title": "XVIDEOS",
+                "author": "PureDark",
+                "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/icons/xvideos.png",
+                "description": "另一个在线视频网站",
+                "json": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/xvideos.txt",
+                "versionCode": 1,
+                "lastUpdate": "2017-02-17 16:14:12",
+                "r18": true
             }
         ]
     }
