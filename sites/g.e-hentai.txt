@@ -91,7 +91,7 @@
                     "selector": "div.gdtl,div.gdtm"
                 },
                 "thumbnail": {
-                    "regex": "(http://[^\"]*?\\.jpg)",
+                    "regex": "(https?://[^\"]*?\\.jpg)",
                     "selector": "this"
                 },
                 "url": {

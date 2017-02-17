@@ -257,10 +257,10 @@
                 "title": "G.E-hentai",
                 "author": "PureDark",
                 "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/icons/Ehentai.png",
-                "description": "E绅士的桌面版，图片较清楚，但是列表中没有TAG，登录可查看最新内容",
+                "description": "E绅士的桌面版，图片较清楚，登录可查看最新内容",
                 "json": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/g.e-hentai.txt",
-                "versionCode": 3,
-                "lastUpdate": "2016-09-27 01:36:05",
+                "versionCode": 4,
+                "lastUpdate": "2017-02-17 14:58:36",
                 "r18": true
             },
             {
@@ -270,8 +270,8 @@
                 "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/icons/Ehentai.png",
                 "description": "E绅士的里区，必须登录才能访问",
                 "json": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/exhentai.txt",
-                "versionCode": 3,
-                "lastUpdate": "2016-09-27 01:36:05",
+                "versionCode": 4,
+                "lastUpdate": "2017-02-17 14:58:36",
                 "r18": true
             },
             {
