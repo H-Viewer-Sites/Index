@@ -1,79 +1,73 @@
-﻿    {
-        "cookie": "",
-        "extraRule": {
-            "pictureRule": {
-                "url": {
-                    "fun": "attr",
-                    "param": "src",
-                    "regex": "(//.*)",
-                    "replacement": "https:$1",
-                    "selector": "#image-container a img"
-                }
+﻿{
+    "cookie": "",
+    "extraRule": {
+        "pictureRule": {
+            "url": {
+                "regex": "//(.*?\\.(?:jpg|jpeg|png|gif|bmp|webp))",
+                "replacement": "https://$1",
+                "selector": "#image-container a img"
             }
+        }
+    },
+    "flag": "singlePageBigPicture|noRating|noTag",
+    "galleryRule": {
+        "category": {
+            "fun": "html",
+            "regex": "(.*)<span",
+            "selector": ".tag-container:eq(6) span.tags a"
         },
-        "flag": "singlePageBigPicture|noRating|noTag",
-        "galleryRule": {
-            "category": {
-                "fun": "html",
-                "regex": "(.*)<span",
-                "selector": ".tag-container:eq(6) span.tags a"
+        "pictureRule": {
+            "item": {
+                "selector": "div.container div.thumb-container"
             },
-            "pictureRule": {
-                "item": {
-                    "selector": "div.container div.thumb-container"
-                },
-                "thumbnail": {
-                    "fun": "attr",
-                    "param": "data-src",
-                    "regex": "(.*)",
-                    "replacement": "https:$1",
-                    "selector": "a img"
-                },
-                "url": {
-                    "fun": "attr",
-                    "param": "href",
-                    "selector": "a"
-                }
-            },
-            "tags": {
-                "fun": "html",
-                "regex": "(.*)<span",
-                "selector": "span.tags a"
-            },
-            "title": {
-                "fun": "html",
-                "selector": "div#info h2"
-            }
-        },
-        "galleryUrl": "https://nhentai.net{idCode:}",
-        "gid": 0,
-        "index": 0,
-        "indexRule": {
-            "cover": {
-                "fun": "attr",
-                "param": "src",
-                "regex": "(.*)",
-                "replacement": "https:$1",
+            "thumbnail": {
+                "regex": "//(.*?\\.(?:jpg|jpeg|png|gif|bmp|webp))",
+                "replacement": "https://$1",
                 "selector": "a img"
             },
-            "idCode": {
+            "url": {
                 "fun": "attr",
                 "param": "href",
                 "selector": "a"
-            },
-            "item": {
-                "selector": "div.container div.gallery"
-            },
-            "title": {
-                "fun": "html",
-                "selector": "a div.caption"
             }
         },
-        "indexUrl": "https://nhentai.net/?page={page:1}",
-        "isGrid": false,
-        "loginUrl": "https://nhentai.net/login/",
-        "searchUrl": "https://nhentai.net/search/?q={keyword:}&page={page:1}",
-        "sid": 5,
-        "title": "nhentai",
-        "versionCode": 0
-    }
+        "tags": {
+            "fun": "html",
+            "regex": "(.*)<span",
+            "selector": "span.tags a"
+        },
+        "title": {
+            "fun": "html",
+            "selector": "div#info h2"
+        }
+    },
+    "galleryUrl": "https://nhentai.net{idCode:}",
+    "gid": 0,
+    "index": 0,
+    "indexRule": {
+        "cover": {
+            "regex": "//(.*?\\.(?:jpg|jpeg|png|gif|bmp|webp))",
+            "replacement": "https://$1",
+            "selector": "a img"
+        },
+        "idCode": {
+            "fun": "attr",
+            "param": "href",
+            "selector": "a"
+        },
+        "item": {
+            "selector": "div.container div.gallery"
+        },
+        "title": {
+            "fun": "html",
+            "selector": "a div.caption"
+        }
+    },
+    "indexUrl": "https://nhentai.net/?page={page:1}",
+    "isGrid": false,
+    "loginUrl": "https://nhentai.net/login/",
+    "searchUrl": "https://nhentai.net/search/?q={keyword:}&page={page:1}",
+    "sid": 5,
+    "title": "nhentai",
+    "versionCode": 0
+}
