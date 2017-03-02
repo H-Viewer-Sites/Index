@@ -53,11 +53,12 @@
             "videoRule": {
                 "content": {
                     "fun": "html",
-                    "regex": "player_quality_(?:720|480)p.*?'(http.*?)';",
+                    "regex": "embedCode.*?embed\\\\/(\\w+)",
+                    "replacement": "https://www.pornhub.com/embed/$1",
                     "selector": "this"
                 },
                 "item": {
-                    "regex": "player_quality_\\d{3}p",
+                    "regex": "embedCode",
                     "selector": "#player script"
                 }
             }
@@ -88,7 +89,7 @@
                 "selector": "div.phimage>a"
             },
             "item": {
-                "selector": ".videos>.videoBox"
+                "selector": "ul.nf-videos>li.videoBox"
             },
             "rating": {
                 "fun": "html",
@@ -105,7 +106,7 @@
                 "fun": "html",
                 "regex": ">(.*?)</var>.*?>(.*?)</span>",
                 "replacement": "$1 $2",
-                "selector": "div.img>.marker-overlays"
+                "selector": "div.img .marker-overlays"
             }
         },
         "indexUrl": "http://www.pornhub.com/video?page={page:1}",
