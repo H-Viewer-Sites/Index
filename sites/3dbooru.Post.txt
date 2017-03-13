@@ -59,6 +59,13 @@
         "cookie": "",
         "flag": "noTitle|onePicGallery",
         "galleryRule": {
+            "description": {
+                "regex": "(.*)",
+                "replacement": "来源：$1",
+                "fun": "attr",
+                "param": "href",
+                "selector": "div#stats>ul>li>a[target='_blank']"
+            },
             "commentRule": {
                 "author": {
                     "fun": "html",

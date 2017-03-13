@@ -108,8 +108,8 @@
                 "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/icons/Yande.re.png",
                 "description": "主收高清图，大分辨率扫描图",
                 "json": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/Yande.re.Post.txt",
-                "versionCode": 5,
-                "lastUpdate": "2016-09-27 01:36:05",
+                "versionCode": 6,
+                "lastUpdate": "2017-03-13 16:36:52",
                 "r18": false
             },
             {
@@ -130,8 +130,8 @@
                 "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/icons/Lolibooru.png",
                 "description": "loli！loli即正义！",
                 "json": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/Lolibooru.Post.txt",
-                "versionCode": 5,
-                "lastUpdate": "2016-09-27 01:36:05",
+                "versionCode": 6,
+                "lastUpdate": "2017-03-13 16:36:52",
                 "r18": true
             },
             {
@@ -152,8 +152,8 @@
                 "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/icons/Konachan.png",
                 "description": "主收各类动漫壁纸",
                 "json": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/Konachan.Post.txt",
-                "versionCode": 5,
-                "lastUpdate": "2016-09-27 01:36:05",
+                "versionCode": 6,
+                "lastUpdate": "2017-03-13 16:36:52",
                 "r18": false
             },
             {
@@ -174,8 +174,8 @@
                 "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/icons/3dbooru.png",
                 "description": "真人cosplay图片站",
                 "json": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/3dbooru.Post.txt",
-                "versionCode": 5,
-                "lastUpdate": "2016-09-27 01:36:05",
+                "versionCode": 6,
+                "lastUpdate": "2017-03-13 16:36:52",
                 "r18": false
             },
             {
@@ -196,8 +196,8 @@
                 "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/icons/Gelbooru.png",
                 "description": "做的最大的booru站之一",
                 "json": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/Gelbooru.Post.txt",
-                "versionCode": 5,
-                "lastUpdate": "2016-09-27 01:36:05",
+                "versionCode": 6,
+                "lastUpdate": "2017-03-13 16:36:52",
                 "r18": false
             },
             {
@@ -218,8 +218,8 @@
                 "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/icons/Xbooru.png",
                 "description": "这个站的图非常杂乱，而且基本以H图为主",
                 "json": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/Xbooru.Post.txt",
-                "versionCode": 5,
-                "lastUpdate": "2016-09-27 01:36:05",
+                "versionCode": 6,
+                "lastUpdate": "2017-03-13 16:36:52",
                 "r18": true
             },
             {
