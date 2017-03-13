@@ -1,5 +1,165 @@
 ﻿{
+    "categories": [
+        {
+            "cid": 1,
+            "title": "首页",
+            "url": "http://www.xiuren.org/page-{page:1}.html"
+        },
+        {
+            "cid": 2,
+            "title": "推女郎",
+            "url": "http://www.xiuren.org/category/TuiGirl-{page:1}.html"
+        },
+        {
+            "cid": 3,
+            "title": "秀人网",
+            "url": "http://www.xiuren.org/category/XiuRen-{page:1}.html"
+        },
+        {
+            "cid": 4,
+            "title": "尤果网",
+            "url": "http://www.xiuren.org/category/ugirls-{page:1}.html"
+        },
+        {
+            "cid": 5,
+            "title": "TGOD推女神",
+            "url": "http://www.xiuren.org/category/tgod-{page:1}.html"
+        },
+        {
+            "cid": 6,
+            "title": "BoLoli波萝社",
+            "url": "http://www.xiuren.org/category/bololi-{page:1}.html"
+        },
+        {
+            "cid": 7,
+            "title": "IMISS爱蜜社",
+            "url": "http://www.xiuren.org/category/imiss-{page:1}.html"
+        },
+        {
+            "cid": 8,
+            "title": "MiStar魅妍社",
+            "url": "http://www.xiuren.org/category/mistar-{page:1}.html"
+        },
+        {
+            "cid": 9,
+            "title": "FEILIN嗲囡囡",
+            "url": "http://www.xiuren.org/category/feilin-{page:1}.html"
+        },
+        {
+            "cid": 10,
+            "title": "MFStar模范学院",
+            "url": "http://www.xiuren.org/category/mfstar-{page:1}.html"
+        },
+        {
+            "cid": 11,
+            "title": "MiiTao蜜桃社",
+            "url": "http://www.xiuren.org/category/miitao-{page:1}.html"
+        },
+        {
+            "cid": 12,
+            "title": "YouWu尤物馆",
+            "url": "http://www.xiuren.org/category/youwu-{page:1}.html"
+        },
+        {
+            "cid": 13,
+            "title": "LeYuan星乐园",
+            "url": "http://www.xiuren.org/category/LeYuan-{page:1}.html"
+        },
+        {
+            "cid": 14,
+            "title": "HuaYan花の颜",
+            "url": "http://www.xiuren.org/category/HuaYan-{page:1}.html"
+        },
+        {
+            "cid": 15,
+            "title": "WingS影私荟",
+            "url": "http://www.xiuren.org/category/wings-{page:1}.html"
+        },
+        {
+            "cid": 16,
+            "title": "CANDY糖果画报",
+            "url": "http://www.xiuren.org/category/candy-{page:1}.html"
+        },
+        {
+            "cid": 17,
+            "title": "头条女神",
+            "url": "http://www.xiuren.org/category/toutiaogirls-{page:1}.html"
+        },
+        {
+            "cid": 18,
+            "title": "LegBaby美腿宝贝",
+            "url": "http://www.xiuren.org/category/legbaby-{page:1}.html"
+        },
+        {
+            "cid": 19,
+            "title": "V女郎",
+            "url": "http://www.xiuren.org/category/vgirlmm-{page:1}.html"
+        },
+        {
+            "cid": 20,
+            "title": "Rayshen",
+            "url": "http://www.xiuren.org/category/rayshen-{page:1}.html"
+        },
+        {
+            "cid": 21,
+            "title": "优星馆",
+            "url": "http://www.xiuren.org/category/uxing-{page:1}.html"
+        },
+        {
+            "cid": 22,
+            "title": "秀人视频",
+            "url": "http://www.xiuren.org/category/XiuRen-Video-{page:1}.html"
+        },
+        {
+            "cid": 23,
+            "title": "AISS爱丝",
+            "url": "http://www.xiuren.org/category/AISS-{page:1}.html"
+        },
+        {
+            "cid": 24,
+            "title": "如壹写真",
+            "url": "http://www.xiuren.org/category/ru1mm-{page:1}.html"
+        },
+        {
+            "cid": 25,
+            "title": "动感小站",
+            "url": "http://www.xiuren.org/category/donggan-{page:1}.html"
+        },
+        {
+            "cid": 26,
+            "title": "ROSI视频",
+            "url": "http://www.xiuren.org/category/rosi-shipin-{page:1}.html"
+        }
+    ],
+    "flag": "noRating|preloadGallery",
     "galleryRule": {
+        "category": {
+            "fun": "html",
+            "regex": "(.*)",
+            "replacement": "👍$1",
+            "selector": "div.date>a:first-child>span"
+        },
+        "datetime": {
+            "fun": "html",
+            "regex": "时间：(\d{4}-\d{2}-\d{2})",
+            "selector": "div.date"
+        },
+        "tagRule": {
+            "item": {
+                "selector": "div.date>a[href*='tag']"
+            },
+            "title": {
+                "fun": "html",
+                "selector": "this"
+            },
+            "url": {
+                "regex": "(http.*?tag/)(.*?)(\\.html)",
+                "replacement": "$1$2-{page:1}$3",
+                "fun": "attr",
+                "param": "href",
+                "selector": "this"
+            }
+        },
         "pictureRule": {
             "item": {
                 "selector": "div.post span.photoThum"
@@ -14,9 +174,19 @@
                 "param": "href",
                 "selector": "a"
             }
+        },
+        "videoRule": {
+            "content": {
+                "fun": "html",
+                "regex": "(https?[^\"'<>]*?[^\"'<>]+?\\.(?:mp4|flv)[^\"'<>]*)",
+                "selector": "this"
+            },
+            "item": {
+                "regex": "https?[^\"'<>]*?[^\"'<>]+?\\.(?:mp4|flv)[^\"'<>]*",
+                "selector": "script:not([src])"
+            }
         }
     },
-    "galleryUrl": "http://www.xiuren.org/{idCode:}.html",
     "indexRule": {
         "cover": {
             "fun": "attr",
@@ -39,6 +209,7 @@
         }
     },
     "indexUrl": "http://www.xiuren.org/page-{page:1}.html",
+    "galleryUrl": "http://www.xiuren.org/{idCode:}.html",
     "searchUrl": "http://www.xiuren.org/search/{keyword:}.html?page={page:1}",
     "title": "秀人"
 }

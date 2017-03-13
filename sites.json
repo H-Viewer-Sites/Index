@@ -350,12 +350,12 @@
             {
                 "sid": 401,
                 "title": "秀人",
-                "author": "lbq",
+                "author": "PureDark",
                 "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/icons/%E7%A7%80%E4%BA%BA.png",
                 "description": "专注模特写真及周边产业的互动平台",
                 "json": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/%E7%A7%80%E4%BA%BA.txt",
-                "versionCode": 2,
-                "lastUpdate": "2016-09-27 01:36:05",
+                "versionCode": 3,
+                "lastUpdate": "2017-03-13 09:41:23",
                 "r18": false
             },
             {
