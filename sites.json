@@ -78,8 +78,8 @@
                 "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/icons/半次元.png",
                 "description": "第一中文COS绘画小说社区，需要登录才能搜索，部分内容需要登录才能浏览",
                 "json": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/半次元.txt",
-                "versionCode": 4,
-                "lastUpdate": "2016-10-20 06:15:42",
+                "versionCode": 5,
+                "lastUpdate": "2017-03-21 04:08:42",
                 "r18": false
             },
             {
@@ -324,8 +324,8 @@
                 "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/icons/H-Manga.moe.png",
                 "description": "在线绅士同人志阅览，免费且每日更新。",
                 "json": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/H-Manga.moe.txt",
-                "versionCode": 3,
-                "lastUpdate": "2016-10-06 16:17:34",
+                "versionCode": 4,
+                "lastUpdate": "2017-03-21 04:08:34",
                 "r18": true
             },
             {
@@ -335,8 +335,8 @@
                 "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/icons/%E8%90%8C%E6%98%A5%E7%94%BB.png",
                 "description": "萌春画はえっちで萌えれるエロ同人誌、エロ漫画を載せています。現在フルカラー物のみで更新中！",
                 "json": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/%E8%90%8C%E6%98%A5%E7%94%BB.txt",
-                "versionCode": 2,
-                "lastUpdate": "2016-10-06 17:47:34",
+                "versionCode": 3,
+                "lastUpdate": "2017-03-21 04:08:34",
                 "r18": true
             }
         ]
@@ -365,8 +365,8 @@
                 "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/icons/Rosi.png",
                 "description": "性感美女写真",
                 "json": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/Rosi.txt",
-                "versionCode": 3,
-                "lastUpdate": "2016-09-29 01:18:16",
+                "versionCode": 4,
+                "lastUpdate": "2017-03-21 04:08:16",
                 "r18": false
             },
             {

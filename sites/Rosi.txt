@@ -47,6 +47,7 @@
             "selector": ".entry_title a"
         }
     },
+    "flag": "noRating|preloadGallery|waterfallAsGrid",
     "galleryUrl": "http://www.rosiyy.com/{idCode:}?page={page:1}",
     "indexUrl": "http://www.rosiyy.com/index-{page:1}.html",
     "searchUrl": "http://www.rosiyy.com/search/{keyword:}/list-{page:1}",

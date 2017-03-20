@@ -132,7 +132,7 @@
                 "selector": "article.post > header > div.post__title > h1"
             },
             "uploader": {
-                "fun": "html",
+                "fun": "text",
                 "selector": ".l-detailUser-name > a"
             }
         },

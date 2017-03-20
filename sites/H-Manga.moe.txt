@@ -1,45 +1,109 @@
 ﻿{
-    "flag": "preloadGallery",
-    "galleryRule": {
-        "cover": {
-            "fun": "attr",
-            "param": "data-src",
-            "selector": "#all > img:nth-child(1)"
+    "categories": [
+        {
+            "cid": 1,
+            "title": "最新",
+            "url": "http://www.h-manga.moe/latest-release?page={page:1}"
         },
+        {
+            "cid": 2,
+            "title": "所有漫画",
+            "url": "http://www.h-manga.moe/manga-list?page={page:1}"
+        }
+    ],
+    "flag": "preloadGallery|secondLevelGallery",
+    "extraRule": {
         "pictureRule": {
             "item": {
-                "selector": "div#all img"
+                "selector": "div#all>img"
             },
             "thumbnail": {
                 "fun": "attr",
                 "param": "data-src",
-                "selector": "img"
+                "selector": "this"
             },
             "url": {
                 "fun": "attr",
                 "param": "data-src",
-                "selector": "img"
+                "selector": "this"
             }
         }
     },
-    "galleryUrl": "http://www.h-manga.moe/manga/{idCode:}/1",
+    "galleryRule": {
+        "uploader": {
+            "fun": "html",
+            "selector": "dl.dl-horizontal > dd:nth-of-type(n+1)  > a"
+        },
+        "category": {
+            "fun": "html",
+            "selector": "dl.dl-horizontal > dd:nth-of-type(n+3)  > a"
+        },
+        "rating": {
+            "fun": "attr",
+            "param": "data-score",
+            "selector": "div.rating > div[data-score]"
+        },
+        "tagRule": {
+            "item": {
+                "selector": "dl.dl-horizontal > dd > a"
+            },
+            "title": {
+                "fun": "text",
+                "selector": "this"
+            },
+            "url": {
+                "fun": "attr",
+                "param": "href",
+                "regex": "(.*)",
+                "replacement": "$1?page={page:1}",
+                "selector": "this"
+            }
+        },
+        "pictureRule": {
+            "item": {
+                "selector": "h3.chapter-title-rtl"
+            },
+            "thumbnail": {
+                "regex": "(.*)",
+                "replacement": "$1/{page:1}",
+                "fun": "attr",
+                "param": "href",
+                "selector": "a"
+            },
+            "url": {
+                "regex": "(.*)",
+                "replacement": "$1/{page:1}",
+                "fun": "attr",
+                "param": "href",
+                "selector": "a"
+            }
+        }
+    },
+    "galleryUrl": "http://www.h-manga.moe/manga/{idCode:}{pageStr:{page:1}}",
     "indexRule": {
+        "cover": {
+            "regex": "(.*?/cover/)",
+            "replacement": "$1cover_250x350.jpg",
+            "fun": "attr",
+            "param": "src",
+            "selector": "div.events img,.media-left a img"
+        },
         "datetime": {
             "fun": "html",
-            "selector": " small.pull-right"
+            "selector": "div.time"
         },
         "idCode": {
             "fun": "attr",
             "param": "href",
             "regex": "manga/(.*)",
-            "selector": "h6.events-subtitle a"
+            "selector": ".events-heading a,.media-heading a"
         },
         "item": {
-            "selector": ".col-sm-12 div.mangalist div.manga-item"
+            "selector": "div.timeline>dl>dd,div.filter-content div.media"
         },
         "title": {
-            "fun": "html",
-            "selector": "h3.manga-heading.pull-left a"
+            "fun": "text",
+            "selector": ".events-heading a,.media-heading a"
         }
     },
     "indexUrl": "http://www.h-manga.moe/latest-release?page={page:1}",

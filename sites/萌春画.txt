@@ -42,27 +42,18 @@
                 "param": "src",
                 "selector": "this"
             }
-        },
-        "tags": {
-            "fun": "html",
-            "selector": " div.tag_list li > a"
-        },
-        "title": {
-            "fun": "attr",
-            "param": "title",
-            "selector": "h2> a "
         }
     },
     "galleryUrl": "http://moeshunga.com/blog-entry-{idCode:}.html",
     "indexRule": {
         "category": {
             "fun": "html",
-            "selector": "ul.post-categories li a[rel='category tag']"
+            "selector": "div.entry-deta a[rel='category tag']"
         },
         "cover": {
             "fun": "attr",
             "param": "src",
-            "selector": ".entry_thumb img"
+            "selector": ".entry-newthumb img"
         },
         "datetime": {
             "fun": "html",
@@ -76,15 +67,28 @@
             "selector": "h3 > a"
         },
         "item": {
-            "selector": "div#main > div.entry:has(h3)"
-        },
-        "tags": {
-            "fun": "html",
-            "selector": " div.tag_list li > a"
+            "selector": "div#main > div.entry-new"
         },
         "title": {
-            "fun": "html",
-            "selector": "p.morelink >a"
+            "fun": "attr",
+            "param": "title",
+            "selector": "h3 > a"
+        },
+        "tagRule": {
+            "item": {
+                "selector": ".entry-taglist li a"
+            },
+            "title": {
+                "fun": "text",
+                "selector": "this"
+            },
+            "url": {
+                "fun": "attr",
+                "param": "href",
+                "regex": "(.*)",
+                "replacement": "$1/page/{page:1}",
+                "selector": "this"
+            }
         }
     },
     "indexUrl": "http://moeshunga.com/page/{page:1}",
