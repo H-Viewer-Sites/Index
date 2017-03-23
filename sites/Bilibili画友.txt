@@ -61,7 +61,7 @@
             "selector": "div > a > div"
         },
         "uploader": {
-            "fun": "html",
+            "fun": "text",
             "selector": "div > div.img_author_name"
         }
     },
@@ -83,14 +83,12 @@
             "selector": "div.ajax-render > li.draw-item"
         },
         "title": {
-            "fun": "html",
-            "regex": "(?:<em .{15}>)?([^<>]*)?(?:</em>)?(?:<em .{15}>)?([^<>]*)?(?:</em>)?(?:<em .{15}>)?([^<>]*)?(?:</em>)?(?:<em .{15}>)?([^<>]*)?(?:</em>)?(?:<em .{15}>)?([^<>]*)?(?:</em>)?",
-            "replacement": "$1$2$3$4$5",
+            "fun": "text",
             "selector": "a.headline"
         },
         "uploader": {
-            "fun": "html",
-            "selector": "div.up-name"
+            "fun": "text",
+            "selector": ".up-name"
         }
     },
     "searchUrl": "http://search.bilibili.com/drawyoo?keyword={keyword:}&page={page:1}",

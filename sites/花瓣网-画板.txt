@@ -6,6 +6,11 @@
             "url": "http://huaban.com/?page={page:1}"
         },
         {
+            "cid": 2,
+            "title": "关注画板",
+            "url": "http://huaban.com/edmjgyjxpg/following/boards?page={page:1}&per_page=20&wfl=1"
+        },
+        {
             "cid": 4,
             "title": "UI/UX-画板",
             "url": "http://huaban.com/boards/favorite/web_app_icon/?limit=20&wfl=1{pageStr:&max={page:minid}}"
