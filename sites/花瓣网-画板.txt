@@ -7,8 +7,13 @@
         },
         {
             "cid": 2,
-            "title": "关注画板",
-            "url": "http://huaban.com/edmjgyjxpg/following/boards?page={page:1}&per_page=20&wfl=1"
+            "title": "关注画板-待修改",
+            "url": "http://huaban.com/这段替换成你的个性网址/following/boards?page={page:1}&per_page=20&wfl=1"
+        },
+        {
+            "cid": 3,
+            "title": "我的画板-待修改",
+            "url": "http://huaban.com/这段替换成你的个性网址/?limit=20&wfl=1{pageStr:&max={page:minid}}"
         },
         {
             "cid": 4,
