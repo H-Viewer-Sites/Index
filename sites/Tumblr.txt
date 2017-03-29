@@ -1,106 +1,111 @@
-﻿    {
-        "categories": [
-            {
-                "cid": 1,
-                "title": "主页",
-                "url": "https://www.tumblr.com/dashboard"
-            },
-            {
-                "cid": 2,
-                "title": "发现-热门",
-                "url": "https://www.tumblr.com/explore/trending"
-            },
-            {
-                "cid": 3,
-                "title": "发现-官博精选",
-                "url": "https://www.tumblr.com/explore/staff-picks"
-            },
-            {
-                "cid": 4,
-                "title": "发现-图片",
-                "url": "https://www.tumblr.com/explore/photos"
-            },
-            {
-                "cid": 5,
-                "title": "发现-动图",
-                "url": "https://www.tumblr.com/explore/gifs"
-            },
-            {
-                "cid": 6,
-                "title": "发现-视频",
-                "url": "https://www.tumblr.com/explore/video"
-            }
-        ],
-        "cookie": "",
-        "flag": "noRating|jsNeededIndex|waterfallAsList|jsScroll",
-        "galleryUrl": "{idCode:}",
-        "gid": 0,
-        "index": 0,
-        "indexRule": {
-            "cover": {
-                "regex": "(?:background-image.*?(http.*?\\.(?:jpg|jpeg|png|gif|bmp))|(http[^\"]*?_\\d{3,4}\\.(?:jpg|jpeg|png|gif|bmp)))",
-                "replacement": "$1$2",
-                "selector": ".post_media img,.video_poster,.vjs-poster"
-            },
-            "datetime": {
-                "fun": "html",
-                "selector": "span.note_link_current"
-            },
-            "description": {
-                "fun": "html",
-                "selector": ".post_content_inner,.reblog-list"
-            },
-            "idCode": {
-                "fun": "html",
-                "regex": "(http[^\"]*?tumblr.com/post/[^\"]*)",
-                "selector": ".post_header"
-            },
+﻿{
+    "categories": [
+        {
+            "cid": 2,
+            "title": "发现-热门",
+            "url": "https://www.tumblr.com/svc/discover/posts?offset={page:0:20}&limit=20&type=trending&withFormKey=true"
+        },
+        {
+            "cid": 3,
+            "title": "发现-官博精选",
+            "url": "https://www.tumblr.com/svc/discover/posts?offset={page:0:20}&limit=20&type=staff-picks&withFormKey=true"
+        },
+        {
+            "cid": 4,
+            "title": "发现-图片",
+            "url": "https://www.tumblr.com/svc/discover/posts?offset={page:0:20}&limit=20&type=photos&withFormKey=true"
+        },
+        {
+            "cid": 5,
+            "title": "发现-动图",
+            "url": "https://www.tumblr.com/svc/discover/posts?offset={page:0:20}&limit=20&type=gifs&withFormKey=true"
+        },
+        {
+            "cid": 6,
+            "title": "发现-视频",
+            "url": "https://www.tumblr.com/svc/discover/posts?offset={page:0:20}&limit=20&type=video&withFormKey=true"
+        }
+    ],
+    "header": "X-Requested-With:XMLHttpRequest",
+    "flag": "noRating|waterfallAsList",
+    "galleryUrl": "{idCode:}",
+    "gid": 0,
+    "index": 0,
+    "indexRule": {
+        "item": {
+            "path": "$.response.DiscoveryPosts.posts",
+            "regex": "(?:is_photo|is_photoset|is_video)"
+        },
+        "cover": {
+            "regex": "(?:background-image.*?(http.*?\\.(?:jpg|jpeg|png|gif|bmp))|(http[^\"]*?_\\d{3,4}\\.(?:jpg|jpeg|png|gif|bmp)))",
+            "replacement": "$1$2",
+            "selector": ".post_media img,.video_poster,.vjs-poster",
+            "path": "$"
+        },
+        "datetime": {
+            "fun": "html",
+            "selector": "span.note_link_current",
+            "path": "$"
+        },
+        "idCode": {
+            "fun": "html",
+            "regex": "(http[^\"]*?tumblr.com/post/[^\"]*)",
+            "selector": ".post_header",
+            "path": "$"
+        },
+        "pictureRule": {
             "item": {
-                "selector": ".is_photo,.is_photoset,.is_video"
+                "selector": "[data-lightbox],img.post_media_photo,a.photoset_photo",
+                "path": "$"
             },
-            "pictureRule": {
-                "item": {
-                    "selector": "[data-lightbox],img.post_media_photo,a.photoset_photo"
-                },
-                "thumbnail": {
-                    "regex": "(?:src=|\"low_res\":)\"(http.*?\\.(?:jpg|jpeg|png|gif|bmp))\"",
-                    "selector": "this"
-                },
-                "url": {
-                    "regex": "(?:href=|src=|\"high_res\":)\"(http[^\"]*?\\.(?:jpg|jpeg|png|gif|bmp))\"",
-                    "selector": "this"
-                }
+            "thumbnail": {
+                "regex": "(?:src=|\"low_res\":)\"(http.*?\\.(?:jpg|jpeg|png|gif|bmp))\"",
+                "selector": "this"
             },
-            "tags": {
-                "fun": "html",
-                "regex": "([^#]+)",
-                "selector": ".post_tags .post_tag"
-            },
-            "title": {
-                "fun": "html",
-                "regex": "tumblr.com/[^\"]*?/[^\"]*?/([^\"/]*)",
-                "selector": ".post_header"
-            },
-            "uploader": {
-                "fun": "html",
-                "selector": ".post_header a.post_info_link, .post_header .post-info-tumblelog>a"
-            },
-            "videoRule": {
-                "content": {
-                    "regex": "src=\"(http.*)(?:/480)|(http.*)\"",
-                    "replacement": "$1$2",
-                    "selector": "script.embed_source,video>source"
-                },
-                "item": {
-                    "selector": ".video_embed,.dockable_video_embed"
-                }
+            "url": {
+                "regex": "(?:href=|src=|\"high_res\":)\"(http[^\"]*?\\.(?:jpg|jpeg|png|gif|bmp))\"",
+                "selector": "this"
             }
         },
-        "indexUrl": "https://www.tumblr.com/dashboard",
-        "isGrid": false,
-        "loginUrl": "https://www.tumblr.com/login",
-        "searchUrl": "https://www.tumblr.com/search/{keyword:}",
-        "sid": 68,
-        "title": "Tumblr",
-        "versionCode": 0
-    }
+        "description": {
+            "fun": "html",
+            "selector": ".post_content_inner,.reblog-list",
+            "path": "$"
+        },
+        "tags": {
+            "fun": "html",
+            "regex": "([^#\\n]+)",
+            "selector": ".post_tags .post_tag",
+            "path": "$"
+        },
+        "title": {
+            "fun": "html",
+            "regex": "tumblr.com/[^\"]*?/[^\"]*?/([^\"/]*)",
+            "selector": ".post_header",
+            "path": "$"
+        },
+        "uploader": {
+            "fun": "html",
+            "selector": ".post_header a.post_info_link, .post_header .post-info-tumblelog>a",
+            "path": "$"
+        },
+        "videoRule": {
+            "content": {
+                "regex": "src=\"(http.*?)\"|(http.*?)\"",
+                "replacement": "$1$2",
+                "selector": "script.embed_source,video>source"
+            },
+            "item": {
+                "selector": ".video_embed,.dockable_video_embed",
+                "path": "$"
+            }
+        }
+    },
+    "indexUrl": "https://www.tumblr.com/svc/discover/posts?offset={page:0:20}&limit=20&type=trending&withFormKey=true",
+    "isGrid": false,
+    "loginUrl": "https://www.tumblr.com/login",
+    "searchUrl": "https://www.tumblr.com/search/{keyword:}",
+    "sid": 68,
+    "title": "Tumblr",
+    "versionCode": 0
+}

@@ -568,8 +568,8 @@
                 "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/icons/花瓣网.png",
                 "description": "设计师寻找灵感的天堂！图片素材领导者，帮你采集,发现网络上你喜欢的事物.你可以用它收集灵感,保存有用的素材,计划旅行,晒晒自己想要的东西；添加后长按编辑站点，修改“我的采集”的网址",
                 "json": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/花瓣网-采集.txt",
-                "versionCode": 2,
-                "lastUpdate": "2017-03-24 00:18:29",
+                "versionCode": 3,
+                "lastUpdate": "2017-03-30 00:09:29",
                 "r18": false
             },
             {
@@ -579,8 +579,8 @@
                 "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/icons/花瓣网.png",
                 "description": "设计师寻找灵感的天堂！图片素材领导者，帮你采集,发现网络上你喜欢的事物.你可以用它收集灵感,保存有用的素材,计划旅行,晒晒自己想要的东西；添加后长按编辑站点，修改“关注画板”的网址",
                 "json": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/花瓣网-画板.txt",
-                "versionCode": 3,
-                "lastUpdate": "2017-03-24 00:18:29",
+                "versionCode": 4,
+                "lastUpdate": "2017-03-30 00:09:29",
                 "r18": false
             },
             {
@@ -601,8 +601,8 @@
                 "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/icons/Tumblr.png",
                 "description": "目前全球最大的轻博客网站，也是轻博客网站的始祖，登录以在首页显示订阅内容",
                 "json": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/Tumblr.txt",
-                "versionCode": 2,
-                "lastUpdate": "2016-10-21 12:55:54",
+                "versionCode": 3,
+                "lastUpdate": "2017-03-30 00:09:54",
                 "r18": false
             }
         ]

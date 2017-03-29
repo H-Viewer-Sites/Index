@@ -171,18 +171,12 @@
             "url": "http://huaban.com/favorite/funny/?limit=20&wfl=1{pageStr:&max={page:minid}}"
         }
     ],
-    "cookie": "",
+    "header": "X-Requested-With:XMLHttpRequest",
     "flag": "noRating|onePicGallery|waterfallAsList",
     "galleryRule": {
-        "item": {
-            "selector": "script",
-            "fun": "html",
-            "regex": "app\\.page\\[\"pin\"\\].*?(\\{.*?\\});",
-            "path": "$"
-        },
         "pictureRule": {
             "item": {
-                "path": "$"
+                "path": "$.pin"
             },
             "id": {
                 "path": "$.pin_id"
@@ -209,9 +203,6 @@
     "index": 0,
     "indexRule": {
         "item": {
-            "selector": "script",
-            "fun": "html",
-            "regex": "app\\.page\\[\"(?:pins|user)\"\\].*?([\\[\\{].*?[\\]\\}]);",
             "path": "$[?(@.pin_id)],$.pins[?(@.pin_id)]"
         },
         "idCode": {
