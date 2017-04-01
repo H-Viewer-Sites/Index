@@ -19,12 +19,12 @@
             {
                 "sid": 102,
                 "title": "Pixiv",
-                "author": "PureDark & manhong2112",
+                "author": "PureDark",
                 "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/icons/Pixiv.png",
                 "description": "著名同人画、插画作品分享站点，需要登陆才能访问",
                 "json": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/Pixiv.txt",
-                "versionCode": 9,
-                "lastUpdate": "2016-10-20 06:13:15",
+                "versionCode": 10,
+                "lastUpdate": "2017-04-02 00:41:15",
                 "r18": false
             },
             {
@@ -270,8 +270,8 @@
                 "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/icons/Ehentai.png",
                 "description": "E绅士的里区，必须登录才能访问",
                 "json": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/exhentai.txt",
-                "versionCode": 4,
-                "lastUpdate": "2017-02-17 14:58:36",
+                "versionCode": 5,
+                "lastUpdate": "2017-04-02 00:41:36",
                 "r18": true
             },
             {
