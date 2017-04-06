@@ -248,8 +248,8 @@
                 "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/icons/Ehentai.png",
                 "description": "E绅士的移动版，优点是能在列表就读取到TAG，缺点是图片画质较低",
                 "json": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/lofi.e-hentai.txt",
-                "versionCode": 2,
-                "lastUpdate": "2016-09-27 01:36:05",
+                "versionCode": 3,
+                "lastUpdate": "2017-04-06 14:21:15",
                 "r18": true
             },
             {
@@ -259,8 +259,8 @@
                 "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/icons/Ehentai.png",
                 "description": "E绅士的桌面版，图片较清楚，登录可查看最新内容",
                 "json": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/g.e-hentai.txt",
-                "versionCode": 4,
-                "lastUpdate": "2017-02-17 14:58:36",
+                "versionCode": 5,
+                "lastUpdate": "2017-04-06 14:21:15",
                 "r18": true
             },
             {
@@ -270,8 +270,8 @@
                 "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/icons/Ehentai.png",
                 "description": "E绅士的里区，必须登录才能访问",
                 "json": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/exhentai.txt",
-                "versionCode": 5,
-                "lastUpdate": "2017-04-02 00:41:36",
+                "versionCode": 6,
+                "lastUpdate": "2017-04-06 14:21:15",
                 "r18": true
             },
             {
@@ -281,8 +281,8 @@
                 "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/icons/wnacg.png",
                 "description": "专注分享汉化本子",
                 "json": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/wnacg.txt",
-                "versionCode": 3,
-                "lastUpdate": "2016-11-15 19:59:25",
+                "versionCode": 4,
+                "lastUpdate": "2017-04-06 14:21:15",
                 "r18": true
             },
             {

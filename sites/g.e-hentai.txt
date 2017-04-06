@@ -3,57 +3,57 @@
             {
                 "cid": 1,
                 "title": "首页",
-                "url": "http://g.e-hentai.org/?page={page:0}"
+                "url": "https://e-hentai.org/?page={page:0}"
             },
             {
                 "cid": 2,
                 "title": "同人志",
-                "url": "http://g.e-hentai.org/doujinshi/{page:0}"
+                "url": "https://e-hentai.org/doujinshi/{page:0}"
             },
             {
                 "cid": 3,
                 "title": "漫画",
-                "url": "http://g.e-hentai.org/manga/{page:0}"
+                "url": "https://e-hentai.org/manga/{page:0}"
             },
             {
                 "cid": 4,
                 "title": "同人CG",
-                "url": "http://g.e-hentai.org/artistcg/{page:0}"
+                "url": "https://e-hentai.org/artistcg/{page:0}"
             },
             {
                 "cid": 5,
                 "title": "游戏CG",
-                "url": "http://g.e-hentai.org/gamecg/{page:0}"
+                "url": "https://e-hentai.org/gamecg/{page:0}"
             },
             {
                 "cid": 6,
                 "title": "欧美",
-                "url": "http://g.e-hentai.org/western/{page:0}"
+                "url": "https://e-hentai.org/western/{page:0}"
             },
             {
                 "cid": 7,
                 "title": "Non-H",
-                "url": "http://g.e-hentai.org/non-h/{page:0}"
+                "url": "https://e-hentai.org/non-h/{page:0}"
             },
             {
                 "cid": 8,
                 "title": "图集",
-                "url": "http://g.e-hentai.org/imageset/{page:0}"
+                "url": "https://e-hentai.org/imageset/{page:0}"
             },
             {
                 "cid": 9,
                 "title": "Cosplay",
-                "url": "http://g.e-hentai.org/cosplay/{page:0}"
+                "url": "https://e-hentai.org/cosplay/{page:0}"
             },
             {
                 "cid": 10,
                 "title": "亚洲AV",
-                "url": "http://g.e-hentai.org/asianporn/{page:0}"
+                "url": "https://e-hentai.org/asianporn/{page:0}"
             },
             {
                 "cid": 11,
                 "title": "MISC",
-                "url": "http://g.e-hentai.org/misc/{page:0}"
+                "url": "https://e-hentai.org/misc/{page:0}"
             }
         ],
         "cookie": "",
@@ -109,7 +109,7 @@
                 "selector": "h1#gj"
             }
         },
-        "galleryUrl": "http://g.e-hentai.org/g/{idCode:}/?p={page:0}&hc=1",
+        "galleryUrl": "https://e-hentai.org/g/{idCode:}/?p={page:0}&hc=1",
         "gid": 0,
         "index": 0,
         "indexRule": {
@@ -153,10 +153,10 @@
                 "selector": "td.itu div a"
             }
         },
-        "indexUrl": "http://g.e-hentai.org/?page={page:0}",
+        "indexUrl": "https://e-hentai.org/?page={page:0}",
         "isGrid": false,
         "loginUrl": "https://forums.e-hentai.org/index.php?act=Login",
-        "searchUrl": "http://g.e-hentai.org/?f_search={keyword:}&page={page:0}",
+        "searchUrl": "https://e-hentai.org/?f_search={keyword:}&page={page:0}",
         "sid": 2,
         "title": "G.E-hentai",
         "versionCode": 0
