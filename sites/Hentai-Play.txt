@@ -3,66 +3,61 @@
             {
                 "cid": 1,
                 "title": "最新",
-                "url": "http://hentaiplay.net/hentai/episodes/new-releases/page/{page:1}/"
+                "url": "http://hentaidrive.com/hentai/episodes/new-releases/page/{page:1}/"
             },
             {
                 "cid": 2,
                 "title": "英语字幕",
-                "url": "http://hentaiplay.net/hentai/episodes/english-subbed/page/{page:1}/"
+                "url": "http://hentaidrive.com/hentai/episodes/english-subbed/page/{page:1}/"
             },
             {
                 "cid": 3,
                 "title": "无码",
-                "url": "http://hentaiplay.net/hentai/episodes/uncensored/page/{page:1}/"
+                "url": "http://hentaidrive.com/hentai/episodes/uncensored/page/{page:1}/"
             }
         ],
         "cookie": "",
         "flag": "noRating",
         "galleryRule": {
+            "description": {
+                "fun": "html",
+                "selector": "div.seriesmeta"
+            },
             "videoRule": {
                 "content": {
                     "regex": "(http[^\"']*?\\.(?:mp4|webm|ogg))",
                     "selector": "script,iframe"
                 },
                 "item": {
-                    "regex": "file: 'http://hentaiplanet.info|<iframe",
-                    "selector": "#Source-1,#Source-2,#Source-3"
+                    "regex": "\"http[^\"']*?\\.(?:mp4|webm|ogg)\"",
+                    "selector": "div.pane"
                 }
             }
         },
-        "galleryUrl": "http://hentaiplay.net/{idCode:}",
+        "galleryUrl": "http://hentaidrive.com/{idCode:}",
         "gid": 0,
         "index": 0,
         "indexRule": {
             "cover": {
                 "fun": "attr",
                 "param": "src",
-                "selector": "div.thumb img"
-            },
-            "datetime": {
-                "fun": "html",
-                "selector": "div.data>.entry-meta>time"
-            },
-            "description": {
-                "fun": "html",
-                "selector": "div.data .entry-summary"
+                "selector": "div.thumbnail-archive img"
             },
             "idCode": {
                 "fun": "attr",
                 "param": "href",
-                "regex": "hentaiplay.net/(.*)",
-                "selector": "div.thumb>a.clip-link"
+                "regex": "hentaidrive.com/(.*)",
+                "selector": "div.thumbnail-archive>a"
             },
             "item": {
-                "selector": ".loop-content>div>div.item"
+                "selector": "article.item-list"
             },
             "tagRule": {
                 "item": {
-                    "selector": ".new-wrapper>a"
+                    "selector": ".post-cats>a"
                 },
                 "title": {
-                    "fun": "attr",
-                    "param": "title",
+                    "fun": "text",
                     "selector": "this"
                 },
                 "url": {
@@ -74,18 +69,14 @@
                 }
             },
             "title": {
-                "fun": "html",
-                "selector": "div.data .entry-title>a"
-            },
-            "uploader": {
-                "fun": "html",
-                "selector": "div.data>.entry-meta>.author>a"
+                "fun": "text",
+                "selector": "div.entry>.post-box-title>a"
             }
         },
-        "indexUrl": "http://hentaiplay.net/hentai/episodes/new-releases/page/{page:1}/",
+        "indexUrl": "http://hentaidrive.com/hentai/episodes/new-release/page/{page:1}/",
         "isGrid": false,
-        "loginUrl": "http://hentaiplay.net/wp-login.php",
-        "searchUrl": "http://hentaiplay.net/page/{page:1}/?s={keyword:}",
+        "loginUrl": "http://hentaidrive.com/wp-login.php",
+        "searchUrl": "http://hentaidrive.com/page/{page:1}/?s={keyword:}",
         "sid": 70,
         "title": "Hentai Play",
         "versionCode": 0

@@ -3,20 +3,20 @@
             {
                 "cid": 1,
                 "title": "全部",
-                "url": "https://solarian.hanime.tv/do_search?q=&search_by=all&search_from={page:0:48}&page_size=48"
+                "url": "https://sjzdlecc2z-1.algolianet.com/1/indexes/HentaiVideo_created_at_desc/query?x-algolia-agent=Algolia%20for%20vanilla%20JavaScript%20(lite)%203.22.1&x-algolia-application-id=SJZDLECC2Z&x-algolia-api-key=d136b2e648679cedded34c16551fdab0&{json:{\"params\":\"query=&hitsPerPage=48&page=0&facets=*&filters=\"}}"
             },
             {
                 "cid": 2,
                 "title": "最多观看",
-                "url": "https://solarian.hanime.tv/do_search?q=&search_by=all&sort_by=views&search_from={page:0:48}&page_size=48"
+                "url": "https://sjzdlecc2z-1.algolianet.com/1/indexes/HentaiVideo_views_desc/query?x-algolia-agent=Algolia%20for%20vanilla%20JavaScript%20(lite)%203.22.1&x-algolia-application-id=SJZDLECC2Z&x-algolia-api-key=d136b2e648679cedded34c16551fdab0&{json:{\"params\":\"query=&hitsPerPage=48&page=0&facets=*&filters=\"}}"
             },
             {
                 "cid": 3,
                 "title": "最多收藏",
-                "url": "https://solarian.hanime.tv/do_search?q=&search_by=all&sort_by=favorites_count&search_from={page:0:48}&page_size=48"
+                "url": "https://sjzdlecc2z-1.algolianet.com/1/indexes/HentaiVideo_favorites_desc/query?x-algolia-agent=Algolia%20for%20vanilla%20JavaScript%20(lite)%203.22.1&x-algolia-application-id=SJZDLECC2Z&x-algolia-api-key=d136b2e648679cedded34c16551fdab0&{json:{\"params\":\"query=&hitsPerPage=48&page=0&facets=*&filters=\"}}"
             }
         ],
-        "cookie": "",
+        "header": "Referer: https://hanime.tv/search",
         "flag": "noRating|postIndex|jsNeededGallery",
         "galleryRule": {
             "datetime": {
@@ -88,10 +88,10 @@
                 "path": "$.brand"
             }
         },
-        "indexUrl": "https://solarian.hanime.tv/do_search?q=&search_by=all&search_from={page:0:48}&page_size=48",
+        "indexUrl": "https://sjzdlecc2z-1.algolianet.com/1/indexes/HentaiVideo_created_at_desc/query?x-algolia-agent=Algolia%20for%20vanilla%20JavaScript%20(lite)%203.22.1&x-algolia-application-id=SJZDLECC2Z&x-algolia-api-key=d136b2e648679cedded34c16551fdab0&{json:{\"params\":\"query=&hitsPerPage=48&page=0&facets=*&filters=\"}}",
         "isGrid": false,
         "loginUrl": "https://hanime.tv/log-in",
-        "searchUrl": "https://solarian.hanime.tv/do_search?q={keyword:}&search_by=all&search_from={page:0:48}&page_size=48",
+        "searchUrl": "https://sjzdlecc2z-1.algolianet.com/1/indexes/HentaiVideo_created_at_desc/query?x-algolia-agent=Algolia%20for%20vanilla%20JavaScript%20(lite)%203.22.1&x-algolia-application-id=SJZDLECC2Z&x-algolia-api-key=d136b2e648679cedded34c16551fdab0&{json:{\"params\":\"query={keyword:}&hitsPerPage=48&page=0&facets=*&filters=\"}}",
         "sid": 69,
         "title": "H-Anime",
         "versionCode": 0
