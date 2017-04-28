@@ -3,7 +3,7 @@
             {
                 "cid": 1,
                 "title": "最新",
-                "url": "http://hentaidrive.com/hentai/episodes/new-releases/page/{page:1}/"
+                "url": "http://hentaidrive.com/hentai/episodes/new-release/page/{page:1}/"
             },
             {
                 "cid": 2,

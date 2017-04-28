@@ -620,8 +620,8 @@
                 "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/icons/H-Anime.png",
                 "description": "在线观看绅士动画，经常更新，与时俱进",
                 "json": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/H-Anime.txt",
-                "versionCode": 2,
-                "lastUpdate": "2017-04-24 14:49:15",
+                "versionCode": 3,
+                "lastUpdate": "2017-04-28 09:22:15",
                 "r18": true
             },
             {
@@ -631,8 +631,8 @@
                 "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/icons/Hentai-Play.png",
                 "description": "最新的、英文字幕的绅士动画。 上千部每日更新的动画可供在线观看!",
                 "json": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/Hentai-Play.txt",
-                "versionCode": 2,
-                "lastUpdate": "2017-04-24 14:49:15",
+                "versionCode": 3,
+                "lastUpdate": "2017-04-28 09:22:15",
                 "r18": true
             },
             {
