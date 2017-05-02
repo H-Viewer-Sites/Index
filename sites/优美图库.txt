@@ -1,0 +1,457 @@
+﻿{
+    "categories": [
+        {
+            "cid": 1,
+            "title": "壁纸图片",
+            "url": "http://www.umei.cc/bizhitupian/{page:1}.htm"
+        },
+        {
+            "cid": 2,
+            "title": "电脑壁纸",
+            "url": "http://www.umei.cc/bizhitupian/diannaobizhi/{page:1}.htm"
+        },
+        {
+            "cid": 3,
+            "title": "手机壁纸",
+            "url": "http://www.umei.cc/bizhitupian/shoujibizhi/{page:1}.htm"
+        },
+        {
+            "cid": 4,
+            "title": "动态壁纸",
+            "url": "http://www.umei.cc/bizhitupian/dongtaibizhi/{page:1}.htm"
+        },
+        {
+            "cid": 5,
+            "title": "护眼壁纸",
+            "url": "http://www.umei.cc/bizhitupian/huyanbizhi/{page:1}.htm"
+        },
+        {
+            "cid": 6,
+            "title": "美女壁纸",
+            "url": "http://www.umei.cc/bizhitupian/meinvbizhi/{page:1}.htm"
+        },
+        {
+            "cid": 7,
+            "title": "小清新壁纸",
+            "url": "http://www.umei.cc/bizhitupian/xiaoqingxinbizhi/{page:1}.htm"
+        },
+        {
+            "cid": 8,
+            "title": "唯美壁纸",
+            "url": "http://www.umei.cc/bizhitupian/weimeibizhi/{page:1}.htm"
+        },
+        {
+            "cid": 9,
+            "title": "风景壁纸",
+            "url": "http://www.umei.cc/bizhitupian/fengjingbizhi/{page:1}.htm"
+        },
+        {
+            "cid": 10,
+            "title": "可爱壁纸",
+            "url": "http://www.umei.cc/bizhitupian/keaibizhi/{page:1}.htm"
+        },
+        {
+            "cid": 11,
+            "title": "唯美图片",
+            "url": "http://www.umei.cc/weimeitupian/{page:1}.htm"
+        },
+        {
+            "cid": 12,
+            "title": "欧美图片",
+            "url": "http://www.umei.cc/weimeitupian/oumeitupian/{page:1}.htm"
+        },
+        {
+            "cid": 13,
+            "title": "非主流图片",
+            "url": "http://www.umei.cc/weimeitupian/feizhuliutupian/{page:1}.htm"
+        },
+        {
+            "cid": 14,
+            "title": "可爱图片",
+            "url": "http://www.umei.cc/weimeitupian/keaitupian/{page:1}.htm"
+        },
+        {
+            "cid": 15,
+            "title": "文字图片",
+            "url": "http://www.umei.cc/weimeitupian/wenzitupian/{page:1}.htm"
+        },
+        {
+            "cid": 16,
+            "title": "爱情图片",
+            "url": "http://www.umei.cc/weimeitupian/aiqingtupian/{page:1}.htm"
+        },
+        {
+            "cid": 17,
+            "title": "意境图片",
+            "url": "http://www.umei.cc/weimeitupian/yijingtupian/{page:1}.htm"
+        },
+        {
+            "cid": 18,
+            "title": "小清新图片",
+            "url": "http://www.umei.cc/weimeitupian/xiaoqingxintupian/{page:1}.htm"
+        },
+        {
+            "cid": 19,
+            "title": "婚纱图片",
+            "url": "http://www.umei.cc/weimeitupian/hunshatupian/{page:1}.htm"
+        },
+        {
+            "cid": 20,
+            "title": "头像图片",
+            "url": "http://www.umei.cc/touxiangtupian/{page:1}.htm"
+        },
+        {
+            "cid": 21,
+            "title": "QQ头像",
+            "url": "http://www.umei.cc/touxiangtupian/QQtouxiang/{page:1}.htm"
+        },
+        {
+            "cid": 22,
+            "title": "男生头像",
+            "url": "http://www.umei.cc/touxiangtupian/nanshengtouxiang/{page:1}.htm"
+        },
+        {
+            "cid": 23,
+            "title": "女生头像",
+            "url": "http://www.umei.cc/touxiangtupian/nvshengtouxiang/{page:1}.htm"
+        },
+        {
+            "cid": 24,
+            "title": "欧美头像",
+            "url": "http://www.umei.cc/touxiangtupian/oumeitouxiang/{page:1}.htm"
+        },
+        {
+            "cid": 25,
+            "title": "卡通头像",
+            "url": "http://www.umei.cc/touxiangtupian/katongtouxiang/{page:1}.htm"
+        },
+        {
+            "cid": 26,
+            "title": "闺蜜头像",
+            "url": "http://www.umei.cc/touxiangtupian/guimitouxiang/{page:1}.htm"
+        },
+        {
+            "cid": 27,
+            "title": "可爱头像",
+            "url": "http://www.umei.cc/touxiangtupian/keaitouxiang/{page:1}.htm"
+        },
+        {
+            "cid": 28,
+            "title": "小清新头像",
+            "url": "http://www.umei.cc/touxiangtupian/xiaoqingxintouxiang/{page:1}.htm"
+        },
+        {
+            "cid": 29,
+            "title": "情侣头像",
+            "url": "http://www.umei.cc/touxiangtupian/qinglvtouxiang/{page:1}.htm"
+        },
+        {
+            "cid": 30,
+            "title": "非主流头像",
+            "url": "http://www.umei.cc/touxiangtupian/feizhuliutouxiang/{page:1}.htm"
+        },
+        {
+            "cid": 31,
+            "title": "搞笑图片",
+            "url": "http://www.umei.cc/gaoxiaotupian/{page:1}.htm"
+        },
+        {
+            "cid": 32,
+            "title": "爆笑图片",
+            "url": "http://www.umei.cc/gaoxiaotupian/baoxiaotupian/{page:1}.htm"
+        },
+        {
+            "cid": 33,
+            "title": "内涵图片",
+            "url": "http://www.umei.cc/gaoxiaotupian/nahantupian/{page:1}.htm"
+        },
+        {
+            "cid": 34,
+            "title": "搞笑动态图片",
+            "url": "http://www.umei.cc/gaoxiaotupian/gaoxiaodongtaitupian/{page:1}.htm"
+        },
+        {
+            "cid": 35,
+            "title": "邪恶图片",
+            "url": "http://www.umei.cc/gaoxiaotupian/xieetupian/{page:1}.htm"
+        },
+        {
+            "cid": 36,
+            "title": "美女图片",
+            "url": "http://www.umei.cc/meinvtupian/{page:1}.htm"
+        },
+        {
+            "cid": 37,
+            "title": "性感美女",
+            "url": "http://www.umei.cc/meinvtupian/xingganmeinv/{page:1}.htm"
+        },
+        {
+            "cid": 38,
+            "title": "丝袜美女",
+            "url": "http://www.umei.cc/meinvtupian/siwameinv/{page:1}.htm"
+        },
+        {
+            "cid": 39,
+            "title": "美女写真",
+            "url": "http://www.umei.cc/meinvtupian/meinvxiezhen/{page:1}.htm"
+        },
+        {
+            "cid": 40,
+            "title": "外国美女",
+            "url": "http://www.umei.cc/meinvtupian/waiguomeinv/{page:1}.htm"
+        },
+        {
+            "cid": 41,
+            "title": "内衣美女",
+            "url": "http://www.umei.cc/meinvtupian/nayimeinv/{page:1}.htm"
+        },
+        {
+            "cid": 42,
+            "title": "街拍美女",
+            "url": "http://www.umei.cc/meinvtupian/jiepaimeinv/{page:1}.htm"
+        },
+        {
+            "cid": 43,
+            "title": "美女自拍",
+            "url": "http://www.umei.cc/meinvtupian/meinvzipai/{page:1}.htm"
+        },
+        {
+            "cid": 44,
+            "title": "人体艺术",
+            "url": "http://www.umei.cc/meinvtupian/rentiyishu/{page:1}.htm"
+        },
+        {
+            "cid": 45,
+            "title": "美女模特",
+            "url": "http://www.umei.cc/meinvtupian/meinvmote/{page:1}.htm"
+        },
+        {
+            "cid": 46,
+            "title": "图说天下",
+            "url": "http://www.umei.cc/tushuotianxia/{page:1}.htm"
+        },
+        {
+            "cid": 47,
+            "title": "娱乐八卦",
+            "url": "http://www.umei.cc/tushuotianxia/yulebagua/{page:1}.htm"
+        },
+        {
+            "cid": 48,
+            "title": "社会百态",
+            "url": "http://www.umei.cc/tushuotianxia/shehuibaitai/{page:1}.htm"
+        },
+        {
+            "cid": 49,
+            "title": "奇闻异事",
+            "url": "http://www.umei.cc/tushuotianxia/qiwenyishi/{page:1}.htm"
+        },
+        {
+            "cid": 50,
+            "title": "情感口述",
+            "url": "http://www.umei.cc/tushuotianxia/qinggankoushu/{page:1}.htm"
+        },
+        {
+            "cid": 51,
+            "title": "发型图片",
+            "url": "http://www.umei.cc/faxingtupian/{page:1}.htm"
+        },
+        {
+            "cid": 52,
+            "title": "女生发型",
+            "url": "http://www.umei.cc/faxingtupian/nvshengfaxing/{page:1}.htm"
+        },
+        {
+            "cid": 53,
+            "title": "男生发型",
+            "url": "http://www.umei.cc/faxingtupian/nanshengfaxing/{page:1}.htm"
+        },
+        {
+            "cid": 54,
+            "title": "明星发型",
+            "url": "http://www.umei.cc/faxingtupian/mingxingfaxing/{page:1}.htm"
+        },
+        {
+            "cid": 55,
+            "title": "长发发型",
+            "url": "http://www.umei.cc/faxingtupian/changfafaxing/{page:1}.htm"
+        },
+        {
+            "cid": 56,
+            "title": "短发发型",
+            "url": "http://www.umei.cc/faxingtupian/duanfafaxing/{page:1}.htm"
+        },
+        {
+            "cid": 57,
+            "title": "韩式发型",
+            "url": "http://www.umei.cc/faxingtupian/hanshifaxing/{page:1}.htm"
+        },
+        {
+            "cid": 58,
+            "title": "新娘发型",
+            "url": "http://www.umei.cc/faxingtupian/xinniangfaxing/{page:1}.htm"
+        },
+        {
+            "cid": 59,
+            "title": "发型设计",
+            "url": "http://www.umei.cc/faxingtupian/faxingsheji/{page:1}.htm"
+        },
+        {
+            "cid": 60,
+            "title": "动画图片",
+            "url": "http://www.umei.cc/katongdongman/{page:1}.htm"
+        },
+        {
+            "cid": 61,
+            "title": "动漫图片",
+            "url": "http://www.umei.cc/katongdongman/dongmantupian/{page:1}.htm"
+        },
+        {
+            "cid": 62,
+            "title": "卡通图片",
+            "url": "http://www.umei.cc/katongdongman/katongtupian/{page:1}.htm"
+        },
+        {
+            "cid": 63,
+            "title": "卡通人物",
+            "url": "http://www.umei.cc/katongdongman/katongrenwu/{page:1}.htm"
+        },
+        {
+            "cid": 64,
+            "title": "动漫壁纸",
+            "url": "http://www.umei.cc/katongdongman/dongmanbizhi/{page:1}.htm"
+        },
+        {
+            "cid": 65,
+            "title": "动漫大全",
+            "url": "http://www.umei.cc/katongdongman/dongmandaquan/{page:1}.htm"
+        },
+        {
+            "cid": 66,
+            "title": "图片大全",
+            "url": "http://www.umei.cc/tupiandaquan/{page:1}.htm"
+        },
+        {
+            "cid": 67,
+            "title": "风景图片",
+            "url": "http://www.umei.cc/tupiandaquan/fengjingtupian/{page:1}.htm"
+        },
+        {
+            "cid": 68,
+            "title": "植物图片",
+            "url": "http://www.umei.cc/tupiandaquan/zhiwutupian/{page:1}.htm"
+        },
+        {
+            "cid": 69,
+            "title": "动物图片",
+            "url": "http://www.umei.cc/tupiandaquan/dongwutupian/{page:1}.htm"
+        },
+        {
+            "cid": 70,
+            "title": "美食图片",
+            "url": "http://www.umei.cc/tupiandaquan/meishitupian/{page:1}.htm"
+        },
+        {
+            "cid": 71,
+            "title": "帅哥图片",
+            "url": "http://www.umei.cc/tupiandaquan/shuaigetupian/{page:1}.htm"
+        },
+        {
+            "cid": 72,
+            "title": "纹身图片",
+            "url": "http://www.umei.cc/tupiandaquan/wenshentupian/{page:1}.htm"
+        },
+        {
+            "cid": 73,
+            "title": "国内",
+            "url": "http://www.umei.cc/p/gaoqing/cn/{page:1}.htm"
+        },
+        {
+            "cid": 74,
+            "title": "日韩",
+            "url": "http://www.umei.cc/p/gaoqing/rihan/{page:1}.htm"
+        },
+        {
+            "cid": 75,
+            "title": "港台",
+            "url": "http://www.umei.cc/p/gaoqing/gangtai/{page:1}.htm"
+        },
+        {
+            "cid": 76,
+            "title": "欧美",
+            "url": "http://www.umei.cc/p/gaoqing/oumei/{page:1}.htm"
+        },
+        {
+            "cid": 77,
+            "title": "秀人模特",
+            "url": "http://www.umei.cc/p/gaoqing/xiuren_VIP/{page:1}.htm"
+        }
+    ],
+    "disableHProxy": false,
+    "flag": "noRating|preloadGallery|waterfallAsGrid",
+    "galleryRule": {
+        "datetime": {
+            "fun": "text",
+            "selector": "div.ArticleInfos>span.time"
+        },
+        "pictureRule": {
+            "item": {
+                "selector": "div.ImageBody img"
+            },
+            "thumbnail": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "this"
+            },
+            "url": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "this"
+            }
+        },
+        "tags": {
+            "fun": "text",
+            "selector": "dl.articleTag l>dl>dd>a"
+        },
+        "uploader": {
+            "fun": "text",
+            "selector": "div.ArticleInfos>span.see"
+        }
+    },
+    "galleryUrl": "http://www.umei.cc/{idCode:}{pageStr:_{page:1}}.htm",
+    "gid": 3,
+    "index": 0,
+    "indexRule": {
+        "cover": {
+            "fun": "attr",
+            "param": "src",
+            "selector": "img"
+        },
+        "datetime": {
+            "fun": "text",
+            "selector": "div.txtInfo gray>em.IcoTime"
+        },
+        "idCode": {
+            "fun": "attr",
+            "param": "href",
+            "regex": "http://www\\.umei\\.cc/(.*)\\.htm",
+            "selector": "a"
+        },
+        "item": {
+            "selector": "div.TypeList>ul>li"
+        },
+        "title": {
+            "fun": "text",
+            "selector": "a>span"
+        },
+        "uploader": {
+            "fun": "text",
+            "selector": "div.txtInfo gray>em.IcoList"
+        }
+    },
+    "indexUrl": "http://www.umei.cc/bizhitupian/diannaobizhi/{page:1}.htm",
+    "isGrid": true,
+    "searchUrl": "http://www.umei.cc/umplus/search.php?keyword={keyword:}&searchtype=titlekeyword&channeltype=0&orderby=&kwtype=0&pagesize=24&typeid=0&TotalResult=3214&PageNo={page:1}",
+    "sid": 32,
+    "title": "优美图库",
+    "versionCode": 0
+}

@@ -599,10 +599,21 @@
                 "title": "Tumblr",
                 "author": "PureDark",
                 "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/icons/Tumblr.png",
-                "description": "目前全球最大的轻博客网站，也是轻博客网站的始祖，登录以在首页显示订阅内容",
+                "description": "目前全球最大的轻博客网站，也是轻博客网站的始祖，目前暂不支持登录显示订阅",
                 "json": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/Tumblr.txt",
                 "versionCode": 3,
                 "lastUpdate": "2017-03-30 00:09:54",
+                "r18": false
+            },
+            {
+                "sid": 507,
+                "title": "优美图库",
+                "author": "PureDark",
+                "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/icons/优美图库.png",
+                "description": "美女图片、发型图片、唯美图片、头像图片等好看的图片大全，找美女图片大全、性感美图、好看的图片大全就到优美图库",
+                "json": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/优美图库.txt",
+                "versionCode": 1,
+                "lastUpdate": "2017-05-03 02:25:12",
                 "r18": false
             }
         ]
