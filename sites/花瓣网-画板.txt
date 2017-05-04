@@ -176,24 +176,8 @@
             "url": "http://huaban.com/boards/favorite/funny/?limit=20&wfl=1{pageStr:&max={page:minid}}"
         }
     ],
-    "extraRule": {
-        "pictureRule": {
-            "highRes": {
-                "selector": "script",
-                "fun": "html",
-                "regex": "app.page\\[\"pin\"\\].*?\"key\":\"(.*?)\"",
-                "replacement": "http://img.hb.aicdn.com/$1"
-            },
-            "url": {
-                "selector": "script",
-                "fun": "html",
-                "regex": "app.page\\[\"pin\"\\].*?\"key\":\"(.*?)\"",
-                "replacement": "http://img.hb.aicdn.com/$1_fw658"
-            }
-        }
-    },
     "header": "X-Requested-With:XMLHttpRequest",
-    "flag": "noRating|singlePageBigPicture|waterfallAsList",
+    "flag": "noRating|waterfallAsList",
     "galleryRule": {
         "pictureRule": {
             "item": {
@@ -208,9 +192,14 @@
                 "replacement": "http://img.hb.aicdn.com/$1_fw236"
             },
             "url": {
-                "path": "$.pin_id",
+                "path": "$.file.key",
                 "regex": "(.*)",
-                "replacement": "/pins/$1"
+                "replacement": "http://img.hb.aicdn.com/$1_fw658"
+            },
+            "highRes": {
+                "path": "$.file.key",
+                "regex": "(.*)",
+                "replacement": "http://img.hb.aicdn.com/$1"
             }
         }
     },
