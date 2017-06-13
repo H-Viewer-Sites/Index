@@ -100,7 +100,7 @@
         },
         "indexUrl": "http://moeimg.net/page/{page:1}",
         "isGrid": false,
-        "searchUrl": "http://moeimg.net/?cat=0&s={keyword:}&submit=%E6%A4%9C%E7%B4%A2",
+        "searchUrl": "http://moeimg.net/{page:1}?cat=0&s={keyword:}&submit=%E6%A4%9C%E7%B4%A2",
         "sid": 8,
         "title": "二次萌エロ画像ブログ",
         "versionCode": 0
