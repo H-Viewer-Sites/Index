@@ -1,0 +1,64 @@
+﻿{
+    "categories": [
+        {
+            "cid": 1,
+            "title": "动画-最新",
+            "url": "http://ecchi.iwara.tv/videos?page={page:0}&sort=date"
+        },
+        {
+            "cid": 2,
+            "title": "动画-最多观看",
+            "url": "http://ecchi.iwara.tv/videos?page={page:0}&sort=views"
+        },
+        {
+            "cid": 3,
+            "title": "动画-最多喜爱",
+            "url": "http://ecchi.iwara.tv/videos?page={page:0}&sort=likes"
+        }
+    ],
+    "header": "X-Requested-With:XMLHttpRequest",
+    "flag": "noRating",
+    "galleryRule": {
+        "videoRule": {
+            "content": {
+                "path": "$.uri"
+            },
+            "item": {
+                "path": "$"
+            }
+        }
+    },
+    "galleryUrl": "http://ecchi.iwara.tv/api/video/{idCode:}",
+    "indexRule": {
+        "cover": {
+            "fun": "attr",
+            "param": "src",
+            "selector": "img"
+        },
+        "uploader": {
+            "fun": "text",
+            "selector": ".title~a"
+        },
+        "datetime": {
+            "regex": "right-icon.*?</i>.*?([\\w.]+).*?left-icon.*?</i>.*?([\\w.]+)",
+            "replacement": "✦$2    ❤$1",
+            "fun": "html",
+            "selector": "div.icon-bg"
+        },
+        "idCode": {
+            "fun": "attr",
+            "param": "href",
+            "regex": "videos/(.*)",
+            "selector": ".title>a"
+        },
+        "item": {
+            "selector": "div.view-content div.views-column"
+        },
+        "title": {
+            "fun": "text",
+            "selector": ".title"
+        }
+    },
+    "indexUrl": "http://ecchi.iwara.tv/videos?page={page:0}&sort=date",
+    "title": "Iwara-動画"
+}

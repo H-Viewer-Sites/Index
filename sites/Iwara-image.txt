@@ -1,0 +1,83 @@
+﻿{
+    "categories": [
+        {
+            "cid": 1,
+            "title": "画像-最新",
+            "url": "http://ecchi.iwara.tv/images?page={page:0}&sort=date"
+        },
+        {
+            "cid": 2,
+            "title": "画像-最多观看",
+            "url": "http://ecchi.iwara.tv/images?page={page:0}&sort=views"
+        },
+        {
+            "cid": 3,
+            "title": "画像-最多喜爱",
+            "url": "http://ecchi.iwara.tv/images?page={page:0}&sort=likes"
+        }
+    ],
+    "flag": "preloadGallery|noRating",
+    "galleryRule": {
+        "datetime": {
+            "regex": "(\\d+-\\d+-\\d+ \\d+:\\d+)",
+            "fun": "html",
+            "selector": "div.node-info>div.submitted"
+        },
+        "pictureRule": {
+            "item": {
+                "selector": "[poster],div.content>.field img"
+            },
+            "thumbnail": {
+                "regex": "(http[^\"]*?\\.(?:jpg|jpeg|png|gif|bmp))",
+                "selector": "this"
+            },
+            "url": {
+                "regex": "(http[^\"]*?\\.(?:jpg|jpeg|png|gif|bmp))",
+                "selector": "this"
+            }
+        },
+        "videoRule": {
+            "content": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "this"
+            },
+            "item": {
+                "selector": "video[src]"
+            }
+        }
+    },
+    "galleryUrl": "http://ecchi.iwara.tv/images/{idCode:}",
+    "indexRule": {
+        "cover": {
+            "fun": "attr",
+            "param": "src",
+            "selector": "img"
+        },
+        "uploader": {
+            "fun": "text",
+            "selector": ".title~a"
+        },
+        "category": {
+            "regex": "right-icon.*?</i>.*?([\\w.]+).*?left-icon.*?</i>.*?([\\w.]+)",
+            "replacement": "✦$2    ❤$1",
+            "fun": "html",
+            "selector": "div.icon-bg"
+        },
+        "idCode": {
+            "fun": "attr",
+            "param": "href",
+            "regex": "images/(.*)",
+            "selector": ".title>a"
+        },
+        "item": {
+            "selector": "div.view-content div.views-column"
+        },
+        "title": {
+            "fun": "text",
+            "selector": ".title"
+        }
+    },
+    "indexUrl": "http://ecchi.iwara.tv/images?page={page:0}&sort=date",
+    "title": "Iwara-画像"
+}
