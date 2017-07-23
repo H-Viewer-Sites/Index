@@ -14,6 +14,31 @@
             "cid": 3,
             "title": "动画-最多喜爱",
             "url": "http://ecchi.iwara.tv/videos?page={page:0}&sort=likes"
+        },
+        {
+            "cid": 4,
+            "title": "Vocaloid",
+            "url": "http://ecchi.iwara.tv/videos?page={page:0}&f[0]=field_categories%3A6"
+        },
+        {
+            "cid": 5,
+            "title": "东方",
+            "url": "http://ecchi.iwara.tv/videos?page={page:0}&f[0]=field_categories%3A7"
+        },
+        {
+            "cid": 6,
+            "title": "舰娘C",
+            "url": "http://ecchi.iwara.tv/videos?page={page:0}&f[0]=field_categories%3A1"
+        },
+        {
+            "cid": 7,
+            "title": "偶像大师",
+            "url": "http://ecchi.iwara.tv/videos?page={page:0}&f[0]=field_categories%3A33"
+        },
+        {
+            "cid": 8,
+            "title": "原创角色",
+            "url": "http://ecchi.iwara.tv/videos?page={page:0}&f[0]=field_categories%3A34"
         }
     ],
     "header": "X-Requested-With:XMLHttpRequest",

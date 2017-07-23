@@ -675,7 +675,7 @@
                 "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/icons/Iwara.png",
                 "description": "I站上有大量R18的MMD动画",
                 "json": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/Iwara-video.txt",
-                "versionCode": 1,
+                "versionCode": 2,
                 "lastUpdate": "2017-07-23 22:41:12",
                 "r18": true
             },
@@ -686,7 +686,7 @@
                 "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/icons/Iwara.png",
                 "description": "I站另一部分是画像区，因目测规则无法实现合并，暂时分成两个站点",
                 "json": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/Iwara-image.txt",
-                "versionCode": 1,
+                "versionCode": 2,
                 "lastUpdate": "2017-07-23 22:41:12",
                 "r18": true
             }
