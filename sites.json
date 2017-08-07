@@ -689,6 +689,17 @@
                 "versionCode": 2,
                 "lastUpdate": "2017-07-23 22:41:12",
                 "r18": true
+            },
+            {
+                "sid": 607,
+                "title": "HPJav",
+                "author": "PureDark",
+                "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/icons/HPJav.png",
+                "description": "JAV線上看, 中文字幕JAV, 日本有碼, 無碼 ,JAV Online HPJAV",
+                "json": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/HPJav.txt",
+                "versionCode": 2,
+                "lastUpdate": "2017-08-07 15:32:19",
+                "r18": true
             }
         ]
     }
