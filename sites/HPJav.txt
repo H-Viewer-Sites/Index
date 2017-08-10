@@ -1,18 +1,18 @@
-    {
+ï»¿    {
         "categories": [
             {
                 "cid": 1,
-                "title": "×îĞÂÎŞÂë",
+                "title": "æœ€æ–°æ— ç ",
                 "url": "http://hpjav.com/tw/category/uncensored-maker/uncensored/page/{page:1}"
             },
             {
                 "cid": 2,
-                "title": "×îĞÂÓĞÂë",
+                "title": "æœ€æ–°æœ‰ç ",
                 "url": "http://hpjav.com/tw/category/censored-maker/censored/page{page:1}"
             },
             {
                 "cid": 3,
-                "title": "ÖĞÎÄ×ÖÄ»",
+                "title": "ä¸­æ–‡å­—å¹•",
                 "url": "http://hpjav.com/tw/category/censored-maker/chinese-subtitles/page{page:1}"
             }
         ],
