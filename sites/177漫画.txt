@@ -3,22 +3,22 @@
             {
                 "cid": 1,
                 "title": "首页",
-                "url": "http://www.177pic.info/page/{page:1}?variant=zh-hans"
+                "url": "http://www.177piczz.info/page/{page:1}?variant=zh-hans"
             },
             {
                 "cid": 2,
                 "title": "中文漫画",
-                "url": "http://www.177pic.info/html/category/tt/page/{page:1}?variant=zh-hans"
+                "url": "http://www.177piczz.info/html/category/tt/page/{page:1}?variant=zh-hans"
             },
             {
                 "cid": 3,
                 "title": "全彩CG",
-                "url": "http://www.177pic.info/html/category/cg/page/{page:1}?variant=zh-hans"
+                "url": "http://www.177piczz.info/html/category/cg/page/{page:1}?variant=zh-hans"
             },
             {
                 "cid": 4,
                 "title": "日文漫画",
-                "url": "http://www.177pic.info/html/category/jj/page/{page:1}?variant=zh-hans"
+                "url": "http://www.177piczz.info/html/category/jj/page/{page:1}?variant=zh-hans"
             }
         ],
         "cookie": "",
@@ -44,7 +44,7 @@
                 "selector": "div#taglist table tr td:eq(1) div a"
             }
         },
-        "galleryUrl": "http://www.177pic.info/html/{idCode:}.html/{page:1}",
+        "galleryUrl": "http://www.177piczz.info/html/{idCode:}.html/{page:1}",
         "gid": 0,
         "index": 0,
         "indexRule": {
@@ -77,9 +77,9 @@
                 "selector": "div.c-top div.tit h2 a"
             }
         },
-        "indexUrl": "http://www.177pic.info/page/{page:1}?variant=zh-hans",
+        "indexUrl": "http://www.177piczz.info/page/{page:1}?variant=zh-hans",
         "isGrid": false,
-        "searchUrl": "http://www.177pic.info/page/{page:1}?s={keyword:}&variant=zh-hans",
+        "searchUrl": "http://www.177piczz.info/page/{page:1}?s={keyword:}&variant=zh-hans",
         "sid": 7,
         "title": "177漫画"
     }
