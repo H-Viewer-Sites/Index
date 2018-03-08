@@ -9,7 +9,7 @@
             }
         }
     },
-    "flag": "singlePageBigPicture|noRating|noTag",
+    "flag": "singlePageBigPicture|noRating|preloadGallery",
     "galleryRule": {
         "category": {
             "fun": "html",
