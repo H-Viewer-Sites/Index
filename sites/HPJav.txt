@@ -51,7 +51,7 @@
         "indexRule": {
             "cover": {
                 "fun": "attr",
-                "param": "data-src",
+                "param": "src",
                 "selector": "img"
             },
             "idCode": {
@@ -79,7 +79,7 @@
             }
         },
         "indexUrl": "http://hpjav.com/tw/category/uncensored-maker/uncensored/page/{page:1}",
-        "searchUrl": "http://www.xvideos.com/?k={keyword:}&p={page:0}",
+        "searchUrl": "http://hpjav.com/tw/{pageStr:page/{page:1}/}?={keyword:}",
         "title": "HPJav",
         "versionCode": 0
     }
