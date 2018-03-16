@@ -1,85 +1,85 @@
-﻿    {
-        "categories": [
-            {
-                "cid": 1,
-                "title": "最新无码",
-                "url": "http://hpjav.com/tw/category/uncensored-maker/uncensored/page/{page:1}"
-            },
-            {
-                "cid": 2,
-                "title": "最新有码",
-                "url": "http://hpjav.com/tw/category/censored-maker/censored/page{page:1}"
-            },
-            {
-                "cid": 3,
-                "title": "中文字幕",
-                "url": "http://hpjav.com/tw/category/censored-maker/chinese-subtitles/page{page:1}"
-            }
-        ],
-        "cookie": "",
-        "flag": "preloadGallery|noRating|jsNeededGallery|waterfallAsGrid",
-        "galleryRule": {
-            "js": "$('#btn0').click();$('#btn1').click();",
-            "tagRule": {
-                "item": {
-                    "selector": ".video-countext-Models>a,.video-countext-categories>a,.video-countext-tags>a"
-                },
-                "title": {
-                    "fun": "text",
-                    "selector": "this"
-                },
-                "url": {
-                    "fun": "attr",
-                    "param": "href",
-                    "regex": "(.*)",
-                    "replacement": "$1/page/{page:1}",
-                    "selector": "this"
-                }
-            },
-            "videoRule": {
-                "content": {
-                    "fun": "attr",
-                    "param": "src",
-                    "selector": "iframe"
-                },
-                "item": {
-                    "selector": "div.video-server iframe[src]"
-                }
-            }
+﻿{
+    "categories": [
+        {
+            "cid": 1,
+            "title": "最新无码",
+            "url": "http://hpjav.com/tw/category/uncensored-maker/uncensored/page/{page:1}"
         },
-        "galleryUrl": "http://hpjav.com/tw/{idCode:}",
-        "indexRule": {
-            "cover": {
-                "fun": "attr",
-                "param": "data-src",
-                "selector": "img"
-            },
-            "idCode": {
-                "regex": "tw/(.*)",
-                "fun": "attr",
-                "param": "href",
-                "selector": ".entry-title a[title]"
-            },
+        {
+            "cid": 2,
+            "title": "最新有码",
+            "url": "http://hpjav.com/tw/category/censored-maker/censored/page{page:1}"
+        },
+        {
+            "cid": 3,
+            "title": "中文字幕",
+            "url": "http://hpjav.com/tw/category/censored-maker/chinese-subtitles/page{page:1}"
+        }
+    ],
+    "cookie": "",
+    "flag": "preloadGallery|noRating|jsNeededGallery|waterfallAsGrid",
+    "galleryRule": {
+        "js": "$('#btn0').click();$('#btn1').click();",
+        "tagRule": {
             "item": {
-                "selector": ".post-list>div"
+                "selector": ".video-countext-Models>a,.video-countext-categories>a,.video-countext-tags>a"
             },
             "title": {
-                "fun": "attr",
-                "param": "title",
-                "selector": ".entry-title a[title]"
-            },
-            "uploader": {
                 "fun": "text",
-                "selector": ".model-view"
+                "selector": "this"
             },
-            "datetime": {
-                "regex": "(\\d+ / \\d+ / \\d+)",
-                "fun": "html",
-                "selector": ".entry-title"
+            "url": {
+                "fun": "attr",
+                "param": "href",
+                "regex": "(.*)",
+                "replacement": "$1/page/{page:1}",
+                "selector": "this"
             }
         },
-        "indexUrl": "http://hpjav.com/tw/category/uncensored-maker/uncensored/page/{page:1}",
-        "searchUrl": "http://www.xvideos.com/?k={keyword:}&p={page:0}",
-        "title": "HPJav",
-        "versionCode": 0
-    }
+        "videoRule": {
+            "content": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "iframe"
+            },
+            "item": {
+                "selector": "div.video-server iframe[src]"
+            }
+        }
+    },
+    "galleryUrl": "http://hpjav.com/tw/{idCode:}",
+    "indexRule": {
+        "cover": {
+            "fun": "attr",
+            "param": "src",
+            "selector": "img"
+        },
+        "idCode": {
+            "regex": "tw/(.*)",
+            "fun": "attr",
+            "param": "href",
+            "selector": ".entry-title a[title]"
+        },
+        "item": {
+            "selector": ".post-list>div"
+        },
+        "title": {
+            "fun": "attr",
+            "param": "title",
+            "selector": ".entry-title a[title]"
+        },
+        "uploader": {
+            "fun": "text",
+            "selector": ".model-view"
+        },
+        "datetime": {
+            "regex": "(\\d+ / \\d+ / \\d+)",
+            "fun": "html",
+            "selector": ".entry-title"
+        }
+    },
+    "indexUrl": "http://hpjav.com/tw/category/uncensored-maker/uncensored/page/{page:1}",
+    "searchUrl": "http://hpjav.com/tw/{pageStr:page/{page:1}/}?={keyword:}",
+    "title": "HPJav",
+    "versionCode": 0
+}
