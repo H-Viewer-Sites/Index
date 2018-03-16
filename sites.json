@@ -700,6 +700,17 @@
                 "versionCode": 3,
                 "lastUpdate": "2018-03-17 05:17:19",
                 "r18": true
+            },
+            {
+                "sid": 608,
+                "title": "YouAv",
+                "author": "PureDark",
+                "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/icons/youav.png",
+                "description": "YOUAV免費無碼高清在線成人影片, 情色電影。",
+                "json": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/youav.txt",
+                "versionCode": 1,
+                "lastUpdate": "2018-03-17 07:18:28",
+                "r18": true
             }
         ]
     }

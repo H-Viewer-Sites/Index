@@ -1,0 +1,74 @@
+﻿    {
+        "categories": [
+            {
+                "cid": 1,
+                "title": "全部",
+                "url": "https://www.youav.com/videos?page={page:1}"
+            }
+        ],
+        "flag": "preloadGallery|jsNeededGallery|coverRight",
+        "galleryRule": {
+            "tags": {
+                "selector": "a.tag",
+                "fun": "text"
+            },
+            "videoRule": {
+                "content": {
+                    "fun": "attr",
+                    "param": "src",
+                    "selector": "this"
+                },
+                "item": {
+                    "selector": "video.jw-video"
+                }
+            }
+        },
+        "galleryUrl": "https://www.youav.com/video/{idCode:}",
+        "gid": 0,
+        "index": 0,
+        "indexRule": {
+            "category": {
+                "selector": "div.video-views",
+                "fun": "text"
+            },
+            "cover": {
+                "selector": "img",
+                "fun": "attr",
+                "param": "src"
+            },
+            "datetime": {
+                "selector": "div.video-added",
+                "fun": "text"
+            },
+            "idCode": {
+                "selector": "div.well>a",
+                "fun": "attr",
+                "param": "href",
+                "regex": "video/(\\d+)"
+            },
+            "item": {
+                "selector": "div.container>div.row div.row>div"
+            },
+            "rating": {
+                "selector": "div.video-rating",
+                "fun": "text",
+                "regex": "(\\d+)",
+                "replacement": "$1/20"
+            },
+            "title": {
+                "selector": "span.video-title",
+                "fun": "text"
+            },
+            "uploader": {
+                "selector": "div.duration",
+                "fun": "text"
+            }
+        },
+        "indexUrl": "https://www.youav.com/videos?page={page:1}",
+        "isGrid": false,
+        "loginUrl": "https://www.youav.com",
+        "searchUrl": "https://www.youav.com/search/videos?search_query={keyword:}&search_type=videos&page={page:1}",
+        "sid": 0,
+        "title": "YouAv",
+        "versionCode": 0
+    }
