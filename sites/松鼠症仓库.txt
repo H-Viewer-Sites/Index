@@ -1,0 +1,120 @@
+﻿{
+    "categories": [
+        {
+            "cid": 1,
+            "title": "首页",
+            "url": "https://365ahri.com/dnew.php?page={page:1}"
+        },
+        {
+            "cid": 2,
+            "title": "单行本",
+            "url": "https://365ahri.com/dnew.php?category_id=1&page={page:1}"
+        },
+        {
+            "cid": 3,
+            "title": "同人志",
+            "url": "https://365ahri.com/dnew.php?category_id=2&page={page:1}"
+        },
+        {
+            "cid": 4,
+            "title": "杂志短篇/彩页",
+            "url": "https://365ahri.com/dnew.php?category_id=3&page={page:1}"
+        }
+    ],
+    "flag": "preloadGallery|jsNeededGallery|secondLevelGallery",
+    "extraRule": {
+        "pictureRule": {
+            "item": {
+                "regex": ".*?\\.(?:jpg|jpeg|png|gif|bmp|webp)",
+                "selector": "div[id^='read_online_image']"
+            },
+            "thumbnail": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "img"
+            },
+            "url": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "img"
+            }
+        }
+    },
+    "galleryRule": {
+        "description": {
+            "fun": "html",
+            "selector": "div#myTabContent2"
+        },
+        "tagRule":{
+            "item": {
+                "selector": "div[id^='tag_btn-group']>a"
+            },
+            "title": {
+                "selector": "this",
+                "fun": "text",
+                "regex": "(.*?)\\(\\d+\\)"
+            },
+            "url": {
+                "fun": "attr",
+                "param": "href",
+                "regex": "(.*)",
+                "replacement": "$1&page={page:1}",
+                "selector": "this"
+            }
+        },
+        "pictureRule": {
+            "item": {
+                "selector": "span.favorite-comic~a[href^='readOnline']"
+            },
+            "thumbnail": {
+                "regex": "(.*)",
+                "replacement": "$1&page={page:1}",
+                "fun": "attr",
+                "param": "href",
+                "selector": "this"
+            },
+            "url": {
+                "regex": "(.*)",
+                "replacement": "$1&page={page:1}",
+                "fun": "attr",
+                "param": "href",
+                "selector": "this"
+            }
+        }
+    },
+    "galleryUrl": "https://365ahri.com/post.php?ID={idCode:}",
+    "indexRule": {
+        "cover": {
+            "fun": "attr",
+            "param": "src",
+            "selector": "img"
+        },
+        "datetime": {
+            "fun": "text",
+            "selector": "div.image-info small",
+            "regex": "(\\d+)",
+            "replacement": "❤$1"
+        },
+        "idCode": {
+            "fun": "attr",
+            "param": "href",
+            "regex": "ID=(.*)",
+            "selector": "a"
+        },
+        "item": {
+            "selector": "div#gallery>div.image"
+        },
+        "rating": {
+            "selector": "div.rating>span:last-child",
+            "fun": "text",
+            "regex": "([\\d.]+)\\(\\d+\\)",
+            "replacement": "$1/2"
+        },
+        "title": {
+            "fun": "text",
+            "selector": "h5.title"
+        }
+    },
+    "indexUrl": "https://365ahri.com/dnew.php?page={page:1}",
+    "title": "松鼠症仓库"
+}

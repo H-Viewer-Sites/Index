@@ -43,7 +43,7 @@
         "cover": {
             "fun": "attr",
             "param": "src",
-            "selector": " img"
+            "selector": "img"
         },
         "idCode": {
             "fun": "attr",

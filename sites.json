@@ -349,6 +349,17 @@
                 "versionCode": 1,
                 "lastUpdate": "2018-03-17 09:08:56",
                 "r18": true
+            },
+            {
+                "sid": 311,
+                "title": "松鼠症仓库",
+                "author": "PureDark",
+                "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/icons/松鼠症仓库.png",
+                "description": "松鼠症倉庫 成人漫畫區,H漫畫,超過三萬本漫畫分享您閱讀及下載!",
+                "json": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/松鼠症仓库.txt",
+                "versionCode": 1,
+                "lastUpdate": "2018-03-17 10:31:24",
+                "r18": true
             }
         ]
     },
