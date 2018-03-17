@@ -1,0 +1,80 @@
+﻿{
+    "flag": "noRating|secondLevelGallery",
+    "extraRule": {
+        "pictureRule": {
+            "item": {
+                "selector": "div.inner img"
+            },
+            "thumbnail": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "this"
+            },
+            "url": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "this"
+            }
+        }
+    },
+    "galleryRule": {
+        "pictureRule": {
+            "item": {
+                "selector": "a[title='Read']"
+            },
+            "thumbnail": {
+                "regex": "(.*)",
+                "replacement": "$1page/{page:1}",
+                "fun": "attr",
+                "param": "href",
+                "selector": "this"
+            },
+            "url": {
+                "regex": "(.*)",
+                "replacement": "$1page/{page:1}",
+                "fun": "attr",
+                "param": "href",
+                "selector": "this"
+            }
+        }
+    },
+    "galleryUrl": "https://hentai.cafe/rico-the-ladys-soliloquy/{idCode:}/?page={page:1}",
+    "indexRule": {
+        "cover": {
+            "fun": "attr",
+            "param": "src",
+            "selector": " img"
+        },
+        "idCode": {
+            "fun": "attr",
+            "param": "href",
+            "regex": ".*/(.*)/",
+            "selector": "div.entry-featured a"
+        },
+        "item": {
+            "selector": "div#x-iso-container>article"
+        },
+        "tagRule":{
+            "item": {
+                "selector": "a[rel='tag']"
+            },
+            "title": {
+                "fun": "text",
+                "selector": "this"
+            },
+            "url": {
+                "fun": "attr",
+                "param": "href",
+                "regex": "(.*?/tag/.*?)",
+                "replacement": "$1{pageStr:/page/{page:1}/}",
+                "selector": "this"
+            }
+        },
+        "title": {
+            "fun": "text",
+            "selector": "h2.entry-title"
+        }
+    },
+    "indexUrl": "https://hentai.cafe/{pageStr:page/{page:1}/}",
+    "title": "Hentai.Cafe"
+}

@@ -2,8 +2,33 @@
         "categories": [
             {
                 "cid": 1,
-                "title": "全部",
+                "title": "最新",
                 "url": "https://www.youav.com/videos?page={page:1}"
+            },
+            {
+                "cid": 2,
+                "title": "正被观看",
+                "url": "https://www.youav.com/videos?o=bw&page={page:1}"
+            },
+            {
+                "cid": 3,
+                "title": "最受欢迎",
+                "url": "https://www.youav.com/videos?o=mv&page={page:1}"
+            },
+            {
+                "cid": 4,
+                "title": "最高评分",
+                "url": "https://www.youav.com/videos?o=tr&page={page:1}"
+            },
+            {
+                "cid": 5,
+                "title": "观众最爱",
+                "url": "https://www.youav.com/videos?o=tf&page={page:1}"
+            },
+            {
+                "cid": 6,
+                "title": "时间最长",
+                "url": "https://www.youav.com/videos?o=lg&page={page:1}"
             }
         ],
         "flag": "preloadGallery|jsNeededGallery|coverRight",
