@@ -65,7 +65,7 @@
             "url": {
                 "fun": "attr",
                 "param": "href",
-                "regex": "(.*?/tag/.*?)",
+                "regex": "(.*)",
                 "replacement": "$1{pageStr:/page/{page:1}/}",
                 "selector": "this"
             }
@@ -76,5 +76,6 @@
         }
     },
     "indexUrl": "https://hentai.cafe/{pageStr:page/{page:1}/}",
+    "searchUrl": "https://hentai.cafe/{pageStr:page/{page:1}/?s={keyword:}",
     "title": "Hentai.Cafe"
 }

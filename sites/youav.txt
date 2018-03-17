@@ -31,7 +31,7 @@
                 "url": "https://www.youav.com/videos?o=lg&page={page:1}"
             }
         ],
-        "flag": "preloadGallery|jsNeededGallery|coverRight",
+        "flag": "preloadGallery|jsNeededGallery|coverRight|waterfallAsGrid",
         "galleryRule": {
             "tags": {
                 "selector": "a.tag",
