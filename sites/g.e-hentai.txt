@@ -156,7 +156,7 @@
         "indexUrl": "https://e-hentai.org/?page={page:0}",
         "isGrid": false,
         "loginUrl": "https://forums.e-hentai.org/index.php?act=Login",
-        "searchUrl": "https://e-hentai.org/?f_search={keyword:}&page={page:0}",
+        "searchUrl": "https://e-hentai.org/?f_search={keyword:}&f_sh=on&page={page:0}",
         "sid": 2,
         "title": "G.E-hentai",
         "versionCode": 0
