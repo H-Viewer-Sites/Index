@@ -1,163 +1,166 @@
-﻿    {
-        "categories": [
-            {
-                "cid": 1,
-                "title": "首页",
-                "url": "https://exhentai.org/?page={page:0}"
-            },
-            {
-                "cid": 2,
-                "title": "同人志",
-                "url": "https://exhentai.org/doujinshi/{page:0}"
-            },
-            {
-                "cid": 3,
-                "title": "漫画",
-                "url": "https://exhentai.org/manga/{page:0}"
-            },
-            {
-                "cid": 4,
-                "title": "同人CG",
-                "url": "https://exhentai.org/artistcg/{page:0}"
-            },
-            {
-                "cid": 5,
-                "title": "游戏CG",
-                "url": "https://exhentai.org/gamecg/{page:0}"
-            },
-            {
-                "cid": 6,
-                "title": "欧美",
-                "url": "https://exhentai.org/western/{page:0}"
-            },
-            {
-                "cid": 7,
-                "title": "Non-H",
-                "url": "https://exhentai.org/non-h/{page:0}"
-            },
-            {
-                "cid": 8,
-                "title": "图集",
-                "url": "https://exhentai.org/imageset/{page:0}"
-            },
-            {
-                "cid": 9,
-                "title": "Cosplay",
-                "url": "https://exhentai.org/cosplay/{page:0}"
-            },
-            {
-                "cid": 10,
-                "title": "亚洲AV",
-                "url": "https://exhentai.org/asianporn/{page:0}"
-            },
-            {
-                "cid": 11,
-                "title": "MISC",
-                "url": "https://exhentai.org/misc/{page:0}"
-            }
-        ],
-        "cookie": "",
-        "extraRule": {
-            "pictureRule": {
-                "url": {
-                    "fun": "attr",
-                    "param": "src",
-                    "selector": "div.sni a img[style]"
-                }
-            }
+﻿{
+    "categories": [
+        {
+            "cid": 1,
+            "title": "首页",
+            "url": "https://exhentai.org/?page\u003d{page:0}"
         },
-        "flag": "singlePageBigPicture|repeatedThumbnail|preloadGallery|loginRequired",
-        "galleryRule": {
-            "commentRule": {
-                "author": {
-                    "fun": "html",
-                    "selector": "div.c3 > a:first-child"
-                },
-                "content": {
-                    "fun": "html",
-                    "selector": "div.c6"
-                },
-                "datetime": {
-                    "fun": "html",
-                    "regex": "Posted on (.*?) UTC by",
-                    "selector": "div.c3"
-                },
-                "item": {
-                    "selector": "div#cdiv > div.c1"
-                }
-            },
-            "pictureRule": {
-                "item": {
-                    "selector": "div.gdtl,div.gdtm"
-                },
-                "thumbnail": {
-                    "regex": "(https?://[^\"]*?\\.jpg)",
-                    "selector": "this"
-                },
-                "url": {
-                    "fun": "attr",
-                    "param": "href",
-                    "selector": "a"
-                }
-            },
-            "tags": {
-                "fun": "html",
-                "selector": "div#taglist table tr td:eq(1) div a"
-            },
-            "title": {
-                "fun": "html",
-                "selector": "h1#gj"
-            }
+        {
+            "cid": 2,
+            "title": "同人志",
+            "url": "https://exhentai.org/doujinshi/{page:0}"
         },
-        "galleryUrl": "https://exhentai.org/g/{idCode:}/?p={page:0}&hc=1",
-        "gid": 0,
-        "index": 0,
-        "indexRule": {
-            "category": {
+        {
+            "cid": 3,
+            "title": "漫画",
+            "url": "https://exhentai.org/manga/{page:0}"
+        },
+        {
+            "cid": 4,
+            "title": "同人CG",
+            "url": "https://exhentai.org/artistcg/{page:0}"
+        },
+        {
+            "cid": 5,
+            "title": "游戏CG",
+            "url": "https://exhentai.org/gamecg/{page:0}"
+        },
+        {
+            "cid": 6,
+            "title": "欧美",
+            "url": "https://exhentai.org/western/{page:0}"
+        },
+        {
+            "cid": 7,
+            "title": "Non-H",
+            "url": "https://exhentai.org/non-h/{page:0}"
+        },
+        {
+            "cid": 8,
+            "title": "图集",
+            "url": "https://exhentai.org/imageset/{page:0}"
+        },
+        {
+            "cid": 9,
+            "title": "Cosplay",
+            "url": "https://exhentai.org/cosplay/{page:0}"
+        },
+        {
+            "cid": 10,
+            "title": "亚洲AV",
+            "url": "https://exhentai.org/asianporn/{page:0}"
+        },
+        {
+            "cid": 11,
+            "title": "MISC",
+            "url": "https://exhentai.org/misc/{page:0}"
+        }
+    ],
+    "disableHProxy": false,
+    "extraRule": {
+        "pictureRule": {
+            "url": {
                 "fun": "attr",
-                "param": "alt",
-                "selector": "td.itdc a img"
-            },
-            "cover": {
+                "param": "src",
+                "selector": "div.sni a img[style]"
+            }
+        }
+    },
+    "flag": "singlePageBigPicture|repeatedThumbnail|preloadGallery|loginRequired",
+    "galleryRule": {
+        "commentRule": {
+            "author": {
                 "fun": "html",
-                "regex": "(//|inits?~)(.*?org)[~/]([^~]*\\.jpg)[~\"]",
-                "replacement": "http://$2/$3",
-                "selector": "td.itd div div.it2"
+                "selector": "div.c3 \u003e a:first-child"
+            },
+            "content": {
+                "fun": "html",
+                "selector": "div.c6"
             },
             "datetime": {
                 "fun": "html",
-                "selector": "td.itd[style]"
-            },
-            "idCode": {
-                "fun": "attr",
-                "param": "href",
-                "regex": "/g/(.*)",
-                "selector": "td.itd div div.it5 a"
+                "regex": "Posted on (.*?) UTC by",
+                "selector": "div.c3"
             },
             "item": {
-                "selector": "table.itg tr.gtr0,tr.gtr1"
-            },
-            "rating": {
-                "fun": "attr",
-                "param": "style",
-                "regex": "background-position:-?(\\d+)px -?(\\d+)px",
-                "replacement": "5-$1/16-($2-1)/40",
-                "selector": "td.itd div div.it4 div"
-            },
-            "title": {
-                "fun": "html",
-                "selector": "td.itd div div.it5 a"
-            },
-            "uploader": {
-                "fun": "html",
-                "selector": "td.itu div a"
+                "selector": "div#cdiv \u003e div.c1"
             }
         },
-        "indexUrl": "https://exhentai.org/?page={page:0}",
-        "isGrid": false,
-        "loginUrl": "https://forums.e-hentai.org/index.php?act=Login",
-        "searchUrl": "https://exhentai.org/?f_search={keyword:}&f_sh=on&page={page:0}",
-        "sid": 3,
-        "title": "Ex-hentai",
-        "versionCode": 0
-    }
+        "pictureRule": {
+            "item": {
+                "selector": "div.gdtm"
+            },
+            "thumbnail": {
+                "fun": "attr",
+                "param": "src",
+                "regex": "(https?://[^\"]*?\\.jpg)",
+                "selector": "div a img"
+            },
+            "url": {
+                "fun": "attr",
+                "param": "href",
+                "selector": "div a"
+            }
+        },
+        "tags": {
+            "fun": "attr",
+            "param": "id",
+            "regex": "td_(.*)",
+            "selector": "div#taglist table tbody tr td:eq(1) div"
+        },
+        "title": {
+            "fun": "html",
+            "selector": "h1#gj"
+        }
+    },
+    "galleryUrl": "https://exhentai.org/g/{idCode:}/?p\u003d{page:0}\u0026hc\u003d1",
+    "gid": 5,
+    "index": 0,
+    "indexRule": {
+        "category": {
+            "fun": "html",
+            "selector": "td.gl1c div"
+        },
+        "cover": {
+            "fun": "src",
+            "regex": "(//|inits?~)(.*?org)[~/]([^~]*\\.jpg)[~\"]",
+            "replacement": "http://$2/$3",
+            "selector": "td.gl2c div.glthumb div img"
+        },
+        "datetime": {
+            "fun": "html",
+            "selector": "td.gl2c div[onclick]"
+        },
+        "idCode": {
+            "fun": "attr",
+            "param": "href",
+            "regex": "/g/(.*)",
+            "selector": "td.gl3c a"
+        },
+        "item": {
+            "selector": "table.itg tbody tr"
+        },
+        "rating": {
+            "fun": "attr",
+            "param": "style",
+            "regex": "background-position:-?(\\d+)px -?(\\d+)px",
+            "replacement": "5-$1/16-($2-1)/40",
+            "selector": "td.gl2c div.ir"
+        },
+        "title": {
+            "fun": "html",
+            "selector": "td.gl3c a div"
+        },
+        "uploader": {
+            "fun": "html",
+            "selector": "td.gl4c div a"
+        }
+    },
+    "indexUrl": "https://exhentai.org/?page\u003d{page:0}",
+    "isGrid": false,
+    "loginUrl": "https://forums.e-hentai.org/index.php?act\u003dLogin",
+    "searchUrl": "https://exhentai.org/?f_search\u003d{keyword:}\u0026f_sh\u003don\u0026page\u003d{page:0}",
+    "sid": 31,
+    "title": "Ex-hentai",
+    "versionCode": 0
+}
