@@ -90,11 +90,11 @@
             "item": {
                 "selector": "div.gdtm"
             },
-            "thumbnail": {
-                "fun": "attr",
-                "param": "src",
-                "regex": "(https?://[^\"]*?\\.jpg)",
-                "selector": "div a img"
+            "thumbnail":{    
+                "fun":"attr",
+                "param":"style",
+                "regex":"(https?://.*.jpg)",
+                "selector":"div"
             },
             "url": {
                 "fun": "attr",
