@@ -90,7 +90,7 @@
             "item": {
                 "selector": "div.gdtm"
             },
-            "thumbnail":{    
+            "thumbnail":{
                 "fun":"attr",
                 "param":"style",
                 "regex":"(https?://.*.jpg)",
