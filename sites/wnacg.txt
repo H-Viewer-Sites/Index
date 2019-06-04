@@ -3,65 +3,65 @@
         {
             "cid": 1,
             "title": "首页",
-            "url": "https://www.wnacg.net/albums-index-page-{page:1}.html"
+            "url": "https://www.ncg.world/albums-index-page-{page:1}.html"
         },
         {
             "cid": 2,
             "title": "同人志",
-            "url": "https://www.wnacg.net/albums-index-page-{page:1}-cate-5.html"
+            "url": "https://www.ncg.world/albums-index-page-{page:1}-cate-5.html"
         },
         {
             "cid": 3,
-            "title": "同人志->汉化",
-            "url": "https://www.wnacg.net/albums-index-page-{page:1}-cate-1.html"
+            "title": "同人志-\u003e汉化",
+            "url": "https://www.ncg.world/albums-index-page-{page:1}-cate-1.html"
         },
         {
             "cid": 4,
-            "title": "同人志->日语",
-            "url": "https://www.wnacg.net/albums-index-page-{page:1}-cate-12.html"
+            "title": "同人志-\u003e日语",
+            "url": "https://www.ncg.world/albums-index-page-{page:1}-cate-12.html"
         },
         {
             "cid": 5,
-            "title": "同人志->CG画集",
-            "url": "https://www.wnacg.net/albums-index-page-{page:1}-cate-2.html"
+            "title": "同人志-\u003eCG画集",
+            "url": "https://www.ncg.world/albums-index-page-{page:1}-cate-2.html"
         },
         {
             "cid": 6,
-            "title": "同人志->Cosplay",
-            "url": "https://www.wnacg.net/albums-index-page-{page:1}-cate-3.html"
+            "title": "同人志-\u003eCosplay",
+            "url": "https://www.ncg.world/albums-index-page-{page:1}-cate-3.html"
         },
         {
             "cid": 7,
             "title": "单行本",
-            "url": "https://www.wnacg.net/albums-index-page-{page:1}-cate-6.html"
+            "url": "https://www.ncg.world/albums-index-page-{page:1}-cate-6.html"
         },
         {
             "cid": 8,
-            "title": "单行本->汉化",
-            "url": "https://www.wnacg.net/albums-index-page-{page:1}-cate-9.html"
+            "title": "单行本-\u003e汉化",
+            "url": "https://www.ncg.world/albums-index-page-{page:1}-cate-9.html"
         },
         {
             "cid": 9,
-            "title": "单行本->日语",
-            "url": "https://www.wnacg.net/albums-index-page-{page:1}-cate-13.html"
+            "title": "单行本-\u003e日语",
+            "url": "https://www.ncg.world/albums-index-page-{page:1}-cate-13.html"
         },
         {
             "cid": 10,
             "title": "杂志",
-            "url": "https://www.wnacg.net/albums-index-page-{page:1}-cate-7.html"
+            "url": "https://www.ncg.world/albums-index-page-{page:1}-cate-7.html"
         },
         {
             "cid": 11,
-            "title": "杂志->单篇汉化",
-            "url": "https://www.wnacg.net/albums-index-page-{page:1}-cate-10.html"
+            "title": "杂志-\u003e单篇汉化",
+            "url": "https://www.ncg.world/albums-index-page-{page:1}-cate-10.html"
         },
         {
             "cid": 12,
-            "title": "杂志->日语",
-            "url": "https://www.wnacg.net/albums-index-page-{page:1}-cate-14.html"
+            "title": "杂志-\u003e日语",
+            "url": "https://www.ncg.world/albums-index-page-{page:1}-cate-14.html"
         }
     ],
-    "cookie": "",
+    "disableHProxy": false,
     "extraRule": {
         "pictureRule": {
             "url": {
@@ -71,11 +71,11 @@
             }
         }
     },
-    "flag": "singlePageBigPicture|noRating|noTag",
+    "flag": "singlePageBigPicture|noRating|noTag|waterfallAsList|waterfallAsGrid",
     "galleryRule": {
         "description": {
             "fun": "html",
-            "selector": "div.uwconn > p:last-child"
+            "selector": "div.uwconn \u003e p:last-child"
         },
         "pictureRule": {
             "item": {
@@ -92,8 +92,8 @@
             }
         }
     },
-    "galleryUrl": "https://www.wnacg.net/photos-index-page-{page:1}-aid-{idCode:}.html",
-    "gid": 0,
+    "galleryUrl": "https://www.ncg.world/photos-index-page-{page:1}-aid-{idCode:}.html",
+    "gid": 3,
     "index": 0,
     "indexRule": {
         "cover": {
@@ -119,11 +119,10 @@
             "selector": "div.info div.title a"
         }
     },
-    "indexUrl": "https://www.wnacg.net/albums-index-page-{page:1}.html",
+    "indexUrl": "https://www.ncg.world/albums-index-page-{page:1}.html",
     "isGrid": false,
-    "loginUrl": "https://www.wnacg.net/users-login.html",
-    "searchUrl": "https://www.wnacg.net/albums-index-page-{page:1}-sname-{keyword:}.html",
-    "sid": 4,
-    "title": "绅士漫画",
-    "versionCode": 0
+    "loginUrl": "https://www.ncg.world/users-login.html",
+    "searchUrl": "https://www.ncg.world/albums-index-page-{page:1}-sname-{keyword:}.html",
+    "sid": 59,
+    "title": "绅士漫画"
 }

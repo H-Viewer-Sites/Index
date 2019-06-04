@@ -281,8 +281,8 @@
                 "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/icons/wnacg.png",
                 "description": "专注分享汉化本子",
                 "json": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/wnacg.txt",
-                "versionCode": 4,
-                "lastUpdate": "2017-04-06 14:21:15",
+                "versionCode": 5,
+                "lastUpdate": "2019-06-04 20:49:00",
                 "r18": true
             },
             {
@@ -302,8 +302,8 @@
                 "author": "PureDark",
                 "description": "收录的漫画以汉化单行本为主",
                 "json": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/177%E6%BC%AB%E7%94%BB.txt",
-                "versionCode": 5,
-                "lastUpdate": "2018-12-17 03:31:15",
+                "versionCode": 6,
+                "lastUpdate": "2019-06-04 20:49:00",
                 "r18": true
             },
             {
@@ -357,8 +357,8 @@
                 "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/icons/松鼠症仓库.png",
                 "description": "松鼠症倉庫 成人漫畫區,H漫畫,超過三萬本漫畫分享您閱讀及下載!",
                 "json": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/松鼠症仓库.txt",
-                "versionCode": 1,
-                "lastUpdate": "2018-03-17 10:31:24",
+                "versionCode": 2,
+                "lastUpdate": "2019-06-04 20:50:00",
                 "r18": true
             }
         ]
