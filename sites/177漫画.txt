@@ -1,24 +1,24 @@
-﻿{
+{
     "categories": [
         {
             "cid": 1,
             "title": "首页",
-            "url": "https://www.177pic.info/page/{page:1}"
+            "url": "http://www.177pic002.info/page/{page:1}"
         },
         {
             "cid": 2,
             "title": "中文漫画",
-            "url": "https://www.177pic.info/html/category/tt/page/{page:1}"
+            "url": "http://www.177pic002.info/html/category/tt/page/{page:1}"
         },
         {
             "cid": 3,
             "title": "全彩CG",
-            "url": "https://www.177pic.info/html/category/cg/page/{page:1}"
+            "url": "http://www.177pic002.info/html/category/cg/page/{page:1}"
         },
         {
             "cid": 4,
             "title": "日文漫画",
-            "url": "https://www.177pic.info/html/category/jj/page/{page:1}"
+            "url": "http://www.177pic002.info/html/category/jj/page/{page:1}"
         }
     ],
     "disableHProxy": false,
@@ -26,60 +26,61 @@
     "galleryRule": {
         "pictureRule": {
             "item": {
-                "selector": "div.entry-content \u003e p"
+                "selector": "div.single-content > p"
             },
             "thumbnail": {
                 "fun": "attr",
-                "param": "src",
+                "param": "data-lazy-src",
                 "selector": "img"
             },
             "url": {
                 "fun": "attr",
-                "param": "src",
+                "param": "data-lazy-src",
                 "selector": "img"
             }
         },
         "tags": {
             "fun": "html",
-            "selector": "div#taglist table tr td:eq(1) div a"
+            "selector": "div.single-cat a"
         }
     },
-    "galleryUrl": "https://www.177pic.info/html/{idCode:}.html/{page:1}",
+    "galleryUrl": "http://www.177pic002.info/html/{idCode:}.html/{page:1}",
     "gid": 3,
     "index": 0,
     "indexRule": {
         "category": {
             "fun": "html",
-            "selector": "div.c-top div.tit p span a"
+            "selector": "span.g-cat a"
         },
         "cover": {
             "fun": "attr",
             "param": "src",
-            "selector": "div.c-con a[rel\u003d\u0027bookmark\u0027] img"
+            "selector": "figure.picture-img img"
         },
         "datetime": {
-            "fun": "html",
-            "regex": "(\\d{4})\u003cbr\u003e(\\d{2})-(\\d{2})",
-            "replacement": "$1-$2-$3",
-            "selector": "div.c-top div.datetime"
+            "fun": "text",
+            "regex": "(.*)",
+            "replacement": "🕒: $1",
+            "selector": "span.date"
         },
         "idCode": {
             "fun": "attr",
             "param": "href",
             "regex": "html/(.*)\\.html",
-            "selector": "div.c-top div.tit h2 a"
+            "selector": "h2.grid-title a"
         },
         "item": {
-            "selector": "div.post_box"
+            "selector": "article[id]"
         },
         "title": {
-            "fun": "html",
-            "selector": "div.c-top div.tit h2 a"
+            "fun": "text",
+            "selector": "h2.grid-title"
         }
     },
-    "indexUrl": "https://www.177pic.info/page/{page:1}",
+    "indexUrl": "http://www.177pic002.info/page/{page:1}",
     "isGrid": false,
-    "searchUrl": "https://www.177pic.info/page/{page:1}?s\u003d{keyword:}\u0026variant\u003dzh-hans",
+    "searchUrl": "http://www.177pic002.info/page/{page:1}?s={keyword:}&variant=zh-hans",
     "sid": 18,
+    "versionCode": 3,
     "title": "177漫画"
 }
