@@ -3,42 +3,42 @@
         {
             "cid": 1,
             "title": "画像-最新",
-            "url": "http://ecchi.iwara.tv/images?page={page:0}&sort=date"
+            "url": "https://ecchi.iwara.tv/images?page={page:0}&sort=date"
         },
         {
             "cid": 2,
             "title": "画像-最多观看",
-            "url": "http://ecchi.iwara.tv/images?page={page:0}&sort=views"
+            "url": "https://ecchi.iwara.tv/images?page={page:0}&sort=views"
         },
         {
             "cid": 3,
             "title": "画像-最多喜爱",
-            "url": "http://ecchi.iwara.tv/images?page={page:0}&sort=likes"
+            "url": "https://ecchi.iwara.tv/images?page={page:0}&sort=likes"
         },
         {
             "cid": 4,
             "title": "Vocaloid",
-            "url": "http://ecchi.iwara.tv/images?page={page:0}&f[0]=field_categories%3A6"
+            "url": "https://ecchi.iwara.tv/images?f[0]=field_image_categories%3A5?page={page:0}"
         },
         {
             "cid": 5,
             "title": "东方",
-            "url": "http://ecchi.iwara.tv/images?page={page:0}&f[0]=field_categories%3A7"
+            "url": "https://ecchi.iwara.tv/images?f[0]=field_image_categories%3A3?page={page:0}"
         },
         {
             "cid": 6,
             "title": "舰娘C",
-            "url": "http://ecchi.iwara.tv/images?page={page:0}&f[0]=field_categories%3A1"
+            "url": "https://ecchi.iwara.tv/images?f[0]=field_image_categories%3A39?page={page:0}"
         },
         {
             "cid": 7,
             "title": "偶像大师",
-            "url": "http://ecchi.iwara.tv/images?page={page:0}&f[0]=field_categories%3A33"
+            "url": "https://ecchi.iwara.tv/images?f[0]=field_image_categories%3A38?page={page:0}"
         },
         {
             "cid": 8,
             "title": "原创角色",
-            "url": "http://ecchi.iwara.tv/images?page={page:0}&f[0]=field_categories%3A34"
+            "url": "https://ecchi.iwara.tv/images?f[0]=field_image_categories%3A40?page={page:0}"
         }
     ],
     "flag": "preloadGallery|noRating",
@@ -48,16 +48,38 @@
             "fun": "html",
             "selector": "div.node-info>div.submitted"
         },
+        "description": {
+            "fun": "text",
+            "selector": "div.field-name-body p"
+        },
         "pictureRule": {
             "item": {
                 "selector": "[poster],div.content>.field img"
             },
             "thumbnail": {
-                "regex": "(http[^\"]*?\\.(?:jpg|jpeg|png|gif|bmp))",
+                "fun": "attr",
+                "param": "src",
                 "selector": "this"
             },
             "url": {
-                "regex": "(http[^\"]*?\\.(?:jpg|jpeg|png|gif|bmp))",
+                "fun": "attr",
+                "param": "src",
+                "selector": "this"
+            }
+        },
+        "tagRule": {
+            "item": {
+                "selector": "div.field-name-field-image-categories a"
+            },
+            "title": {
+                "fun": "text",
+                "selector": "this"
+            },
+            "url": {
+                "fun": "attr",
+                "param": "href",
+                "regex": "(.*)",
+                "replacement": "$1&page={page:0}",
                 "selector": "this"
             }
         },
@@ -72,7 +94,7 @@
             }
         }
     },
-    "galleryUrl": "http://ecchi.iwara.tv/images/{idCode:}",
+    "galleryUrl": "https://ecchi.iwara.tv/images/{idCode:}",
     "indexRule": {
         "cover": {
             "fun": "attr",
@@ -103,6 +125,6 @@
             "selector": ".title"
         }
     },
-    "indexUrl": "http://ecchi.iwara.tv/images?page={page:0}&sort=date",
+    "indexUrl": "https://ecchi.iwara.tv/images?page={page:0}&sort=date",
     "title": "Iwara-画像"
 }
