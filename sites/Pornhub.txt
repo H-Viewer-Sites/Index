@@ -3,32 +3,32 @@
             {
                 "cid": 1,
                 "title": "首页",
-                "url": "http://www.pornhub.com/video?page={page:1}"
+                "url": "https://www.pornhub.com/video?page={page:1}"
             },
             {
                 "cid": 2,
                 "title": "推荐",
-                "url": "http://www.pornhub.com/recommended?page={page:1}"
+                "url": "https://www.pornhub.com/recommended?page={page:1}"
             },
             {
                 "cid": 3,
                 "title": "最火-日本",
-                "url": "http://www.pornhub.com/video?o=ht&cc=jp&page={page:1}"
+                "url": "https://www.pornhub.com/video?o=ht&cc=jp&page={page:1}"
             },
             {
                 "cid": 4,
                 "title": "最火-全球",
-                "url": "http://www.pornhub.com/video?o=ht&page={page:1}"
+                "url": "https://www.pornhub.com/video?o=ht&page={page:1}"
             },
             {
                 "cid": 5,
                 "title": "最高评分",
-                "url": "http://www.pornhub.com/video?o=tr&page={page:1}"
+                "url": "https://www.pornhub.com/video?o=tr&page={page:1}"
             },
             {
                 "cid": 6,
                 "title": "最多浏览",
-                "url": "http://www.pornhub.com/video?o=mv&page={page:1}"
+                "url": "https://www.pornhub.com/video?o=mv&page={page:1}"
             }
         ],
         "cookie": "",
@@ -63,7 +63,7 @@
                 }
             }
         },
-        "galleryUrl": "http://www.pornhub.com/view_video.php?viewkey={idCode:}",
+        "galleryUrl": "https://www.pornhub.com/view_video.php?viewkey={idCode:}",
         "gid": 0,
         "index": 0,
         "indexRule": {
@@ -86,10 +86,10 @@
                 "fun": "attr",
                 "param": "href",
                 "regex": "viewkey=(.*)",
-                "selector": "div.phimage>a"
+                "selector": "div.img>a"
             },
             "item": {
-                "selector": "ul.nf-videos>li.videoBox"
+                "selector": "ul.nf-videos>li.videoBox,#videoSearchResult>li.videoBox"
             },
             "rating": {
                 "fun": "html",
@@ -109,10 +109,10 @@
                 "selector": "div.img .marker-overlays"
             }
         },
-        "indexUrl": "http://www.pornhub.com/video?page={page:1}",
+        "indexUrl": "https://www.pornhub.com/video?page={page:1}",
         "isGrid": false,
-        "loginUrl": "http://www.pornhub.com/login",
-        "searchUrl": "http://www.pornhub.com/video/search?search={keyword:}&page={page:1}",
+        "loginUrl": "https://www.pornhub.com/login",
+        "searchUrl": "https://www.pornhub.com/video/search?search={keyword:}&page={page:1}",
         "sid": 71,
         "title": "Pornhub",
         "versionCode": 0

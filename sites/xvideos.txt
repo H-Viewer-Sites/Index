@@ -5,7 +5,7 @@
             "tagRule": {
                 "item": {
                     "regex": "<a.*?>[^<>]+</a>",
-                    "selector": ".video-tags>a"
+                    "selector": ".video-tags-list a"
                 },
                 "title": {
                     "fun": "html",
@@ -22,28 +22,33 @@
             "videoRule": {
                 "content": {
                     "fun": "html",
-                    "regex": "iframe src=&quot;(https?://.*?)&quot;",
+                    "regex": "(\\d+p).*?setVideoHLS.*?\u0027(.*?)(.m3u8.*?)\u0027",
+                    "replacement": "$2-$1$3",
                     "selector": "this"
                 },
                 "item": {
-                    "selector": "#tabEmbed"
+                    "selector": "#main"
                 }
             }
         },
-        "galleryUrl": "http://www.xvideos.com/{idCode:}",
+        "galleryUrl": "https://www.xvideos.com/{idCode:}",
+        "gid": 5,
+        "index": 0,
         "indexRule": {
             "category": {
                 "fun": "html",
-                "selector": "span.video-hd-mark"
+                "regex": "</span>(.*?)<span",
+                "replacement": "$1 Views",
+                "selector": "p.metadata>span>span:eq(2)"
             },
             "cover": {
                 "fun": "html",
-                "regex": "(https?://.*?\\.(?:jpg|jpeg|png|gif|bmp))",
+                "regex": "(https?://img.*?\\.(?:jpg|jpeg|png|gif|bmp))",
                 "selector": "div.thumb"
             },
             "datetime": {
                 "fun": "html",
-                "selector": "p.metadata>span>strong"
+                "selector": "p.metadata>span>span.duration"
             },
             "idCode": {
                 "regex": "/(video\\d+/.*?)\"",
@@ -59,13 +64,14 @@
             },
             "uploader": {
                 "fun": "html",
-                "selector": "p.metadata>span>a"
+                "selector": "p.metadata>span>a>span.name"
             }
         },
-        "indexUrl": "http://www.xvideos.com/{pageStr:new/{page:0}/}",
+        "indexUrl": "https://www.xvideos.com/{pageStr:new/{page:0}/}",
         "isGrid": true,
-        "loginUrl": "http://upload.xvideos.com/account",
-        "searchUrl": "http://www.xvideos.com/?k={keyword:}&p={page:0}",
+        "loginUrl": "https://upload.xvideos.com/account",
+        "searchUrl": "https://www.xvideos.com/?k={keyword:}&p={page:0}",
+        "sid": 44,
         "title": "XVIDEOS",
         "versionCode": 0
     }
