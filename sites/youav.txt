@@ -44,7 +44,7 @@
                     "selector": "this"
                 },
                 "item": {
-                    "selector": "video.jw-video"
+                    "selector": "iframe.resp-iframe"
                 }
             }
         },
