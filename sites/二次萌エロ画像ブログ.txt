@@ -1,4 +1,4 @@
-﻿    {
+﻿﻿    {
         "categories": [
             {
                 "cid": 1,
@@ -67,17 +67,16 @@
         "indexRule": {
             "category": {
                 "fun": "html",
-                "selector": "div.blog_info > ul > li.cat > a"
+                "selector": ".cat > a[rel='category tag']"
             },
             "cover": {
                 "fun": "attr",
-                "param": "href",
-                "selector": "div.more-field > div.box > a"
+                "param": "src",
+                "selector": "img.thumbnail_image"
             },
             "datetime": {
                 "fun": "html",
-                "regex": "(\\d{4}.\\d{2}.\\d{2}. [0-9:]+)",
-                "selector": "div.blog_info > ul > li.cal"
+                "selector": ".entry-header > .blog-info-h > .cal"
             },
             "idCode": {
                 "fun": "attr",
@@ -86,11 +85,11 @@
                 "selector": "h2 > a"
             },
             "item": {
-                "selector": "div.post"
+                "selector": "div.post:not(:has(.pc_ad))"
             },
             "tags": {
                 "fun": "html",
-                "selector": "div.blog_info > ul > li.tag > a[rel='tag']"
+                "selector": ".blog-info-f > .tag > a[rel='tag']"
             },
             "title": {
                 "fun": "attr",

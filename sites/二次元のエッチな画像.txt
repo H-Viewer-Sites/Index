@@ -1,6 +1,6 @@
-﻿    {
+﻿﻿    {
         "cookie": "",
-        "flag": "noRating|noTag",
+        "flag": "noRating",
         "galleryRule": {
             "pictureRule": {
                 "item": {
@@ -23,8 +23,9 @@
         "index": 0,
         "indexRule": {
             "category": {
-                "fun": "html",
-                "selector": "div.postDate > dl:first-child > dd > a"
+                "fun": "attr",
+                "param": "title",
+                "selector": "div.postDate.cf > ul.cf > li.pv > a[rel='tag category']"
             },
             "cover": {
                 "fun": "attr",
@@ -33,7 +34,7 @@
             },
             "datetime": {
                 "fun": "html",
-                "selector": "div.postDate > dl:nth-child(2) > dd"
+                "selector": "div.postDate.cf > time"
             },
             "idCode": {
                 "fun": "attr",
@@ -42,11 +43,16 @@
                 "selector": "a"
             },
             "item": {
-                "selector": "section>div.post:not(.add) , #mainContent>div.post:not(.add)"
+                "selector": "div.post.hentry"
             },
             "title": {
                 "fun": "html",
-                "selector": "section > h1 > a"
+                "selector": "h3.entry-title > a"
+            },
+            "tags": {
+                "fun": "attr",
+                "param": "title",
+                "selector": "div.postDate.cf > ul.cf > li.pv > a[rel='tag'], a[rel='tag category']"
             }
         },
         "indexUrl": "http://nijiero-ch.com/page/{page:1}",
