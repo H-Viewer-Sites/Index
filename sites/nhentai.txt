@@ -41,7 +41,7 @@
             "selector": "div#info h2"
         }
     },
-    "galleryUrl": "https://nhentai.net{idCode:}",
+    "galleryUrl": "https://nhentai.net/{idCode:}",
     "gid": 0,
     "index": 0,
     "indexRule": {
@@ -51,6 +51,7 @@
             "selector": "a img"
         },
         "idCode": {
+            "regex": "/(.*)",
             "fun": "attr",
             "param": "href",
             "selector": "a"

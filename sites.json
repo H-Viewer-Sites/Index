@@ -292,8 +292,8 @@
                 "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/icons/nhentai.png",
                 "description": "本子站，最大的优点是没有被墙",
                 "json": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/nhentai.txt",
-                "versionCode": 5,
-                "lastUpdate": "2018-03-09 06:16:15",
+                "versionCode": 6,
+                "lastUpdate": "2019-08-01 19:01:15",
                 "r18": true
             },
             {
