@@ -18,7 +18,7 @@
         {
             "cid": 4,
             "title": "杂志短篇/彩页",
-            "url": "http://ahri8.online/dnew.php?category_id\u003d3\u0026page\u003d{page:1}"
+            "url": "http://weiss-a.xyz/dnew.php?category_id\u003d3\u0026page\u003d{page:1}"
         }
     ],
     "disableHProxy": false,
@@ -40,7 +40,7 @@
             }
         }
     },
-    "flag": "preloadGallery|jsNeededGallery|secondLevelGallery|waterfallAsList|waterfallAsGrid",
+    "flag": "preloadGallery|jsNeededAll|secondLevelGallery|waterfallAsGrid",
     "galleryRule": {
         "description": {
             "fun": "html",
@@ -54,14 +54,14 @@
                 "fun": "attr",
                 "param": "href",
                 "regex": "(.*)",
-                "replacement": "$1\u0026page\u003d{page:1}",
+                "replacement": "https://weiss-a.xyz/$1\u0026page\u003d{page:1}",
                 "selector": "this"
             },
             "url": {
                 "fun": "attr",
                 "param": "href",
                 "regex": "(.*)",
-                "replacement": "$1\u0026page\u003d{page:1}",
+                "replacement": "https://weiss-a.xyz/$1\u0026page\u003d{page:1}",
                 "selector": "this"
             }
         },
@@ -78,7 +78,7 @@
                 "fun": "attr",
                 "param": "href",
                 "regex": "(.*)",
-                "replacement": "$1\u0026page\u003d{page:1}",
+                "replacement": "https://weiss-a.xyz/$1\u0026page\u003d{page:1}",
                 "selector": "this"
             }
         }
@@ -95,7 +95,7 @@
         "datetime": {
             "fun": "text",
             "regex": "(\\d+)",
-            "replacement": "$1",
+            "replacement": "❤$1",
             "selector": "div.image-info small"
         },
         "idCode": {
@@ -120,6 +120,7 @@
     },
     "indexUrl": "https://weiss-a.xyz/dnew.php?page\u003d{page:1}",
     "isGrid": false,
+    "searchUrl": "https://weiss-a.xyz/dnew.php?search={keyword:}&page={page:1}",
     "sid": 43,
     "title": "松鼠症仓库"
 }
