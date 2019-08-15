@@ -281,8 +281,8 @@
                 "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/icons/wnacg.png",
                 "description": "专注分享汉化本子",
                 "json": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/wnacg.txt",
-                "versionCode": 5,
-                "lastUpdate": "2019-06-04 20:49:00",
+                "versionCode": 6,
+                "lastUpdate": "2019-08-15 22:34:00",
                 "r18": true
             },
             {
@@ -357,8 +357,8 @@
                 "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/icons/松鼠症仓库.png",
                 "description": "松鼠症倉庫 成人漫畫區,H漫畫,超過三萬本漫畫分享您閱讀及下載!",
                 "json": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/松鼠症仓库.txt",
-                "versionCode": 2,
-                "lastUpdate": "2019-06-04 20:50:00",
+                "versionCode": 3,
+                "lastUpdate": "2019-08-15 22:34:00",
                 "r18": true
             }
         ]
