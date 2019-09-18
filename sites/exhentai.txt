@@ -71,7 +71,7 @@
         "commentRule": {
             "author": {
                 "fun": "html",
-                "selector": "div.c3 \u003e a:first-child"
+                "selector": "div.c3 > a:first-child"
             },
             "content": {
                 "fun": "html",
@@ -83,18 +83,17 @@
                 "selector": "div.c3"
             },
             "item": {
-                "selector": "div#cdiv \u003e div.c1"
+                "selector": "div#cdiv > div.c1"
             }
         },
         "pictureRule": {
             "item": {
-                "selector": "div.gdtm"
+                "selector": "div.gdtl,div.gdtm"
             },
             "thumbnail": {
-                "fun":"attr",
-                "param":"style",
-                "regex":"(https?://.*.jpg)",
-                "selector":"div"
+                "fun": "src",
+                "regex": "(https?://[^)\"]*.jpg)",
+                "selector": "div"
             },
             "url": {
                 "fun": "attr",
@@ -123,9 +122,8 @@
         },
         "cover": {
             "fun": "src",
-            "regex": "(//|inits?~)(.*?org)[~/]([^~]*\\.jpg)[~\"]",
-            "replacement": "http://$2/$3",
-            "selector": "td.gl2c div.glthumb div img"
+            "regex": "(https?://.*.jpg)",
+            "selector": "td.gl2c div.glthumb div:eq(0)"
         },
         "datetime": {
             "fun": "html",
