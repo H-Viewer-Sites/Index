@@ -38,7 +38,7 @@
             }
         }
     },
-    "galleryUrl": "https://hentai.cafe/rico-the-ladys-soliloquy/{idCode:}/?page={page:1}",
+    "galleryUrl": "https://hentai.cafe/hc.fyi/{idCode:}/?page={page:1}",
     "indexRule": {
         "cover": {
             "fun": "attr",
@@ -48,7 +48,7 @@
         "idCode": {
             "fun": "attr",
             "param": "href",
-            "regex": ".*/(.*)/",
+            "regex": "(\\d+)",
             "selector": "div.entry-featured a"
         },
         "item": {
