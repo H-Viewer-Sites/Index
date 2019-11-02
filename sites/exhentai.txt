@@ -92,7 +92,7 @@
             },
             "thumbnail": {
                 "fun": "src",
-                "regex": "(https?://[^)\"]*.jpg)",
+                "regex": "(https?://[^)\"]*\.jpg)",
                 "selector": "div"
             },
             "url": {
@@ -121,7 +121,7 @@
             "selector": ".cn[class*=\"ct\"],.cs[class*=\"ct\"]"
         },
         "cover": {
-            "regex": "(https?://[^\"<>]*?.jpg)",
+            "regex": "(https?://[^\"<>]*?\.jpg)",
             "selector": "this"
         },
         "datetime": {
