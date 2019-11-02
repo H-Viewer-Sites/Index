@@ -3,7 +3,7 @@
         {
             "cid": 1,
             "title": "首页",
-            "url": "https://e-hentai.org/?page\u003d{page:0}"
+            "url": "https://e-hentai.org/?page={page:0}"
         },
         {
             "cid": 2,
@@ -113,53 +113,51 @@
             "selector": "h1#gj"
         }
     },
-    "galleryUrl": "https://e-hentai.org/g/{idCode:}/?p\u003d{page:0}\u0026hc\u003d1",
+    "galleryUrl": "https://e-hentai.org/g/{idCode:}/?p={page:0}&hc=1",
     "gid": 5,
     "index": 0,
     "indexRule": {
         "category": {
-            "fun": "html",
-            "selector": "td.gl1c div"
+            "fun": "text",
+            "selector": ".cn[class*=\"ct\"],.cs[class*=\"ct\"]"
         },
         "cover": {
-            "fun": "src",
-            "regex": "(//|inits?~)(.*?org)[~/]([^~]*\\.jpg)[~\"]",
-            "replacement": "http://$2/$3",
-            "selector": "td.gl2c div.glthumb div img"
+            "regex": "(https?://[^\"<>]*?.jpg)",
+            "selector": "this"
         },
         "datetime": {
-            "fun": "html",
-            "selector": "td.gl2c div[onclick]"
+            "regex": "(\\d{4}-\\d{2}-\\d{2} \\d{2}:\\d{2})",
+            "selector": "this"
         },
         "idCode": {
             "fun": "attr",
             "param": "href",
             "regex": "/g/(.*)",
-            "selector": "td.gl3c a"
+            "selector": "a"
         },
         "item": {
-            "selector": "table.itg tbody tr"
+            "selector": ".itg>tbody>tr,.itg>div"
         },
         "rating": {
             "fun": "attr",
             "param": "style",
             "regex": "background-position:-?(\\d+)px -?(\\d+)px",
             "replacement": "5-$1/16-($2-1)/40",
-            "selector": "td.gl2c div.ir"
+            "selector": ".ir"
         },
         "title": {
-            "fun": "html",
-            "selector": "td.gl3c a div"
+            "fun": "text",
+            "selector": ".glink"
         },
         "uploader": {
-            "fun": "html",
-            "selector": "td.gl4c div a"
+            "regex": "/uploader/([^\"<>]*)",
+            "selector": "this"
         }
     },
-    "indexUrl": "https://e-hentai.org/?page\u003d{page:0}",
+    "indexUrl": "https://e-hentai.org/?page={page:0}",
     "isGrid": false,
-    "loginUrl": "https://forums.e-hentai.org/index.php?act\u003dLogin",
-    "searchUrl": "https://e-hentai.org/?f_search\u003d{keyword:}\u0026f_sh\u003don\u0026page\u003d{page:0}",
+    "loginUrl": "https://forums.e-hentai.org/index.php?act=Login",
+    "searchUrl": "https://e-hentai.org/?f_search={keyword:}&f_sh=on&page={page:0}",
     "sid": 43,
     "title": "G.E-hentai",
     "versionCode": 6
