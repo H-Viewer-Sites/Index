@@ -12,8 +12,7 @@
     "flag": "singlePageBigPicture|noRating|preloadGallery",
     "galleryRule": {
         "category": {
-            "fun": "html",
-            "regex": "(.*)<span",
+            "fun": "text",
             "selector": ".tag-container:eq(6) span.tags a"
         },
         "pictureRule": {
@@ -32,8 +31,7 @@
             }
         },
         "tags": {
-            "fun": "html",
-            "regex": "(.*)<span",
+            "fun": "text",
             "selector": "span.tags a"
         },
         "title": {
