@@ -35,7 +35,7 @@
             "selector": "span.tags a"
         },
         "title": {
-            "fun": "html",
+            "fun": "text",
             "selector": "div#info h2"
         }
     },
