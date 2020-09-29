@@ -82,7 +82,8 @@
                 "selector": "div.gallary_wrap ul li.gallary_item div.pic_box"
             },
             "thumbnail": {
-                "regex": "\"([^\"]*?\\.(jpg|jpeg|png|gif|bmp|webp))\"",
+                "fun": "attr",
+                "param": "data-original",
                 "selector": "a img"
             },
             "url": {
