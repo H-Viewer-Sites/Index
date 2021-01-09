@@ -98,8 +98,7 @@
     "index": 0,
     "indexRule": {
         "cover": {
-            "fun": "attr",
-            "param": "data-original",
+            "regex": "([^\"]*\\.(?:jpg|jpeg|png|gif|bmp))",
             "selector": "div.pic_box a img"
         },
         "datetime": {
