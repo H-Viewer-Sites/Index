@@ -101,7 +101,7 @@
             "selector": "div.pic_box a img"
         },
         "datetime": {
-            "fun": "html",
+            "fun": "text",
             "regex": "(\\d{4}-\\d{2}-\\d{2})",
             "selector": "div.info div.info_col"
         },
@@ -115,14 +115,14 @@
             "selector": "div.gallary_wrap ul li.gallary_item"
         },
         "title": {
-            "fun": "html",
+            "fun": "text",
             "selector": "div.info div.title a"
         }
     },
     "indexUrl": "https://wnacg.org/albums-index-page-{page:1}.html",
     "isGrid": false,
     "loginUrl": "https://wnacg.org/users-login.html",
-    "searchUrl": "https://wnacg.org/albums-index-page-{page:1}-sname-{keyword:}.html",
+    "searchUrl": "https://wnacg.org/search/?q={keyword:}&f=_all&s=create_time_DESC&p={page:1}",
     "sid": 59,
     "title": "绅士漫画"
 }

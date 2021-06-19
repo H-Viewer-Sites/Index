@@ -259,8 +259,8 @@
                 "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/icons/Ehentai.png",
                 "description": "E绅士的桌面版，图片较清楚，登录可查看最新内容",
                 "json": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/g.e-hentai.txt",
-                "versionCode": 9,
-                "lastUpdate": "2019-11-03 07:13:45",
+                "versionCode": 10,
+                "lastUpdate": "2021-06-20 01:49:00",
                 "r18": true
             },
             {
@@ -270,8 +270,8 @@
                 "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/icons/Ehentai.png",
                 "description": "E绅士的里区，必须登录才能访问",
                 "json": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/exhentai.txt",
-                "versionCode": 11,
-                "lastUpdate": "2019-11-03 07:13:45",
+                "versionCode": 12,
+                "lastUpdate": "2021-06-20 01:49:00",
                 "r18": true
             },
             {
@@ -281,8 +281,8 @@
                 "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/icons/wnacg.png",
                 "description": "专注分享汉化本子",
                 "json": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/wnacg.txt",
-                "versionCode": 9,
-                "lastUpdate": "2021-04-15 10:34:00",
+                "versionCode": 10,
+                "lastUpdate": "2021-06-20 01:49:00",
                 "r18": true
             },
             {

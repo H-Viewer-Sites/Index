@@ -91,9 +91,8 @@
                 "selector": "div.gdtl,div.gdtm"
             },
             "thumbnail": {
-                "fun": "src",
-                "regex": "(https?://[^)\"]*\\.jpg)",
-                "selector": "div"
+                "regex": "(https?://[^\"<>]*?\\.jpg)",
+                "selector": "this"
             },
             "url": {
                 "fun": "attr",
