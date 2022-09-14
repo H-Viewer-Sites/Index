@@ -39,7 +39,7 @@
             "selector": "div#info h2"
         }
     },
-    "galleryUrl": "https://nhentai.net/{idCode:}",
+    "galleryUrl": "https://nhentai.to/{idCode:}",
     "gid": 0,
     "index": 0,
     "indexRule": {
@@ -62,10 +62,10 @@
             "selector": "a div.caption"
         }
     },
-    "indexUrl": "https://nhentai.net/?page={page:1}",
+    "indexUrl": "https://nhentai.to/?page={page:1}",
     "isGrid": false,
-    "loginUrl": "https://nhentai.net/login/",
-    "searchUrl": "https://nhentai.net/search/?q={keyword:}&page={page:1}",
+    "loginUrl": "https://nhentai.to/login/",
+    "searchUrl": "https://nhentai.to/search?q={keyword:}&page={page:1}",
     "sid": 5,
     "title": "nhentai",
     "versionCode": 0
