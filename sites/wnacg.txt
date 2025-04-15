@@ -3,62 +3,62 @@
         {
             "cid": 1,
             "title": "首页",
-            "url": "https://wnacg.org/albums-index-page-{page:1}.html"
+            "url": "https://wnacg.com/albums-index-page-{page:1}.html"
         },
         {
             "cid": 2,
             "title": "同人志",
-            "url": "https://wnacg.org/albums-index-page-{page:1}-cate-5.html"
+            "url": "https://wnacg.com/albums-index-page-{page:1}-cate-5.html"
         },
         {
             "cid": 3,
             "title": "同人志-\u003e汉化",
-            "url": "https://wnacg.org/albums-index-page-{page:1}-cate-1.html"
+            "url": "https://wnacg.com/albums-index-page-{page:1}-cate-1.html"
         },
         {
             "cid": 4,
             "title": "同人志-\u003e日语",
-            "url": "https://wnacg.org/albums-index-page-{page:1}-cate-12.html"
+            "url": "https://wnacg.com/albums-index-page-{page:1}-cate-12.html"
         },
         {
             "cid": 5,
             "title": "同人志-\u003eCG画集",
-            "url": "https://wnacg.org/albums-index-page-{page:1}-cate-2.html"
+            "url": "https://wnacg.com/albums-index-page-{page:1}-cate-2.html"
         },
         {
             "cid": 6,
             "title": "同人志-\u003eCosplay",
-            "url": "https://wnacg.org/albums-index-page-{page:1}-cate-3.html"
+            "url": "https://wnacg.com/albums-index-page-{page:1}-cate-3.html"
         },
         {
             "cid": 7,
             "title": "单行本",
-            "url": "https://wnacg.org/albums-index-page-{page:1}-cate-6.html"
+            "url": "https://wnacg.com/albums-index-page-{page:1}-cate-6.html"
         },
         {
             "cid": 8,
             "title": "单行本-\u003e汉化",
-            "url": "https://wnacg.org/albums-index-page-{page:1}-cate-9.html"
+            "url": "https://wnacg.com/albums-index-page-{page:1}-cate-9.html"
         },
         {
             "cid": 9,
             "title": "单行本-\u003e日语",
-            "url": "https://wnacg.org/albums-index-page-{page:1}-cate-13.html"
+            "url": "https://wnacg.com/albums-index-page-{page:1}-cate-13.html"
         },
         {
             "cid": 10,
             "title": "杂志",
-            "url": "https://wnacg.org/albums-index-page-{page:1}-cate-7.html"
+            "url": "https://wnacg.com/albums-index-page-{page:1}-cate-7.html"
         },
         {
             "cid": 11,
             "title": "杂志-\u003e单篇汉化",
-            "url": "https://wnacg.org/albums-index-page-{page:1}-cate-10.html"
+            "url": "https://wnacg.com/albums-index-page-{page:1}-cate-10.html"
         },
         {
             "cid": 12,
             "title": "杂志-\u003e日语",
-            "url": "https://wnacg.org/albums-index-page-{page:1}-cate-14.html"
+            "url": "https://wnacg.com/albums-index-page-{page:1}-cate-14.html"
         }
     ],
     "disableHProxy": false,
@@ -67,7 +67,7 @@
             "url": {
                 "fun": "attr",
                 "param": "src",
-                "selector": "img#picarea"
+                "selector": "div#photo_body img"
             }
         }
     },
@@ -92,7 +92,7 @@
             }
         }
     },
-    "galleryUrl": "https://wnacg.org/photos-index-page-{page:1}-aid-{idCode:}.html",
+    "galleryUrl": "https://wnacg.com/photos-index-page-{page:1}-aid-{idCode:}.html",
     "gid": 3,
     "index": 0,
     "indexRule": {
@@ -119,10 +119,10 @@
             "selector": "div.info div.title a"
         }
     },
-    "indexUrl": "https://wnacg.org/albums-index-page-{page:1}.html",
+    "indexUrl": "https://wnacg.com/albums-index-page-{page:1}.html",
     "isGrid": false,
-    "loginUrl": "https://wnacg.org/users-login.html",
-    "searchUrl": "https://wnacg.org/search/?q={keyword:}&f=_all&s=create_time_DESC&p={page:1}",
+    "loginUrl": "https://wnacg.com/users-login.html",
+    "searchUrl": "https://wnacg.com/search/?q={keyword:}&f=_all&s=create_time_DESC&p={page:1}",
     "sid": 59,
     "title": "绅士漫画"
 }
